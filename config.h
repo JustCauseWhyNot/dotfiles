@@ -5,7 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=16";
+static const char font[] = {"monospace:pixelsize=16"};
+static const char *fonts[] = {
+		"monospace:pixelsize=16",
+		"Font Awesome 6 Brands=10:antialias=true:autohint=true",
+		"OpenMoji=10:antialais=true:autohint=true",
+};
 static int borderpx = 2;
 
 /*
