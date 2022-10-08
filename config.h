@@ -5,13 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static const char font[] = {"monospace:pixelsize=16"};
-static const char *fonts[] = {
-		"monospace:pixelsize=16",
-		"Font Awesome 6 Brands=10:antialias=true:autohint=true",
-		"OpenMoji=10:antialais=true:autohint=true",
-		"Material Design Icons Desktop=10:antialais=true:autohint=true",
+static char *font = "CaskaydiaCove Nerd Font:pixelsize=16:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"OpenMoji:pixelsize=16:antialias=true:autohint=true",
+	"Material Design Icons Desktop:pixelsize=16:antialias=true:autohint=true",
 };
+
 static int borderpx = 2;
 
 /*
@@ -51,7 +51,7 @@ int allowaltscreen = 1;
 
 /* allow certain non-interactive (insecure) window operations such as:
    setting the clipboard text */
-int allowwindowops = 0;
+int allowwindowops = 1;
 
 /*
  * draw latency range in ms - from new content/keypress/etc until drawing.
