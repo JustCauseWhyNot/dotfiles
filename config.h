@@ -51,7 +51,7 @@ int allowaltscreen = 1;
 
 /* allow certain non-interactive (insecure) window operations such as:
    setting the clipboard text */
-int allowwindowops = 1;
+int allowwindowops = 0;
 
 /*
  * draw latency range in ms - from new content/keypress/etc until drawing.
