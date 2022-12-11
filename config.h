@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:pixelsize=16:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font:pixelsize=16:hinting=true:antialias=true:autohint=false:hintstyle=hintfull:rgba=rgb:lcdfilter=lcdefault:fontformat=ttf";
 /* Spare fonts */
 static char *font2[] = {
-	"OpenMoji:pixelsize=16:antialias=true:autohint=true",
-	"Material Design Icons Desktop:pixelsize=16:antialias=true:autohint=true",
+	"OpenMoji:pixelsize=16:antialias=true:autohint=false",
+	"Material Design Icons Desktop:pixelsize=16:antialias=true:autohint=false",
 };
 
 static int borderpx = 2;
