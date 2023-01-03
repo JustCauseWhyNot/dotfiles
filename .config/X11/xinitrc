@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Loads scripts in ~/xinitrc.d.
+# =============================
+if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+ for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+  [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
+# Start programs.
+# ===============
+#xrdb -load ~/.config/X11/xresources &
+easyeffects --gapplication-service &
+playerctld daemon &
+xrandr --output DP-0 --set CscMatrix 66110,-2311,1736,0,-56,64309,1282,0,407,3322,61805,0 &
+xbanish -i modifier -s &
+gentoo-pipewire-launcher &
+exec dbus-launch --autolaunch=$(cat /var/lib/dbus/machine-id) /usr/local/bin/dwm

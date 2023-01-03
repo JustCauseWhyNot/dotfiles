@@ -1,0 +1,63 @@
+[checkout]
+    workers = 8
+[color]
+    ui = always
+    branch = always
+    diff = always
+    interactive = always
+    status = always
+[commit]
+    template = /home/justcausewhynot/.config/git/gitmessage.txt
+[core]
+    autocrlf = input
+    editor = nvim
+    pager = delta
+    whitespace = blank-at-eol,bank-at-eof,space-before-tab,indent-with-non-tab,cr-at-eol
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    side-by-side = true
+    line-numbers = true
+[diff]
+    tool = nvimDiff
+    colorMoved = default
+[difftool]
+    prompt = false
+[difftool "nvimDiff"]
+    cmd = nvim -d $REMOTE $LOCAL -c ':nnoremap q :qa<CR>' < /dev/tty
+[help]
+    autocorrect = 1
+[init]
+    defaultBranch = main
+[interactive]
+    diffFilter = delta --color-only
+[push]
+    autoSetupRemote = true
+    default = simple
+[user]
+    name = JustCauseWhyNot
+    email = JustCauseWhyNot@tuta.io
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    ap = apply
+    sw = switch
+[merge]
+    conflictstyle = diff3
+    tool = nvimMerge
+[mergetool]
+    prompt = false
+    keepBackup = false
+[mergetool "nvimMerge"]
+    cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J' -c ':nnoremap q :qa<CR>' < /dev/tty
+[safe]
+	directory = *
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[pull]
+	rebase = true
