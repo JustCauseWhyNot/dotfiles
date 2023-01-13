@@ -326,12 +326,20 @@ controls{
       keyboardKey:i=15
     }
 
+    ID_NEXT_PLANE{
+      keyboardKey:i=4
+    }
+
     ID_PLANE_NIGHT_VISION{
       keyboardKey:i=56
       keyboardKey:i=47
     }
 
     ID_PLANE_SMOKE_SCREEN_GENERATOR{}
+    ID_PREV_PLANE{
+      keyboardKey:i=3
+    }
+
     ID_PROP_PITCH_AUTO{
       mouseButton:i=2
       keyboardKey:i=47
@@ -356,6 +364,74 @@ controls{
       keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=11
+    }
+
+    ID_REPLAY_AVI_WRITER{
+      keyboardKey:i=29
+      keyboardKey:i=19
+    }
+
+    ID_REPLAY_CAMERA_FLYBY{
+      keyboardKey:i=48
+    }
+
+    ID_REPLAY_CAMERA_FREE{
+      keyboardKey:i=33
+    }
+
+    ID_REPLAY_CAMERA_FREE_ATTACHED{
+      mouseButton:i=3
+    }
+
+    ID_REPLAY_CAMERA_FREE_PARENTED{
+      mouseButton:i=4
+    }
+
+    ID_REPLAY_CAMERA_GUN{
+      keyboardKey:i=34
+    }
+
+    ID_REPLAY_CAMERA_OPERATOR{
+      keyboardKey:i=16
+    }
+
+    ID_REPLAY_CAMERA_RANDOMIZE{
+      keyboardKey:i=47
+    }
+
+    ID_REPLAY_CAMERA_WING{
+      keyboardKey:i=29
+      keyboardKey:i=17
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_IN{
+      mouseButton:i=0
+    }
+
+    ID_REPLAY_CAMERA_ZOOM_OUT{
+      mouseButton:i=1
+    }
+
+    ID_REPLAY_FASTER{
+      keyboardKey:i=29
+      keyboardKey:i=32
+    }
+
+    ID_REPLAY_SHOW_MARKERS{
+      keyboardKey:i=44
+    }
+
+    ID_REPLAY_SLOWER{
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    ID_REPLAY_TOGGLE_DOF{
+      keyboardKey:i=46
+    }
+
+    ID_REPLAY_TOGGLE_PLAYER_VISIBILITY{
+      keyboardKey:i=45
     }
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES{
@@ -499,6 +575,12 @@ controls{
       keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=21
+    }
+
+    ID_SPECTATOR_CAMERA_ROTATION{}
+    ID_SPECTATOR_SHOW_CURSOR{
+      keyboardKey:i=29
+      keyboardKey:i=16
     }
 
     ID_SQUAD_TARGET_DESIGNATION{
@@ -669,6 +751,11 @@ controls{
       keyboardKey:i=15
     }
 
+    ID_TOGGLE_CONTOURS{
+      keyboardKey:i=29
+      keyboardKey:i=18
+    }
+
     ID_TOGGLE_ENGINE{
       keyboardKey:i=56
       keyboardKey:i=15
@@ -676,6 +763,10 @@ controls{
 
     ID_TOGGLE_EXTINGUISHER{
       keyboardKey:i=6
+    }
+
+    ID_TOGGLE_FOLLOWING_CAMERA{
+      keyboardKey:i=2
     }
 
     ID_TOGGLE_GM_CROSSHAIR_LIGHTING{
@@ -972,7 +1063,7 @@ controls{
     USEROPT_ELEVATOR_MULTIPLIER:i=64
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=no
     USEROPT_FORCE_GAIN:i=50
-    USEROPT_FREE_CAMERA_INERTIA:i=10
+    USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_GUNNER_INVERTY:b=no
     USEROPT_GUNNER_VIEW_SENSE:i=18
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=18
@@ -1001,7 +1092,7 @@ controls{
     USEROPT_MOUSE_SMOOTH:b=no
     USEROPT_MOUSE_USAGE:i=1
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
-    USEROPT_REPLAY_CAMERA_WIGGLE:i=100
+    USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=43
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
@@ -1052,8 +1143,8 @@ settings{
   helicopterCyclicRollMultiplier:r=0.79
   helicopterCyclicPitchMultiplier:r=0.64
   helicopterPedalsMultiplier:r=0.43
-  freeCameraInertia:r=0.1
-  replayCameraWiggle:r=1
+  freeCameraInertia:r=0
+  replayCameraWiggle:r=0
   zoomSens:r=0.18
   mouseSens:r=0.18
   mouseAimSens:r=0.18
