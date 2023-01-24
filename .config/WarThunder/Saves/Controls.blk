@@ -65,8 +65,7 @@ controls{
     }
 
     ID_AIR_REVERSE{
-      keyboardKey:i=29
-      keyboardKey:i=57
+      keyboardKey:i=41
     }
 
     ID_ATGM_HELICOPTER{
@@ -115,8 +114,9 @@ controls{
     }
 
     ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=48
+      keyboardKey:i=18
     }
 
     ID_CAMERA_FPS{
@@ -137,7 +137,7 @@ controls{
     }
 
     ID_CAMERA_NEUTRAL{
-      mouseButton:i=4
+      keyboardKey:i=57
     }
 
     ID_CAMERA_TPS{
@@ -150,7 +150,17 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=57
+      keyboardKey:i=45
+    }
+
+    ID_CAMERA_VIEW_BACK{
       keyboardKey:i=56
+      keyboardKey:i=41
+    }
+
+    ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=57
       keyboardKey:i=41
     }
 
@@ -173,6 +183,11 @@ controls{
     ID_CHANGE_SHOT_FREQ{
       keyboardKey:i=29
       keyboardKey:i=56
+      keyboardKey:i=16
+    }
+
+    ID_CHANGE_SHOT_FREQ_HELICOPTER{
+      mouseButton:i=2
       keyboardKey:i=16
     }
 
@@ -227,37 +242,37 @@ controls{
 
     ID_FAST_VOICE_MESSAGE_1{
       keyboardKey:i=29
-      keyboardKey:i=41
+      keyboardKey:i=2
     }
 
     ID_FAST_VOICE_MESSAGE_2{
       keyboardKey:i=29
-      keyboardKey:i=2
+      keyboardKey:i=3
     }
 
     ID_FAST_VOICE_MESSAGE_3{
       keyboardKey:i=29
-      keyboardKey:i=3
+      keyboardKey:i=4
     }
 
     ID_FAST_VOICE_MESSAGE_4{
       keyboardKey:i=29
-      keyboardKey:i=4
+      keyboardKey:i=5
     }
 
     ID_FAST_VOICE_MESSAGE_5{
       keyboardKey:i=29
-      keyboardKey:i=5
+      keyboardKey:i=6
     }
 
     ID_FAST_VOICE_MESSAGE_6{
       keyboardKey:i=29
-      keyboardKey:i=6
+      keyboardKey:i=7
     }
 
     ID_FAST_VOICE_MESSAGE_7{
       keyboardKey:i=29
-      keyboardKey:i=7
+      keyboardKey:i=8
     }
 
     ID_FBW_MODE{
@@ -317,7 +332,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      mouseButton:i=3
+      mouseButton:i=1
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -662,7 +677,10 @@ controls{
     }
 
     ID_SHIP_ACTION_BAR_ITEM_10{}
+    ID_SHIP_ACTION_BAR_ITEM_2{}
     ID_SHORT_BRAKE{
+      keyboardKey:i=29
+      mouseButton:i=1
       keyboardKey:i=57
     }
 
@@ -754,6 +772,11 @@ controls{
       keyboardKey:i=41
     }
 
+    ID_SWITCH_COCKPIT_SIGHT_MODE{
+      keyboardKey:i=57
+      mouseButton:i=0
+    }
+
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
       keyboardKey:i=2
     }
@@ -763,10 +786,6 @@ controls{
     }
 
     ID_SWITCH_SHOOTING_CYCLE_SECONDARY{
-      keyboardKey:i=3
-    }
-
-    ID_SWITCH_SHOOTING_CYCLE_SECONDARY_HELICOPTER{
       keyboardKey:i=3
     }
 
@@ -847,12 +866,18 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER_HELICOPTER{
+      keyboardKey:i=29
+      keyboardKey:i=45
+    }
+
     ID_TOGGLE_CHAT{
-      keyboardKey:i=62
+      keyboardKey:i=61
     }
 
     ID_TOGGLE_CHAT_MODE{
-      keyboardKey:i=41
+      keyboardKey:i=29
+      keyboardKey:i=57
     }
 
     ID_TOGGLE_CHAT_PARTY{
@@ -860,7 +885,7 @@ controls{
     }
 
     ID_TOGGLE_CHAT_SQUAD{
-      keyboardKey:i=61
+      keyboardKey:i=62
     }
 
     ID_TOGGLE_CHAT_TEAM{
@@ -876,6 +901,13 @@ controls{
     ID_TOGGLE_COCKPIT_DOOR_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=56
+      keyboardKey:i=15
+    }
+
+    ID_TOGGLE_COCKPIT_LIGHTS{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      mouseButton:i=2
       keyboardKey:i=15
     }
 
@@ -899,10 +931,6 @@ controls{
     ID_TOGGLE_ENGINE_HELICOPTER{
       keyboardKey:i=56
       keyboardKey:i=15
-    }
-
-    ID_TOGGLE_EXTINGUISHER{
-      keyboardKey:i=6
     }
 
     ID_TOGGLE_FOLLOWING_CAMERA{
@@ -951,6 +979,11 @@ controls{
     ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=29
       mouseButton:i=2
+      keyboardKey:i=19
+    }
+
+    ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER_HELICOPTER{
+      keyboardKey:i=29
       keyboardKey:i=19
     }
 
@@ -1046,6 +1079,8 @@ controls{
       keyboardKey:i=42
     }
 
+    brake_left_rangeMax{}
+    brake_right_rangeMax{}
     decal_rotate{}
     decal_rotate_rangeMax{
       keyboardKey:i=32
@@ -1154,27 +1189,27 @@ controls{
     }
 
     sweep{
-      keyboardKey:i=56
+      keyboardKey:i=5
+    }
+
+    sweep{
+      keyboardKey:i=6
     }
 
     sweep_rangeMax{
-      keyboardKey:i=29
-      mouseButton:i=2
-      keyboardKey:i=2
+      keyboardKey:i=5
     }
 
     sweep_rangeMin{
-      keyboardKey:i=29
-      mouseButton:i=2
-      keyboardKey:i=3
+      keyboardKey:i=6
     }
 
     throttle_rangeMax{
-      mouseButton:i=1
+      mouseButton:i=4
     }
 
     throttle_rangeMin{
-      keyboardKey:i=57
+      mouseButton:i=3
     }
 
     vtol_rangeMax{
@@ -1189,6 +1224,18 @@ controls{
   }
 
   axes{
+    ailerons{
+      mouseAxisId:i=-1
+    }
+
+    brake_left{
+      innerDeadzone:r=0.05
+    }
+
+    brake_right{
+      innerDeadzone:r=0.05
+    }
+
     elevator{
       mouseAxisId:i=-1
       nonlinearity:r=0
@@ -1287,7 +1334,7 @@ controls{
     USEROPT_MOUSE_SENSE:i=9
     USEROPT_MOUSE_SMOOTH:b=no
     USEROPT_MOUSE_USAGE:i=1
-    USEROPT_MOUSE_USAGE_NO_AIM:i=1
+    USEROPT_MOUSE_USAGE_NO_AIM:i=0
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=43
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
@@ -1297,6 +1344,7 @@ controls{
     USEROPT_ZOOM_SENSE:i=82
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
+    mouseJoystick:b=no
   }
 
   deviceMapping{
@@ -1382,7 +1430,7 @@ settings{
   mouseZMultTank:r=0.3
   mouseZMultShip:r=0.5
   mouseZMultSubmarine:r=0.5
-  gamepadMinVibration:r=0.05
+  gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
   cameraMouseSpeed:r=0.95
