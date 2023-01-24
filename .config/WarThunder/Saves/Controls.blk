@@ -119,6 +119,11 @@ controls{
       keyboardKey:i=18
     }
 
+    ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=57
+      keyboardKey:i=48
+    }
+
     ID_CAMERA_FPS{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -155,8 +160,8 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=56
-      keyboardKey:i=41
+      keyboardKey:i=57
+      keyboardKey:i=29
     }
 
     ID_CAMERA_VIEW_BACK{
@@ -332,7 +337,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      mouseButton:i=1
+      mouseButton:i=3
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -678,15 +683,14 @@ controls{
 
     ID_SHIP_ACTION_BAR_ITEM_10{}
     ID_SHIP_ACTION_BAR_ITEM_2{}
-    ID_SHORT_BRAKE{
-      keyboardKey:i=29
-      mouseButton:i=1
-      keyboardKey:i=57
-    }
-
     ID_SHOW_HERO_MODULES{
       keyboardKey:i=56
       keyboardKey:i=45
+    }
+
+    ID_SHOW_HERO_MODULES{
+      keyboardKey:i=57
+      keyboardKey:i=44
     }
 
     ID_SHOW_MOUSE_CURSOR{
@@ -1018,10 +1022,6 @@ controls{
       keyboardKey:i=31
     }
 
-    ID_TRANS_GEAR_NEUTRAL{
-      keyboardKey:i=57
-    }
-
     ID_TRANS_GEAR_UP{
       keyboardKey:i=48
     }
@@ -1205,7 +1205,7 @@ controls{
     }
 
     throttle_rangeMax{
-      mouseButton:i=4
+      mouseButton:i=1
     }
 
     throttle_rangeMin{
