@@ -110,7 +110,6 @@ controls{
     ID_CAMERA_DRIVER{
       keyboardKey:i=29
       keyboardKey:i=28
-      keyboardKey:i=48
     }
 
     ID_CAMERA_FOLLOW_OBJECT{
@@ -309,13 +308,11 @@ controls{
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      mouseButton:i=3
+      mouseButton:i=4
     }
 
     ID_FIRE_GM_SPECIAL_GUN{
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_FIRE_MGUNS{
@@ -404,8 +401,9 @@ controls{
     }
 
     ID_IR_PROJECTOR{
+      keyboardKey:i=57
       keyboardKey:i=29
-      keyboardKey:i=45
+      keyboardKey:i=16
     }
 
     ID_JETTISON_SECONDARY{
@@ -1072,6 +1070,7 @@ controls{
     }
 
     ID_WEAPON_LOCK_TANK{
+      keyboardKey:i=29
       keyboardKey:i=18
     }
 
@@ -1107,9 +1106,25 @@ controls{
       keyboardKey:i=31
     }
 
+    gm_brake_left_rangeMax{
+      keyboardKey:i=30
+    }
+
+    gm_brake_right_rangeMax{
+      keyboardKey:i=32
+    }
+
     gm_sight_distance_rangeSet{
       keyboardKey:i=29
       keyboardKey:i=19
+    }
+
+    gm_steering_rangeMax{
+      keyboardKey:i=16
+    }
+
+    gm_steering_rangeMin{
+      keyboardKey:i=18
     }
 
     head_pos_x{}
@@ -1247,7 +1262,7 @@ controls{
     }
 
     gm_steering{
-      innerDeadzone:r=0
+      innerDeadzone:r=0.05
     }
 
     gm_throttle{
