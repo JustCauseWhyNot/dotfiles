@@ -1209,7 +1209,7 @@ controls{
     }
 
     throttle_rangeMin{
-      mouseButton:i=3
+      mouseButton:i=4
     }
 
     vtol_rangeMax{
