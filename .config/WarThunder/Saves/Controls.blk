@@ -154,18 +154,13 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=56
+      keyboardKey:i=41
+    }
+
+    ID_CAMERA_VIEW_BACK{
       keyboardKey:i=57
       keyboardKey:i=45
-    }
-
-    ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=57
-      keyboardKey:i=29
-    }
-
-    ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=57
-      keyboardKey:i=41
     }
 
     ID_CAMERA_VIEW_DOWN{}
@@ -863,7 +858,6 @@ controls{
     }
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
-      mouseButton:i=2
       keyboardKey:i=29
       keyboardKey:i=45
     }
@@ -979,8 +973,7 @@ controls{
     }
 
     ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER{
-      keyboardKey:i=29
-      mouseButton:i=2
+      keyboardKey:i=57
       keyboardKey:i=19
     }
 
@@ -1440,15 +1433,15 @@ settings{
   aimAccelerationDelayWalker:r=0.5
   aimAccelerationDelayShip:r=0.5
   aimAccelerationDelaySubmarine:r=0.5
-  mouseZMultAir:r=0.36
+  mouseZMultAir:r=0.32
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=0.3
+  mouseZMultTank:r=0.26
   mouseZMultShip:r=0.5
   mouseZMultSubmarine:r=0.5
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=0.95
+  cameraMouseSpeed:r=1.625
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
