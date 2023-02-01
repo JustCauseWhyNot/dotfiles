@@ -182,7 +182,7 @@ controls{
     ID_CHANGE_SHOT_FREQ{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=19
     }
 
     ID_CHANGE_SHOT_FREQ_HELICOPTER{
@@ -472,9 +472,10 @@ controls{
     }
 
     ID_RELOAD_USER_SIGHT_GM{
-      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=11
+      keyboardKey:i=29
+      mouseButton:i=2
+      keyboardKey:i=16
     }
 
     ID_REPLAY_AVI_WRITER{
@@ -767,11 +768,6 @@ controls{
 
     ID_SWEEP_MODE{
       keyboardKey:i=41
-    }
-
-    ID_SWITCH_COCKPIT_SIGHT_MODE{
-      keyboardKey:i=57
-      mouseButton:i=0
     }
 
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
@@ -1377,11 +1373,21 @@ controls{
     }
 
     joystick{
-      connected:b=no
-      devId:t="1532:008A"
+      connected:b=yes
+      devId:t="31E3:1300"
       axesOffset:i=17
-      name:t="Razer Razer Viper Mini"
+      name:t="Wooting Wooting60HE Consumer Control"
       buttonsOffset:i=40
+      buttonsCount:i=70
+      axesCount:i=1
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="1532:008A"
+      axesOffset:i=18
+      name:t="Razer Razer Viper Mini"
+      buttonsOffset:i=110
       buttonsCount:i=0
       axesCount:i=1
     }
