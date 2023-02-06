@@ -946,6 +946,10 @@ controls{
       keyboardKey:i=34
     }
 
+    ID_TOGGLE_INSTRUCTOR{
+      keyboardKey:i=41
+    }
+
     ID_TOGGLE_LASER_DESIGNATOR{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -1228,10 +1232,6 @@ controls{
   }
 
   axes{
-    ailerons{
-      mouseAxisId:i=-1
-    }
-
     brake_left{
       innerDeadzone:r=0.05
     }
@@ -1241,7 +1241,6 @@ controls{
     }
 
     elevator{
-      mouseAxisId:i=-1
       nonlinearity:r=0
     }
 
@@ -1338,7 +1337,7 @@ controls{
     USEROPT_MOUSE_SENSE:i=9
     USEROPT_MOUSE_SMOOTH:b=no
     USEROPT_MOUSE_USAGE:i=1
-    USEROPT_MOUSE_USAGE_NO_AIM:i=0
+    USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=43
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
@@ -1348,7 +1347,6 @@ controls{
     USEROPT_ZOOM_SENSE:i=82
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
-    mouseJoystick:b=no
   }
 
   deviceMapping{
@@ -1383,7 +1381,7 @@ controls{
     }
 
     joystick{
-      connected:b=yes
+      connected:b=no
       devId:t="1532:008A"
       axesOffset:i=18
       name:t="Razer Razer Viper Mini"

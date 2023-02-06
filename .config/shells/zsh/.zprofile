@@ -15,7 +15,7 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 # ======================
 export EDITOR=nvim
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
-export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/bin/jcwn_dwm/statusbar-scripts"
+export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/bin/dwm/statusbar-scripts"
 export -U PATH path FPATH fpath MANPATH manpath
 export -UT INFOPATH infopath
 export VISUAL=nvim
