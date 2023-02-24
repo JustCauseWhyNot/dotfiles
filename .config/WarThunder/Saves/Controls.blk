@@ -107,11 +107,6 @@ controls{
     }
 
     ID_CAMERA_DEFAULT{}
-    ID_CAMERA_DRIVER{
-      keyboardKey:i=29
-      keyboardKey:i=28
-    }
-
     ID_CAMERA_FOLLOW_OBJECT{
       keyboardKey:i=29
       keyboardKey:i=56
