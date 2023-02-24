@@ -925,7 +925,6 @@ controls{
     }
 
     ID_TOGGLE_GM_CROSSHAIR_LIGHTING{
-      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=33
     }
@@ -1339,7 +1338,7 @@ controls{
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=100
+    USEROPT_ZOOM_SENSE:i=30
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
   }
@@ -1396,7 +1395,7 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0
+  zoomSens:r=0.7
   mouseSens:r=0.6
   mouseAimSens:r=0.6
   gunnerViewSens:r=2.75
