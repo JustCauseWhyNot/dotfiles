@@ -28,6 +28,10 @@ set tw=130
 set wrap
 set ww=b,s,<,>,[,]
 
+" Keybinds
+" Replace all is aliased to S.
+nnoremap S :%s//g<Left><Left>
+
 " Plugins.
 " ========
 lua require('plugins')
