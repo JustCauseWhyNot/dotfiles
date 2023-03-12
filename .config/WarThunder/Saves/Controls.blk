@@ -149,13 +149,13 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=56
+      keyboardKey:i=57
       keyboardKey:i=41
     }
 
     ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=57
-      keyboardKey:i=45
+      keyboardKey:i=56
+      keyboardKey:i=41
     }
 
     ID_CAMERA_VIEW_DOWN{}
@@ -388,6 +388,12 @@ controls{
 
     ID_IGNITE_BOOSTERS{
       keyboardKey:i=49
+    }
+
+    ID_IRCM_SWITCH_TANK{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=33
     }
 
     ID_IR_PROJECTOR{
@@ -1301,11 +1307,11 @@ controls{
     USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
     USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=64
-    USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
+    USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=no
     USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_GUNNER_INVERTY:b=no
-    USEROPT_GUNNER_VIEW_SENSE:i=275
+    USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=50
     USEROPT_HEADTRACK_ENABLE:b=no
     USEROPT_HEADTRACK_SCALE_X:i=5
@@ -1398,7 +1404,7 @@ settings{
   zoomSens:r=0.7
   mouseSens:r=0.6
   mouseAimSens:r=0.6
-  gunnerViewSens:r=2.75
+  gunnerViewSens:r=1
   gunnerViewZoomSens:r=0.5
   atgmAimSensHelicopter:r=0.5
   atgmAimZoomSensHelicopter:r=0.5
@@ -1438,7 +1444,7 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0
+  cameraSpeed:r=0.5
   cameraMouseSpeed:r=2.75
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
