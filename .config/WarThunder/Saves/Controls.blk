@@ -107,6 +107,12 @@ controls{
     }
 
     ID_CAMERA_DEFAULT{}
+    ID_CAMERA_DRIVER{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=45
+    }
+
     ID_CAMERA_FOLLOW_OBJECT{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -181,12 +187,8 @@ controls{
     }
 
     ID_COMMANDER_AIM_MODE{
-      keyboardKey:i=41
-    }
-
-    ID_COMMANDER_AIM_MODE{
-      mouseButton:i=2
-      keyboardKey:i=47
+      keyboardKey:i=57
+      mouseButton:i=0
     }
 
     ID_COMPLEX_ENGINE{
@@ -209,6 +211,10 @@ controls{
 
     ID_CONTROL_MODE_HELICOPTER{
       keyboardKey:i=5
+    }
+
+    ID_DESIGNATE_TARGET{
+      keyboardKey:i=20
     }
 
     ID_ENABLE_ALL_ENGINE_CONTROL{
@@ -418,7 +424,6 @@ controls{
     }
 
     ID_LOCK_TARGETING{
-      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=44
     }
@@ -473,10 +478,7 @@ controls{
     }
 
     ID_RELOAD_USER_SIGHT_GM{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      mouseButton:i=2
-      keyboardKey:i=16
+      keyboardKey:i=64
     }
 
     ID_REPLAY_AVI_WRITER{
@@ -716,8 +718,7 @@ controls{
 
     ID_START_SUPPORT_PLANE{
       keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=18
+      keyboardKey:i=45
     }
 
     ID_START_UGV{}
@@ -727,9 +728,7 @@ controls{
     }
 
     ID_SUPPORT_PLANE_ORBITING{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=20
+      keyboardKey:i=33
     }
 
     ID_SUSPENSION_CLEARANCE_DOWN{
@@ -769,6 +768,12 @@ controls{
 
     ID_SWEEP_MODE{
       keyboardKey:i=41
+    }
+
+    ID_SWITCH_COCKPIT_SIGHT_MODE{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      mouseButton:i=3
     }
 
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
@@ -952,8 +957,6 @@ controls{
     }
 
     ID_TOGGLE_LASER_DESIGNATOR{
-      keyboardKey:i=29
-      keyboardKey:i=56
       mouseButton:i=4
     }
 
@@ -1019,6 +1022,7 @@ controls{
     }
 
     ID_UNLOCK_TARGETING{
+      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=44
     }
@@ -1313,7 +1317,7 @@ controls{
     USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
     USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=64
-    USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=no
+    USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_GUNNER_INVERTY:b=no
