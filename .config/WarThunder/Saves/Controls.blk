@@ -311,6 +311,18 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_FIRE_HUMAN{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_HUMAN_MACHINE_GUN{
+      mouseButton:i=4
+    }
+
+    ID_FIRE_HUMAN_SPECIAL_GUN{
+      keyboardKey:i=44
+    }
+
     ID_FIRE_MGUNS{
       keyboardKey:i=40
     }
@@ -390,6 +402,23 @@ controls{
 
     ID_HIDE_HUD{
       keyboardKey:i=11
+    }
+
+    ID_HUMAN_JUMP{
+      mouseButton:i=3
+    }
+
+    ID_HUMAN_NIGHT_VISION{
+      keyboardKey:i=45
+    }
+
+    ID_HUMAN_SPRINT{
+      keyboardKey:i=16
+    }
+
+    ID_HUMAN_THERMAL_WHITE_IS_HOT{
+      keyboardKey:i=56
+      keyboardKey:i=33
     }
 
     ID_IGNITE_BOOSTERS{
@@ -731,6 +760,10 @@ controls{
       keyboardKey:i=33
     }
 
+    ID_SUPPORT_PLANE_ORBITING_HUMAN{
+      keyboardKey:i=35
+    }
+
     ID_SUSPENSION_CLEARANCE_DOWN{
       mouseButton:i=2
       keyboardKey:i=18
@@ -998,6 +1031,10 @@ controls{
     ID_TOGGLE_VIEW_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=47
+    }
+
+    ID_TOGGLE_VIEW_HUMAN{
+      mouseButton:i=1
     }
 
     ID_TOGGLE_VIEW_SHIP{
