@@ -38,8 +38,21 @@ controls{
     }
 
     ID_ACTION_BAR_ITEM_7{}
-    ID_ACTION_BAR_ITEM_8{}
-    ID_ACTION_BAR_ITEM_9{}
+    ID_ACTION_BAR_ITEM_7{
+      keyboardKey:i=56
+      keyboardKey:i=2
+    }
+
+    ID_ACTION_BAR_ITEM_8{
+      keyboardKey:i=56
+      keyboardKey:i=3
+    }
+
+    ID_ACTION_BAR_ITEM_9{
+      keyboardKey:i=56
+      keyboardKey:i=4
+    }
+
     ID_AEROBATICS_SMOKE{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -82,8 +95,7 @@ controls{
     ID_BOMBS{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=42
-      keyboardKey:i=26
+      mouseButton:i=4
     }
 
     ID_BOMBS_HELICOPTER{
@@ -362,6 +374,15 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_FLARES_HELICOPTER{
+      keyboardKey:i=44
+    }
+
+    ID_FLARES_SERIES_HELICOPTER{
+      mouseButton:i=2
+      keyboardKey:i=44
+    }
+
     ID_FLIGHTMENU{
       keyboardKey:i=1
     }
@@ -419,6 +440,10 @@ controls{
     ID_HUMAN_THERMAL_WHITE_IS_HOT{
       keyboardKey:i=56
       keyboardKey:i=33
+    }
+
+    ID_HUMAN_TOGGLE_RANGEFINDER{
+      keyboardKey:i=19
     }
 
     ID_IGNITE_BOOSTERS{
@@ -633,20 +658,10 @@ controls{
       keyboardKey:i=33
     }
 
-    ID_SENSOR_ACM_SWITCH_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=4
-    }
-
     ID_SENSOR_MODE_SWITCH{
       keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=16
-    }
-
-    ID_SENSOR_MODE_SWITCH_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=3
     }
 
     ID_SENSOR_RANGE_SWITCH{
@@ -796,6 +811,19 @@ controls{
 
     ID_SWEEP_MODE{
       keyboardKey:i=41
+    }
+
+    ID_SWITCH_COCKPIT_SIGHT_MODE{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=15
+      keyboardKey:i=46
+    }
+
+    ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      mouseButton:i=0
     }
 
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{
@@ -1047,6 +1075,7 @@ controls{
       keyboardKey:i=48
     }
 
+    ID_UNLIMITED_CONTROL{}
     ID_UNLOCK_TARGETING{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -1064,19 +1093,35 @@ controls{
     }
 
     ID_VOICE_MESSAGE_1{
-      keyboardKey:i=41
+      keyboardKey:i=2
     }
 
     ID_VOICE_MESSAGE_2{
-      keyboardKey:i=80
+      keyboardKey:i=3
     }
 
     ID_VOICE_MESSAGE_3{
-      keyboardKey:i=81
+      keyboardKey:i=4
     }
 
     ID_VOICE_MESSAGE_4{
-      keyboardKey:i=75
+      keyboardKey:i=5
+    }
+
+    ID_VOICE_MESSAGE_5{
+      keyboardKey:i=6
+    }
+
+    ID_VOICE_MESSAGE_6{
+      keyboardKey:i=7
+    }
+
+    ID_VOICE_MESSAGE_7{
+      keyboardKey:i=8
+    }
+
+    ID_VOICE_MESSAGE_8{
+      keyboardKey:i=9
     }
 
     ID_WEAPON_LEAD_TANK{
