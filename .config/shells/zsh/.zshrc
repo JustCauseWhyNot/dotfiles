@@ -98,7 +98,7 @@ zmodload zsh/complist
 # Enable the "new" completion system (compsys).
 autoload -Uz compinit && compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 [[ $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION.zwc -nt $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION ]] || zcompile-many $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
-unfunction zcompile-many 
+unfunction zcompile-many
 _comp_options+=(globdots)
 # +---------+
 # | Options |
@@ -117,7 +117,7 @@ zstyle ':completion:*' cache-path $XDG_CACHE_HOME/zsh/
 # Complete the alias whem _expand_alias is used as a function.
 zstyle ':completion:*' complete true
 zle -C alias-expension complete-word _generic
-bindkey '^Xa' alias-expension
+#bindkey '^Xa' alias-expension
 zstyle ':completion:alias-expension:*' completer _expand_alias
 
 # Zsh Plugin Settings.
