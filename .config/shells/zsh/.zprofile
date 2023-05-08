@@ -13,10 +13,10 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 
 # Environment variables.
 # ======================
+export -U PATH path FPATH fpath MANPATH manpath
+export -UT INFOPATH infopath
 export EDITOR=nvim
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
 export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/bin/dwm/statusbar-scripts"
-export -U PATH path FPATH fpath MANPATH manpath
-export -UT INFOPATH infopath
 export VISUAL=nvim
 export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
