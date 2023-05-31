@@ -128,7 +128,7 @@ controls{
     ID_CAMERA_FOLLOW_OBJECT{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=18
+      keyboardKey:i=33
     }
 
     ID_CAMERA_FPS{
@@ -677,7 +677,9 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=5
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=18
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
@@ -699,14 +701,14 @@ controls{
       keyboardKey:i=20
     }
 
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=29
+      keyboardKey:i=20
+    }
+
     ID_SENSOR_TARGET_LOCK_TANK{
       keyboardKey:i=56
       mouseButton:i=2
-    }
-
-    ID_SENSOR_TARGET_SWITCH{
-      keyboardKey:i=29
-      keyboardKey:i=20
     }
 
     ID_SENSOR_TARGET_SWITCH_TANK{
