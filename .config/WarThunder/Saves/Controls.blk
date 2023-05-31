@@ -483,7 +483,7 @@ controls{
     }
 
     ID_LOCK_TARGETING_AT_POINT{
-      keyboardKey:i=29
+      keyboardKey:i=56
       mouseButton:i=0
     }
 
@@ -700,6 +700,11 @@ controls{
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=29
       keyboardKey:i=20
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=29
+      mouseButton:i=0
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
@@ -1084,7 +1089,7 @@ controls{
     }
 
     ID_UNLOCK_TARGETING_AT_POINT{
-      keyboardKey:i=29
+      keyboardKey:i=56
       mouseButton:i=1
     }
 
