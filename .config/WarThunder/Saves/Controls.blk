@@ -818,9 +818,9 @@ controls{
     }
 
     ID_SWITCH_COCKPIT_SIGHT_MODE{
-      keyboardKey:i=56
       keyboardKey:i=29
-      mouseButton:i=4
+      keyboardKey:i=56
+      mouseButton:i=2
       keyboardKey:i=46
     }
 
