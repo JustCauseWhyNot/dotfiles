@@ -17,6 +17,7 @@ export -U PATH path FPATH fpath MANPATH manpath
 export -UT INFOPATH infopath
 export EDITOR=nvim
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
+export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances/1.19.4/.minecraft"
 export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/bin/dwm/statusbar-scripts"
 export VISUAL=nvim
 export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json

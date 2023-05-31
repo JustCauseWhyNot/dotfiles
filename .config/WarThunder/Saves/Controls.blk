@@ -74,7 +74,7 @@ controls{
     }
 
     ID_AIR_BRAKE{
-      keyboardKey:i=48
+      keyboardKey:i=45
     }
 
     ID_AIR_REVERSE{
@@ -89,7 +89,7 @@ controls{
     }
 
     ID_BAY_DOOR{
-      keyboardKey:i=45
+      keyboardKey:i=48
     }
 
     ID_BOMBS{
@@ -532,7 +532,10 @@ controls{
     }
 
     ID_RELOAD_USER_SIGHT_GM{
-      keyboardKey:i=64
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=42
+      keyboardKey:i=34
     }
 
     ID_REPLAY_AVI_WRITER{
@@ -660,8 +663,7 @@ controls{
 
     ID_SENSOR_MODE_SWITCH{
       keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=18
     }
 
     ID_SENSOR_RANGE_SWITCH{
@@ -726,7 +728,7 @@ controls{
     ID_SHIP_ACTION_BAR_ITEM_2{}
     ID_SHOW_HERO_MODULES{
       keyboardKey:i=57
-      keyboardKey:i=44
+      keyboardKey:i=34
     }
 
     ID_SHOW_MOUSE_CURSOR{
@@ -814,9 +816,9 @@ controls{
     }
 
     ID_SWITCH_COCKPIT_SIGHT_MODE{
-      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=15
+      keyboardKey:i=29
+      mouseButton:i=4
       keyboardKey:i=46
     }
 
@@ -1027,8 +1029,9 @@ controls{
     }
 
     ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER{
-      keyboardKey:i=57
-      keyboardKey:i=19
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=45
     }
 
     ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER_HELICOPTER{
@@ -1272,6 +1275,26 @@ controls{
       keyboardKey:i=30
     }
 
+    sensor_cue_x_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=32
+    }
+
+    sensor_cue_x_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    sensor_cue_y_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=17
+    }
+
+    sensor_cue_y_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=31
+    }
+
     sweep{
       keyboardKey:i=5
     }
@@ -1391,6 +1414,7 @@ controls{
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=0
+    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_INVERTY:b=no
     USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=50
