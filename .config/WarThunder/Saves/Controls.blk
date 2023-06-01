@@ -162,13 +162,15 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=29
       keyboardKey:i=57
-      keyboardKey:i=18
+      mouseButton:i=1
     }
 
     ID_CAMERA_VIEW_DOWN{
+      keyboardKey:i=29
       keyboardKey:i=57
-      keyboardKey:i=16
+      mouseButton:i=2
     }
 
     ID_CAMERA_VIRTUAL_FPS{
