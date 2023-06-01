@@ -131,6 +131,12 @@ controls{
       keyboardKey:i=33
     }
 
+    ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=57
+      keyboardKey:i=42
+      keyboardKey:i=33
+    }
+
     ID_CAMERA_FPS{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -163,15 +169,17 @@ controls{
 
     ID_CAMERA_VIEW_BACK{
       keyboardKey:i=57
-      keyboardKey:i=41
-    }
-
-    ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=56
-      keyboardKey:i=41
+      keyboardKey:i=42
+      keyboardKey:i=17
     }
 
     ID_CAMERA_VIEW_DOWN{}
+    ID_CAMERA_VIEW_DOWN{
+      keyboardKey:i=57
+      keyboardKey:i=42
+      keyboardKey:i=31
+    }
+
     ID_CAMERA_VIRTUAL_FPS{
       keyboardKey:i=29
       keyboardKey:i=46
@@ -692,7 +700,12 @@ controls{
       keyboardKey:i=16
     }
 
-    ID_SENSOR_SWITCH_TANK{}
+    ID_SENSOR_SWITCH_TANK{
+      keyboardKey:i=56
+      keyboardKey:i=29
+      keyboardKey:i=16
+    }
+
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=20
     }
@@ -860,6 +873,12 @@ controls{
       keyboardKey:i=29
       keyboardKey:i=56
       mouseButton:i=0
+    }
+
+    ID_TARGET_CAMERA{
+      keyboardKey:i=42
+      keyboardKey:i=57
+      keyboardKey:i=46
     }
 
     ID_TARGET_CAMERA{
@@ -1402,6 +1421,18 @@ controls{
       relSens:r=0.36
       relative:b=yes
       keepDisabledValue:b=yes
+    }
+
+    sensor_cue_x{
+      kMul:r=2
+    }
+
+    sensor_cue_y{
+      kMul:r=2
+    }
+
+    sensor_cue_z{
+      kMul:r=2
     }
 
     sweep{
