@@ -167,12 +167,7 @@ controls{
       mouseButton:i=1
     }
 
-    ID_CAMERA_VIEW_DOWN{
-      keyboardKey:i=29
-      keyboardKey:i=57
-      mouseButton:i=2
-    }
-
+    ID_CAMERA_VIEW_DOWN{}
     ID_CAMERA_VIRTUAL_FPS{
       keyboardKey:i=29
       keyboardKey:i=46
