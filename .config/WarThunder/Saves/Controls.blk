@@ -92,10 +92,12 @@ controls{
       keyboardKey:i=48
     }
 
+    ID_BOMBS{}
     ID_BOMBS{
       keyboardKey:i=29
       keyboardKey:i=56
-      mouseButton:i=4
+      keyboardKey:i=43
+      keyboardKey:i=42
     }
 
     ID_BOMBS_HELICOPTER{
@@ -276,11 +278,6 @@ controls{
     ID_FAST_VOICE_MESSAGE_7{
       keyboardKey:i=29
       keyboardKey:i=8
-    }
-
-    ID_FAST_VOICE_MESSAGE_8{
-      keyboardKey:i=29
-      keyboardKey:i=41
     }
 
     ID_FBW_MODE{
@@ -960,10 +957,9 @@ controls{
     }
 
     ID_TOGGLE_COCKPIT_LIGHTS{
-      keyboardKey:i=29
       keyboardKey:i=56
-      mouseButton:i=2
-      keyboardKey:i=15
+      keyboardKey:i=29
+      keyboardKey:i=41
     }
 
     ID_TOGGLE_COCKPIT_LIGHTS_HELICOPTER{
@@ -1009,6 +1005,7 @@ controls{
     }
 
     ID_TOGGLE_INSTRUCTOR{
+      keyboardKey:i=29
       keyboardKey:i=41
     }
 
@@ -1407,14 +1404,17 @@ controls{
 
     sensor_cue_x{
       kMul:r=2
+      keepDisabledValue:b=yes
     }
 
     sensor_cue_y{
       kMul:r=2
+      keepDisabledValue:b=yes
     }
 
     sensor_cue_z{
       kMul:r=2
+      keepDisabledValue:b=yes
     }
 
     sweep{
