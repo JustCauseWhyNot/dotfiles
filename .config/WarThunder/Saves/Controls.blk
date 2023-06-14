@@ -237,10 +237,6 @@ controls{
       mouseButton:i=0
     }
 
-    ID_EXIT_SHOOTING_CYCLE_MODE{
-      keyboardKey:i=4
-    }
-
     ID_EXIT_SHOOTING_CYCLE_MODE_HELICOPTER{
       keyboardKey:i=4
     }
@@ -1109,10 +1105,7 @@ controls{
       keyboardKey:i=4
     }
 
-    ID_VOICE_MESSAGE_4{
-      keyboardKey:i=5
-    }
-
+    ID_VOICE_MESSAGE_4{}
     ID_VOICE_MESSAGE_5{
       keyboardKey:i=6
     }
@@ -1320,11 +1313,11 @@ controls{
     }
 
     sweep{
-      keyboardKey:i=5
+      keyboardKey:i=4
     }
 
     sweep{
-      keyboardKey:i=6
+      keyboardKey:i=5
     }
 
     sweep_rangeMax{
@@ -1332,7 +1325,7 @@ controls{
     }
 
     sweep_rangeMin{
-      keyboardKey:i=6
+      keyboardKey:i=4
     }
 
     throttle_rangeMax{
