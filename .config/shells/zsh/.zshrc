@@ -151,8 +151,8 @@ zle -N self-insert url-quote-magic
 
 # Plugin loading.
 # ===============
+source $ZDOTDIR/plugins/fzf-tab/fzf-tab.plugin.zsh
 source $ZDOTDIR/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh && bindkey '^ ' autosuggest-accept
-source $ZDOTDIR/plugins/fzf-tab/fzf-tab.plugin.zsh
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source $ZDOTDIR/.p10k.zsh

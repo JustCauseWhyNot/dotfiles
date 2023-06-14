@@ -1010,6 +1010,7 @@ controls{
     }
 
     ID_TOGGLE_LASER_DESIGNATOR{
+      keyboardKey:i=29
       mouseButton:i=4
     }
 
@@ -1286,6 +1287,10 @@ controls{
       keyboardKey:i=30
     }
 
+    sensor_cue_x_rangeSet{
+      keyboardKey:i=64
+    }
+
     sensor_cue_y_rangeMax{
       keyboardKey:i=29
       keyboardKey:i=17
@@ -1296,6 +1301,10 @@ controls{
       keyboardKey:i=31
     }
 
+    sensor_cue_y_rangeSet{
+      keyboardKey:i=64
+    }
+
     sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=17
@@ -1304,6 +1313,10 @@ controls{
     sensor_cue_z_rangeMin{
       keyboardKey:i=56
       keyboardKey:i=31
+    }
+
+    sensor_cue_z_rangeSet{
+      keyboardKey:i=64
     }
 
     sweep{
@@ -1404,17 +1417,14 @@ controls{
 
     sensor_cue_x{
       kMul:r=2
-      keepDisabledValue:b=yes
     }
 
     sensor_cue_y{
       kMul:r=2
-      keepDisabledValue:b=yes
     }
 
     sensor_cue_z{
       kMul:r=2
-      keepDisabledValue:b=yes
     }
 
     sweep{
