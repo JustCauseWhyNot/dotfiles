@@ -523,7 +523,6 @@ controls{
     ID_RELOAD_USER_SIGHT_GM{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=42
       keyboardKey:i=34
     }
 
