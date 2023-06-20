@@ -10,7 +10,7 @@ rangefinderProgressBarColor1:c=0, 255, 0, 64
 rangefinderProgressBarColor2:c=255, 255, 255, 64
 rangefinderTextScale:r=0.63
 rangefinderUseThousandth:b=no
-rangefinderVerticalOffset:r=.090
+rangefinderVerticalOffset:r=.060
 rangefinderHorizontalOffset:r=-115
 detectAllyTextScale:r=0.63
 detectAllyOffset:p2=4, 0.05
@@ -22,7 +22,7 @@ drawSightMask:b=yes
 distancePos:p2=-0.00375,0
 applyCorrectionToGun:b=yes
 drawDistanceCorrection:b=yes
-distanceCorrectionPos:p2=-0.225,0;
+distanceCorrectionPos:p2=0.0425,-0.045;
 crosshairDistHorSizeMain:p2=0,0
 crosshairDistHorSizeAdditional:p2=0.0075,0.00145
 crosshairColor:c=0,0,0,255          //Change the default sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
