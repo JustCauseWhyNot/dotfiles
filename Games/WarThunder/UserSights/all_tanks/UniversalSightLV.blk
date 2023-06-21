@@ -19,36 +19,57 @@ lineSizeMult:r=1
 drawCentralLineVert:b=yes
 drawCentralLineHorz:b=yes
 drawSightMask:b=yes
-distancePos:p2=0.0075,0
+useSmoothEdge:b=yes
+distancePos:p2=0,0
 applyCorrectionToGun:b=yes
-drawDistanceCorrection:b=yes
-distanceCorrectionPos:p2=0.0425,-0.045;
-crosshairDistHorSizeMain:p2=0,0
-crosshairDistHorSizeAdditional:p2=0.0075,0.00145
 crosshairColor:c=0,0,0,255          //Change the default sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
 crosshairLightColor:c=255,255,0,255   //Change the illuminated sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
+crosshairDistHorSizeMain:p2=0,0
+crosshairDistHorSizeAdditional:p2=0.0075,0.00145
+distanceCorrectionPos:p2=0.0425,-0.045;
+drawDistanceCorrection:b=yes
 
 crosshair_distances{
-distance { distance:p3 = 200, 0, 0; }
-distance { textPos:p2 = 0.030, 0; distance:p3 = 400, 4, 0; }
-distance { distance:p3 = 600, 0, 0; }
-distance { textPos:p2 = 0.0015, 0; distance:p3 = 800, 8, 0; }
-distance { distance:p3 = 1000, 0, 0; }
-distance { textPos:p2 = 0.032, 0; distance:p3 = 1200, 12, 0; }
-distance { distance:p3 = 1400, 0, 0; }
-distance { textPos:p2 = 0.0015, 0; distance:p3 = 1600, 16, 0; }
-distance { distance:p3 = 1800, 0, 0; }
-distance { textPos:p2 = 0.032, 0; distance:p3 = 2000, 20, 0; }
-distance { distance:p3 = 2200, 0, 0; }
-distance { textPos:p2 = 0.0015, 0; distance:p3 = 2400, 24, 0; }
-distance { distance:p3 = 2600, 0, 0; }
-distance { textPos:p2 = 0.032, 0; distance:p3 = 2800, 28, 0; }
-distance { distance:p3 = 3000, 0, 0; }
-distance { textPos:p2 = 0.0015, 0; distance:p3 = 3200, 32, 0; }
-distance { distance:p3 = 3400, 0, 0; }
-distance { textPos:p2 = 0.032, 0; distance:p3 = 3600, 36, 0; }
-distance { distance:p3 = 3800, 0, 0; }
-distance { textPos:p2 = 0.0015, 0; distance:p3 = 4000, 40, 0; }
+distance { distance:p3 = 100, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 200, 2, 0; }
+distance { distance:p3 = 300, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 400, 4, 0; }
+distance { distance:p3 = 500, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 600, 6, 0; }
+distance { distance:p3 = 700, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 800, 8, 0; }
+distance { distance:p3 = 900, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 1000, 10, 0; }
+distance { distance:p3 = 1100, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 1200, 12, 0; }
+distance { distance:p3 = 1300, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 1400, 14, 0; }
+distance { distance:p3 = 1500, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 1600, 16, 0; }
+distance { distance:p3 = 1700, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 1800, 18, 0; }
+distance { distance:p3 = 1900, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 2000, 20, 0; }
+distance { distance:p3 = 2100, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 2200, 22, 0; }
+distance { distance:p3 = 2300, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 2400, 24, 0; }
+distance { distance:p3 = 2500, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 2600, 26, 0; }
+distance { distance:p3 = 2700, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 2800, 28, 0; }
+distance { distance:p3 = 2900, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 3000, 30, 0; }
+distance { distance:p3 = 3100, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 3200, 32, 0; }
+distance { distance:p3 = 3300, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 3400, 34, 0; }
+distance { distance:p3 = 3500, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 3600, 36, 0; }
+distance { distance:p3 = 3700, 0, 0; }
+distance { textPos:p2 = 0.032, 0; distance:p3 = 3800, 38, 0; }
+distance { distance:p3 = 3900, 0, 0; }
+distance { textPos:p2 = -0.0125, 0; distance:p3 = 4000, 40, 0; }
 }
 
 crosshair_hor_ranges{
