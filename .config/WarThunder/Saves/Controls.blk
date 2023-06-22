@@ -724,6 +724,13 @@ controls{
       mouseButton:i=0
     }
 
+    ID_SENSOR_TARGET_SWITCH{
+      keyboardKey:i=29
+      keyboardKey:i=42
+      keyboardKey:i=56
+      keyboardKey:i=26
+    }
+
     ID_SENSOR_TARGET_SWITCH_TANK{
       keyboardKey:i=29
       keyboardKey:i=42
