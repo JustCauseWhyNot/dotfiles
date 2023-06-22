@@ -467,12 +467,12 @@ controls{
     }
 
     ID_LOCK_TARGETING{
-      keyboardKey:i=56
+      keyboardKey:i=29
       keyboardKey:i=44
     }
 
     ID_LOCK_TARGETING_AT_POINT{
-      keyboardKey:i=56
+      keyboardKey:i=29
       mouseButton:i=0
     }
 
@@ -695,11 +695,6 @@ controls{
       keyboardKey:i=20
     }
 
-    ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=29
-      mouseButton:i=0
-    }
-
     ID_SENSOR_TARGET_LOCK_TANK{
       keyboardKey:i=56
       mouseButton:i=2
@@ -724,7 +719,7 @@ controls{
     ID_SHIP_ACTION_BAR_ITEM_2{}
     ID_SHOW_HERO_MODULES{
       keyboardKey:i=57
-      keyboardKey:i=35
+      keyboardKey:i=19
     }
 
     ID_SHOW_MOUSE_CURSOR{
@@ -909,7 +904,7 @@ controls{
     }
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=45
     }
 
@@ -1016,7 +1011,7 @@ controls{
     }
 
     ID_TOGGLE_PERIODIC_FLARES{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=44
     }
 
@@ -1078,12 +1073,11 @@ controls{
     ID_UNLIMITED_CONTROL{}
     ID_UNLOCK_TARGETING{
       keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_UNLOCK_TARGETING_AT_POINT{
-      keyboardKey:i=56
+      keyboardKey:i=29
       mouseButton:i=1
     }
 
