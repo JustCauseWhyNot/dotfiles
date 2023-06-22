@@ -619,7 +619,7 @@ controls{
     }
 
     ID_SCOUT{
-      mouseButton:i=2
+      keyboardKey:i=20
     }
 
     ID_SCREENSHOT{}
@@ -708,10 +708,6 @@ controls{
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=29
       mouseButton:i=0
-    }
-
-    ID_SENSOR_TARGET_LOCK_TANK{
-      keyboardKey:i=20
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
