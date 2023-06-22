@@ -20,12 +20,13 @@ controls{
     }
 
     ID_ACTION_BAR_ITEM_10{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=20
     }
 
     ID_ACTION_BAR_ITEM_12{
       keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=33
     }
 
@@ -441,8 +442,7 @@ controls{
 
     ID_IRCM_SWITCH_TANK{
       keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=35
     }
 
     ID_IR_PROJECTOR{
@@ -619,7 +619,7 @@ controls{
     }
 
     ID_SCOUT{
-      keyboardKey:i=20
+      mouseButton:i=2
     }
 
     ID_SCREENSHOT{}
@@ -649,7 +649,17 @@ controls{
       keyboardKey:i=33
     }
 
+    ID_SENSOR_ACM_SWITCH_TANK{
+      keyboardKey:i=29
+      keyboardKey:i=33
+    }
+
     ID_SENSOR_MODE_SWITCH{
+      keyboardKey:i=29
+      keyboardKey:i=18
+    }
+
+    ID_SENSOR_MODE_SWITCH_TANK{
       keyboardKey:i=29
       keyboardKey:i=18
     }
@@ -660,8 +670,8 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=6
+      keyboardKey:i=29
+      keyboardKey:i=19
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
@@ -670,8 +680,8 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=5
+      keyboardKey:i=29
+      keyboardKey:i=16
     }
 
     ID_SENSOR_SWITCH{
@@ -701,13 +711,24 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
-      keyboardKey:i=56
-      mouseButton:i=2
+      keyboardKey:i=20
+    }
+
+    ID_SENSOR_TARGET_LOCK_TANK{
+      keyboardKey:i=29
+      keyboardKey:i=20
+    }
+
+    ID_SENSOR_TARGET_LOCK_TANK{
+      keyboardKey:i=29
+      mouseButton:i=0
     }
 
     ID_SENSOR_TARGET_SWITCH_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=18
+      keyboardKey:i=29
+      keyboardKey:i=42
+      keyboardKey:i=57
+      keyboardKey:i=27
     }
 
     ID_SENSOR_TYPE_SWITCH{
@@ -849,12 +870,7 @@ controls{
       keyboardKey:i=45
     }
 
-    ID_TARGETING_HOLD_GM{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      mouseButton:i=0
-    }
-
+    ID_TARGETING_HOLD_GM{}
     ID_TARGET_CAMERA{
       keyboardKey:i=56
       keyboardKey:i=46
@@ -1134,11 +1150,7 @@ controls{
       keyboardKey:i=19
     }
 
-    ID_WEAPON_LOCK_TANK{
-      keyboardKey:i=29
-      keyboardKey:i=18
-    }
-
+    ID_WEAPON_LOCK_TANK{}
     ID_ZOOM_TOGGLE{
       keyboardKey:i=42
     }
@@ -1177,6 +1189,46 @@ controls{
 
     gm_brake_right_rangeMax{
       keyboardKey:i=32
+    }
+
+    gm_sensor_cue_x_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=32
+    }
+
+    gm_sensor_cue_x_rangeMax{
+      keyboardKey:i=56
+      keyboardKey:i=32
+    }
+
+    gm_sensor_cue_x_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    gm_sensor_cue_x_rangeMin{
+      keyboardKey:i=56
+      keyboardKey:i=30
+    }
+
+    gm_sensor_cue_y_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=17
+    }
+
+    gm_sensor_cue_y_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=31
+    }
+
+    gm_sensor_cue_z_rangeMax{
+      keyboardKey:i=56
+      keyboardKey:i=17
+    }
+
+    gm_sensor_cue_z_rangeMin{
+      keyboardKey:i=56
+      keyboardKey:i=31
     }
 
     gm_sight_distance_rangeSet{
@@ -1371,6 +1423,18 @@ controls{
     elevator{
       mouseAxisId:i=-1
       nonlinearity:r=0
+    }
+
+    gm_sensor_cue_x{
+      keepDisabledValue:b=yes
+    }
+
+    gm_sensor_cue_y{
+      keepDisabledValue:b=yes
+    }
+
+    gm_sensor_cue_z{
+      keepDisabledValue:b=yes
     }
 
     gm_sight_distance{
