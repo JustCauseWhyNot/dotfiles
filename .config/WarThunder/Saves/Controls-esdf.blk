@@ -507,7 +507,7 @@ controls{
     }
 
     ID_RANGEFINDER{
-      keyboardKey:i=19
+      keyboardKey:i=20
     }
 
     ID_RELOAD_GUNS{
@@ -518,6 +518,11 @@ controls{
     ID_RELOAD_USER_SIGHT_GM{
       keyboardKey:i=29
       keyboardKey:i=56
+      keyboardKey:i=34
+    }
+
+    ID_REPAIR_TANK{
+      keyboardKey:i=29
       keyboardKey:i=34
     }
 
@@ -614,7 +619,7 @@ controls{
     }
 
     ID_SCOUT{
-      keyboardKey:i=20
+      keyboardKey:i=21
     }
 
     ID_SCREENSHOT{}
@@ -748,6 +753,10 @@ controls{
 
     ID_SHOW_MOUSE_CURSOR{
       keyboardKey:i=28
+    }
+
+    ID_SHOW_MULTIFUNC_WHEEL_MENU{
+      keyboardKey:i=22
     }
 
     ID_SHOW_VOICE_MESSAGE_LIST{
@@ -1087,7 +1096,7 @@ controls{
     }
 
     ID_TRANS_GEAR_NEUTRAL{
-      keyboardKey:i=31
+      keyboardKey:i=32
     }
 
     ID_TRANS_GEAR_UP{
@@ -1187,11 +1196,11 @@ controls{
     }
 
     gm_brake_left_rangeMax{
-      keyboardKey:i=30
+      keyboardKey:i=31
     }
 
     gm_brake_right_rangeMax{
-      keyboardKey:i=32
+      keyboardKey:i=33
     }
 
     gm_sensor_cue_x_rangeMax{
@@ -1236,15 +1245,20 @@ controls{
 
     gm_sight_distance_rangeSet{
       keyboardKey:i=29
-      keyboardKey:i=19
+      keyboardKey:i=20
     }
 
     gm_steering_rangeMax{
       keyboardKey:i=16
     }
 
-    gm_steering_rangeMin{
+    gm_steering_rangeMin{}
+    gm_throttle_rangeMax{
       keyboardKey:i=18
+    }
+
+    gm_throttle_rangeMin{
+      keyboardKey:i=32
     }
 
     head_pos_x{}
@@ -1510,8 +1524,8 @@ controls{
 
   params{
     USEROPT_AILERONS_MULTIPLIER:i=79
-    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=50
-    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=50
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=30
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=30
     USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
     USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=64
@@ -1520,8 +1534,8 @@ controls{
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_INVERTY:b=no
-    USEROPT_GUNNER_VIEW_SENSE:i=100
-    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=50
+    USEROPT_GUNNER_VIEW_SENSE:i=30
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=30
     USEROPT_HEADTRACK_ENABLE:b=no
     USEROPT_HEADTRACK_SCALE_X:i=5
     USEROPT_HEADTRACK_SCALE_Y:i=5
@@ -1542,8 +1556,8 @@ controls{
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_INVERTY_TANK:b=no
     USEROPT_JOYFX:b=no
-    USEROPT_MOUSE_AIM_SENSE:i=30
-    USEROPT_MOUSE_SENSE:i=30
+    USEROPT_MOUSE_AIM_SENSE:i=15
+    USEROPT_MOUSE_SENSE:i=15
     USEROPT_MOUSE_SMOOTH:b=no
     USEROPT_MOUSE_USAGE:i=1
     USEROPT_MOUSE_USAGE_NO_AIM:i=0
@@ -1553,7 +1567,7 @@ controls{
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=30
+    USEROPT_ZOOM_SENSE:i=70
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
     mouseJoystick:b=no
@@ -1611,13 +1625,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.27
-  mouseSens:r=0.27
-  mouseAimSens:r=0.27
-  gunnerViewSens:r=1
-  gunnerViewZoomSens:r=0.5
-  atgmAimSensHelicopter:r=0.5
-  atgmAimZoomSensHelicopter:r=0.5
+  zoomSens:r=0.308
+  mouseSens:r=0.308
+  mouseAimSens:r=0.308
+  gunnerViewSens:r=0.308
+  gunnerViewZoomSens:r=0.308
+  atgmAimSensHelicopter:r=0.308
+  atgmAimZoomSensHelicopter:r=0.308
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0.1
   helicopterMouseJoystickDeadZone:r=0.1
@@ -1654,8 +1668,8 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0.5
-  cameraMouseSpeed:r=2.75
+  cameraSpeed:r=0
+  cameraMouseSpeed:r=1.2375
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
