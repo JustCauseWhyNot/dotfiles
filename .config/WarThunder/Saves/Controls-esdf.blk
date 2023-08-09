@@ -27,7 +27,7 @@ controls{
     ID_ACTION_BAR_ITEM_12{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=34
     }
 
     ID_ACTION_BAR_ITEM_5{
@@ -353,11 +353,11 @@ controls{
 
     ID_FLAPS{}
     ID_FLAPS_DOWN{
-      keyboardKey:i=47
+      keyboardKey:i=30
     }
 
     ID_FLAPS_UP{
-      keyboardKey:i=33
+      keyboardKey:i=16
     }
 
     ID_FLARES{
@@ -515,12 +515,7 @@ controls{
       keyboardKey:i=49
     }
 
-    ID_RELOAD_USER_SIGHT_GM{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=34
-    }
-
+    ID_RELOAD_USER_SIGHT_GM{}
     ID_REPAIR_TANK{
       keyboardKey:i=29
       keyboardKey:i=34
@@ -1167,18 +1162,30 @@ controls{
       keyboardKey:i=42
     }
 
+    ailerons_rangeMax{
+      keyboardKey:i=33
+    }
+
+    ailerons_rangeMin{
+      keyboardKey:i=31
+    }
+
     brake_left_rangeMax{}
     brake_right_rangeMax{}
     decal_rotate{}
     decal_rotate_rangeMax{
-      keyboardKey:i=32
-    }
-
-    decal_rotate_rangeMin{
       keyboardKey:i=30
     }
 
+    decal_rotate_rangeMin{
+      keyboardKey:i=32
+    }
+
     decal_scale{}
+    decal_scale_rangeMax{
+      keyboardKey:i=18
+    }
+
     decal_scale_rangeMax{
       keyboardKey:i=17
     }
@@ -1188,11 +1195,11 @@ controls{
     }
 
     elevator_rangeMax{
-      keyboardKey:i=17
+      keyboardKey:i=18
     }
 
     elevator_rangeMin{
-      keyboardKey:i=31
+      keyboardKey:i=32
     }
 
     gm_brake_left_rangeMax{
@@ -1249,10 +1256,13 @@ controls{
     }
 
     gm_steering_rangeMax{
-      keyboardKey:i=16
+      keyboardKey:i=17
     }
 
-    gm_steering_rangeMin{}
+    gm_steering_rangeMin{
+      keyboardKey:i=19
+    }
+
     gm_throttle_rangeMax{
       keyboardKey:i=18
     }
@@ -1335,6 +1345,14 @@ controls{
     radiator_rangeMin{
       mouseButton:i=2
       keyboardKey:i=30
+    }
+
+    rudder_rangeMax{
+      keyboardKey:i=17
+    }
+
+    rudder_rangeMin{
+      keyboardKey:i=19
     }
 
     sensor_cue_x_rangeMax{
@@ -1625,13 +1643,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.308
-  mouseSens:r=0.308
-  mouseAimSens:r=0.308
-  gunnerViewSens:r=0.308
-  gunnerViewZoomSens:r=0.308
-  atgmAimSensHelicopter:r=0.308
-  atgmAimZoomSensHelicopter:r=0.308
+  zoomSens:r=0.3
+  mouseSens:r=0.3
+  mouseAimSens:r=0.3
+  gunnerViewSens:r=0.3
+  gunnerViewZoomSens:r=0.3
+  atgmAimSensHelicopter:r=0.3
+  atgmAimZoomSensHelicopter:r=0.3
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0.1
   helicopterMouseJoystickDeadZone:r=0.1
@@ -1668,8 +1686,8 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0
-  cameraMouseSpeed:r=1.2375
+  cameraSpeed:r=0.5
+  cameraMouseSpeed:r=1.1
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
