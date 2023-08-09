@@ -197,6 +197,11 @@ controls{
       keyboardKey:i=16
     }
 
+    ID_CHUTE{
+      keyboardKey:i=29
+      keyboardKey:i=35
+    }
+
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=56
       keyboardKey:i=33
@@ -457,6 +462,7 @@ controls{
     }
 
     ID_JETTISON_SECONDARY{
+      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=16
     }
@@ -646,8 +652,8 @@ controls{
     }
 
     ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=29
-      keyboardKey:i=33
+      keyboardKey:i=56
+      keyboardKey:i=34
     }
 
     ID_SENSOR_ACM_SWITCH_TANK{
@@ -656,8 +662,8 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=29
-      keyboardKey:i=18
+      keyboardKey:i=56
+      keyboardKey:i=30
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -666,7 +672,7 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=19
     }
 
@@ -676,8 +682,8 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=29
-      keyboardKey:i=30
+      keyboardKey:i=56
+      keyboardKey:i=16
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
@@ -688,7 +694,7 @@ controls{
     ID_SENSOR_SWITCH{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=30
     }
 
     ID_SENSOR_SWITCH_TANK{
@@ -698,17 +704,13 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=20
-    }
-
-    ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=29
-      keyboardKey:i=20
-    }
-
-    ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=29
+      keyboardKey:i=56
       mouseButton:i=0
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=56
+      keyboardKey:i=20
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
@@ -736,6 +738,7 @@ controls{
     }
 
     ID_SENSOR_TYPE_SWITCH{
+      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=19
     }
@@ -749,7 +752,7 @@ controls{
     ID_SHIP_ACTION_BAR_ITEM_2{}
     ID_SHOW_HERO_MODULES{
       keyboardKey:i=57
-      keyboardKey:i=19
+      keyboardKey:i=21
     }
 
     ID_SHOW_MOUSE_CURSOR{
@@ -777,8 +780,8 @@ controls{
     }
 
     ID_SQUAD_TARGET_DESIGNATION{
-      keyboardKey:i=56
-      keyboardKey:i=30
+      keyboardKey:i=29
+      keyboardKey:i=21
     }
 
     ID_START_SUPPORT_PLANE{
@@ -1353,22 +1356,22 @@ controls{
 
     sensor_cue_x_rangeMax{
       keyboardKey:i=29
-      keyboardKey:i=32
+      keyboardKey:i=33
     }
 
     sensor_cue_x_rangeMax{
       keyboardKey:i=56
-      keyboardKey:i=32
+      keyboardKey:i=33
     }
 
     sensor_cue_x_rangeMin{
       keyboardKey:i=29
-      keyboardKey:i=30
+      keyboardKey:i=31
     }
 
     sensor_cue_x_rangeMin{
       keyboardKey:i=56
-      keyboardKey:i=30
+      keyboardKey:i=31
     }
 
     sensor_cue_x_rangeSet{
@@ -1376,13 +1379,13 @@ controls{
     }
 
     sensor_cue_y_rangeMax{
-      keyboardKey:i=29
-      keyboardKey:i=17
+      keyboardKey:i=56
+      keyboardKey:i=18
     }
 
     sensor_cue_y_rangeMin{
-      keyboardKey:i=29
-      keyboardKey:i=31
+      keyboardKey:i=56
+      keyboardKey:i=32
     }
 
     sensor_cue_y_rangeSet{
@@ -1390,13 +1393,13 @@ controls{
     }
 
     sensor_cue_z_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=17
+      keyboardKey:i=29
+      keyboardKey:i=18
     }
 
     sensor_cue_z_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=31
+      keyboardKey:i=29
+      keyboardKey:i=32
     }
 
     sensor_cue_z_rangeSet{
