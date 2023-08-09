@@ -457,8 +457,8 @@ controls{
     }
 
     ID_JETTISON_SECONDARY{
-      keyboardKey:i=29
-      keyboardKey:i=211
+      keyboardKey:i=56
+      keyboardKey:i=16
     }
 
     ID_JETTISON_SECONDARY_HELICOPTER{
