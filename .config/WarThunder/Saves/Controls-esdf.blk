@@ -75,7 +75,7 @@ controls{
     }
 
     ID_AIR_BRAKE{
-      keyboardKey:i=45
+      keyboardKey:i=44
     }
 
     ID_AIR_REVERSE{
@@ -349,7 +349,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      keyboardKey:i=16
+      mouseButton:i=3
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -366,7 +366,7 @@ controls{
     }
 
     ID_FLARES{
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_FLARES_HELICOPTER{
@@ -462,9 +462,8 @@ controls{
     }
 
     ID_JETTISON_SECONDARY{
-      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=211
     }
 
     ID_JETTISON_SECONDARY_HELICOPTER{
@@ -603,7 +602,7 @@ controls{
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES{
       keyboardKey:i=29
-      keyboardKey:i=16
+      mouseButton:i=3
     }
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES_HELICOPTER{
@@ -652,8 +651,7 @@ controls{
     }
 
     ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=56
-      keyboardKey:i=34
+      keyboardKey:i=30
     }
 
     ID_SENSOR_ACM_SWITCH_TANK{
@@ -686,6 +684,15 @@ controls{
       keyboardKey:i=16
     }
 
+    ID_SENSOR_SCAN_PATTERN_SWITCH{
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    ID_SENSOR_SCAN_PATTERN_SWITCH{
+      keyboardKey:i=47
+    }
+
     ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
       keyboardKey:i=29
       keyboardKey:i=16
@@ -709,8 +716,11 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=56
-      keyboardKey:i=20
+      keyboardKey:i=21
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=16
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
@@ -935,7 +945,7 @@ controls{
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=56
-      keyboardKey:i=45
+      keyboardKey:i=44
     }
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER_HELICOPTER{
@@ -1043,7 +1053,7 @@ controls{
 
     ID_TOGGLE_PERIODIC_FLARES{
       keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_TOGGLE_PROP_FEATHERING{
@@ -1347,11 +1357,11 @@ controls{
     }
 
     rudder_rangeMax{
-      keyboardKey:i=17
+      keyboardKey:i=19
     }
 
     rudder_rangeMin{
-      keyboardKey:i=19
+      keyboardKey:i=17
     }
 
     sensor_cue_x_rangeMax{
@@ -1407,19 +1417,19 @@ controls{
     }
 
     sweep{
-      keyboardKey:i=4
+      keyboardKey:i=5
     }
 
     sweep{
-      keyboardKey:i=5
+      keyboardKey:i=6
     }
 
     sweep_rangeMax{
-      keyboardKey:i=5
+      keyboardKey:i=6
     }
 
     sweep_rangeMin{
-      keyboardKey:i=4
+      keyboardKey:i=5
     }
 
     throttle_rangeMax{
