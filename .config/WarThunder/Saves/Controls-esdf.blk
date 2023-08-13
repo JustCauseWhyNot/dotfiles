@@ -1347,11 +1347,11 @@ controls{
     }
 
     rudder_rangeMax{
-      keyboardKey:i=19
+      keyboardKey:i=17
     }
 
     rudder_rangeMin{
-      keyboardKey:i=17
+      keyboardKey:i=19
     }
 
     sensor_cue_x_rangeMax{
