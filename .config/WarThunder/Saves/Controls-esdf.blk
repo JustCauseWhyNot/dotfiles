@@ -26,7 +26,6 @@ controls{
 
     ID_ACTION_BAR_ITEM_12{
       keyboardKey:i=29
-      keyboardKey:i=56
       keyboardKey:i=34
     }
 
@@ -450,11 +449,6 @@ controls{
       keyboardKey:i=49
     }
 
-    ID_IRCM_SWITCH_TANK{
-      keyboardKey:i=29
-      keyboardKey:i=35
-    }
-
     ID_IR_PROJECTOR{
       keyboardKey:i=57
       keyboardKey:i=29
@@ -528,7 +522,6 @@ controls{
 
     ID_RELOAD_USER_SIGHT_GM{}
     ID_REPAIR_TANK{
-      keyboardKey:i=29
       keyboardKey:i=34
     }
 
@@ -650,10 +643,6 @@ controls{
       keyboardKey:i=16
     }
 
-    ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=30
-    }
-
     ID_SENSOR_ACM_SWITCH_TANK{
       keyboardKey:i=29
       keyboardKey:i=33
@@ -771,6 +760,15 @@ controls{
     ID_SHOW_VOICE_MESSAGE_LIST_SQUAD{
       keyboardKey:i=29
       keyboardKey:i=22
+    }
+
+    ID_SMOKE_SCREEN{
+      keyboardKey:i=35
+    }
+
+    ID_SMOKE_SCREEN_GENERATOR{
+      keyboardKey:i=29
+      keyboardKey:i=35
     }
 
     ID_SPECTATOR_CAMERA_ROTATION{}
@@ -1162,7 +1160,7 @@ controls{
     }
 
     ID_ZOOM_TOGGLE{
-      keyboardKey:i=42
+      keyboardKey:i=30
     }
 
     ailerons_rangeMax{
@@ -1642,13 +1640,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.3
-  mouseSens:r=0.3
-  mouseAimSens:r=0.3
-  gunnerViewSens:r=0.3
-  gunnerViewZoomSens:r=0.3
-  atgmAimSensHelicopter:r=0.3
-  atgmAimZoomSensHelicopter:r=0.3
+  zoomSens:r=0.09019
+  mouseSens:r=0.09019
+  mouseAimSens:r=0.09019
+  gunnerViewSens:r=0.09019
+  gunnerViewZoomSens:r=0.09019
+  atgmAimSensHelicopter:r=0.09019
+  atgmAimZoomSensHelicopter:r=0.09019
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0.1
   helicopterMouseJoystickDeadZone:r=0.1
