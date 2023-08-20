@@ -111,7 +111,7 @@ yunetwork{
 
 debug{
   screenshotAsJpeg:b=yes
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
   enableNvHighlights:t="auto"
   testLocalization:b=yes
 }

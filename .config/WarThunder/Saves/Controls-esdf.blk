@@ -322,11 +322,11 @@ controls{
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_FIRE_GM_SPECIAL_GUN{
-      keyboardKey:i=44
+      keyboardKey:i=16
     }
 
     ID_FIRE_HUMAN{
@@ -656,7 +656,7 @@ controls{
 
     ID_SELECT_GM_GUN_SECONDARY{
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_SENSOR_ACM_SWITCH{
@@ -1178,7 +1178,7 @@ controls{
     ID_WEAPON_LOCK_TANK{}
     ID_WEAPON_LOCK_TANK{
       keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=16
     }
 
     ID_ZOOM_TOGGLE{
