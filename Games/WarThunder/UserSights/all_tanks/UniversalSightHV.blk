@@ -25,8 +25,8 @@ drawDistanceCorrection:b=yes
 distanceCorrectionPos:p2=0.0425,-0.045;
 crosshairDistHorSizeMain:p2=0,0
 crosshairDistHorSizeAdditional:p2=0.0075,0.00145
-crosshairColor:c=0,0,0,255          //Change the default sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
-crosshairLightColor:c=255,255,0,255   //Change the illuminated sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
+crosshairColor:c=255,255,0,255   //Change the illuminated sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
+crosshairLightColor:c=0,0,0,255          //Change the default sight color here (Format: c=red,green,blue,alpha) (Range: 0-255)
 
 crosshair_distances{
 distance { distance:p3 = 200, 0, 0; }
