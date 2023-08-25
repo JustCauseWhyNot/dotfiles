@@ -74,11 +74,11 @@ controls{
     }
 
     ID_AIR_BRAKE{
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_AIR_REVERSE{
-      keyboardKey:i=41
+      keyboardKey:i=45
     }
 
     ID_ATGM_HELICOPTER{
@@ -381,7 +381,7 @@ controls{
     }
 
     ID_FLARES{
-      keyboardKey:i=45
+      keyboardKey:i=44
     }
 
     ID_FLARES_HELICOPTER{
@@ -537,6 +537,11 @@ controls{
     }
 
     ID_RELOAD_USER_SIGHT_GM{}
+    ID_RELOAD_USER_SIGHT_GM{
+      keyboardKey:i=29
+      keyboardKey:i=63
+    }
+
     ID_REPAIR_TANK{
       keyboardKey:i=34
     }
@@ -950,7 +955,7 @@ controls{
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER_HELICOPTER{
@@ -1058,7 +1063,7 @@ controls{
 
     ID_TOGGLE_PERIODIC_FLARES{
       keyboardKey:i=56
-      keyboardKey:i=45
+      keyboardKey:i=44
     }
 
     ID_TOGGLE_PROP_FEATHERING{
@@ -1193,8 +1198,15 @@ controls{
       keyboardKey:i=31
     }
 
-    brake_left_rangeMax{}
+    brake_left_rangeMax{
+      keyboardKey:i=32
+    }
+
     brake_right_rangeMax{}
+    brake_right_rangeMax{
+      keyboardKey:i=32
+    }
+
     decal_rotate{}
     decal_rotate_rangeMax{
       keyboardKey:i=32
