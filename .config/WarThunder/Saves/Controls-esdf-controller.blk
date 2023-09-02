@@ -1114,7 +1114,15 @@ controls{
     }
 
     ID_TRANS_GEAR_NEUTRAL{
-      keyboardKey:i=32
+      joyButton:i=25
+    }
+
+    ID_TRANS_GEAR_NEUTRAL{
+      joyButton:i=16
+    }
+
+    ID_TRANS_GEAR_NEUTRAL{
+      joyButton:i=17
     }
 
     ID_TRANS_GEAR_UP{
@@ -1233,14 +1241,6 @@ controls{
       keyboardKey:i=32
     }
 
-    gm_brake_left_rangeMax{
-      keyboardKey:i=31
-    }
-
-    gm_brake_right_rangeMax{
-      keyboardKey:i=33
-    }
-
     gm_sensor_cue_x_rangeMax{
       keyboardKey:i=29
       keyboardKey:i=32
@@ -1286,22 +1286,10 @@ controls{
       keyboardKey:i=20
     }
 
-    gm_steering_rangeMax{
-      keyboardKey:i=17
-    }
-
-    gm_steering_rangeMin{
-      keyboardKey:i=19
-    }
-
-    gm_throttle_rangeMax{
-      keyboardKey:i=18
-    }
-
-    gm_throttle_rangeMin{
-      keyboardKey:i=32
-    }
-
+    gm_steering_rangeMax{}
+    gm_steering_rangeMin{}
+    gm_throttle_rangeMax{}
+    gm_throttle_rangeMin{}
     head_pos_x{}
     head_pos_x_rangeMax{}
     head_pos_x_rangeMin{}
@@ -1538,6 +1526,14 @@ controls{
       nonlinearity:r=0
     }
 
+    gm_brake_left{
+      axisId:i=4
+    }
+
+    gm_brake_right{
+      axisId:i=5
+    }
+
     gm_sensor_cue_x{
       keepDisabledValue:b=yes
     }
@@ -1556,10 +1552,12 @@ controls{
     }
 
     gm_steering{
+      axisId:i=2
       innerDeadzone:r=0.05
     }
 
     gm_throttle{
+      axisId:i=3
       innerDeadzone:r=0
     }
 
@@ -1637,9 +1635,9 @@ controls{
 
   params{
     USEROPT_AILERONS_MULTIPLIER:i=100
-    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=6
-    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=6
-    USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=2
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=2
+    USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=no
     USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
@@ -1647,8 +1645,8 @@ controls{
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_INVERTY:b=no
-    USEROPT_GUNNER_VIEW_SENSE:i=6
-    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=6
+    USEROPT_GUNNER_VIEW_SENSE:i=2
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=2
     USEROPT_HEADTRACK_ENABLE:b=no
     USEROPT_HEADTRACK_SCALE_X:i=5
     USEROPT_HEADTRACK_SCALE_Y:i=5
@@ -1680,7 +1678,7 @@ controls{
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=94
+    USEROPT_ZOOM_SENSE:i=98
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
     mouseJoystick:b=no
@@ -1689,9 +1687,9 @@ controls{
   deviceMapping{
     joystick{
       connected:b=yes
-      devId:t="31E3:1300"
+      devId:t="045E:028E"
       axesOffset:i=0
-      name:t="Wooting 60HE (AVR)"
+      name:t="Microsoft X-Box 360 pad"
       buttonsOffset:i=0
       buttonsCount:i=29
       axesCount:i=9
@@ -1701,20 +1699,20 @@ controls{
       connected:b=yes
       devId:t="31E3:1300"
       axesOffset:i=9
-      name:t="Wooting 60HE (AVR)"
+      name:t="Wooting Wooting60HE Consumer Control"
       buttonsOffset:i=29
-      buttonsCount:i=11
-      axesCount:i=8
+      buttonsCount:i=73
+      axesCount:i=1
     }
 
     joystick{
       connected:b=yes
-      devId:t="31E3:1300"
-      axesOffset:i=17
-      name:t="Wooting Wooting60HE Consumer Control"
-      buttonsOffset:i=40
-      buttonsCount:i=73
-      axesCount:i=1
+      devId:t="045E:028E"
+      axesOffset:i=10
+      name:t="Microsoft X-Box 360 pad"
+      buttonsOffset:i=102
+      buttonsCount:i=11
+      axesCount:i=8
     }
 
     joystick{
@@ -1738,22 +1736,22 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.027714420000000003
-  mouseSens:r=0.027714420000000003
-  mouseAimSens:r=0.027714420000000003
-  gunnerViewSens:r=0.027714420000000003
-  gunnerViewZoomSens:r=0.027714420000000003
-  atgmAimSensHelicopter:r=0.027714420000000003
-  atgmAimZoomSensHelicopter:r=0.027714420000000003
+  zoomSens:r=0.0277144
+  mouseSens:r=0.0277144
+  mouseAimSens:r=0.0277144
+  gunnerViewSens:r=0.02
+  gunnerViewZoomSens:r=0.02
+  atgmAimSensHelicopter:r=0.0277144
+  atgmAimZoomSensHelicopter:r=0.0277144
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
-  helicopterMouseJoystickDeadZone:r=0.1
+  helicopterMouseJoystickDeadZone:r=0
   mouseJoystickScreenSize:r=1
   helicopterMouseJoystickScreenSize:r=0.6
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
-  mouseJoystickSensitivity:r=0.5
-  helicopterMouseJoystickSensitivity:r=2
+  mouseJoystickSensitivity:r=0.0277144
+  helicopterMouseJoystickSensitivity:r=0.0277144
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=0.5
@@ -1781,7 +1779,7 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=1
+  cameraSpeed:r=0.95
   cameraMouseSpeed:r=1
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
