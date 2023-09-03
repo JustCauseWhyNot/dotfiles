@@ -1117,14 +1117,6 @@ controls{
       joyButton:i=25
     }
 
-    ID_TRANS_GEAR_NEUTRAL{
-      joyButton:i=16
-    }
-
-    ID_TRANS_GEAR_NEUTRAL{
-      joyButton:i=17
-    }
-
     ID_TRANS_GEAR_UP{
       keyboardKey:i=48
     }
@@ -1637,7 +1629,7 @@ controls{
     USEROPT_AILERONS_MULTIPLIER:i=100
     USEROPT_ATGM_AIM_SENS_HELICOPTER:i=2
     USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=2
-    USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=no
+    USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
     USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
@@ -1736,13 +1728,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.0277144
-  mouseSens:r=0.0277144
-  mouseAimSens:r=0.0277144
-  gunnerViewSens:r=0.02
-  gunnerViewZoomSens:r=0.02
-  atgmAimSensHelicopter:r=0.0277144
-  atgmAimZoomSensHelicopter:r=0.0277144
+  zoomSens:r=0.0227144
+  mouseSens:r=0.0227144
+  mouseAimSens:r=0.0227144
+  gunnerViewSens:r=0.0227144
+  gunnerViewZoomSens:r=0.0227144
+  atgmAimSensHelicopter:r=0.0227144
+  atgmAimZoomSensHelicopter:r=0.0227144
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
