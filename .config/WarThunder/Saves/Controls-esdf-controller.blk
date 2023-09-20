@@ -360,10 +360,6 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      keyboardKey:i=16
-    }
-
-    ID_FIRE_SECONDARY{
       mouseButton:i=3
     }
 
@@ -674,8 +670,7 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=56
-      keyboardKey:i=30
+      keyboardKey:i=16
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -1627,50 +1622,33 @@ controls{
 
   params{
     USEROPT_AILERONS_MULTIPLIER:i=100
-    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=2
-    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=2
-    USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
-    USEROPT_AUTOTRIM:b=yes
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=4
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=4
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
-    USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
-    USEROPT_GUNNER_INVERTY:b=no
-    USEROPT_GUNNER_VIEW_SENSE:i=2
-    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=2
-    USEROPT_HEADTRACK_ENABLE:b=no
-    USEROPT_HEADTRACK_SCALE_X:i=5
-    USEROPT_HEADTRACK_SCALE_Y:i=5
-    USEROPT_HELPERS_MODE:i=0
-    USEROPT_INSTRUCTOR_ENABLED:b=yes
+    USEROPT_GUNNER_VIEW_SENSE:i=4
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=4
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=no
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
     USEROPT_INSTRUCTOR_GROUND_AVOIDANCE:b=no
-    USEROPT_INSTRUCTOR_SIMPLE_JOY:b=yes
     USEROPT_INVERTCAMERAY:i=0
-    USEROPT_INVERTX:i=0
-    USEROPT_INVERTY:b=no
     USEROPT_INVERTY_HELICOPTER:b=no
     USEROPT_INVERTY_HELICOPTER_GUNNER:b=no
     USEROPT_INVERTY_SHIP:b=no
     USEROPT_INVERTY_SPECTATOR:b=no
     USEROPT_INVERTY_SUBMARINE:b=no
-    USEROPT_INVERTY_TANK:b=no
     USEROPT_JOYFX:b=no
     USEROPT_MOUSE_AIM_SENSE:i=5
     USEROPT_MOUSE_SENSE:i=5
-    USEROPT_MOUSE_SMOOTH:b=no
-    USEROPT_MOUSE_USAGE:i=1
-    USEROPT_MOUSE_USAGE_NO_AIM:i=2
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
-    USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=98
+    USEROPT_ZOOM_SENSE:i=96
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
     mouseJoystick:b=no
@@ -1729,8 +1707,8 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.04
-  mouseSens:r=0.04
-  mouseAimSens:r=0.04
+  mouseSens:r=0.1
+  mouseAimSens:r=0.1
   gunnerViewSens:r=0.04
   gunnerViewZoomSens:r=0.04
   atgmAimSensHelicopter:r=0.04
@@ -1771,8 +1749,8 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=1
-  cameraMouseSpeed:r=1
+  cameraSpeed:r=0.95
+  cameraMouseSpeed:r=0.95
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
