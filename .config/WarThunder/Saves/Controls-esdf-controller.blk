@@ -439,6 +439,11 @@ controls{
       mouseButton:i=3
     }
 
+    ID_HUMAN_KILLSTREAK_WHEEL_MENU{
+      joyButton:i=201
+      joyButton:i=202
+    }
+
     ID_HUMAN_NIGHT_VISION{
       keyboardKey:i=45
     }
@@ -703,6 +708,10 @@ controls{
       keyboardKey:i=30
     }
 
+    ID_SENSOR_SWITCH_HUMAN{
+      joyButton:i=195
+    }
+
     ID_SENSOR_SWITCH_TANK{
       keyboardKey:i=56
       keyboardKey:i=29
@@ -738,6 +747,10 @@ controls{
       keyboardKey:i=42
       keyboardKey:i=56
       keyboardKey:i=26
+    }
+
+    ID_SENSOR_TARGET_SWITCH_HUMAN{
+      joyButton:i=196
     }
 
     ID_SENSOR_TARGET_SWITCH_TANK{
@@ -899,6 +912,10 @@ controls{
     }
 
     ID_TARGETING_HOLD_GM{}
+    ID_TARGETING_HOLD_HUMAN{
+      joyButton:i=209
+    }
+
     ID_TARGET_CAMERA{}
     ID_TARGET_CAMERA_HELICOPTER{
       keyboardKey:i=56
@@ -1109,7 +1126,7 @@ controls{
     }
 
     ID_TRANS_GEAR_NEUTRAL{
-      joyButton:i=25
+      joyButton:i=218
     }
 
     ID_TRANS_GEAR_UP{
@@ -1341,6 +1358,14 @@ controls{
       keyboardKey:i=17
     }
 
+    human_camx{
+      joyButton:i=194
+    }
+
+    human_camy{
+      joyButton:i=194
+    }
+
     mixture_rangeMax{
       mouseButton:i=2
       keyboardKey:i=3
@@ -1487,6 +1512,10 @@ controls{
       keyboardKey:i=50
     }
 
+    weapon_aim_heading_rangeMax{}
+    weapon_aim_heading_rangeMin{}
+    weapon_aim_pitch_rangeMax{}
+    weapon_aim_pitch_rangeMin{}
     zoom_rangeMax{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -1560,6 +1589,30 @@ controls{
       relative:b=yes
     }
 
+    human_camx{
+      axisId:i=3
+    }
+
+    human_camy{
+      axisId:i=4
+    }
+
+    human_mouse_aim_x{
+      axisId:i=3
+    }
+
+    human_mouse_aim_y{
+      axisId:i=4
+    }
+
+    human_strafe{
+      axisId:i=1
+    }
+
+    human_walk{
+      axisId:i=2
+    }
+
     mixture{
       innerDeadzone:r=0.05
       relSens:r=0.36
@@ -1618,6 +1671,14 @@ controls{
     vtol{
       keepDisabledValue:b=yes
     }
+
+    weapon_aim_heading{
+      relative:b=no
+    }
+
+    weapon_aim_pitch{
+      relative:b=no
+    }
   }
 
   params{
@@ -1626,6 +1687,7 @@ controls{
     USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=4
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
+    USEROPT_FORCE_GAIN:i=0
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_VIEW_SENSE:i=4
@@ -1657,9 +1719,9 @@ controls{
   deviceMapping{
     joystick{
       connected:b=yes
-      devId:t="045E:028E"
+      devId:t="31E3:1300"
       axesOffset:i=0
-      name:t="Microsoft X-Box 360 pad"
+      name:t="Wooting 60HE (AVR)"
       buttonsOffset:i=0
       buttonsCount:i=29
       axesCount:i=9
@@ -1669,28 +1731,58 @@ controls{
       connected:b=yes
       devId:t="31E3:1300"
       axesOffset:i=9
-      name:t="Wooting Wooting60HE Consumer Control"
+      name:t="Wooting 60HE (AVR)"
       buttonsOffset:i=29
+      buttonsCount:i=11
+      axesCount:i=8
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="31E3:1300"
+      axesOffset:i=17
+      name:t="Wooting Wooting60HE Consumer Control"
+      buttonsOffset:i=40
       buttonsCount:i=73
       axesCount:i=1
     }
 
     joystick{
-      connected:b=yes
-      devId:t="045E:028E"
-      axesOffset:i=10
-      name:t="Microsoft X-Box 360 pad"
-      buttonsOffset:i=102
+      connected:b=no
+      devId:t="045E:0B12"
+      axesOffset:i=36
+      name:t="Microsoft Xbox Series S|X Controller"
+      buttonsOffset:i=171
+      buttonsCount:i=29
+      axesCount:i=9
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="045E:0B12"
+      axesOffset:i=44
+      name:t="Microsoft Xbox Series S|X Controller"
+      buttonsOffset:i=182
       buttonsCount:i=11
       axesCount:i=8
     }
 
     joystick{
       connected:b=no
+      devId:t="045E:028E"
+      axesOffset:i=52
+      name:t="Microsoft X-Box 360 pad"
+      buttonsOffset:i=193
+      buttonsCount:i=29
+      axesCount:i=9
+    }
+
+    joystick{
+      connected:b=no
       devId:t="1532:008A"
-      axesOffset:i=18
+      axesOffset:i=61
       name:t="Razer Razer Viper Mini"
-      buttonsOffset:i=113
+      buttonsOffset:i=222
       buttonsCount:i=0
       axesCount:i=1
     }
@@ -1707,8 +1799,8 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.04
-  mouseSens:r=0.1
-  mouseAimSens:r=0.1
+  mouseSens:r=0.04
+  mouseAimSens:r=0.04
   gunnerViewSens:r=0.04
   gunnerViewZoomSens:r=0.04
   atgmAimSensHelicopter:r=0.04
@@ -1728,7 +1820,7 @@ settings{
   helicopterMouseAileronRudderFactor:r=0.5
   mouseJoystickSquare:b=yes
   helicopterMouseJoystickSquare:b=no
-  mouseJoyMode:i=1
+  mouseJoyMode:i=0
   helicopterMouseJoyMode:i=0
   aimTimeNonlinearityAir:r=0
   aimTimeNonlinearityHelicopter:r=0
@@ -1750,7 +1842,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=0.95
+  cameraMouseSpeed:r=0.2
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no

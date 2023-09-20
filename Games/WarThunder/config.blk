@@ -17,7 +17,7 @@ graphics{
   lenseFlares:b=no
   texquality:t="high"
   fxDensityMul:r=0.2
-  grassRadiusMul:r=0.01
+  grassRadiusMul:r=0.1
   ssaa:r=1
   displacementQuality:i=0
   dirtSubDiv:i=1
@@ -71,12 +71,12 @@ video{
   compatibilityMode:b=no
   postfx_antialiasing:t="low_taa"
   fonts:t="compact"
-  latency:i=2
+  latency:i=0
   vrStreamerMode:b=no
   dlssSharpness:i=0
   vreye:t="left"
   dlssQuality:i=-1
-  perfMetrics:i=2
+  perfMetrics:i=1
   temporalResolutionScale:r=1
   xessQuality:i=-1
 }
@@ -112,7 +112,7 @@ yunetwork{
 
 debug{
   screenshotAsJpeg:b=yes
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
   enableNvHighlights:t="auto"
   testLocalization:b=yes
 }
