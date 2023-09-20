@@ -440,8 +440,8 @@ controls{
     }
 
     ID_HUMAN_KILLSTREAK_WHEEL_MENU{
-      joyButton:i=201
-      joyButton:i=202
+      joyButton:i=161
+      joyButton:i=162
     }
 
     ID_HUMAN_NIGHT_VISION{
@@ -666,7 +666,7 @@ controls{
     }
 
     ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=30
+      keyboardKey:i=16
     }
 
     ID_SENSOR_ACM_SWITCH_TANK{
@@ -675,7 +675,7 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=16
+      keyboardKey:i=30
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -709,7 +709,7 @@ controls{
     }
 
     ID_SENSOR_SWITCH_HUMAN{
-      joyButton:i=195
+      joyButton:i=137
     }
 
     ID_SENSOR_SWITCH_TANK{
@@ -750,7 +750,7 @@ controls{
     }
 
     ID_SENSOR_TARGET_SWITCH_HUMAN{
-      joyButton:i=196
+      joyButton:i=138
     }
 
     ID_SENSOR_TARGET_SWITCH_TANK{
@@ -913,7 +913,7 @@ controls{
 
     ID_TARGETING_HOLD_GM{}
     ID_TARGETING_HOLD_HUMAN{
-      joyButton:i=209
+      joyButton:i=169
     }
 
     ID_TARGET_CAMERA{}
@@ -1126,7 +1126,7 @@ controls{
     }
 
     ID_TRANS_GEAR_NEUTRAL{
-      joyButton:i=218
+      joyButton:i=178
     }
 
     ID_TRANS_GEAR_UP{
@@ -1359,11 +1359,11 @@ controls{
     }
 
     human_camx{
-      joyButton:i=194
+      joyButton:i=136
     }
 
     human_camy{
-      joyButton:i=194
+      joyButton:i=136
     }
 
     mixture_rangeMax{
@@ -1687,7 +1687,6 @@ controls{
     USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=4
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
-    USEROPT_FORCE_GAIN:i=0
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_VIEW_SENSE:i=4
@@ -1750,29 +1749,19 @@ controls{
     joystick{
       connected:b=no
       devId:t="045E:0B12"
-      axesOffset:i=36
+      axesOffset:i=27
       name:t="Microsoft Xbox Series S|X Controller"
-      buttonsOffset:i=171
+      buttonsOffset:i=142
       buttonsCount:i=29
       axesCount:i=9
     }
 
     joystick{
       connected:b=no
-      devId:t="045E:0B12"
-      axesOffset:i=44
-      name:t="Microsoft Xbox Series S|X Controller"
-      buttonsOffset:i=182
-      buttonsCount:i=11
-      axesCount:i=8
-    }
-
-    joystick{
-      connected:b=no
       devId:t="045E:028E"
-      axesOffset:i=52
+      axesOffset:i=35
       name:t="Microsoft X-Box 360 pad"
-      buttonsOffset:i=193
+      buttonsOffset:i=153
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -1780,9 +1769,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="1532:008A"
-      axesOffset:i=61
+      axesOffset:i=44
       name:t="Razer Razer Viper Mini"
-      buttonsOffset:i=222
+      buttonsOffset:i=182
       buttonsCount:i=0
       axesCount:i=1
     }
@@ -1799,8 +1788,8 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.04
-  mouseSens:r=0.04
-  mouseAimSens:r=0.04
+  mouseSens:r=0.1
+  mouseAimSens:r=0.1
   gunnerViewSens:r=0.04
   gunnerViewZoomSens:r=0.04
   atgmAimSensHelicopter:r=0.04

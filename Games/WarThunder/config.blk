@@ -28,7 +28,7 @@ graphics{
   panoramaResolution:i=1024
   waterQuality:t="low"
   advancedShore:b=no
-  cloudsQuality:i=0
+  cloudsQuality:i=2
   anisotropy:i=16
   physicsQuality:i=0
   compatibilityShadowQuality:t="low"
@@ -38,7 +38,7 @@ graphics{
   waterEffectsQuality:t="low"
   clipmapScale:r=0.5
   giQuality:t="low"
-  skyQuality:i=0
+  skyQuality:i=2
 }
 
 render{
