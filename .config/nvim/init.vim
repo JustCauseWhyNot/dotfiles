@@ -28,7 +28,6 @@ set tgc
 set tw=130
 set wrap
 set ww=b,s,<,>,[,]
-set runtimepath+=~/.config/nvim/lua/lualine/themes/bubbles.lua
 
 " Keybinds
 " Replace all is aliased to S.
