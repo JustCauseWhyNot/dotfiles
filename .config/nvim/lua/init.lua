@@ -23,6 +23,10 @@ require("lazy").setup({
 
 })
 
+local function getWords()
+        return vim.fn.wordcount().words
+end
+
 require("lualine").setup({
         dependencies = {
                 "nvim-tree/nvim-web-devicons"
@@ -30,9 +34,9 @@ require("lualine").setup({
         event = "VimEnter",
         options = {
                 icons_enabled = true,
-                theme = 'gruvbox',
-                component_separators = "|",
-                section_separators = { left = '', right = '' },
+                theme = 'material',
+                component_separators = { right = '', left = ''},
+                section_separators = '|',
                 disabled_filetypes = {
                         statusline = {},
                         winbar = {},
@@ -47,24 +51,20 @@ require("lualine").setup({
                 }
         },
         sections = {
-                lualine_a = {
-                        { 'mode', seperator = { left = ''}, right_padding = 2 },
-                },
+                lualine_a = {'mode'},
                 lualine_b = {'branch', 'diff', 'diagnostics'},
                 lualine_c = {'filename'},
-                lualine_w = {'encoding', 'fileformat', 'filetype'},
+                lualine_x = {'encoding', 'fileformat', 'filetype', getWords},
                 lualine_y = {'progress'},
-                lualine_z = {
-                        { 'location', seperator = { right = '' }, left_padding = 2 },
-                },
+                lualine_z = {'location'},
         },
        inactive_sections = {
-                lualine_a = { 'filename' },
+                lualine_a = {},
                 lualine_b = {},
-                lualine_c = {},
+                lualine_c = {'filename'},
                 lualine_x = {},
                 lualine_y = {},
-                lualine_z = { 'location' },
+                lualine_z = {},
         },
         tabline = {},
         winbar = {},
@@ -72,3 +72,4 @@ require("lualine").setup({
         extensions = {}
 
 })
+
