@@ -9,7 +9,7 @@
 [commit]
     template = /home/justcausewhynot/.config/git/gitmessage.txt
 [core]
-    autocrlf = input
+    autocrlf = false
     editor = nvim
     pager = delta
     whitespace = blank-at-eol,bank-at-eof,space-before-tab,indent-with-non-tab,cr-at-eol
