@@ -4,7 +4,8 @@ set et
 set sw=8
 set ts=8
 
-filetype plugin indent on
+filetype indent on
+filetype plugin off
 set bg=dark
 set ch=3
 set is

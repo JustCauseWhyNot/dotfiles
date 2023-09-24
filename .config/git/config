@@ -1,63 +1,64 @@
 [checkout]
-    workers = 8
+        workers = 8
 [color]
-    ui = always
-    branch = always
-    diff = always
-    interactive = always
-    status = always
+        ui = always
+        branch = always
+        diff = always
+        interactive = always
+        status = always
 [commit]
-    template = /home/justcausewhynot/.config/git/gitmessage.txt
+        template = /home/justcausewhynot/.config/git/gitmessage.txt
 [core]
-    autocrlf = false
-    editor = nvim
-    pager = delta
-    whitespace = blank-at-eol,bank-at-eof,space-before-tab,indent-with-non-tab,cr-at-eol
+        autocrlf = false
+        editor = nvim
+        pager = delta
+        whitespace = blank-at-eol,bank-at-eof,space-before-tab,indent-with-non-tab,cr-at-eol
 [delta]
-    navigate = true  # use n and N to move between diff sections
-    side-by-side = true
-    line-numbers = true
+        navigate = true  # use n and N to move between diff sections
+        side-by-side = true
+        line-numbers = true
 [diff]
-    tool = nvimDiff
-    colorMoved = default
+        tool = nvimDiff
+        colorMoved = default
 [difftool]
-    prompt = false
+        prompt = true
 [difftool "nvimDiff"]
-    cmd = nvim -d $REMOTE $LOCAL -c ':nnoremap q :qa<CR>' < /dev/tty
+        cmd = nvim -d $REMOTE $LOCAL -c ':nnoremap q :qa<CR>' < /dev/tty
 [help]
-    autocorrect = 1
+        autocorrect = 1
 [init]
-    defaultBranch = main
+        defaultBranch = main
 [interactive]
-    diffFilter = delta --color-only
+        diffFilter = delta --color-only
 [push]
-    autoSetupRemote = true
-    default = simple
+        autoSetupRemote = true
+        default = simple
 [user]
-    name = JustCauseWhyNot
-    email = JustCauseWhyNot@tuta.io
+        name = JustCauseWhyNot
+        email = JustCauseWhyNot@tuta.io
 [alias]
-    co = checkout
-    br = branch
-    ci = commit
-    st = status
-    ap = apply
-    sw = switch
+        co = checkout
+        br == branch
+        ci = commit
+        st = status
+        ap = apply
+        sw = switch
 [merge]
-    conflictstyle = diff3
-    tool = nvimMerge
+        conflictstyle = diff3
+        tool = nvimMerge
 [mergetool]
-    prompt = false
-    keepBackup = false
+        prompt = false
+        keepBackup = false
+        hideResolved = true
 [mergetool "nvimMerge"]
-    cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J' -c ':nnoremap q :qa<CR>' < /dev/tty
+        cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J' -c ':nnoremap q :qa<CR>' < /dev/tty
 [safe]
-	directory = *
+        directory = *
 [credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
+        helper = 
+        helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
+        helper = 
+        helper = !/usr/bin/gh auth git-credential
 [pull]
-	rebase = true
+        rebase = true
