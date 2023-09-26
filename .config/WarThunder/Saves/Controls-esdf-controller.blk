@@ -1831,7 +1831,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=0.2
+  cameraMouseSpeed:r=0.25
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
