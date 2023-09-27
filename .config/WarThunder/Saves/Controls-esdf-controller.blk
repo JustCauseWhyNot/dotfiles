@@ -1758,7 +1758,7 @@ controls{
 
     joystick{
       connected:b=no
-      devId:t="045E:0558E"
+      devId:t="045E:0288E"
       axesOffset:i=35
       name:t="Microsoft X-Box 360 pad"
       buttonsOffset:i=153
@@ -1787,13 +1787,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.055
-  mouseSens:r=0.055
-  mouseAimSens:r=0.055
-  gunnerViewSens:r=0.055
-  gunnerViewZoomSens:r=0.055
-  atgmAimSensHelicopter:r=0.055
-  atgmAimZoomSensHelicopter:r=0.055
+  zoomSens:r=0.028
+  mouseSens:r=0.028
+  mouseAimSens:r=0.028
+  gunnerViewSens:r=0.028
+  gunnerViewZoomSens:r=0.028
+  atgmAimSensHelicopter:r=0.028
+  atgmAimZoomSensHelicopter:r=0.028
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
@@ -1801,8 +1801,8 @@ settings{
   helicopterMouseJoystickScreenSize:r=0.6
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
-  mouseJoystickSensitivity:r=0.055
-  helicopterMouseJoystickSensitivity:r=0.055
+  mouseJoystickSensitivity:r=0.028
+  helicopterMouseJoystickSensitivity:r=0.028
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=0.5
@@ -1831,7 +1831,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=0.25
+  cameraMouseSpeed:r=0.1
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no

@@ -100,12 +100,16 @@ local luasnip = require("luasnip")
 local cmp = require("cmp")
 
 require("cmp").setup({
-    snippet = {
-      -- REQUIRED - you must specify a snippet engine
-      expand = function(args)
-        require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
-      end,
-    },
+        snippet = {
+        expand = function(args)
+            local luasnip = prequire("luasnip")
+            if not luasnip then
+                return
+            end
+            luasnip.lsp_expand(args.body)
+        end,
+        },
+
     window = {
       completion = cmp.config.window.bordered(),
       documentation = cmp.config.window.bordered(),
