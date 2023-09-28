@@ -74,17 +74,8 @@ controls{
     }
 
     ID_AIR_BRAKE{
-      keyboardKey:i=45
-    }
-
-    ID_AIR_BRAKE{
       keyboardKey:i=29
-      keyboardKey:i=56
       mouseButton:i=0
-    }
-
-    ID_AIR_REVERSE{
-      keyboardKey:i=45
     }
 
     ID_ATGM_HELICOPTER{
@@ -671,7 +662,7 @@ controls{
     }
 
     ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=16
+      keyboardKey:i=45
     }
 
     ID_SENSOR_ACM_SWITCH_TANK{
@@ -680,7 +671,7 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=30
+      keyboardKey:i=16
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -1476,13 +1467,11 @@ controls{
     }
 
     throttle_rangeMax{
-      keyboardKey:i=29
-      mouseButton:i=1
+      keyboardKey:i=20
     }
 
     throttle_rangeMin{
-      keyboardKey:i=29
-      mouseButton:i=0
+      keyboardKey:i=30
     }
 
     trim_elevator_rangeMax{
@@ -1816,8 +1805,8 @@ settings{
   mouseAimSens:r=0.028
   gunnerViewSens:r=0.02
   gunnerViewZoomSens:r=0.02
-  atgmAimSensHelicopter:r=0.028
-  atgmAimZoomSensHelicopter:r=0.028
+  atgmAimSensHelicopter:r=0.02
+  atgmAimZoomSensHelicopter:r=0.02
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
