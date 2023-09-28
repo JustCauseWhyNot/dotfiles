@@ -66,7 +66,7 @@ controls{
     }
 
     ID_AGM_LOCK{
-      keyboardKey:i=20
+      mouseButton:i=1
     }
 
     ID_AGM_LOCK_HELICOPTER{
@@ -420,7 +420,7 @@ controls{
 
     ID_GUIDED_BOMBS_HELICOPTER{}
     ID_GUIDED_BOMBS_LOCK{
-      keyboardKey:i=20
+      mouseButton:i=1
     }
 
     ID_GUIDED_BOMBS_LOCK_HELICOPTER{
@@ -1179,7 +1179,7 @@ controls{
     }
 
     ID_WEAPON_LOCK{
-      keyboardKey:i=20
+      mouseButton:i=1
     }
 
     ID_WEAPON_LOCK_HELICOPTER{}
@@ -1472,12 +1472,12 @@ controls{
 
     throttle_rangeMax{
       keyboardKey:i=29
-      mouseButton:i=0
+      mouseButton:i=1
     }
 
     throttle_rangeMin{
       keyboardKey:i=29
-      mouseButton:i=1
+      mouseButton:i=0
     }
 
     trim_elevator_rangeMax{
@@ -1818,8 +1818,8 @@ settings{
   mouseZMultShip:r=0
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
-  cameraSmooth:r=1
-  cameraSpeed:r=1
+  cameraSmooth:r=0
+  cameraSpeed:r=0.95
   cameraMouseSpeed:r=0.15
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
