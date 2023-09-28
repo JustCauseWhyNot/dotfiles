@@ -8,6 +8,7 @@ releaseChannel:t=""
 clientType:t="64bit"
 language:t="English"
 graphicsQuality:t="custom"
+use_gamepad_interface:b=no
 
 graphics{
   rendinstDistMul:r=0.5
