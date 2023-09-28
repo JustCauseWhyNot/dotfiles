@@ -165,8 +165,7 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=29
-      keyboardKey:i=57
+      keyboardKey:i=56
       mouseButton:i=1
     }
 
