@@ -1578,6 +1578,7 @@ controls{
     gm_steering{
       axisId:i=2
       innerDeadzone:r=0.05
+      inverse:b=yes
     }
 
     gm_throttle{
@@ -1717,6 +1718,7 @@ controls{
     USEROPT_JOYFX:b=no
     USEROPT_MOUSE_AIM_SENSE:i=5
     USEROPT_MOUSE_SENSE:i=5
+    USEROPT_MOUSE_SMOOTH:b=yes
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
@@ -1800,14 +1802,14 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.028
+  zoomSens:r=0.02
   mouseSens:r=0.028
   mouseAimSens:r=0.028
-  gunnerViewSens:r=0.02
-  gunnerViewZoomSens:r=0.02
-  atgmAimSensHelicopter:r=0.02
-  atgmAimZoomSensHelicopter:r=0.02
-  mouseSmooth:b=no
+  gunnerViewSens:r=0.028
+  gunnerViewZoomSens:r=0.028
+  atgmAimSensHelicopter:r=0.028
+  atgmAimZoomSensHelicopter:r=0.028
+  mouseSmooth:b=yes
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
   mouseJoystickScreenSize:r=1
@@ -1815,7 +1817,7 @@ settings{
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
   mouseJoystickSensitivity:r=0.5
-  helicopterMouseJoystickSensitivity:r=0.028
+  helicopterMouseJoystickSensitivity:r=0.0288
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=0.5
