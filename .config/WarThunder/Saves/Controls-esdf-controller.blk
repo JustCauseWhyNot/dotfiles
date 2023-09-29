@@ -74,8 +74,11 @@ controls{
     }
 
     ID_AIR_BRAKE{
-      keyboardKey:i=29
-      mouseButton:i=0
+      keyboardKey:i=21
+    }
+
+    ID_AIR_BRAKE_HELICOPTER{
+      keyboardKey:i=21
     }
 
     ID_ATGM_HELICOPTER{
@@ -1805,10 +1808,10 @@ settings{
   zoomSens:r=0.02
   mouseSens:r=0.028
   mouseAimSens:r=0.028
-  gunnerViewSens:r=0.028
-  gunnerViewZoomSens:r=0.028
-  atgmAimSensHelicopter:r=0.028
-  atgmAimZoomSensHelicopter:r=0.028
+  gunnerViewSens:r=0.02
+  gunnerViewZoomSens:r=0.02
+  atgmAimSensHelicopter:r=0.02
+  atgmAimZoomSensHelicopter:r=0.02
   mouseSmooth:b=yes
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
