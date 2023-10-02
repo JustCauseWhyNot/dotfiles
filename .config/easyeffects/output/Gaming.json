@@ -3,7 +3,7 @@
         "autogain#0": {
             "bypass": false,
             "input-gain": 0.0,
-            "maximum-history": 15,
+            "maximum-history": 6,
             "output-gain": 0.0,
             "reference": "Geometric Mean (MSI)",
             "silence-threshold": -70.0,
@@ -27,7 +27,7 @@
                 },
                 "band1": {
                     "frequency": 75.0,
-                    "gain": -5.5,
+                    "gain": -4.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.9,
@@ -134,7 +134,7 @@
                 },
                 "band1": {
                     "frequency": 75.0,
-                    "gain": -5.5,
+                    "gain": -4.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.9,
