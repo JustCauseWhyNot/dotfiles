@@ -16,7 +16,7 @@ graphics{
   shadowQuality:t="ultralow"
   backgroundScale:r=1
   lenseFlares:b=no
-  texquality:t="high"
+  texquality:t="low"
   fxDensityMul:r=0.2
   grassRadiusMul:r=0.1
   ssaa:r=1
@@ -69,7 +69,7 @@ video{
   windowed:b=no
   mode:t="fullscreen"
   instancing:t="auto"
-  compatibilityMode:b=no
+  compatibilityMode:b=yes
   postfx_antialiasing:t="low_taa"
   fonts:t="compact"
   latency:i=0
