@@ -62,7 +62,7 @@ sound{
 
 video{
   alpha_to_coverage:b=no
-  resolution:t="2560 x 1440"
+  resolution:t="auto"
   vsync:b=no
   adaptive_vsync:b=no
   driver:t="auto"
@@ -113,7 +113,7 @@ yunetwork{
 
 debug{
   screenshotAsJpeg:b=yes
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
   enableNvHighlights:t="auto"
   testLocalization:b=yes
 }
