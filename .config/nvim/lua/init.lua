@@ -143,8 +143,8 @@ require("lualine").setup({
       end,
     },
     window = {
-      completion = cmp.config.window.bordered(),
-      documentation = cmp.config.window.bordered(),
+      --completion = cmp.config.window.bordered(),
+      --documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
       ['<C-b>'] = cmp.mapping.scroll_docs(-4),
@@ -208,10 +208,7 @@ cmp.setup({
   -- ... Your other configuration ...
 
   mapping = {
-
-    -- ... Your other mappings ...
-
-    ["<Tab>"] = cmp.mapping(function(fallback)
+    ["<C-j>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
       -- You could replace the expand_or_jumpable() calls with expand_or_locally_jumpable() 
@@ -224,8 +221,7 @@ cmp.setup({
         fallback()
       end
     end, { "i", "s" }),
-
-    ["<S-Tab>"] = cmp.mapping(function(fallback)
+    ["<C-k>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_prev_item()
       elseif luasnip.jumpable(-1) then
@@ -234,11 +230,7 @@ cmp.setup({
         fallback()
       end
     end, { "i", "s" }),
-
-    -- ... Your other mappings ...
   },
-
-  -- ... Your other configuration ...
 })
 
 require('github-theme').compile() -- lua api version

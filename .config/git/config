@@ -38,7 +38,7 @@
         email = JustCauseWhyNot@tuta.io
 [alias]
         co = checkout
-        br == branch
+        br = branch
         ci = commit
         st = status
         ap = apply

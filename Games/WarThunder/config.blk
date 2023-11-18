@@ -1,14 +1,13 @@
 doShowDriversOutdated:b=yes
 forcedLauncher:i=0
 renderer3:t="auto"
-rdseed:i=573717853
+rdseed:i=21991228
 use_eac:b=no
 use_release_candidate:b=no
 releaseChannel:t=""
-clientType:t="64bit"
 language:t="English"
 graphicsQuality:t="custom"
-use_gamepad_interface:b=no
+hangarBlk:t="hangar_devlog"
 
 graphics{
   rendinstDistMul:r=0.5
@@ -21,7 +20,7 @@ graphics{
   grassRadiusMul:r=0.1
   ssaa:r=1
   displacementQuality:i=0
-  dirtSubDiv:i=1
+  dirtSubDiv:i=2
   contactShadowsQuality:i=0
   lastClipSize:i=4096
   tireTracksQuality:i=3
@@ -39,7 +38,7 @@ graphics{
   waterEffectsQuality:t="low"
   clipmapScale:r=0.5
   giQuality:t="low"
-  skyQuality:i=2
+  skyQuality:i=1
 }
 
 render{
@@ -47,15 +46,15 @@ render{
   softFx:b=no
   rendinstGlobalShadows:b=no
   grass:b=no
-  ssaoQuality:i=2
+  ssaoQuality:i=0
   shadows:b=no
   ssrQuality:i=0
   haze:b=no
-  selfReflection:b=no
+  selfReflection:b=yes
 }
 
 sound{
-  speakerMode:t="stereo"
+  speakerMode:t="speakers7.1"
   fmod_sound_enable:b=yes
   enable_mod:b=yes
 }
@@ -126,7 +125,7 @@ launcher{
 }
 
 directx{
-  maxaa:i=2
+  maxaa:i=0
   enableHdr:b=no
 }
 

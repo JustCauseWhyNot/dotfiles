@@ -7,26 +7,33 @@ set ts=8
 filetype indent on
 filetype plugin off
 set bg=dark
+set bri
 set ch=3
+set clipboard+=unnamedplus 
 set is
+set lbr
 set list
-set lcs=tab:>-,trail:-
+set lcs=tab:>-,trail:-,precedes:<,extends:>
 set noeb
 set nohls
 set nois
 set noswf
-set nowrap
+set wrap
+set noet
 set number
 set ru
 set rnu
 set rtp+=/usr/share/vim/vimfiles
 set scs
+let &sbr = '+++ '
 set si
 set siso=20
 set so=4
+set spell
+set ss=5
 set sta
 set tgc
-set tw=130
+set tw=0
 set wrap
 set ww=b,s,<,>,[,]
 
