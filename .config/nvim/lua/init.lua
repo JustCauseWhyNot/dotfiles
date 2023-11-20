@@ -26,20 +26,78 @@ require("lazy").setup({
                         sync_install = false,
                         highlight = { enable = true},
                         indent = { enable = true},
-                })
-        end
+			incremental_selection = {
+					enable = true,
+					keymaps = {
+						ini_selection = '<c-space>',
+						node_incremental = '<c-space>',
+						scope_incremental = '<c-s>',
+						node_decremental = '<M-space>',
+					},
+				},
+			textobjects = {
+      				select = {
+					enable = true,
+					lookahead = true, -- Automatically jump forward to textobj, similar to targets.vim
+					keymaps = {
+					-- You can use the capture groups defined in textobjects.scm
+					['aa'] = '@parameter.outer',
+					['ia'] = '@parameter.inner',
+					['af'] = '@function.outer',
+					['if'] = '@function.inner',
+					['ac'] = '@class.outer',
+					['ic'] = '@class.inner',
+					},
+				},
+			move = {
+				enable = true,
+				set_jumps = true, -- whether to set jumps in the jumplist
+				goto_next_start = {
+					[']m'] = '@function.outer',
+					[']]'] = '@class.outer',
+				},
+				goto_next_end = {
+					[']M'] = '@function.outer',
+					[']['] = '@class.outer',
+				},
+				goto_previous_start = {
+					['[m'] = '@function.outer',
+					['[['] = '@class.outer',
+				},
+				goto_previous_end = {
+					['[M'] = '@function.outer',
+					['[]'] = '@class.outer',
+				},
+			},
+			swap = {
+				enable = true,
+				swap_next = {
+					['<leader>a'] = '@parameter.inner',
+				},
+				swap_previous = {
+					['<leader>A'] = '@parameter.inner',
+				},
+			},
+		},
+	})
+	end
 },
 
 {
 
-        "nvim-lualine/lualine.nvim",
+        'nvim-lualine/lualine.nvim',
 },
 
 {
-        "lukas-reineke/indent-blankline.nvim",
+        'lukas-reineke/indent-blankline.nvim',
                 main = "ibl",
 },
 
+{
+	'windwp/nvim-autopairs',
+	event = 'InsertEnter',
+	opts = {}
+},
 
 {
         'projekt0n/github-nvim-theme',
@@ -56,6 +114,10 @@ require("lazy").setup({
 {
         'neovim/nvim-lspconfig',
                 dependencies = {
+			'williamboman/mason.nvim',
+			'williamboman/mason-lspconfig.nvim',
+			{ 'j-hui/fidget.nvim', opts = {} },
+			'folke/neodev.nvim',
                         'hrsh7th/cmp-nvim-lsp',
                         'hrsh7th/cmp-buffer',
                         'hrsh7th/cmp-path',

@@ -4,12 +4,15 @@ set et
 set sw=8
 set ts=8
 
+filetype on
 filetype indent on
 filetype plugin off
 set bg=dark
 set bri
 set ch=3
 set clipboard+=unnamedplus 
+set cot=menuone,noselect
+set ic
 set is
 set lbr
 set list
@@ -24,6 +27,7 @@ set number
 set ru
 set rnu
 set rtp+=/usr/share/vim/vimfiles
+set scl=yes
 set scs
 let &sbr = '+++ '
 set si
