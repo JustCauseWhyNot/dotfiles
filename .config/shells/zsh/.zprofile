@@ -9,6 +9,7 @@ export XDG_STATE_HOME="$HOME"/.local/state
 # =====
 #export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
+export XRESOURCES="$XDG_CONFIG_HOME"/X11/xresources
 export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 
 # Environment variables.

@@ -15,5 +15,6 @@ playerctld daemon &
 xrandr --output DP-2 --set CscMatrix 66110,-2311,1736,0,-56,64309,1282,0,407,3322,61805,0 &
 xbanish -i modifier -s &
 nvidia-settings -l &
+xrdb -load ~/.config/X11/xresources
 gentoo-pipewire-launcher &
 exec dbus-launch --exit-with-session /usr/local/bin/dwm
