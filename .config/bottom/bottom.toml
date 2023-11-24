@@ -42,7 +42,7 @@ default_time_value = "30s"
 # Hides the time scale.
 hide_time = false
 # Override layout default widget
-#default_widget_type = "proc"
+default_widget_type = "proc"
 #default_widget_count = 1
 # Expand selected widget upon starting the app
 #expanded_on_startup = true
