@@ -1,11 +1,7 @@
 ! (Github Dark Colorblind) Colors for Xresources
 
 *.foreground:   #c9d1d9
-#ifdef background_opacity
-*.background:   [background_opacity]#0d1117
-#else
 *.background:   #0d1117
-#endif
 *.cursorColor:  #c9d1d9
 
 *.color0:       #484f58
