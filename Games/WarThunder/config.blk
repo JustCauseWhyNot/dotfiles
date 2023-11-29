@@ -54,7 +54,7 @@ render{
 }
 
 sound{
-  speakerMode:t="stereo"
+  speakerMode:t="speakers7.1"
   fmod_sound_enable:b=yes
   enable_mod:b=yes
 }

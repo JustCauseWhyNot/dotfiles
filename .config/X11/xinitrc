@@ -18,3 +18,4 @@ nvidia-settings -l &
 xrdb -load ~/.config/X11/xresources
 gentoo-pipewire-launcher &
 exec dbus-launch --exit-with-session /usr/local/bin/dwm
+#exec /usr/local/bin/dwm
