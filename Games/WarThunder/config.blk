@@ -15,7 +15,7 @@ graphics{
   shadowQuality:t="ultralow"
   backgroundScale:r=1
   lenseFlares:b=no
-  texquality:t="low"
+  texquality:t="high"
   fxDensityMul:r=0.2
   grassRadiusMul:r=0.1
   ssaa:r=1
@@ -54,7 +54,7 @@ render{
 }
 
 sound{
-  speakerMode:t="speakers7.1"
+  speakerMode:t="stereo"
   fmod_sound_enable:b=yes
   enable_mod:b=yes
 }
@@ -125,7 +125,7 @@ launcher{
 }
 
 directx{
-  maxaa:i=0
+  maxaa:i=2
   enableHdr:b=no
 }
 
