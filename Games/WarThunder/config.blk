@@ -46,7 +46,7 @@ render{
   softFx:b=no
   rendinstGlobalShadows:b=no
   grass:b=no
-  ssaoQuality:i=0
+  ssaoQuality:i=1
   shadows:b=no
   ssrQuality:i=0
   haze:b=no
@@ -69,7 +69,7 @@ video{
   mode:t="fullscreen"
   instancing:t="auto"
   compatibilityMode:b=yes
-  postfx_antialiasing:t="low_taa"
+  postfx_antialiasing:t="none"
   fonts:t="compact"
   latency:i=0
   vrStreamerMode:b=no

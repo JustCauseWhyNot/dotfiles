@@ -1,0 +1,75 @@
+rangefinderUseThousandth:b=yes
+crosshairHorVertSize:p2=2, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 100
+rangefinderProgressBarColor2:c=255, 255, 255, 0
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.3
+rangefinderHorizontalOffset:r=35
+fontSizeMult:r=1.25
+lineSizeMult:r=1.0
+crosshairColor:c=255,255,0,255
+//crosshairLightColor:c=0, 255, 0, 255
+crosshairDistHorSizeMain:p2=0.01, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003   	
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no	
+distanceCorrectionPos:p2=0.035, 0.10 			
+drawDistanceCorrection:b=yes
+drawSightMask:b=yes  	
+crosshair_hor_ranges{}
+
+// ballistic range indicators
+drawUpward:b = no
+distancePos:p2 = 0.00508,0
+move:b = yes
+crosshairDistHorSizeMain:p2 = 0,0
+textPos:p2 = -0.00001, 0
+textAlign:i = 1
+textShift:r = 0.01
+drawAdditionalLines:b = no
+crosshairDistHorSizeAdditional:p2 = 0.0,0.0
+drawDistanceCorrection:b = no
+
+crosshair_distances {
+    distance { distance:p3=200,2,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=600,6,-0.004; textPos:p2=0.024,0; }
+    distance { distance:p3=1000,10,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=1400,14,-0.004; textPos:p2=0.03,0; }
+    distance { distance:p3=1800,18,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=2200,22,-0.004; textPos:p2=0.03,0; }
+    distance { distance:p3=2600,26,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=3000,30,-0.004; textPos:p2=0.03,0; }
+    distance { distance:p3=3400,34,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=3800,38,-0.004; textPos:p2=0.03,0; }
+    distance { distance:p3=4200,42,0.0027; textPos:p2=0,0; }
+    distance { distance:p3=4800,38,-0.004; textPos:p2=0.03,0; }
+    distance { distance:p3=5200,42,0.0027; textPos:p2=0,0; }
+
+}
+
+matchExpClass{
+  exp_tank:b = yes
+  exp_heavy_tank:b = yes
+  exp_tank_destroyer:b = yes
+  exp_SPAA:b = yes
+}
+
+drawLines{
+line{
+line:p4= 0.0, 0.0, 0.0, 0.0
+move:b=yes
+thousandth:b=yes
+}
+}
+
+drawCircles {
+circle { //0m
+segment:p2 = 0, 360; 
+pos:p2 = 0, 0;
+diameter:r = 0.05;
+size:r = 2.5;
+move:b = no;
+thousandth:b = yes;
+
+}
+}

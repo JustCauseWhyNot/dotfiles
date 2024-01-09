@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Name=War Thunder
-#Exec=env __GL_SHARPEN_ENABLE=1 __GL_SHARPEN_VALUE=50 __GL_SHARPEN_IGNORE_FILM_GRAIN=17 ENABLE_VKBASALT=0 OBS_VKCAPTURE=1 strangle -p -1 -f 139 gamemoderun /home/justcausewhynot/Games/WarThunder/launcher
-Exec=env __GL_SHARPEN_ENABLE=1 __GL_SHARPEN_VALUE=50 __GL_SHARPEN_IGNORE_FILM_GRAIN=17 ENABLE_VKBASALT=1 OBS_VKCAPTURE=1 gamemoderun /home/justcausewhynot/Games/WarThunder/launcher
+#Exec=env __GL_SHARPEN_ENABLE=1 __GL_SHARPEN_VALUE=50 __GL_SHARPEN_IGNORE_FILM_GRAIN=17 ENABLE_VKBASALT=1 OBS_VKCAPTURE=1 gamemoderun /home/justcausewhynot/Games/WarThunder/launcher
+Exec=env ENABLE_VKBASALT=1 OBS_VKCAPTURE=1 gamemoderun /home/justcausewhynot/Games/WarThunder/launcher
 Terminal=false
 Type=Application
 Icon=/home/justcausewhynot/Games/WarThunder/launcher.ico

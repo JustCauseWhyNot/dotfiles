@@ -537,10 +537,13 @@ controls{
       keyboardKey:i=16
     }
 
-    ID_RELOAD_USER_SIGHT_GM{}
     ID_RELOAD_USER_SIGHT_GM{
+      keyboardKey:i=64
+    }
+
+    ID_REPAIR_BREACHES{
       keyboardKey:i=29
-      keyboardKey:i=63
+      keyboardKey:i=34
     }
 
     ID_REPAIR_TANK{
@@ -768,11 +771,39 @@ controls{
 
     ID_SHIP_ACTION_BAR_ITEM_10{}
     ID_SHIP_ACTION_BAR_ITEM_11{
-      keyboardKey:i=35
+      keyboardKey:i=34
     }
 
     ID_SHIP_ACTION_BAR_ITEM_2{}
+    ID_SHIP_ACTION_BAR_ITEM_2{
+      keyboardKey:i=3
+    }
+
+    ID_SHIP_KILLSTREAK_WHEEL_MENU{
+      keyboardKey:i=8
+    }
+
+    ID_SHIP_SMOKE_GRENADE{
+      keyboardKey:i=35
+    }
+
+    ID_SHIP_SMOKE_SCREEN_GENERATOR{
+      keyboardKey:i=29
+      keyboardKey:i=35
+    }
+
     ID_SHIP_TOGGLE_GUNNERS{}
+    ID_SHIP_TOGGLE_GUNNERS{
+      keyboardKey:i=56
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    ID_SHIP_TORPEDO_SIGHT{
+      keyboardKey:i=56
+      keyboardKey:i=30
+    }
+
     ID_SHIP_WEAPON_DEPTH_CHARGE{
       keyboardKey:i=44
     }
@@ -1210,10 +1241,7 @@ controls{
       keyboardKey:i=2
     }
 
-    ID_VOICE_MESSAGE_2{
-      keyboardKey:i=3
-    }
-
+    ID_VOICE_MESSAGE_2{}
     ID_VOICE_MESSAGE_3{
       keyboardKey:i=4
     }
@@ -1780,6 +1808,14 @@ controls{
       kMul:r=2
     }
 
+    ship_sight_distance{
+      mouseAxisId:i=4
+    }
+
+    ship_zoom{
+      mouseAxisId:i=-1
+    }
+
     sweep{
       keepDisabledValue:b=yes
     }
@@ -1838,7 +1874,7 @@ controls{
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
-    USEROPT_SINGLE_SHOT_BY_TURRET:b=no
+    USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
     USEROPT_WHEEL_CONTROL_SHIP:b=no
     USEROPT_ZOOM_SENSE:i=98
     trackIrZoom:b=no
@@ -1917,13 +1953,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.022810
-  mouseSens:r=0.022810
-  mouseAimSens:r=0.022810
-  gunnerViewSens:r=0.022810
-  gunnerViewZoomSens:r=0.022810
-  atgmAimSensHelicopter:r=0.022810
-  atgmAimZoomSensHelicopter:r=0.022810
+  zoomSens:r=0.02281
+  mouseSens:r=0.02281
+  mouseAimSens:r=0.02281
+  gunnerViewSens:r=0.02
+  gunnerViewZoomSens:r=0.02
+  atgmAimSensHelicopter:r=0.02281
+  atgmAimZoomSensHelicopter:r=0.02281
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
@@ -1931,8 +1967,8 @@ settings{
   helicopterMouseJoystickScreenSize:r=0.6
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
-  mouseJoystickSensitivity:r=0.022810
-  helicopterMouseJoystickSensitivity:r=0.022810
+  mouseJoystickSensitivity:r=0.02281
+  helicopterMouseJoystickSensitivity:r=0.02281
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=1
@@ -1956,7 +1992,7 @@ settings{
   mouseZMultAir:r=0.36
   mouseZMultHelicopter:r=0
   mouseZMultTank:r=0.4
-  mouseZMultShip:r=0
+  mouseZMultShip:r=0.35
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
