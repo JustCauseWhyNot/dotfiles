@@ -19,6 +19,10 @@ controls{
       keyboardKey:i=40
     }
 
+    ID_ACTION_BAR_ITEM_1{
+      keyboardKey:i=3
+    }
+
     ID_ACTION_BAR_ITEM_10{
       keyboardKey:i=56
       keyboardKey:i=20
@@ -27,6 +31,10 @@ controls{
     ID_ACTION_BAR_ITEM_12{
       keyboardKey:i=29
       keyboardKey:i=34
+    }
+
+    ID_ACTION_BAR_ITEM_2{
+      keyboardKey:i=2
     }
 
     ID_ACTION_BAR_ITEM_5{
@@ -668,6 +676,12 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_SELECT_GM_GUN_SPECIAL{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=33
+    }
+
     ID_SENSOR_ACM_SWITCH{
       keyboardKey:i=45
     }
@@ -1006,13 +1020,6 @@ controls{
       keyboardKey:i=46
     }
 
-    ID_THERMAL_WHITE_IS_HOT{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      mouseButton:i=2
-      keyboardKey:i=33
-    }
-
     ID_TOGGLE_1_ENGINE_CONTROL{
       keyboardKey:i=56
       keyboardKey:i=2
@@ -1237,10 +1244,7 @@ controls{
       keyboardKey:i=44
     }
 
-    ID_VOICE_MESSAGE_1{
-      keyboardKey:i=2
-    }
-
+    ID_VOICE_MESSAGE_1{}
     ID_VOICE_MESSAGE_2{}
     ID_VOICE_MESSAGE_3{
       keyboardKey:i=4

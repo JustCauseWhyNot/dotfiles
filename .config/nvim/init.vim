@@ -45,6 +45,7 @@ set ww=b,s,<,>,[,]
 " Replace all is aliased to S.
 nnoremap S :%s//g<Left><Left>
 
+
 " Lua
 lua require('plugins')
 lua require('init')

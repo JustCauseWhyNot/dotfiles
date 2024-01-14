@@ -1,74 +1,90 @@
+// Vehicles
+matchExpClass{
+	exp_tank:b=yes
+	exp_heavy_tank:b=yes
+	exp_tank_destroyer:b=yes
+	exp_SPAA:b=yes
+}
+
+// General
+thousandth:t="real"
+fontSizeMult:r=1
+applyCorrectionToGun:b=yes
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairColor:c=255, 255, 0, 255
+crosshairLightColor:c=0, 0, 0, 255
+
+// Rangefinder
 rangefinderUseThousandth:b=yes
-crosshairHorVertSize:p2=2, 2
+rangefinderVerticalOffset:r=0.3
+rangefinderHorizontalOffset:r=35
 rangefinderProgressBarColor1:c=0, 255, 0, 100
 rangefinderProgressBarColor2:c=255, 255, 255, 0
 rangefinderTextScale:r=0.7
-rangefinderVerticalOffset:r=0.3
-rangefinderHorizontalOffset:r=35
-fontSizeMult:r=0.5
-lineSizeMult:r=1.0
-crosshairColor:c=255,255,0,255
-//crosshairLightColor:c=0, 255, 0, 255
-crosshairDistHorSizeMain:p2=0.01, 0.02
-crosshairDistHorSizeAdditional:p2=0.005, 0.003   	
-drawCentralLineVert:b=no
-drawCentralLineHorz:b=no	
-distanceCorrectionPos:p2=0.035, 0.10 			
-drawDistanceCorrection:b=yes
-drawSightMask:b=yes  	
+
+// Horizontal
+crosshairHorVertSize:p2=2, 2
 crosshair_hor_ranges{}
 
-// ballistic range indicators
-drawUpward:b = no
-distancePos:p2 = 0.00508,0
-move:b = yes
-crosshairDistHorSizeMain:p2 = 0,0
-textPos:p2 = -0.00001, 0
-textAlign:i = 1
-textShift:r = 0.01
-drawAdditionalLines:b = no
-crosshairDistHorSizeAdditional:p2 = 0.0,0.0
-drawDistanceCorrection:b = no
-
-    //distance { distance:p3=1800,18,0.0027; textPos:p2=0,0; }
-    //distance { distance:p3=2200,22,-0.004; textPos:p2=0.03,0; }
-    //distance { distance:p3=2600,26,0.0027; textPos:p2=0,0; }
-    //distance { distance:p3=3000,30,-0.004; textPos:p2=0.03,0; }
-    //distance { distance:p3=3400,34,0.0027; textPos:p2=0,0; }
-    //distance { distance:p3=3800,38,-0.004; textPos:p2=0.03,0; }
-
-crosshair_distances {
-    distance { distance:p3=500,5,0.0027; textPos:p2=0,0; }
-    distance { distance:p3=1000,10,-0.004; textPos:p2=0.03,0; }
-    distance { distance:p3=1500,15,0.0027; textPos:p2=0,0; }
-    distance { distance:p3=2000,20,-0.004; textPos:p2=0.03,0; }
-    distance { distance:p3=2500,25,0.0027; textPos:p2=0.0,0; }
-    distance { distance:p3=3000,30,-0.004; textPos:p2=0.03,0; }
-}
-
-matchExpClass{
-  exp_tank:b = yes
-  exp_heavy_tank:b = yes
-  exp_tank_destroyer:b = yes
-  exp_SPAA:b = yes
-}
-
-drawLines{
-line{
-line:p4= 0.0, 0.0, 0.0, 0.0
+// Ballistic drop markers
+drawUpward:b=no
+distancePos:p2=0.00508,0
 move:b=yes
-thousandth:b=yes
-}
+crosshairDistHorSizeMain:p2=0,0
+crosshairDistHorSizeAdditional:p2=0.0075,0.00375
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2=0.035,0.10
+drawSightMask:b=yes
+
+//crosshair_distances{
+//	distance{distance:p3=200, 0, 0;}
+//	distance{distance:p3=400, 4, 0;textPos:p2=0.024,0;}
+//	distance{distance:p3=600, 0, 0;}
+//	distance{distance:p3=800, 8, 0;}
+//	distance{distance:p3=1000, 0, 0;}
+//	distance{distance:p3=1200, 12, 0;textPos:p2=0.03,0;}
+//	distance{distance:p3=1400, 0, 0;}
+//	distance{distance:p3=1600, 16, 0;}
+//	distance{distance:p3=1800, 0, 0;}
+//	distance{distance:p3=2000, 20, 0;textPos:p2=0.03,0;}
+//	distance{distance:p3=2200, 0, 0;}
+//	distance{distance:p3=2400, 24, 0;}
+//	distance{distance:p3=2600, 0, 0;}
+//	distance{distance:p3=2800, 28, 0;}
+//	distance{distance:p3=3000, 0, 0;}
+
+crosshair_distances{
+	distance{distance:p3=500, 5, 0;textPos:p2=0.024,0;}
+	distance{distance:p3=750, 0, 0;}
+	distance{distance:p3=1000, 10, 0;}
+	distance{distance:p3=1250, 0, 0;}
+	distance{distance:p3=1500, 5, 0;textPos:p2=0.024,0;}
+	distance{distance:p3=1750, 0, 0;}
+	distance{distance:p3=2000, 20, 0;}
+	distance{distance:p3=2250, 0, 0;}
+	distance{distance:p3=2500, 25, 0;textPos:p2=0.03,0;}
+	distance{distance:p3=2750, 0, 0;}
+	distance{distance:p3=3000, 30, 0;}
 }
 
+// Line
+drawLines{
+	line{
+		line:p4=0.0, 0.0, 0.0, 0.0
+		move:b=yes
+		thousandth:b=yes
+	}
+}
+
+// Crosshair
 drawCircles {
-circle { //0m
-segment:p2 = 0, 360; 
-pos:p2 = 0, 0;
-diameter:r = 0.05;
-size:r = 2.5;
-move:b = no;
-thousandth:b = yes;
-
-}
+	circle {
+		segment:p2=0, 360;
+		pos:p2=0, 0;
+		diameter:r=0.05;
+		size:r=3;
+		move:b=no;
+		thousandth:b=yes;
+	}
 }
