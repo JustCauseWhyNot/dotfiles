@@ -677,9 +677,8 @@ controls{
     }
 
     ID_SELECT_GM_GUN_SPECIAL{
-      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=16
     }
 
     ID_SENSOR_ACM_SWITCH{
@@ -866,7 +865,7 @@ controls{
     }
 
     ID_SMOKE_SCREEN_GENERATOR{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=35
     }
 
@@ -1282,11 +1281,6 @@ controls{
     }
 
     ID_WEAPON_LOCK_TANK{}
-    ID_WEAPON_LOCK_TANK{
-      keyboardKey:i=56
-      keyboardKey:i=16
-    }
-
     ID_ZOOM_TOGGLE{
       keyboardKey:i=42
     }
