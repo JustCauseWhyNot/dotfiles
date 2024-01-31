@@ -46,7 +46,7 @@ render{
   softFx:b=no
   rendinstGlobalShadows:b=no
   grass:b=no
-  ssaoQuality:i=1
+  ssaoQuality:i=2
   shadows:b=no
   ssrQuality:i=0
   haze:b=no

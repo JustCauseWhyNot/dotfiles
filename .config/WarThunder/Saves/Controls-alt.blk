@@ -753,11 +753,7 @@ controls{
       keyboardKey:i=46
     }
 
-    ID_SENSOR_TARGET_LOCK_SHIP{
-      keyboardKey:i=56
-      mouseButton:i=0
-    }
-
+    ID_SENSOR_TARGET_LOCK_SHIP{}
     ID_SENSOR_TARGET_LOCK_TANK{
       keyboardKey:i=29
       keyboardKey:i=20
@@ -829,19 +825,16 @@ controls{
     }
 
     ID_SHIP_SELECT_TARGET_AI_MGUN{
-      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=4
     }
 
     ID_SHIP_SELECT_TARGET_AI_PRIM{
-      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=2
     }
 
     ID_SHIP_SELECT_TARGET_AI_SEC{
-      keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=3
     }
@@ -871,6 +864,12 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_SHIP_WEAPON_MACHINEGUN{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=4
+    }
+
     ID_SHIP_WEAPON_MINE{
       keyboardKey:i=47
     }
@@ -879,8 +878,20 @@ controls{
       keyboardKey:i=16
     }
 
+    ID_SHIP_WEAPON_PRIMARY{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=2
+    }
+
     ID_SHIP_WEAPON_ROCKETS{
       keyboardKey:i=20
+    }
+
+    ID_SHIP_WEAPON_SECONDARY{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=3
     }
 
     ID_SHIP_WEAPON_TORPEDOES{
@@ -908,6 +919,11 @@ controls{
     ID_SHOW_VOICE_MESSAGE_LIST_SQUAD{
       keyboardKey:i=29
       keyboardKey:i=22
+    }
+
+    ID_SINGLE_SHOT_SHIP{
+      keyboardKey:i=56
+      mouseButton:i=0
     }
 
     ID_SMOKE_SCREEN{
@@ -1571,6 +1587,38 @@ controls{
       keyboardKey:i=32
     }
 
+    ship_shoot_direction_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=33
+    }
+
+    ship_shoot_direction_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=31
+    }
+
+    ship_shoot_direction_rangeSet{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=19
+    }
+
+    ship_sight_distance_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=18
+    }
+
+    ship_sight_distance_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=32
+    }
+
+    ship_sight_distance_rangeSet{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=18
+    }
+
     ship_steering_rangeMax{
       keyboardKey:i=31
     }
@@ -1812,6 +1860,7 @@ controls{
 
     ship_sight_distance{
       mouseAxisId:i=4
+      relSens:r=0.04
     }
 
     ship_zoom{
