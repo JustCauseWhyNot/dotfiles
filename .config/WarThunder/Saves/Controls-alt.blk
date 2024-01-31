@@ -550,8 +550,7 @@ controls{
     }
 
     ID_REPAIR_BREACHES{
-      keyboardKey:i=29
-      keyboardKey:i=34
+      keyboardKey:i=49
     }
 
     ID_REPAIR_TANK{
@@ -704,6 +703,11 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_SENSOR_RANGE_SWITCH_SHIP{
+      keyboardKey:i=56
+      keyboardKey:i=19
+    }
+
     ID_SENSOR_RANGE_SWITCH_TANK{
       keyboardKey:i=29
       keyboardKey:i=19
@@ -728,6 +732,12 @@ controls{
       joyButton:i=76
     }
 
+    ID_SENSOR_SWITCH_SHIP{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=16
+    }
+
     ID_SENSOR_SWITCH_TANK{
       keyboardKey:i=56
       keyboardKey:i=29
@@ -741,6 +751,11 @@ controls{
 
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=46
+    }
+
+    ID_SENSOR_TARGET_LOCK_SHIP{
+      keyboardKey:i=56
+      mouseButton:i=0
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
@@ -764,11 +779,15 @@ controls{
       joyButton:i=77
     }
 
+    ID_SENSOR_TARGET_SWITCH_SHIP{
+      keyboardKey:i=29
+      keyboardKey:i=20
+    }
+
     ID_SENSOR_TARGET_SWITCH_TANK{
       keyboardKey:i=29
-      keyboardKey:i=42
-      keyboardKey:i=57
-      keyboardKey:i=27
+      keyboardKey:i=56
+      mouseButton:i=0
     }
 
     ID_SENSOR_TYPE_SWITCH{
@@ -782,26 +801,57 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_SHIP_ACTION_BAR_ITEM_1{
+      keyboardKey:i=3
+    }
+
     ID_SHIP_ACTION_BAR_ITEM_10{}
+    ID_SHIP_ACTION_BAR_ITEM_10{
+      keyboardKey:i=56
+      keyboardKey:i=20
+    }
+
     ID_SHIP_ACTION_BAR_ITEM_11{
       keyboardKey:i=34
     }
 
     ID_SHIP_ACTION_BAR_ITEM_2{}
     ID_SHIP_ACTION_BAR_ITEM_2{
-      keyboardKey:i=3
+      keyboardKey:i=2
+    }
+
+    ID_SHIP_ACTION_BAR_ITEM_6{
+      keyboardKey:i=21
     }
 
     ID_SHIP_KILLSTREAK_WHEEL_MENU{
-      keyboardKey:i=8
+      keyboardKey:i=7
+    }
+
+    ID_SHIP_SELECT_TARGET_AI_MGUN{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=4
+    }
+
+    ID_SHIP_SELECT_TARGET_AI_PRIM{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=2
+    }
+
+    ID_SHIP_SELECT_TARGET_AI_SEC{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=3
     }
 
     ID_SHIP_SMOKE_GRENADE{
+      keyboardKey:i=29
       keyboardKey:i=35
     }
 
     ID_SHIP_SMOKE_SCREEN_GENERATOR{
-      keyboardKey:i=29
       keyboardKey:i=35
     }
 
@@ -814,19 +864,19 @@ controls{
 
     ID_SHIP_TORPEDO_SIGHT{
       keyboardKey:i=56
-      keyboardKey:i=30
+      keyboardKey:i=44
     }
 
     ID_SHIP_WEAPON_DEPTH_CHARGE{
-      keyboardKey:i=44
+      keyboardKey:i=45
     }
 
     ID_SHIP_WEAPON_MINE{
-      keyboardKey:i=44
+      keyboardKey:i=47
     }
 
     ID_SHIP_WEAPON_MORTAR{
-      keyboardKey:i=20
+      keyboardKey:i=16
     }
 
     ID_SHIP_WEAPON_ROCKETS{
@@ -834,7 +884,7 @@ controls{
     }
 
     ID_SHIP_WEAPON_TORPEDOES{
-      keyboardKey:i=30
+      keyboardKey:i=44
     }
 
     ID_SHOW_HERO_MODULES{
@@ -1163,6 +1213,12 @@ controls{
       mouseButton:i=4
     }
 
+    ID_TOGGLE_MLWS_FLARES_SLAVING{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=47
+    }
+
     ID_TOGGLE_PERIODIC_FLARES{
       keyboardKey:i=56
       keyboardKey:i=44
@@ -1319,46 +1375,6 @@ controls{
 
     elevator_rangeMin{
       keyboardKey:i=18
-    }
-
-    gm_sensor_cue_x_rangeMax{
-      keyboardKey:i=29
-      keyboardKey:i=32
-    }
-
-    gm_sensor_cue_x_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=32
-    }
-
-    gm_sensor_cue_x_rangeMin{
-      keyboardKey:i=29
-      keyboardKey:i=30
-    }
-
-    gm_sensor_cue_x_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=30
-    }
-
-    gm_sensor_cue_y_rangeMax{
-      keyboardKey:i=29
-      keyboardKey:i=17
-    }
-
-    gm_sensor_cue_y_rangeMin{
-      keyboardKey:i=29
-      keyboardKey:i=31
-    }
-
-    gm_sensor_cue_z_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=17
-    }
-
-    gm_sensor_cue_z_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=31
     }
 
     gm_sight_distance_rangeSet{
@@ -1698,18 +1714,6 @@ controls{
 
     gm_brake_right{
       axisId:i=5
-    }
-
-    gm_sensor_cue_x{
-      keepDisabledValue:b=yes
-    }
-
-    gm_sensor_cue_y{
-      keepDisabledValue:b=yes
-    }
-
-    gm_sensor_cue_z{
-      keepDisabledValue:b=yes
     }
 
     gm_sight_distance{

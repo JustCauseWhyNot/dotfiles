@@ -7,7 +7,7 @@ use_release_candidate:b=no
 releaseChannel:t=""
 language:t="English"
 graphicsQuality:t="custom"
-hangarBlk:t="hangar_devlog"
+hangarBlk:t="grey_hangar"
 
 graphics{
   rendinstDistMul:r=0.5
