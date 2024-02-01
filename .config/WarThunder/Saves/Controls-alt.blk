@@ -567,7 +567,7 @@ controls{
     }
 
     ID_REPLAY_CAMERA_FREE{
-      keyboardKey:i=33
+      keyboardKey:i=30
     }
 
     ID_REPLAY_CAMERA_FREE_ATTACHED{
@@ -907,8 +907,9 @@ controls{
       keyboardKey:i=28
     }
 
+    ID_SHOW_MULTIFUNC_WHEEL_MENU{}
     ID_SHOW_MULTIFUNC_WHEEL_MENU{
-      keyboardKey:i=22
+      keyboardKey:i=24
     }
 
     ID_SHOW_VOICE_MESSAGE_LIST{
@@ -1316,12 +1317,24 @@ controls{
     }
 
     ID_VOICE_MESSAGE_1{}
+    ID_VOICE_MESSAGE_1{
+      keyboardKey:i=2
+    }
+
     ID_VOICE_MESSAGE_2{}
+    ID_VOICE_MESSAGE_2{
+      keyboardKey:i=3
+    }
+
     ID_VOICE_MESSAGE_3{
       keyboardKey:i=4
     }
 
     ID_VOICE_MESSAGE_4{}
+    ID_VOICE_MESSAGE_4{
+      keyboardKey:i=5
+    }
+
     ID_VOICE_MESSAGE_5{
       keyboardKey:i=6
     }
@@ -1367,6 +1380,30 @@ controls{
 
     brake_left_rangeMax{}
     brake_right_rangeMax{}
+    cam_fwd_rangeMax{
+      keyboardKey:i=18
+    }
+
+    cam_fwd_rangeMin{
+      keyboardKey:i=32
+    }
+
+    cam_strafe_rangeMax{
+      keyboardKey:i=33
+    }
+
+    cam_strafe_rangeMin{
+      keyboardKey:i=31
+    }
+
+    cam_vert_rangeMax{
+      keyboardKey:i=19
+    }
+
+    cam_vert_rangeMin{
+      keyboardKey:i=17
+    }
+
     decal_rotate{}
     decal_rotate_rangeMax{
       keyboardKey:i=32
@@ -2007,8 +2044,8 @@ settings{
   zoomSens:r=0.02281
   mouseSens:r=0.02281
   mouseAimSens:r=0.02281
-  gunnerViewSens:r=0.02
-  gunnerViewZoomSens:r=0.02
+  gunnerViewSens:r=0.02281
+  gunnerViewZoomSens:r=0.02281
   atgmAimSensHelicopter:r=0.02281
   atgmAimZoomSensHelicopter:r=0.02281
   mouseSmooth:b=no
@@ -2048,7 +2085,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=0.15
+  cameraMouseSpeed:r=0.5
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
