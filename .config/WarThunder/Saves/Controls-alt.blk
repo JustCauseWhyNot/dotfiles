@@ -1378,8 +1378,22 @@ controls{
       keyboardKey:i=31
     }
 
-    brake_left_rangeMax{}
-    brake_right_rangeMax{}
+    brake_left_rangeMax{
+      keyboardKey:i=16
+    }
+
+    brake_left_rangeMax{
+      keyboardKey:i=19
+    }
+
+    brake_right_rangeMax{
+      keyboardKey:i=16
+    }
+
+    brake_right_rangeMax{
+      keyboardKey:i=17
+    }
+
     cam_fwd_rangeMax{
       keyboardKey:i=18
     }
@@ -1780,12 +1794,10 @@ controls{
     }
 
     brake_left{
-      axisId:i=4
       innerDeadzone:r=0.05
     }
 
     brake_right{
-      axisId:i=5
       innerDeadzone:r=0.05
     }
 
@@ -1962,7 +1974,7 @@ controls{
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
-    USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
+    USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
     USEROPT_ZOOM_SENSE:i=98
     trackIrZoom:b=no
@@ -2041,13 +2053,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.02281
-  mouseSens:r=0.02281
-  mouseAimSens:r=0.02281
-  gunnerViewSens:r=0.02281
-  gunnerViewZoomSens:r=0.02281
-  atgmAimSensHelicopter:r=0.02281
-  atgmAimZoomSensHelicopter:r=0.02281
+  zoomSens:r=0.025
+  mouseSens:r=0.025
+  mouseAimSens:r=0.025
+  gunnerViewSens:r=0.025
+  gunnerViewZoomSens:r=0.025
+  atgmAimSensHelicopter:r=0.025
+  atgmAimZoomSensHelicopter:r=0.025
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
@@ -2055,8 +2067,8 @@ settings{
   helicopterMouseJoystickScreenSize:r=0.6
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
-  mouseJoystickSensitivity:r=0.02281
-  helicopterMouseJoystickSensitivity:r=0.02281
+  mouseJoystickSensitivity:r=0.5
+  helicopterMouseJoystickSensitivity:r=0.5
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=1
