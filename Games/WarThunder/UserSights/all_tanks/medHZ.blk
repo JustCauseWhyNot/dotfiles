@@ -8,7 +8,7 @@ matchExpClass{
 
 // General
 thousandth:t="real"
-fontSizeMult:r=0.8
+fontSizeMult:r=0.6
 applyCorrectionToGun:b=yes
 drawCentralLineVert:b=no
 drawCentralLineHorz:b=no
