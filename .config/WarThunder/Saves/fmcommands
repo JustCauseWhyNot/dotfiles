@@ -1,0 +1,28 @@
+debug{
+  enableFMCommands:b=yes
+}
+
+----------------
+
+List of changeable variables: 
+alt
+vel
+fuelMassRatio
+mass
+coolantOrHeadTemperature
+oilTemperature
+temperature
+pressure
+timeSpeed
+
+----------------
+
+localhost:8111/editor/fm_commands?cmd=setCHANGEHERE&value=30.0
+
+For example, temperature:
+localhost:8111/editor/fm_commands?cmd=setTemperature&value=30.0
+
+Second Example, gamespeed:
+localhost:8111/editor/fm_commands?cmd=setTimeSpeed&value=1.0
+
+----------------
