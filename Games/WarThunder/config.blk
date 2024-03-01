@@ -3,8 +3,8 @@ forcedLauncher:i=0
 renderer3:t="auto"
 rdseed:i=21991228
 use_eac:b=no
-use_release_candidate:b=no
-releaseChannel:t=""
+use_release_candidate:b=yes
+releaseChannel:t="ReleaseCandidate"
 language:t="English"
 graphicsQuality:t="custom"
 hangarBlk:t="grey_hangar"
@@ -20,7 +20,7 @@ graphics{
   grassRadiusMul:r=0.1
   ssaa:r=1
   displacementQuality:i=0
-  dirtSubDiv:i=2
+  dirtSubDiv:i=1
   contactShadowsQuality:i=0
   lastClipSize:i=4096
   tireTracksQuality:i=3
@@ -31,14 +31,14 @@ graphics{
   cloudsQuality:i=2
   anisotropy:i=16
   physicsQuality:i=0
-  compatibilityShadowQuality:t="medium"
+  compatibilityShadowQuality:t="low"
   riGpuObjects:b=yes
   mirrorQuality:i=0
   fxTarget:t="low"
   waterEffectsQuality:t="low"
   clipmapScale:r=0.5
   giQuality:t="low"
-  skyQuality:i=2
+  skyQuality:i=1
 }
 
 render{
@@ -61,14 +61,14 @@ sound{
 
 video{
   alpha_to_coverage:b=no
-  resolution:t="2560 x 1440"
+  resolution:t="auto"
   vsync:b=no
   adaptive_vsync:b=no
   driver:t="auto"
   windowed:b=no
   mode:t="fullscreen"
   instancing:t="auto"
-  compatibilityMode:b=no
+  compatibilityMode:b=yes
   postfx_antialiasing:t="none"
   fonts:t="compact"
   latency:i=0

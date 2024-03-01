@@ -72,7 +72,7 @@ controls{
     }
 
     ID_AGM_LOCK{
-      mouseButton:i=3
+      mouseButton:i=1
     }
 
     ID_AGM_LOCK_HELICOPTER{
@@ -106,8 +106,8 @@ controls{
     ID_BOMBS{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=43
       keyboardKey:i=42
+      keyboardKey:i=43
     }
 
     ID_BOMBS_HELICOPTER{
@@ -163,6 +163,16 @@ controls{
       keyboardKey:i=57
     }
 
+    ID_CAMERA_OPTICS{
+      keyboardKey:i=29
+      keyboardKey:i=30
+    }
+
+    ID_CAMERA_SEEKER{
+      keyboardKey:i=56
+      keyboardKey:i=30
+    }
+
     ID_CAMERA_TPS{
       keyboardKey:i=29
       keyboardKey:i=46
@@ -216,6 +226,7 @@ controls{
       keyboardKey:i=34
     }
 
+    ID_COLLAPSE_ACTION_BAR{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=56
       keyboardKey:i=33
@@ -261,6 +272,7 @@ controls{
       mouseButton:i=0
     }
 
+    ID_EXIT_SHOOTING_CYCLE_MODE{}
     ID_EXIT_SHOOTING_CYCLE_MODE_HELICOPTER{
       keyboardKey:i=4
     }
@@ -368,7 +380,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      mouseButton:i=1
+      mouseButton:i=3
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -427,10 +439,7 @@ controls{
     }
 
     ID_GUIDED_BOMBS_HELICOPTER{}
-    ID_GUIDED_BOMBS_LOCK{
-      mouseButton:i=3
-    }
-
+    ID_GUIDED_BOMBS_LOCK{}
     ID_GUIDED_BOMBS_LOCK_HELICOPTER{
       keyboardKey:i=19
     }
@@ -482,6 +491,8 @@ controls{
     }
 
     ID_JETTISON_SECONDARY{
+      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=211
     }
 
@@ -515,7 +526,7 @@ controls{
     }
 
     ID_PLANE_NIGHT_VISION{
-      keyboardKey:i=56
+      keyboardKey:i=29
       keyboardKey:i=47
     }
 
@@ -526,13 +537,13 @@ controls{
 
     ID_PROP_PITCH_AUTO{
       mouseButton:i=2
-      keyboardKey:i=48
+      keyboardKey:i=44
     }
 
     ID_PTT{}
     ID_RADIATOR_AUTO{
       mouseButton:i=2
-      keyboardKey:i=16
+      keyboardKey:i=30
     }
 
     ID_RANGEFINDER{
@@ -715,11 +726,6 @@ controls{
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
       keyboardKey:i=47
-    }
-
-    ID_SENSOR_SCAN_PATTERN_SWITCH_TANK{
-      keyboardKey:i=29
-      keyboardKey:i=16
     }
 
     ID_SENSOR_SWITCH{
@@ -987,7 +993,7 @@ controls{
 
     ID_SUPERCHARGER{
       mouseButton:i=2
-      keyboardKey:i=30
+      keyboardKey:i=16
     }
 
     ID_SUPPORT_PLANE_ORBITING{
@@ -1039,8 +1045,6 @@ controls{
     }
 
     ID_SWITCH_COCKPIT_SIGHT_MODE{
-      keyboardKey:i=29
-      keyboardKey:i=56
       keyboardKey:i=211
     }
 
@@ -1080,7 +1084,11 @@ controls{
       joyButton:i=79
     }
 
-    ID_TARGET_CAMERA{}
+    ID_TARGET_CAMERA{
+      keyboardKey:i=29
+      keyboardKey:i=16
+    }
+
     ID_TARGET_CAMERA_HELICOPTER{
       keyboardKey:i=56
       keyboardKey:i=46
@@ -1117,11 +1125,6 @@ controls{
     }
 
     ID_TOGGLE_AUTOTURRET_TARGETS{}
-    ID_TOGGLE_AUTO_TURBO_CHARGER{
-      mouseButton:i=2
-      keyboardKey:i=49
-    }
-
     ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER{
       keyboardKey:i=56
       keyboardKey:i=45
@@ -1259,7 +1262,9 @@ controls{
 
     ID_TOGGLE_VIEW{
       keyboardKey:i=29
-      keyboardKey:i=47
+      keyboardKey:i=56
+      keyboardKey:i=42
+      keyboardKey:i=43
     }
 
     ID_TOGGLE_VIEW_GM{
@@ -1293,7 +1298,8 @@ controls{
     }
 
     ID_TRANS_GEAR_NEUTRAL{
-      joyButton:i=106
+      keyboardKey:i=31
+      keyboardKey:i=33
     }
 
     ID_TRANS_GEAR_UP{
@@ -1357,7 +1363,7 @@ controls{
     }
 
     ID_WEAPON_LOCK{
-      mouseButton:i=3
+      mouseButton:i=1
     }
 
     ID_WEAPON_LOCK_HELICOPTER{}
@@ -1366,6 +1372,11 @@ controls{
     }
 
     ID_WEAPON_LOCK_TANK{}
+    ID_WEAPON_LOCK_TANK{
+      keyboardKey:i=29
+      keyboardKey:i=16
+    }
+
     ID_ZOOM_TOGGLE{
       keyboardKey:i=42
     }
@@ -1540,9 +1551,19 @@ controls{
       keyboardKey:i=19
     }
 
+    oil_radiator_rangeMax{
+      mouseButton:i=2
+      keyboardKey:i=33
+    }
+
     oil_radiator_rangeMin{
       mouseButton:i=2
       keyboardKey:i=17
+    }
+
+    oil_radiator_rangeMin{
+      mouseButton:i=2
+      keyboardKey:i=31
     }
 
     prop_pitch_rangeMax{
@@ -2053,13 +2074,13 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.025
-  mouseSens:r=0.025
-  mouseAimSens:r=0.025
-  gunnerViewSens:r=0.025
-  gunnerViewZoomSens:r=0.025
-  atgmAimSensHelicopter:r=0.025
-  atgmAimZoomSensHelicopter:r=0.025
+  zoomSens:r=0.193881
+  mouseSens:r=0.193881
+  mouseAimSens:r=0.193881
+  gunnerViewSens:r=0.193881
+  gunnerViewZoomSens:r=0.193881
+  atgmAimSensHelicopter:r=0.193881
+  atgmAimZoomSensHelicopter:r=0.193881
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0
   helicopterMouseJoystickDeadZone:r=0
@@ -2096,8 +2117,8 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0.15
-  cameraMouseSpeed:r=0.15
+  cameraSpeed:r=0.5
+  cameraMouseSpeed:r=2
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
