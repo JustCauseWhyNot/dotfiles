@@ -18,5 +18,7 @@ xbanish -i modifier -s &
 nvidia-settings -l &
 xrdb -load ~/.config/X11/xresources
 gentoo-pipewire-launcher &
+doas nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan:0]/GPUTargetFanSpeed=75" &
+doas nvidia-smi -pl 132 &
 exec dbus-launch --exit-with-session /usr/local/bin/dwm
 #exec /usr/local/bin/dwm
