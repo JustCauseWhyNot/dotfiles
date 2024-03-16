@@ -593,19 +593,22 @@ controls{
       keyboardKey:i=34
     }
 
+    ID_REPLAY_CAMERA_HORIZONTAL_LOCK{
+      keyboardKey:i=29
+      keyboardKey:i=3
+    }
+
     ID_REPLAY_CAMERA_OPERATOR{
       keyboardKey:i=16
     }
 
-    ID_REPLAY_CAMERA_RANDOMIZE{
-      keyboardKey:i=47
-    }
-
-    ID_REPLAY_CAMERA_WING{
+    ID_REPLAY_CAMERA_RANDOMIZE{}
+    ID_REPLAY_CAMERA_TWO_PLANES{
       keyboardKey:i=29
-      keyboardKey:i=17
+      keyboardKey:i=2
     }
 
+    ID_REPLAY_CAMERA_WING{}
     ID_REPLAY_CAMERA_ZOOM_IN{
       mouseButton:i=0
     }
@@ -616,6 +619,11 @@ controls{
 
     ID_REPLAY_FASTER{
       keyboardKey:i=29
+      keyboardKey:i=19
+    }
+
+    ID_REPLAY_RESET_CAMERA_ROLL{
+      keyboardKey:i=29
       keyboardKey:i=32
     }
 
@@ -625,7 +633,7 @@ controls{
 
     ID_REPLAY_SLOWER{
       keyboardKey:i=29
-      keyboardKey:i=30
+      keyboardKey:i=17
     }
 
     ID_REPLAY_TOGGLE_DOF{
@@ -634,6 +642,10 @@ controls{
 
     ID_REPLAY_TOGGLE_PLAYER_VISIBILITY{
       keyboardKey:i=45
+    }
+
+    ID_REPLAY_TOGGLE_SENSOR_VIEW{
+      keyboardKey:i=20
     }
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES{
@@ -692,7 +704,7 @@ controls{
     }
 
     ID_SENSOR_ACM_SWITCH{
-      keyboardKey:i=45
+      keyboardKey:i=47
     }
 
     ID_SENSOR_ACM_SWITCH_TANK{
@@ -725,7 +737,7 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=47
+      keyboardKey:i=45
     }
 
     ID_SENSOR_SWITCH{
@@ -735,7 +747,7 @@ controls{
     }
 
     ID_SENSOR_SWITCH_HUMAN{
-      joyButton:i=98
+      joyButton:i=109
     }
 
     ID_SENSOR_SWITCH_SHIP{
@@ -778,7 +790,7 @@ controls{
     }
 
     ID_SENSOR_TARGET_SWITCH_HUMAN{
-      joyButton:i=99
+      joyButton:i=110
     }
 
     ID_SENSOR_TARGET_SWITCH_SHIP{
@@ -1081,7 +1093,7 @@ controls{
 
     ID_TARGETING_HOLD_GM{}
     ID_TARGETING_HOLD_HUMAN{
-      joyButton:i=101
+      joyButton:i=112
     }
 
     ID_TARGET_CAMERA{
@@ -1413,6 +1425,16 @@ controls{
       keyboardKey:i=32
     }
 
+    cam_roll_rangeMax{
+      keyboardKey:i=29
+      keyboardKey:i=33
+    }
+
+    cam_roll_rangeMin{
+      keyboardKey:i=29
+      keyboardKey:i=31
+    }
+
     cam_strafe_rangeMax{
       keyboardKey:i=33
     }
@@ -1529,11 +1551,11 @@ controls{
     }
 
     human_camx{
-      joyButton:i=97
+      joyButton:i=108
     }
 
     human_camy{
-      joyButton:i=97
+      joyButton:i=108
     }
 
     mixture_rangeMax{
@@ -1970,14 +1992,14 @@ controls{
 
   params{
     USEROPT_AILERONS_MULTIPLIER:i=100
-    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=2
-    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=2
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=23
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=23
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FREE_CAMERA_INERTIA:i=0
-    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
-    USEROPT_GUNNER_VIEW_SENSE:i=2
-    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=2
+    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=200
+    USEROPT_GUNNER_VIEW_SENSE:i=23
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=23
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=no
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
@@ -1989,15 +2011,15 @@ controls{
     USEROPT_INVERTY_SPECTATOR:b=no
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=no
-    USEROPT_MOUSE_AIM_SENSE:i=5
-    USEROPT_MOUSE_SENSE:i=5
+    USEROPT_MOUSE_AIM_SENSE:i=11
+    USEROPT_MOUSE_SENSE:i=11
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=98
+    USEROPT_ZOOM_SENSE:i=77
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
   }
@@ -2127,7 +2149,7 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0.5
+  cameraSpeed:r=1
   cameraMouseSpeed:r=2
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0

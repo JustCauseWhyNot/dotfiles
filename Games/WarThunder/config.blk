@@ -3,8 +3,8 @@ forcedLauncher:i=0
 renderer3:t="auto"
 rdseed:i=21991228
 use_eac:b=no
-use_release_candidate:b=yes
-releaseChannel:t="ReleaseCandidate"
+use_release_candidate:b=no
+releaseChannel:t=""
 language:t="English"
 graphicsQuality:t="custom"
 hangarBlk:t="grey_hangar"
@@ -79,6 +79,7 @@ video{
   perfMetrics:i=1
   temporalResolutionScale:r=1
   xessQuality:i=-1
+  monitor:t="auto"
 }
 
 download{
@@ -115,7 +116,7 @@ debug{
   enableFMCommands:b=yes
   enableNvHighlights:t="auto"
   testLocalization:b=yes
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
   netLogerr:b=yes
 }
 
