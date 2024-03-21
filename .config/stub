@@ -1,0 +1,4 @@
+#!/bin/sh
+efibootmgr -b 0 -B & efibootmgr -b 1 -B
+efibootmgr -c -d /dev/nvme0n1 -p 1 -L "Gentoo" -l '\efi\gentoo\bzImage.efi' -u 'root=PARTUUID=211282f1-3d46-fe46-a898-e0aab6c110c7 mitigations=off scsi_mod.scan=sync preempt=full threadirqs acpi_enforce_resources=lax'
+efibootmgr -c -d /dev/nvme0n1 -p 1 -L "Memtest86+" -l '\efi\memtest\memtest.efi64' -u 'keyboard=usb usbdebug usbinit=1'

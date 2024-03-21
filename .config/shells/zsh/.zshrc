@@ -72,15 +72,16 @@ alias df='df -h' du='du -h'
 alias diff='diff --color=yes'
 alias dir='dir --color=yes'
 alias doase='sudoedit'
-alias eix='eix -Rc'
+#alias eix='eix -Rc'
 alias grep='grep --color==yes'
-alias lf='eza -ab -FlhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
+alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
 alias rm='rm -dfr'
 alias py='python'
 alias startx='startx "$XINITRC" -- "$XSERVERRC" vt1'
 alias su='su -l'
 alias vdir='vdir --color=yes'
+
 
 # Key bindings.
 # =============

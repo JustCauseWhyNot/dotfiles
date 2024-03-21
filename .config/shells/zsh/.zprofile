@@ -23,3 +23,4 @@ export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances/1.1
 export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/bin/dwm/statusbar-scripts:/usr/bin/python3.8"
 export VISUAL=nvim
 export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
+export TERMINAL=st

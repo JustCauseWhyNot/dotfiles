@@ -156,7 +156,6 @@ columns = ["pid", "name", "cpu%", "mem%", "read", "write", "tread", "twrite", "s
     ratio=2
     type="net"
 
-
 # Filters - you can hide specific temperature sensors, network interfaces, and disks using filters.  This is admittedly
 # a bit hard to use as of now, and there is a planned in-app interface for managing this in the future:
 #[disk_filter]
