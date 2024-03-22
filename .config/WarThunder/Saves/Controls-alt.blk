@@ -713,7 +713,7 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=16
+      keyboardKey:i=45
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -722,8 +722,8 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH{
-      keyboardKey:i=56
-      keyboardKey:i=19
+      keyboardKey:i=219
+      keyboardKey:i=46
     }
 
     ID_SENSOR_RANGE_SWITCH_SHIP{
@@ -737,7 +737,7 @@ controls{
     }
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
-      keyboardKey:i=45
+      keyboardKey:i=46
     }
 
     ID_SENSOR_SWITCH{
@@ -763,12 +763,12 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=56
-      mouseButton:i=0
+      keyboardKey:i=30
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=46
+      keyboardKey:i=219
+      keyboardKey:i=30
     }
 
     ID_SENSOR_TARGET_LOCK_SHIP{}
@@ -1622,7 +1622,7 @@ controls{
     }
 
     sensor_cue_x_rangeMax{
-      keyboardKey:i=56
+      keyboardKey:i=219
       keyboardKey:i=33
     }
 
@@ -1632,7 +1632,7 @@ controls{
     }
 
     sensor_cue_x_rangeMin{
-      keyboardKey:i=56
+      keyboardKey:i=219
       keyboardKey:i=31
     }
 
@@ -1641,12 +1641,12 @@ controls{
     }
 
     sensor_cue_y_rangeMax{
-      keyboardKey:i=56
+      keyboardKey:i=219
       keyboardKey:i=18
     }
 
     sensor_cue_y_rangeMin{
-      keyboardKey:i=56
+      keyboardKey:i=219
       keyboardKey:i=32
     }
 
@@ -1771,7 +1771,7 @@ controls{
     }
 
     throttle_rangeMin{
-      keyboardKey:i=30
+      keyboardKey:i=16
     }
 
     trim_elevator_rangeMax{
@@ -1992,14 +1992,14 @@ controls{
 
   params{
     USEROPT_AILERONS_MULTIPLIER:i=100
-    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=23
-    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=23
+    USEROPT_ATGM_AIM_SENS_HELICOPTER:i=0
+    USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=0
     USEROPT_ELEVATOR_MULTIPLIER:i=100
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FREE_CAMERA_INERTIA:i=0
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=200
-    USEROPT_GUNNER_VIEW_SENSE:i=1
-    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=1
+    USEROPT_GUNNER_VIEW_SENSE:i=0
+    USEROPT_GUNNER_VIEW_ZOOM_SENS:i=0
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=no
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
@@ -2012,14 +2012,14 @@ controls{
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=no
     USEROPT_MOUSE_AIM_SENSE:i=5
-    USEROPT_MOUSE_SENSE:i=5
+    USEROPT_MOUSE_SENSE:i=11
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=0
+    USEROPT_ZOOM_SENSE:i=60
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
   }
@@ -2106,7 +2106,7 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.23
+  zoomSens:r=0.4
   mouseSens:r=0.23
   mouseAimSens:r=0
   gunnerViewSens:r=0
@@ -2149,7 +2149,7 @@ settings{
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
   cameraSmooth:r=0
-  cameraSpeed:r=0
+  cameraSpeed:r=0.5
   cameraMouseSpeed:r=1.1
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
