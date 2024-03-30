@@ -229,7 +229,7 @@ controls{
     ID_COLLAPSE_ACTION_BAR{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=47
     }
 
     ID_COMPLEX_ENGINE{
@@ -2143,7 +2143,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0
   mouseZMultAir:r=0.36
   mouseZMultHelicopter:r=0
-  mouseZMultTank:r=0
+  mouseZMultTank:r=0.36
   mouseZMultShip:r=0.35
   mouseZMultSubmarine:r=0
   gamepadMinVibration:r=0
