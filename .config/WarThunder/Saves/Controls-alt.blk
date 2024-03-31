@@ -1796,22 +1796,22 @@ controls{
 
     weapon_aim_heading_rangeMax{
       keyboardKey:i=219
-      keyboardKey:i=32
+      keyboardKey:i=33
     }
 
     weapon_aim_heading_rangeMin{
       keyboardKey:i=219
-      keyboardKey:i=18
+      keyboardKey:i=31
     }
 
     weapon_aim_pitch_rangeMax{
       keyboardKey:i=219
-      keyboardKey:i=32
+      keyboardKey:i=18
     }
 
     weapon_aim_pitch_rangeMin{
       keyboardKey:i=219
-      keyboardKey:i=18
+      keyboardKey:i=32
     }
 
     zoom_rangeMax{
