@@ -965,8 +965,7 @@ controls{
     }
 
     ID_START_SUPPORT_PLANE{
-      keyboardKey:i=56
-      keyboardKey:i=45
+      keyboardKey:i=49
     }
 
     ID_START_UGV{}
@@ -1008,7 +1007,7 @@ controls{
     }
 
     ID_SUPPORT_PLANE_ORBITING{
-      keyboardKey:i=33
+      keyboardKey:i=34
     }
 
     ID_SUPPORT_PLANE_ORBITING_HUMAN{
@@ -1796,25 +1795,23 @@ controls{
     }
 
     weapon_aim_heading_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=33
+      keyboardKey:i=219
+      keyboardKey:i=32
     }
 
     weapon_aim_heading_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=31
-    }
-
-    weapon_aim_pitch_rangeMax{}
-    weapon_aim_pitch_rangeMax{
-      keyboardKey:i=56
+      keyboardKey:i=219
       keyboardKey:i=18
     }
 
-    weapon_aim_pitch_rangeMin{}
-    weapon_aim_pitch_rangeMin{
-      keyboardKey:i=56
+    weapon_aim_pitch_rangeMax{
+      keyboardKey:i=219
       keyboardKey:i=32
+    }
+
+    weapon_aim_pitch_rangeMin{
+      keyboardKey:i=219
+      keyboardKey:i=18
     }
 
     zoom_rangeMax{
