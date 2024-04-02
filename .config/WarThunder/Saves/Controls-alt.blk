@@ -6,12 +6,7 @@ controls{
   }
 
   hotkeys{
-    ID_AAM{
-      keyboardKey:i=29
-      keyboardKey:i=42
-      keyboardKey:i=26
-    }
-
+    ID_AAM{}
     ID_AAM_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -65,12 +60,7 @@ controls{
       keyboardKey:i=20
     }
 
-    ID_AGM{
-      keyboardKey:i=29
-      keyboardKey:i=42
-      keyboardKey:i=27
-    }
-
+    ID_AGM{}
     ID_AGM_LOCK{
       mouseButton:i=1
     }
@@ -103,13 +93,6 @@ controls{
     }
 
     ID_BOMBS{}
-    ID_BOMBS{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=42
-      keyboardKey:i=43
-    }
-
     ID_BOMBS_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=42
@@ -319,7 +302,10 @@ controls{
     }
 
     ID_FIRE_ADDITIONAL_GUNS{
-      keyboardKey:i=201
+      keyboardKey:i=207
+      keyboardKey:i=209
+      keyboardKey:i=199
+      keyboardKey:i=14
     }
 
     ID_FIRE_ADDITIONAL_GUNS_HELICOPTER{
@@ -329,10 +315,10 @@ controls{
     }
 
     ID_FIRE_CANNONS{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=42
-      keyboardKey:i=26
+      keyboardKey:i=207
+      keyboardKey:i=209
+      keyboardKey:i=199
+      keyboardKey:i=14
     }
 
     ID_FIRE_CANNONS_HELICOPTER{
@@ -366,7 +352,10 @@ controls{
     }
 
     ID_FIRE_MGUNS{
-      keyboardKey:i=40
+      keyboardKey:i=207
+      keyboardKey:i=209
+      keyboardKey:i=199
+      keyboardKey:i=14
     }
 
     ID_FIRE_MGUNS_HELICOPTER{
@@ -432,12 +421,7 @@ controls{
       keyboardKey:i=34
     }
 
-    ID_GUIDED_BOMBS{
-      keyboardKey:i=29
-      keyboardKey:i=42
-      keyboardKey:i=43
-    }
-
+    ID_GUIDED_BOMBS{}
     ID_GUIDED_BOMBS_HELICOPTER{}
     ID_GUIDED_BOMBS_LOCK{}
     ID_GUIDED_BOMBS_LOCK_HELICOPTER{
@@ -663,13 +647,6 @@ controls{
       keyboardKey:i=29
       keyboardKey:i=56
       keyboardKey:i=27
-    }
-
-    ID_ROCKETS_SERIES{
-      keyboardKey:i=29
-      keyboardKey:i=56
-      keyboardKey:i=44
-      keyboardKey:i=42
     }
 
     ID_SCOUT{

@@ -1,4 +1,3 @@
-doShowDriversOutdated:b=yes
 forcedLauncher:i=0
 renderer3:t="auto"
 rdseed:i=21991228
@@ -8,6 +7,7 @@ releaseChannel:t=""
 language:t="English"
 graphicsQuality:t="custom"
 hangarBlk:t="grey_hangar"
+doShowDriversOutdated:b=yes
 
 graphics{
   rendinstDistMul:r=0.5
@@ -50,7 +50,7 @@ render{
   shadows:b=no
   ssrQuality:i=0
   haze:b=no
-  selfReflection:b=yes
+  selfReflection:b=no
 }
 
 sound{
@@ -70,7 +70,7 @@ video{
   instancing:t="auto"
   compatibilityMode:b=yes
   postfx_antialiasing:t="none"
-  fonts:t="compact"
+  fonts:t="small"
   latency:i=0
   vrStreamerMode:b=no
   dlssSharpness:i=0
@@ -80,6 +80,7 @@ video{
   temporalResolutionScale:r=1
   xessQuality:i=-1
   monitor:t="auto"
+  safearea:r=0.9
 }
 
 download{
@@ -114,10 +115,10 @@ yunetwork{
 debug{
   screenshotAsJpeg:b=yes
   enableFMCommands:b=yes
-  enableNvHighlights:t="auto"
   testLocalization:b=yes
-  512mboughttobeenoughforanybody:b=yes
   netLogerr:b=yes
+  512mboughttobeenoughforanybody:b=yes
+  enableNvHighlights:t="auto"
 }
 
 launcher{
