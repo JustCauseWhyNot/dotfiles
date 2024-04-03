@@ -70,7 +70,7 @@ video{
   instancing:t="auto"
   compatibilityMode:b=yes
   postfx_antialiasing:t="none"
-  fonts:t="small"
+  fonts:t="tiny"
   latency:i=0
   vrStreamerMode:b=no
   dlssSharpness:i=0
@@ -117,7 +117,7 @@ debug{
   enableFMCommands:b=yes
   testLocalization:b=yes
   netLogerr:b=yes
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
   enableNvHighlights:t="auto"
 }
 
