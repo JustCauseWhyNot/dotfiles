@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=War Thunder
-Exec=env ENABLE_VKBASALT=1 OBS_VKCAPTURE=1 /home/justcausewhynot/Games/WarThunder/launcher
+Exec=env __GL_MaxFramesAllowed=1 ENABLE_VKBASALT=1 OBS_VKCAPTURE=1 /home/justcausewhynot/Games/WarThunder/launcher
 Terminal=false
 Type=Application
 Icon=/home/justcausewhynot/Games/WarThunder/launcher.ico

@@ -70,7 +70,7 @@ video{
   instancing:t="auto"
   compatibilityMode:b=yes
   postfx_antialiasing:t="none"
-  fonts:t="tiny"
+  fonts:t="compact"
   latency:i=0
   vrStreamerMode:b=no
   dlssSharpness:i=0
@@ -80,7 +80,6 @@ video{
   temporalResolutionScale:r=1
   xessQuality:i=-1
   monitor:t="auto"
-  safearea:r=0.9
 }
 
 download{

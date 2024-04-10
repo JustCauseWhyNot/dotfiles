@@ -29,7 +29,15 @@ controls{
     }
 
     ID_ACTION_BAR_ITEM_2{
+      keyboardKey:i=5
+    }
+
+    ID_ACTION_BAR_ITEM_3{
       keyboardKey:i=2
+    }
+
+    ID_ACTION_BAR_ITEM_4{
+      keyboardKey:i=6
     }
 
     ID_ACTION_BAR_ITEM_5{
@@ -37,7 +45,7 @@ controls{
     }
 
     ID_ACTION_BAR_ITEM_6{
-      keyboardKey:i=6
+      keyboardKey:i=4
     }
 
     ID_ACTION_BAR_ITEM_7{
