@@ -54,9 +54,10 @@ render{
 }
 
 sound{
-  speakerMode:t="speakers7.1"
+  speakerMode:t="stereo"
   fmod_sound_enable:b=yes
   enable_mod:b=yes
+  useLoopsForGunSound:b=no
 }
 
 video{
@@ -116,7 +117,7 @@ debug{
   enableFMCommands:b=yes
   testLocalization:b=yes
   netLogerr:b=yes
-  512mboughttobeenoughforanybody:b=no
+  512mboughttobeenoughforanybody:b=yes
   enableNvHighlights:t="auto"
 }
 

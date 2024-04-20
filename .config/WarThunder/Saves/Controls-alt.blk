@@ -59,7 +59,7 @@ controls{
     }
 
     ID_ACTION_BAR_ITEM_9{
-      mouseButton:i=3
+      mouseButton:i=4
     }
 
     ID_AEROBATICS_SMOKE{
@@ -950,7 +950,7 @@ controls{
     }
 
     ID_START_SUPPORT_PLANE{
-      keyboardKey:i=49
+      mouseButton:i=3
     }
 
     ID_START_UGV{}
