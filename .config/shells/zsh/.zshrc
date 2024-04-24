@@ -76,6 +76,7 @@ alias doase='sudoedit'
 alias grep='grep --color==yes'
 alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
+alias nvidia-settings="nvidia-settings --config='$XDG_CONFIG_HOME'/nvidia/settings"
 alias rm='rm -dfr'
 alias py='python'
 alias startx='startx "$XINITRC" -- "$XSERVERRC" vt1'
