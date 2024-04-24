@@ -33,12 +33,12 @@ graphics{
   physicsQuality:i=0
   compatibilityShadowQuality:t="low"
   riGpuObjects:b=yes
-  mirrorQuality:i=0
+  mirrorQuality:i=10
   fxTarget:t="low"
   waterEffectsQuality:t="low"
   clipmapScale:r=0.5
   giQuality:t="low"
-  skyQuality:i=1
+  skyQuality:i=2
 }
 
 render{
@@ -46,7 +46,7 @@ render{
   softFx:b=no
   rendinstGlobalShadows:b=no
   grass:b=no
-  ssaoQuality:i=1
+  ssaoQuality:i=2
   shadows:b=no
   ssrQuality:i=0
   haze:b=no
@@ -69,8 +69,8 @@ video{
   windowed:b=no
   mode:t="fullscreen"
   instancing:t="auto"
-  compatibilityMode:b=yes
-  postfx_antialiasing:t="none"
+  compatibilityMode:b=no
+  postfx_antialiasing:t="low_taa"
   fonts:t="compact"
   latency:i=0
   vrStreamerMode:b=no
