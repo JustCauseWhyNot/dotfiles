@@ -340,11 +340,11 @@ controls{
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
-      keyboardKey:i=44
+      keyboardKey:i=49
     }
 
     ID_FIRE_GM_SPECIAL_GUN{
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_FIRE_HUMAN{
@@ -416,7 +416,7 @@ controls{
     }
 
     ID_FUEL_TANKS{
-      keyboardKey:i=56
+      keyboardKey:i=29
       keyboardKey:i=211
     }
 
@@ -485,7 +485,7 @@ controls{
     ID_JETTISON_SECONDARY{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=41
+      keyboardKey:i=211
     }
 
     ID_JETTISON_SECONDARY_HELICOPTER{
@@ -510,7 +510,7 @@ controls{
     }
 
     ID_MPSTATSCREEN{
-      keyboardKey:i=211
+      keyboardKey:i=15
     }
 
     ID_NEXT_PLANE{
@@ -748,12 +748,13 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=219
       keyboardKey:i=30
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=219
-      keyboardKey:i=30
+      keyboardKey:i=29
+      mouseButton:i=0
     }
 
     ID_SENSOR_TARGET_LOCK_SHIP{}
@@ -876,10 +877,7 @@ controls{
       keyboardKey:i=47
     }
 
-    ID_SHIP_WEAPON_MORTAR{
-      keyboardKey:i=16
-    }
-
+    ID_SHIP_WEAPON_MORTAR{}
     ID_SHIP_WEAPON_PRIMARY{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -1040,8 +1038,7 @@ controls{
     }
 
     ID_SWITCH_COCKPIT_SIGHT_MODE{
-      keyboardKey:i=29
-      keyboardKey:i=41
+      keyboardKey:i=211
     }
 
     ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT{
@@ -1063,7 +1060,7 @@ controls{
     }
 
     ID_TACTICAL_MAP{
-      keyboardKey:i=15
+      keyboardKey:i=16
     }
 
     ID_TANK_NIGHT_VISION{
@@ -1160,9 +1157,9 @@ controls{
     }
 
     ID_TOGGLE_COCKPIT_LIGHTS{
-      keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=211
+      keyboardKey:i=29
+      keyboardKey:i=41
     }
 
     ID_TOGGLE_COCKPIT_LIGHTS_HELICOPTER{
@@ -1209,7 +1206,7 @@ controls{
 
     ID_TOGGLE_INSTRUCTOR{
       keyboardKey:i=29
-      keyboardKey:i=211
+      keyboardKey:i=41
     }
 
     ID_TOGGLE_LASER_DESIGNATOR{
@@ -1750,7 +1747,7 @@ controls{
     }
 
     throttle_rangeMin{
-      keyboardKey:i=16
+      keyboardKey:i=30
     }
 
     trim_elevator_rangeMax{
@@ -2084,7 +2081,7 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.4
-  mouseSens:r=0.23
+  mouseSens:r=0.22
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
   gunnerViewZoomSens:r=0
@@ -2127,7 +2124,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.5
-  cameraMouseSpeed:r=0.95
+  cameraMouseSpeed:r=1.025
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
