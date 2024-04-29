@@ -24,7 +24,7 @@ graphics{
   contactShadowsQuality:i=0
   lastClipSize:i=4096
   tireTracksQuality:i=3
-  enableSuspensionAnimation:b=no
+  enableSuspensionAnimation:b=yes
   panoramaResolution:i=1024
   waterQuality:t="low"
   advancedShore:b=no
