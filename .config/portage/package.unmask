@@ -1,1 +1,51 @@
-/etc/portage/package.unmask
+app-misc/task-spooler::amano-kenji
+app-emulation/wine-ge-custom-bin::kzd
+app-emulation/proton-ge-custom-bin::kzd
+app-emulation/proton-ge-custom-meta::kzd
+dev-python/tkinter-tooltip::local
+media-libs/libmysofa::local
+#media-libs/libmysofa::stefantalpalaru
+x11-misc/RazerGenie
+dev-libs/openvr::kzd
+dev-libs/qt5pas::pg_overlay
+#dev-libs/spdlog::thegreatmcpain
+dev-python/ntlm-auth
+dev-python/PyQt6
+dev-python/PyQt6-WebEngine
+dev-qt/qt5compat
+dev-qt/qtbase
+dev-qt/qtcharts
+dev-qt/qtdeclarative
+dev-qt/qtimageformats
+dev-qt/qtlocation
+dev-qt/qtmultimedia
+dev-qt/qtnetworkauth
+dev-qt/qtpositioning
+dev-qt/qtquick3d
+dev-qt/qtquicktimeline
+dev-qt/qtscxml
+dev-qt/qtserialport
+dev-qt/qtshadertools
+dev-qt/qtsvg:6
+dev-qt/qttools
+dev-qt/qtwayland
+dev-qt/qtwebchannel
+dev-qt/qtwebengine
+dev-qt/qtwebsockets
+dev-util/reshade-shaders::thegreatmcpain
+games-util/mangohud::thegreatmcpain
+games-util/vkbasalt::thegreatmcpain
+#gui-wm/gamescope::local
+media-fonts/material-design-icons::robertgzr
+media-fonts/nerd-fonts::gentoo-zh
+media-libs/gst-plugins-base::kzd
+media-libs/gstreamer::kzd
+media-video/gpu-screen-recorder::local
+sys-apps/evhz::ROKO__
+sys-process/btop::nest
+x11-libs/libva-nvdec-driver::gentoo-zh
+x11-themes/material-design-icons::robertgzr
+# required by media-libs/opencv-4.8.0-r1::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask:

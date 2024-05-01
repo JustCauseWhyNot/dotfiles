@@ -1,1 +1,10 @@
-/etc/portage/package.accept_keywords
+sys-apps/edid-decode **
+sys-process/htop **
+# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
+# required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.27.11::gentoo
+# required by kde-plasma/plasma-browser-integration-5.27.11::gentoo
+# required by plasma-browser-integration (argument)
+=media-video/vlc-9999 **
+media-video/ffmpeg **
+media-video/obs-studio **
