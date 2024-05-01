@@ -738,7 +738,7 @@ controls{
     ID_SENSOR_SWITCH_SHIP{
       keyboardKey:i=29
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=30
     }
 
     ID_SENSOR_SWITCH_TANK{
@@ -852,12 +852,6 @@ controls{
     }
 
     ID_SHIP_TOGGLE_GUNNERS{}
-    ID_SHIP_TOGGLE_GUNNERS{
-      keyboardKey:i=56
-      keyboardKey:i=29
-      keyboardKey:i=30
-    }
-
     ID_SHIP_TORPEDO_SIGHT{
       keyboardKey:i=56
       keyboardKey:i=44
@@ -1288,6 +1282,10 @@ controls{
     ID_TRANS_GEAR_NEUTRAL{
       keyboardKey:i=31
       keyboardKey:i=33
+    }
+
+    ID_TRANS_GEAR_NEUTRAL{
+      keyboardKey:i=32
     }
 
     ID_TRANS_GEAR_UP{
