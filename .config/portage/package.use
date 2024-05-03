@@ -14,6 +14,7 @@ app-text/xmlto text
 dev-build/meson python_targets_python3_10
 dev-cpp/highway abi_x86_32
 dev-db/sqlite abi_x86_32
+dev-lang/orc abi_x86_32
 dev-lang/python tk
 dev-lang/rust-bin abi_x86_32
 dev-libs/expat abi_x86_32
@@ -35,6 +36,7 @@ dev-libs/xmlsec nss
 dev-lua/luv -lua_single_target_lua5-4
 dev-python/PyQt5 gui widgets
 dev-python/PySocks python_targets_python3_10
+dev-python/backports-tarfile python_targets_python3_10
 dev-python/certifi python_targets_python3_10
 dev-python/charset-normalizer python_targets_python3_10
 dev-python/cython python_targets_python3_10
@@ -92,7 +94,7 @@ media-libs/freetype abi_x86_32 harfbuzz
 media-libs/glu abi_x86_32
 media-libs/graphene abi_x86_32
 media-libs/gst-plugins-bad abi_x86_32
-media-libs/gst-plugins-base abi_x86_32 \ -gles2
+media-libs/gst-plugins-base abi_x86_32 gles2
 media-libs/gst-plugins-good abi_x86_32
 media-libs/gstreamer abi_x86_32
 media-libs/harfbuzz abi_x86_32
@@ -105,11 +107,11 @@ media-libs/libjpeg-turbo abi_x86_32
 media-libs/libjxl abi_x86_32
 media-libs/libmysofa abi_x86_32
 media-libs/libpng abi_x86_32
-media-libs/libpulse-17.0 abi_x86_32
+media-libs/libpulse abi_x86_32
 media-libs/libsdl2 abi_x86_32 haptic
-media-libs/libsndfile-1.2.2-r2 abi_x86_32
+media-libs/libsndfile abi_x86_32
 media-libs/libva abi_x86_32
-media-libs/libvpx-1.14.0 abi_x86_32
+media-libs/libvpx abi_x86_32
 media-libs/mesa wayland abi_x86_32
 media-libs/opencv contrib contribdnn
 media-libs/openjpeg abi_x86_32
