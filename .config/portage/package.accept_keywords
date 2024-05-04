@@ -3,7 +3,5 @@
 # required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
 # required by media-libs/phonon-vlc-0.11.3-r1::gentoo
 # required by plasma-browser-integration (argument)
-media-video/ffmpeg **
-media-video/obs-studio **
 sys-apps/edid-decode **
 sys-process/htop **
