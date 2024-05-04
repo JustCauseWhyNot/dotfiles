@@ -18,6 +18,7 @@ dev-lang/orc abi_x86_32
 dev-lang/python tk
 dev-lang/rust-bin abi_x86_32
 dev-libs/expat abi_x86_32
+dev-libs/fribidi abi_x86_32
 dev-libs/glib abi_x86_32
 dev-libs/gmp abi_x86_32
 dev-libs/icu abi_x86_32
@@ -89,6 +90,7 @@ media-gfx/imagemagick xml
 media-gfx/qimgv exif opencv video
 media-libs/alsa-lib abi_x86_32
 media-libs/dav1d abi_x86_32
+media-libs/flac abi_x86_32
 media-libs/fontconfig abi_x86_32
 media-libs/freetype abi_x86_32 harfbuzz
 media-libs/glu abi_x86_32
@@ -106,13 +108,16 @@ media-libs/libglvnd abi_x86_32
 media-libs/libjpeg-turbo abi_x86_32
 media-libs/libjxl abi_x86_32
 media-libs/libmysofa abi_x86_32
+media-libs/libogg abi_x86_32
 media-libs/libpng abi_x86_32
 media-libs/libpulse abi_x86_32
 media-libs/libsdl2 abi_x86_32 haptic
 media-libs/libsndfile abi_x86_32
 media-libs/libva abi_x86_32
+media-libs/libvorbis abi_x86_32
 media-libs/libvpx abi_x86_32
 media-libs/mesa wayland abi_x86_32
+media-libs/openal abi_x86_32
 media-libs/opencv contrib contribdnn
 media-libs/openjpeg abi_x86_32
 media-libs/opus abi_x86_32
@@ -125,6 +130,7 @@ media-plugins/alsa-plugins pulseaudio
 media-plugins/gst-plugins-libav abi_x86_32
 media-plugins/gst-plugins-vaapi abi_x86_32
 media-plugins/gst-plugins-vpx abi_x86_32
+media-sound/lame abi_x86_32
 media-sound/mpg123 abi_x86_32
 media-sound/mpg123-base abi_x86_32
 media-video/ffmpeg abi_x86_32 alsa libdrm libass opus pulseaudio sdl vorbis x264 \ -vulkan
@@ -182,6 +188,7 @@ x11-libs/libXxf86vm abi_x86_32
 x11-libs/libdrm abi_x86_32
 x11-libs/libvdpau abi_x86_32
 x11-libs/libxcb abi_x86_32
+x11-libs/libxshmfence abi_x86_32
 x11-libs/pango abi_x86_32
 x11-libs/pixman abi_x86_32
 x11-libs/xcb-util-keysyms abi_x86_32
