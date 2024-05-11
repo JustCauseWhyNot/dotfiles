@@ -3,10 +3,12 @@
 */* PYTHON_SINGLE_TARGET: -* python3_11
 */* PYTHON_TARGETS: python3_12 python3_11
 app-admin/sysklogd logger logrotate
+app-arch/brotli abi_x86_32
 app-arch/bzip2 abi_x86_32
 app-arch/zstd abi_x86_32
 app-crypt/heimdal abi_x86_32
 app-crypt/mit-krb5 abi_x86_32
+app-emulation/proton-ge-custom-bin abi_x86_32
 app-office/libreoffice-bin java
 app-portage/gemato python_targets_python3_10
 app-text/poppler cairo
@@ -22,7 +24,9 @@ dev-libs/fribidi abi_x86_32
 dev-libs/glib abi_x86_32
 dev-libs/gmp abi_x86_32
 dev-libs/icu abi_x86_32
+dev-libs/libevdev abi_x86_32
 dev-libs/libffi abi_x86_32
+dev-libs/libfmt abi_x86_32
 dev-libs/libgudev abi_x86_32
 dev-libs/libpcre2 abi_x86_32
 dev-libs/libtasn1 abi_x86_32
@@ -32,6 +36,7 @@ dev-libs/libxml2 abi_x86_32
 dev-libs/lzo abi_x86_32
 dev-libs/nettle abi_x86_32
 dev-libs/openssl abi_x86_32
+dev-libs/spdlog abi_x86_32
 dev-libs/wayland abi_x86_32
 dev-libs/xmlsec nss
 dev-lua/luv -lua_single_target_lua5-4
@@ -80,7 +85,9 @@ dev-qt/qtgui accessibility
 dev-qt/qtwidgets gtk
 dev-util/glslang abi_x86_32
 dev-util/spirv-tools abi_x86_32
+dev-util/vulkan-tools cube
 dev-util/vulkan-utility-libraries abi_x86_32
+games-util/mangohud abi_x86_32
 games-util/vkbasalt reshade-shaders
 gnome-base/librsvg abi_x86_32
 gui-wm/gamescope -wsi-layer
@@ -93,6 +100,8 @@ media-libs/dav1d abi_x86_32
 media-libs/flac abi_x86_32
 media-libs/fontconfig abi_x86_32
 media-libs/freetype abi_x86_32 harfbuzz
+media-libs/giflib abi_x86_32
+media-libs/glew abi_x86_32 media-libs/glu abi_x86_32
 media-libs/glu abi_x86_32
 media-libs/graphene abi_x86_32
 media-libs/gst-plugins-bad abi_x86_32
@@ -101,6 +110,8 @@ media-libs/gst-plugins-good abi_x86_32
 media-libs/gstreamer abi_x86_32
 media-libs/harfbuzz abi_x86_32
 media-libs/harfbuzz icu
+media-libs/imgui abi_x86_32
+media-libs/implot abi_x86_32
 media-libs/lcms abi_x86_32
 media-libs/libass abi_x86_32
 media-libs/libcanberra alsa
@@ -113,6 +124,7 @@ media-libs/libpng abi_x86_32
 media-libs/libpulse abi_x86_32
 media-libs/libsdl2 abi_x86_32 haptic
 media-libs/libsndfile abi_x86_32
+media-libs/libtheora abi_x86_32
 media-libs/libva abi_x86_32
 media-libs/libvorbis abi_x86_32
 media-libs/libvpx abi_x86_32
@@ -121,13 +133,16 @@ media-libs/openal abi_x86_32
 media-libs/opencv contrib contribdnn
 media-libs/openjpeg abi_x86_32
 media-libs/opus abi_x86_32
+media-libs/speex abi_x86_32
 media-libs/svt-av1 abi_x86_32
 media-libs/tiff abi_x86_32
 media-libs/vulkan-layers abi_x86_32
 media-libs/vulkan-loader abi_x86_32 layers
 media-libs/x264 abi_x86_32
 media-plugins/alsa-plugins pulseaudio
+media-plugins/gst-plugins-flac abi_x86_32
 media-plugins/gst-plugins-libav abi_x86_32
+media-plugins/gst-plugins-meta abi_x86_32
 media-plugins/gst-plugins-vaapi abi_x86_32
 media-plugins/gst-plugins-vpx abi_x86_32
 media-sound/lame abi_x86_32
@@ -141,9 +156,11 @@ net-dns/libidn2 abi_x86_32
 net-irc/weechat debug \ -exec -charset -enchant -fifo -fset -nls -perl -python -relay -scripts -spell -trigger -typing -xfer -zstd
 net-libs/gnutls abi_x86_32
 net-libs/libasyncns abi_x86_32
+net-libs/libndp abi_x86_32
 net-misc/aria2 bittorrent
 net-misc/aria2 metalink xmlrpc
 sys-apps/dbus abi_x86_32
+sys-apps/man-db -seccomp
 sys-apps/openrc -netifrc
 sys-apps/portage python_targets_python3_10
 sys-apps/systemd-utils abi_x86_32
@@ -155,6 +172,7 @@ sys-fs/e2fsprogsr2 abi_x86_32
 sys-libs/db abi_x86_32
 sys-libs/gdbm abi_x86_32
 sys-libs/glibc hash-sysv-compat
+sys-libs/gpm abi_x86_32
 sys-libs/libcap abi_x86_32
 sys-libs/libudev-compat abi_x86_32
 sys-libs/libunwind abi_x86_32
@@ -165,13 +183,19 @@ sys-libs/zlib abi_x86_32
 sys-libs/zlib minizip
 sys-process/htop hwloc lm-sensors unwind
 sys-process/procps modern-top
+virtual/glu abi_x86_32
 virtual/libiconv abi_x86_32
 virtual/libintl abi_x86_32
 virtual/libudev abi_x86_32
+virtual/libusb abi_x86_32
+virtual/opengl abi_x86_32
 virtual/rust abi_x86_32
-x11-drivers/nvidia-drivers abi_x86_32 persistenced
+x11-drivers/nvidia-drivers abi_x86_32 wayland
 x11-libs/cairo abi_x86_32
+x11-libs/extest abi_x86_32
 x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/libICE abi_x86_32
+x11-libs/libSM abi_x86_32
 x11-libs/libX11 abi_x86_32
 x11-libs/libXau abi_x86_32
 x11-libs/libXcomposite abi_x86_32
@@ -181,8 +205,10 @@ x11-libs/libXext abi_x86_32
 x11-libs/libXfixes abi_x86_32
 x11-libs/libXft abi_x86_32
 x11-libs/libXi abi_x86_32
+x11-libs/libXmu abi_x86_32
 x11-libs/libXrandr abi_x86_32
 x11-libs/libXrender abi_x86_32
+x11-libs/libXt abi_x86_32
 x11-libs/libXv abi_x86_32
 x11-libs/libXxf86vm abi_x86_32
 x11-libs/libdrm abi_x86_32
