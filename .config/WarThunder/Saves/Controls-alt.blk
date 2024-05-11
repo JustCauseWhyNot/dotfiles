@@ -980,7 +980,7 @@ controls{
 
     ID_SUPERCHARGER{
       mouseButton:i=2
-      keyboardKey:i=16
+      keyboardKey:i=34
     }
 
     ID_SUPPORT_PLANE_ORBITING{
