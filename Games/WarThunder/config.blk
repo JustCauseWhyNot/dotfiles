@@ -117,7 +117,6 @@ debug{
   enableFMCommands:b=yes
   testLocalization:b=yes
   netLogerr:b=yes
-  512mboughttobeenoughforanybody:b=yes
   enableNvHighlights:t="auto"
 }
 
