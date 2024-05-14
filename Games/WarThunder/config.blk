@@ -11,7 +11,7 @@ doShowDriversOutdated:b=yes
 
 graphics{
   rendinstDistMul:r=0.5
-  landquality:i=0
+  landquality:i=4
   shadowQuality:t="ultralow"
   backgroundScale:r=1
   lenseFlares:b=no
@@ -36,7 +36,7 @@ graphics{
   mirrorQuality:i=10
   fxTarget:t="low"
   waterEffectsQuality:t="low"
-  clipmapScale:r=0.5
+  clipmapScale:r=1.5
   giQuality:t="low"
   skyQuality:i=2
 }
@@ -118,6 +118,7 @@ debug{
   testLocalization:b=yes
   netLogerr:b=yes
   enableNvHighlights:t="auto"
+  512mboughttobeenoughforanybody:b=yes
 }
 
 launcher{

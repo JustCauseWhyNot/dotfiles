@@ -169,6 +169,7 @@ sys-devel/gettext abi_x86_32
 sys-devel/llvm abi_x86_32
 sys-fs/e2fsprogs abi_x86_32
 sys-fs/e2fsprogsr2 abi_x86_32
+sys-kernel/gentoo-sources experimental symlink
 sys-libs/db abi_x86_32
 sys-libs/gdbm abi_x86_32
 sys-libs/glibc hash-sysv-compat
