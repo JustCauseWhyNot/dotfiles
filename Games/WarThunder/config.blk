@@ -22,23 +22,23 @@ graphics{
   displacementQuality:i=0
   dirtSubDiv:i=1
   contactShadowsQuality:i=0
-  lastClipSize:i=4096
+  lastClipSize:i=8192
   tireTracksQuality:i=3
-  enableSuspensionAnimation:b=yes
-  panoramaResolution:i=1024
+  enableSuspensionAnimation:b=no
+  panoramaResolution:i=4096
   waterQuality:t="low"
   advancedShore:b=no
-  cloudsQuality:i=2
+  cloudsQuality:i=0
   anisotropy:i=16
   physicsQuality:i=0
   compatibilityShadowQuality:t="low"
   riGpuObjects:b=yes
   mirrorQuality:i=10
-  fxTarget:t="low"
+  fxTarget:t="ultrahigh"
   waterEffectsQuality:t="low"
   clipmapScale:r=1.5
   giQuality:t="low"
-  skyQuality:i=2
+  skyQuality:i=1
 }
 
 render{
@@ -118,7 +118,7 @@ debug{
   testLocalization:b=yes
   netLogerr:b=yes
   enableNvHighlights:t="auto"
-  512mboughttobeenoughforanybody:b=yes
+  512mboughttobeenoughforanybody:b=no
 }
 
 launcher{

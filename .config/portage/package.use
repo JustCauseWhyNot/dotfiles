@@ -27,6 +27,8 @@ dev-libs/icu abi_x86_32
 dev-libs/libevdev abi_x86_32
 dev-libs/libffi abi_x86_32
 dev-libs/libfmt abi_x86_32
+dev-libs/libgcrypt abi_x86_32
+dev-libs/libgpg-error abi_x86_32
 dev-libs/libgudev abi_x86_32
 dev-libs/libpcre2 abi_x86_32
 dev-libs/libtasn1 abi_x86_32
@@ -170,6 +172,7 @@ sys-devel/llvm abi_x86_32
 sys-fs/e2fsprogs abi_x86_32
 sys-fs/e2fsprogsr2 abi_x86_32
 sys-kernel/gentoo-sources experimental symlink
+sys-kernel/installkernel efistub
 sys-libs/db abi_x86_32
 sys-libs/gdbm abi_x86_32
 sys-libs/glibc hash-sysv-compat
@@ -191,7 +194,8 @@ virtual/libudev abi_x86_32
 virtual/libusb abi_x86_32
 virtual/opengl abi_x86_32
 virtual/rust abi_x86_32
-x11-drivers/nvidia-drivers abi_x86_32 wayland
+virtual/wine proton
+x11-drivers/nvidia-drivers abi_x86_32 persistenced wayland
 x11-libs/cairo abi_x86_32
 x11-libs/extest abi_x86_32
 x11-libs/gdk-pixbuf abi_x86_32
