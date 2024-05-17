@@ -9,55 +9,57 @@ graphicsQuality:t="custom"
 hangarBlk:t="grey_hangar"
 doShowDriversOutdated:b=yes
 
-graphics{
-  rendinstDistMul:r=0.5
-  landquality:i=4
-  shadowQuality:t="ultralow"
-  backgroundScale:r=1
-  lenseFlares:b=no
-  texquality:t="high"
-  fxDensityMul:r=0.2
-  grassRadiusMul:r=0.1
-  ssaa:r=1
-  displacementQuality:i=0
-  dirtSubDiv:i=1
-  contactShadowsQuality:i=0
-  lastClipSize:i=4096
-  tireTracksQuality:i=3
-  enableSuspensionAnimation:b=no
-  panoramaResolution:i=4096
-  waterQuality:t="low"
-  advancedShore:b=no
-  cloudsQuality:i=0
-  anisotropy:i=16
-  physicsQuality:i=0
-  compatibilityShadowQuality:t="low"
-  riGpuObjects:b=yes
-  mirrorQuality:i=10
-  fxTarget:t="ultrahigh"
-  waterEffectsQuality:t="low"
-  clipmapScale:r=1.5
-  giQuality:t="low"
-  skyQuality:i=1
-}
-
 render{
+  selfReflection:b=no
+  motionBlur:b=no
   staticShadowsOnEffects:b=no
   softFx:b=no
-  rendinstGlobalShadows:b=no
+  rendinstGlobalShadows:b=yes
   grass:b=no
   ssaoQuality:i=2
   shadows:b=no
   ssrQuality:i=0
   haze:b=no
-  selfReflection:b=no
+}
+graphics{
+  rendinstDistMul:r=0.5
+  landquality:i=4
+  shadowQuality:t="ultralow"
+  backgroundScale:r=1.5
+  lenseFlares:b=no
+  texquality:t="high"
+  fxDensityMul:r=0.2
+  grassRadiusMul:r=0.1
+  ssaa:r=1
+  displacementQuality:i=3
+  dirtSubDiv:i=2
+  contactShadowsQuality:i=2
+  lastClipSize:i=8192
+  tireTracksQuality:i=3
+  enableSuspensionAnimation:b=yes
+  panoramaResolution:i=4096
+  waterQuality:t="low"
+  advancedShore:b=no
+  cloudsQuality:i=2
+  lowResFx:b=no
+  anisotropy:i=16
+  physicsQuality:i=0
+  riGpuObjects:b=no
+  compatibilityShadowQuality:t="low"
+  mirrorQuality:i=10
+  clipmapScale:r=1.5
+  enableBlastEffect:b=no
+  fxTarget:t="ultrahigh"
+  fxLights:b=yes
+  waterEffectsQuality:t="low"
+  giQuality:t="low"
+  skyQuality:i=2
 }
 
 sound{
   speakerMode:t="stereo"
   fmod_sound_enable:b=yes
   enable_mod:b=yes
-  useLoopsForGunSound:b=no
 }
 
 video{
@@ -73,22 +75,22 @@ video{
   postfx_antialiasing:t="none"
   fonts:t="compact"
   latency:i=0
-  vrStreamerMode:b=no
   dlssSharpness:i=0
-  vreye:t="left"
+  vrStreamerMode:b=no
+  temporalResolutionScale:r=1
   dlssQuality:i=-1
   perfMetrics:i=1
-  temporalResolutionScale:r=1
-  xessQuality:i=-1
   monitor:t="auto"
+  vreye:t="left"
+  xessQuality:i=-1
 }
 
 download{
   DHT:b=yes
   upl_speed_rate:i=1000
   peer_exchange:b=yes
-  UTP2:b=yes
-  seeding_on:b=no
+  UTP2:b=no
+  seeding_on:b=yes
   dnl_limit:b=no
   upl_limit:b=no
   dnl_speed_rate:i=1000
@@ -114,11 +116,9 @@ yunetwork{
 
 debug{
   screenshotAsJpeg:b=yes
-  enableFMCommands:b=yes
-  testLocalization:b=yes
-  netLogerr:b=yes
-  enableNvHighlights:t="auto"
   512mboughttobeenoughforanybody:b=no
+  enableNvHighlights:t="auto"
+  testLocalization:b=yes
 }
 
 launcher{
@@ -129,7 +129,7 @@ launcher{
 }
 
 directx{
-  maxaa:i=2
+  maxaa:i=0
   enableHdr:b=no
 }
 
