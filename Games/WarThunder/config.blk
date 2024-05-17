@@ -22,7 +22,7 @@ graphics{
   displacementQuality:i=0
   dirtSubDiv:i=1
   contactShadowsQuality:i=0
-  lastClipSize:i=8192
+  lastClipSize:i=4096
   tireTracksQuality:i=3
   enableSuspensionAnimation:b=no
   panoramaResolution:i=4096

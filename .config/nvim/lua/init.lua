@@ -100,6 +100,27 @@ require("lazy").setup({
 	},
 
 	{
+		"sontungexpt/url-open",
+		event = "VeryLazy",
+		cmd = "URLOpenUnderCursor",
+		open_only_when_cursors_on_url = false,
+		config = function()
+			local status_ok, url_open = pcall(require, "url-open")
+			if not status_ok then
+				return
+			end
+			url_open.setup ({})
+		end,
+	},
+
+	{
+		'allaman/emoji.nvim',
+		version = "1.0.0", -- optionally pin to a tag
+		opts = {
+			enable_cmp_integration = true,
+		},
+	},
+	{
 		'projekt0n/github-nvim-theme',
 		lazy = false, -- make sure we load this during startup if it is your main colorscheme
 		priority = 1000, -- make sure to load this before all the other start plugins
@@ -217,10 +238,10 @@ cmp.setup({
 	}),
 	sources = cmp.config.sources({
 		{ name = 'nvim_lsp' },
-		{ name = 'luasnip' }, -- For luasnip users.
-	}, {
-			{ name = 'buffer' },
-		})
+		{ name = 'buffer', keyword_length =5 },
+		{ name = 'luasnip' },
+		{ name = 'emoji' },
+	})
 })
 
 -- Set configuration for specific filetype.
@@ -297,3 +318,4 @@ cmp.setup({
 
 require('github-theme').compile() -- lua api version
 require('luasnip.loaders.from_vscode').lazy_load()
+vim.keymap.set("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
