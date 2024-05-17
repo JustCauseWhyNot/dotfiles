@@ -52,7 +52,7 @@ graphics{
   fxTarget:t="ultrahigh"
   fxLights:b=yes
   waterEffectsQuality:t="low"
-  giQuality:t="low"
+  giQuality:t="high"
   skyQuality:i=2
 }
 
