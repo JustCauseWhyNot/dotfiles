@@ -32,7 +32,7 @@ dev-qt/qtwebchannel
 dev-qt/qtwebengine
 dev-qt/qtwebsockets
 dev-util/reshade-shaders::thegreatmcpain
-games-util/mangohud::thegreatmcpain
+#games-util/mangohud::ace
 games-util/vkbasalt::thegreatmcpain
 media-fonts/material-design-icons::robertgzr
 media-fonts/nerd-fonts::gentoo-zh

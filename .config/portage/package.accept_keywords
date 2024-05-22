@@ -5,5 +5,6 @@
 # required by plasma-browser-integration (argument)
 */*::steam-overlay
 app-misc/openrgb **
+games-util/mangohud **
 sys-apps/edid-decode **
 sys-process/htop **

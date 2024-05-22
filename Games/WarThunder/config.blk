@@ -17,7 +17,7 @@ render{
   rendinstGlobalShadows:b=yes
   grass:b=no
   ssaoQuality:i=2
-  shadows:b=no
+  shadows:b=yes
   ssrQuality:i=0
   haze:b=no
 }
@@ -25,7 +25,7 @@ graphics{
   rendinstDistMul:r=0.5
   landquality:i=4
   shadowQuality:t="ultralow"
-  backgroundScale:r=1.5
+  backgroundScale:r=1
   lenseFlares:b=no
   texquality:t="high"
   fxDensityMul:r=0.2
@@ -72,14 +72,14 @@ video{
   mode:t="fullscreen"
   instancing:t="auto"
   compatibilityMode:b=no
-  postfx_antialiasing:t="none"
+  postfx_antialiasing:t="high_taa"
   fonts:t="compact"
   latency:i=0
   dlssSharpness:i=0
   vrStreamerMode:b=no
   temporalResolutionScale:r=1
   dlssQuality:i=-1
-  perfMetrics:i=1
+  perfMetrics:i=0
   monitor:t="auto"
   vreye:t="left"
   xessQuality:i=-1
