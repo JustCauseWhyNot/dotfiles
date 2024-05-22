@@ -14,10 +14,10 @@ render{
   motionBlur:b=no
   staticShadowsOnEffects:b=no
   softFx:b=no
-  rendinstGlobalShadows:b=yes
+  rendinstGlobalShadows:b=no
   grass:b=no
   ssaoQuality:i=2
-  shadows:b=yes
+  shadows:b=no
   ssrQuality:i=0
   haze:b=no
 }
@@ -33,7 +33,7 @@ graphics{
   ssaa:r=1
   displacementQuality:i=3
   dirtSubDiv:i=2
-  contactShadowsQuality:i=2
+  contactShadowsQuality:i=0
   lastClipSize:i=8192
   tireTracksQuality:i=3
   enableSuspensionAnimation:b=yes
@@ -52,7 +52,7 @@ graphics{
   fxTarget:t="ultrahigh"
   fxLights:b=yes
   waterEffectsQuality:t="low"
-  giQuality:t="high"
+  giQuality:t="low"
   skyQuality:i=2
 }
 
