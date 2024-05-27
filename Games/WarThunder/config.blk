@@ -23,34 +23,35 @@ render{
 }
 graphics{
   rendinstDistMul:r=0.5
-  landquality:i=4
+  landquality:i=0
   shadowQuality:t="ultralow"
   backgroundScale:r=1
   lenseFlares:b=no
   texquality:t="high"
   fxDensityMul:r=0.2
+  fxResolutionQuality:t="high"
   grassRadiusMul:r=0.1
   ssaa:r=1
   displacementQuality:i=3
   dirtSubDiv:i=2
   contactShadowsQuality:i=0
-  lastClipSize:i=8192
+  lastClipSize:i=4096
   tireTracksQuality:i=3
   enableSuspensionAnimation:b=yes
-  panoramaResolution:i=4096
+  panoramaResolution:i=1024
   waterQuality:t="low"
   advancedShore:b=no
   cloudsQuality:i=2
-  lowResFx:b=no
+  lowResFx:b=yes
   anisotropy:i=16
   physicsQuality:i=0
   riGpuObjects:b=no
   compatibilityShadowQuality:t="low"
-  mirrorQuality:i=10
+  mirrorQuality:i=0
   clipmapScale:r=1.5
   enableBlastEffect:b=no
   fxTarget:t="ultrahigh"
-  fxLights:b=yes
+  fxLights:b=no
   waterEffectsQuality:t="low"
   giQuality:t="low"
   skyQuality:i=2
@@ -63,8 +64,8 @@ sound{
 }
 
 video{
-  alpha_to_coverage:b=no
-  resolution:t="auto"
+  alpha_to_coverage:b=yes
+  resolution:t="2560 x 1440"
   vsync:b=no
   adaptive_vsync:b=no
   driver:t="auto"
@@ -72,7 +73,7 @@ video{
   mode:t="fullscreen"
   instancing:t="auto"
   compatibilityMode:b=no
-  postfx_antialiasing:t="high_taa"
+  postfx_antialiasing:t="low_taa"
   fonts:t="compact"
   latency:i=0
   dlssSharpness:i=0
