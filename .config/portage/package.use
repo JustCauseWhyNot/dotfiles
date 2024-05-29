@@ -11,7 +11,7 @@ app-crypt/heimdal abi_x86_32
 app-crypt/mit-krb5 abi_x86_32
 app-crypt/p11-kit abi_x86_32
 app-emulation/proton-ge-custom-bin abi_x86_32
-app-emulation/qemu smartcard spice usbredir
+app-emulation/qemu smartcard spice usb usbredir
 app-emulation/spice smartcard
 app-emulation/virt-manager gui
 app-office/libreoffice-bin java
