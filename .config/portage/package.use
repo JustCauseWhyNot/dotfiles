@@ -6,9 +6,14 @@ app-admin/sysklogd logger logrotate
 app-arch/brotli abi_x86_32
 app-arch/bzip2 abi_x86_32
 app-arch/zstd abi_x86_32
+app-crypt/gcr gtk
 app-crypt/heimdal abi_x86_32
 app-crypt/mit-krb5 abi_x86_32
+app-crypt/p11-kit abi_x86_32
 app-emulation/proton-ge-custom-bin abi_x86_32
+app-emulation/qemu smartcard spice usbredir
+app-emulation/spice smartcard
+app-emulation/virt-manager gui
 app-office/libreoffice-bin java
 app-portage/gemato python_targets_python3_10
 app-text/poppler cairo
@@ -150,17 +155,21 @@ media-plugins/gst-plugins-vpx abi_x86_32
 media-sound/lame abi_x86_32
 media-sound/mpg123 abi_x86_32
 media-sound/mpg123-base abi_x86_32
+media-sound/pulseaudio abi_x86_32
 media-video/ffmpeg abi_x86_32 alsa libdrm libass opus pulseaudio sdl vorbis x264 \ -vulkan
 media-video/pipewire abi_x86_32 extra pipewire-alsa sound-server
 media-video/vlc ogg
 media-video/wireplumber lua_single_target_lua5-4
+net-dns/dnsmasq ipv6 script
 net-dns/libidn2 abi_x86_32
 net-irc/weechat debug \ -exec -charset -enchant -fifo -fset -nls -perl -python -relay -scripts -spell -trigger -typing -xfer -zstd
 net-libs/gnutls abi_x86_32
+net-libs/gnutls pkcs11 tools
 net-libs/libasyncns abi_x86_32
 net-libs/libndp abi_x86_32
 net-misc/aria2 bittorrent
 net-misc/aria2 metalink xmlrpc
+net-misc/spice-gtk smartcard usbredir vala webdav
 sys-apps/dbus abi_x86_32
 sys-apps/man-db -seccomp
 sys-apps/openrc -netifrc
@@ -195,7 +204,7 @@ virtual/libusb abi_x86_32
 virtual/opengl abi_x86_32
 virtual/rust abi_x86_32
 virtual/wine proton
-x11-drivers/nvidia-drivers abi_x86_32 persistenced
+x11-drivers/nvidia-drivers abi_x86_32
 x11-libs/cairo abi_x86_32
 x11-libs/extest abi_x86_32
 x11-libs/gdk-pixbuf abi_x86_32
