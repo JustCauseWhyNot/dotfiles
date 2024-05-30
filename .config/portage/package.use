@@ -1,3 +1,4 @@
+app-emulation/libvrit fuse macvtap numa pcap qemu vepa virt-network
 */* LLVM_TARGETS: -* AMDGPU NVPTX
 */* LUA_SINGLE_TARGET: -* luajit
 */* PYTHON_SINGLE_TARGET: -* python3_11
