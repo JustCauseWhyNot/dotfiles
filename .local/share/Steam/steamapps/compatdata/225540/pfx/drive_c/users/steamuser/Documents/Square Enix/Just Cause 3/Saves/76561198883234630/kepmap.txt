@@ -293,7 +293,7 @@
     },
     {
         "action": "HELI_TURN_LEFT",
-        "key": "PC_MOUSE_LEFT"
+        "key": "PC_MOUSELEFT"
     },
     {
         "action": "HELI_TURN_LEFT",
@@ -301,7 +301,7 @@
     },
     {
         "action": "HELI_TURN_RIGHT",
-        "key": "PC_F"
+        "key": "PC_MOUSERIGHT"
     },
     {
         "action": "HELI_TURN_RIGHT",
