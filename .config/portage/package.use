@@ -96,6 +96,7 @@ dev-util/glslang abi_x86_32
 dev-util/spirv-tools abi_x86_32
 dev-util/vulkan-tools cube
 dev-util/vulkan-utility-libraries abi_x86_32
+games-action/prismlauncher debug -lto
 games-util/mangohud abi_x86_32
 games-util/vkbasalt reshade-shaders
 gnome-base/librsvg abi_x86_32
