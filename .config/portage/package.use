@@ -24,6 +24,7 @@ dev-build/meson python_targets_python3_10
 dev-cpp/highway abi_x86_32
 dev-db/sqlite abi_x86_32
 dev-lang/orc abi_x86_32
+>=dev-lang/python-3.13 -pgo
 dev-lang/python tk
 dev-lang/rust-bin abi_x86_32
 dev-libs/expat abi_x86_32

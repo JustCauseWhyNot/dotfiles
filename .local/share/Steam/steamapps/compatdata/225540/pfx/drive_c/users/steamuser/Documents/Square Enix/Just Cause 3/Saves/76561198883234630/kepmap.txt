@@ -309,7 +309,7 @@
     },
     {
         "action": "HELI_ROLL_LEFT",
-        "key": "PC_V"
+        "key": "PC_S"
     },
     {
         "action": "HELI_ROLL_LEFT",
@@ -317,7 +317,7 @@
     },
     {
         "action": "HELI_ROLL_RIGHT",
-        "key": "PC_Z"
+        "key": "PC_F"
     },
     {
         "action": "HELI_ROLL_RIGHT",
@@ -325,7 +325,7 @@
     },
     {
         "action": "HELI_INC_ALTITUDE",
-        "key": "PC_R"
+        "key": "PC_V"
     },
     {
         "action": "HELI_INC_ALTITUDE",
@@ -333,7 +333,7 @@
     },
     {
         "action": "HELI_DEC_ALTITUDE",
-        "key": "PC_W"
+        "key": "PC_Z"
     },
     {
         "action": "HELI_DEC_ALTITUDE",
@@ -341,7 +341,7 @@
     },
     {
         "action": "PLANE_PITCH_UP",
-        "key": "PC_S"
+        "key": "PC_D"
     },
     {
         "action": "PLANE_PITCH_UP",
@@ -349,7 +349,7 @@
     },
     {
         "action": "PLANE_PITCH_DOWN",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "PLANE_PITCH_DOWN",
@@ -357,7 +357,7 @@
     },
     {
         "action": "PLANE_TURN_LEFT",
-        "key": "PC_Z"
+        "key": "PC_R"
     },
     {
         "action": "PLANE_TURN_LEFT",
@@ -365,7 +365,7 @@
     },
     {
         "action": "PLANE_TURN_RIGHT",
-        "key": "PC_C"
+        "key": "PC_W"
     },
     {
         "action": "PLANE_TURN_RIGHT",
@@ -373,7 +373,7 @@
     },
     {
         "action": "PLANE_ROLL_LEFT",
-        "key": "PC_Z"
+        "key": "PC_S"
     },
     {
         "action": "PLANE_ROLL_LEFT",
@@ -381,7 +381,7 @@
     },
     {
         "action": "PLANE_ROLL_RIGHT",
-        "key": "PC_V"
+        "key": "PC_F"
     },
     {
         "action": "PLANE_ROLL_RIGHT",
@@ -389,7 +389,7 @@
     },
     {
         "action": "PLANE_INC_TRUST",
-        "key": "PC_LSHIFT"
+        "key": "PC_J"
     },
     {
         "action": "PLANE_INC_TRUST",
@@ -397,7 +397,7 @@
     },
     {
         "action": "PLANE_DEC_TRUST",
-        "key": "PC_LCONTROL"
+        "key": "PC_Z"
     },
     {
         "action": "PLANE_DEC_TRUST",
@@ -405,7 +405,7 @@
     },
     {
         "action": "BIKE_LEAN_LEFT",
-        "key": "PC_A"
+        "key": "PC_S"
     },
     {
         "action": "BIKE_LEAN_LEFT",
@@ -413,7 +413,7 @@
     },
     {
         "action": "BIKE_LEAN_RIGHT",
-        "key": "PC_D"
+        "key": "PC_F"
     },
     {
         "action": "BIKE_LEAN_RIGHT",
@@ -549,7 +549,7 @@
     },
     {
         "action": "USE_VEHICLE_MOD",
-        "key": "PC_B"
+        "key": "PC_Z"
     },
     {
         "action": "USE_VEHICLE_MOD",
@@ -605,7 +605,7 @@
     },
     {
         "action": "WINGSUIT_TAKEOFF",
-        "key": "PC_E"
+        "key": "PC_LCONTROL"
     },
     {
         "action": "WINGSUIT_TAKEOFF",
@@ -613,7 +613,7 @@
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
-        "key": "PC_LCONTROL"
+        "key": "PC_SPACE"
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
@@ -621,7 +621,7 @@
     },
     {
         "action": "WINGSUIT_EVADE",
-        "key": "PC_LALT"
+        "key": "PC_Z"
     },
     {
         "action": "WINGSUIT_EVADE",
@@ -741,7 +741,7 @@
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
-        "key": "PC_U"
+        "key": "PC_N"
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
@@ -773,7 +773,7 @@
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
-        "key": "PC_F"
+        "key": "PC_MOUSE2"
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
