@@ -3,6 +3,7 @@
 */*::gentoo-zh
 */*::kzd
 */*::local
+*/*::src_prepare-overlay
 */*::stefantalpalaru
 app-crypt/heimdal
 dev-python/tkinter-tooltip::local

@@ -73,7 +73,7 @@ video{
   mode:t="fullscreen"
   instancing:t="auto"
   compatibilityMode:b=no
-  postfx_antialiasing:t="low_taa"
+  postfx_antialiasing:t=""
   fonts:t="compact"
   latency:i=0
   dlssSharpness:i=0
