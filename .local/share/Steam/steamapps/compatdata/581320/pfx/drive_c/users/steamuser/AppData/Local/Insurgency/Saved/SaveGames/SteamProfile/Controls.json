@@ -1,7 +1,7 @@
 {
 	"version": 20,
-	"revisionTimestamp": 1718928569,
-	"mouseSensitivity": 0.029999999329447746,
+	"revisionTimestamp": 1718934877,
+	"mouseSensitivity": 0.021199999377131462,
 	"gamepadXSensitivity": 0.80000001192092896,
 	"gamepadYSensitivity": 0.60000002384185791,
 	"bInvertedYAxis": false,
@@ -21,17 +21,17 @@
 		"bUseScopeSensitivityScale": true,
 		"scopeSensitivityScale": 1,
 		"bScopeSensitivityScaleUsesWorldFOV": false,
-		"focusSensitivityScale": 0.60000002384185791,
+		"focusSensitivityScale": 0.93529999256134033,
 		"opticSensitivityScale":
 		{
-			"OneX": 1,
-			"OneHalfX": 1,
-			"TwoX": 1,
-			"TwoHalfX": 1,
-			"ThreeX": 1,
-			"FourX": 1,
-			"SixX": 1,
-			"SevenX": 1
+			"OneX": 0.96569997072219849,
+			"OneHalfX": 0.90090000629425049,
+			"TwoX": 0.88410001993179321,
+			"TwoHalfX": 0.881600022315979,
+			"ThreeX": 0.87949997186660767,
+			"FourX": 0.87620002031326294,
+			"SixX": 0.87470000982284546,
+			"SevenX": 0.87410002946853638
 		}
 	},
 	"gamepadSensitivityModifiers":
