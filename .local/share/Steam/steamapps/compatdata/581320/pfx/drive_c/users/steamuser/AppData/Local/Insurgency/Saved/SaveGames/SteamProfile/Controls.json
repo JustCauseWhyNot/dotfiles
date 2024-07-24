@@ -1,7 +1,7 @@
 {
 	"version": 20,
-	"revisionTimestamp": 1718934877,
-	"mouseSensitivity": 0.021199999377131462,
+	"revisionTimestamp": 1721309440,
+	"mouseSensitivity": 0.021600000560283661,
 	"gamepadXSensitivity": 0.80000001192092896,
 	"gamepadYSensitivity": 0.60000002384185791,
 	"bInvertedYAxis": false,
@@ -21,17 +21,17 @@
 		"bUseScopeSensitivityScale": true,
 		"scopeSensitivityScale": 1,
 		"bScopeSensitivityScaleUsesWorldFOV": false,
-		"focusSensitivityScale": 0.93529999256134033,
+		"focusSensitivityScale": 0.74320000410079956,
 		"opticSensitivityScale":
 		{
-			"OneX": 0.96569997072219849,
-			"OneHalfX": 0.90090000629425049,
-			"TwoX": 0.88410001993179321,
-			"TwoHalfX": 0.881600022315979,
-			"ThreeX": 0.87949997186660767,
-			"FourX": 0.87620002031326294,
-			"SixX": 0.87470000982284546,
-			"SevenX": 0.87410002946853638
+			"OneX": 0.86979997158050537,
+			"OneHalfX": 0.77560001611709595,
+			"TwoX": 0.74949997663497925,
+			"TwoHalfX": 0.74500000476837158,
+			"ThreeX": 0.73979997634887695,
+			"FourX": 0.73750001192092896,
+			"SixX": 0.73439997434616089,
+			"SevenX": 0.73439997434616089
 		}
 	},
 	"gamepadSensitivityModifiers":
@@ -72,7 +72,7 @@
 			"bCtrl": false,
 			"bAlt": false,
 			"bCmd": false,
-			"key": "None"
+			"key": "MouseScrollDown"
 		},
 		{
 			"actionName": "Fire",
@@ -152,7 +152,7 @@
 			"bCtrl": false,
 			"bAlt": false,
 			"bCmd": false,
-			"key": "None"
+			"key": "Five"
 		},
 		{
 			"actionName": "SelectInventoryFireSupport",
@@ -672,7 +672,7 @@
 			"bCtrl": false,
 			"bAlt": false,
 			"bCmd": false,
-			"key": "None"
+			"key": "Delete"
 		},
 		{
 			"actionName": "EjectToSpectator",
@@ -744,7 +744,7 @@
 			"bCtrl": false,
 			"bAlt": false,
 			"bCmd": false,
-			"key": "None"
+			"key": "LeftControl"
 		},
 		{
 			"actionName": "Slide",
@@ -784,7 +784,7 @@
 			"bCtrl": false,
 			"bAlt": false,
 			"bCmd": false,
-			"key": "MouseScrollDown"
+			"key": "None"
 		},
 		{
 			"actionName": "CrouchSlide",
@@ -2329,5 +2329,5 @@
 	],
 	"gamepadAimSensitivityCurve": "DualZone",
 	"controllerLayoutName": "",
-	"bVaultKeyBound": false
+	"bVaultKeyBound": true
 }

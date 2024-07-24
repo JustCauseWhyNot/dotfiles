@@ -1,12 +1,14 @@
 */*::ace
 */*::amano-kenji
+*/*::fyn-overlay
 */*::gentoo-zh
 */*::kzd
 */*::local
 */*::src_prepare-overlay
 */*::stefantalpalaru
+=media-libs/imgui-1.90.6
+>=www-misc/profile-sync-daemon-6
 app-crypt/heimdal
 dev-python/tkinter-tooltip::local
 games-util/mangohud::guru
-=media-libs/imgui-1.90.6
 media-video/ffmpeg::stefantalpalaru

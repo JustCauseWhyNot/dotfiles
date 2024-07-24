@@ -2,6 +2,7 @@
 */* LUA_SINGLE_TARGET: -* luajit
 */* PYTHON_SINGLE_TARGET: -* python3_11
 */* PYTHON_TARGETS: python3_12 python3_11
+>=dev-lang/python-3.13 -pgo
 app-admin/sysklogd logger logrotate
 app-arch/brotli abi_x86_32
 app-arch/bzip2 abi_x86_32
@@ -24,7 +25,6 @@ dev-build/meson python_targets_python3_10
 dev-cpp/highway abi_x86_32
 dev-db/sqlite abi_x86_32
 dev-lang/orc abi_x86_32
->=dev-lang/python-3.13 -pgo
 dev-lang/python tk
 dev-lang/rust-bin abi_x86_32
 dev-libs/expat abi_x86_32
@@ -39,13 +39,14 @@ dev-libs/libgcrypt abi_x86_32
 dev-libs/libgpg-error abi_x86_32
 dev-libs/libgudev abi_x86_32
 dev-libs/libpcre2 abi_x86_32
+dev-libs/libportal gtk
 dev-libs/libtasn1 abi_x86_32
 dev-libs/libunistring abi_x86_32
 dev-libs/libusb abi_x86_32
 dev-libs/libxml2 abi_x86_32
 dev-libs/lzo abi_x86_32
 dev-libs/nettle abi_x86_32
-dev-libs/openssl abi_x86_32
+dev-libs/openssl abi_x86_32 weak-ssl-ciphers
 dev-libs/spdlog abi_x86_32
 dev-libs/wayland abi_x86_32
 dev-libs/xmlsec nss
@@ -90,6 +91,8 @@ dev-python/trove-classifiers python_targets_python3_10
 dev-python/typing-extensions python_targets_python3_10
 dev-python/urllib3 python_targets_python3_10
 dev-python/wheel python_targets_python3_10
+dev-qt/qt5compat icu
+dev-qt/qtbase icu libproxy wayland
 dev-qt/qtcore icu
 dev-qt/qtgui accessibility
 dev-qt/qtwidgets gtk
@@ -98,10 +101,13 @@ dev-util/spirv-tools abi_x86_32
 dev-util/vulkan-tools cube
 dev-util/vulkan-utility-libraries abi_x86_32
 games-action/prismlauncher debug -lto
-games-util/mangohud abi_x86_32
+games-util/mangohud abi_x86_32 mangoplot
 games-util/vkbasalt reshade-shaders
 gnome-base/librsvg abi_x86_32
 gui-wm/gamescope -wsi-layer
+kde-frameworks/kguiaddons kf6compat
+kde-frameworks/kwallet kf6compat
+kde-frameworks/kwindowsystem wayland
 kde-misc/kdeconnect pulseaudio
 media-gfx/graphite2 abi_x86_32
 media-gfx/imagemagick xml
@@ -173,6 +179,7 @@ net-libs/libasyncns abi_x86_32
 net-libs/libndp abi_x86_32
 net-misc/aria2 bittorrent
 net-misc/aria2 metalink xmlrpc
+net-misc/plowshare javascript view-captcha
 net-misc/spice-gtk smartcard usbredir vala webdav
 sys-apps/dbus abi_x86_32
 sys-apps/man-db -seccomp

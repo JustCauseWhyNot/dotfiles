@@ -77,12 +77,13 @@ alias grep='grep --color==yes'
 alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
 alias nvidia-settings="nvidia-settings --config='$XDG_CONFIG_HOME'/nvidia/settings"
-alias rm='rm -dfr'
+alias rm='rm -rdI'
 alias py='python'
 alias startx='startx "$XINITRC" -- "$XSERVERRC" vt1'
 alias su='su -l'
 alias vdir='vdir --color=yes'
-
+alias vpndown='doas wg-quick down protonvpn'
+alias vpnup='doas wg-quick up protonvpn'
 
 # Key bindings.
 # =============

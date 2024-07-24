@@ -33,7 +33,7 @@
     },
     {
         "action": "LOOK_BACK_CAM",
-        "key": "PC_LCONTROL"
+        "key": "PC_B"
     },
     {
         "action": "LOOK_BACK_CAM",
@@ -41,7 +41,7 @@
     },
     {
         "action": "VEHICLE_CAM",
-        "key": "PC_LCONTROL"
+        "key": "PC_B"
     },
     {
         "action": "VEHICLE_CAM",
@@ -97,7 +97,7 @@
     },
     {
         "action": "THROW_GRENADE",
-        "key": "PC_H"
+        "key": "PC_F"
     },
     {
         "action": "THROW_GRENADE",
@@ -105,7 +105,7 @@
     },
     {
         "action": "RELOAD",
-        "key": "PC_T"
+        "key": "PC_R"
     },
     {
         "action": "RELOAD",
@@ -113,11 +113,11 @@
     },
     {
         "action": "NEXT_WEAPON",
-        "key": "PC_BACKSLASH"
+        "key": "PC_MWHEELUP"
     },
     {
         "action": "PREV_WEAPON",
-        "key": "PC_BACKSLASH"
+        "key": "PC_MWHEELDOWN"
     },
     {
         "action": "FREEFLY_SPEED_UP",
@@ -137,7 +137,7 @@
     },
     {
         "action": "MOVE_FORWARD",
-        "key": "PC_E"
+        "key": "PC_W"
     },
     {
         "action": "MOVE_FORWARD",
@@ -145,7 +145,7 @@
     },
     {
         "action": "MOVE_BACKWARD",
-        "key": "PC_D"
+        "key": "PC_S"
     },
     {
         "action": "MOVE_BACKWARD",
@@ -153,7 +153,7 @@
     },
     {
         "action": "MOVE_LEFT",
-        "key": "PC_S"
+        "key": "PC_A"
     },
     {
         "action": "MOVE_LEFT",
@@ -161,7 +161,7 @@
     },
     {
         "action": "MOVE_RIGHT",
-        "key": "PC_F"
+        "key": "PC_D"
     },
     {
         "action": "MOVE_RIGHT",
@@ -173,7 +173,7 @@
     },
     {
         "action": "JUMP",
-        "key": "PC_MWHEELDOWN"
+        "key": "PC_SPACE"
     },
     {
         "action": "JUMP",
@@ -189,7 +189,7 @@
     },
     {
         "action": "ENTER_VEHICLE",
-        "key": "PC_G"
+        "key": "PC_E"
     },
     {
         "action": "ENTER_VEHICLE",
@@ -197,7 +197,7 @@
     },
     {
         "action": "USE_ITEM",
-        "key": "PC_G"
+        "key": "PC_E"
     },
     {
         "action": "USE_ITEM",
@@ -205,7 +205,7 @@
     },
     {
         "action": "ACCELERATE",
-        "key": "PC_E"
+        "key": "PC_W"
     },
     {
         "action": "ACCELERATE",
@@ -213,7 +213,7 @@
     },
     {
         "action": "REVERSE",
-        "key": "PC_D"
+        "key": "PC_S"
     },
     {
         "action": "REVERSE",
@@ -221,7 +221,7 @@
     },
     {
         "action": "TURN_LEFT",
-        "key": "PC_S"
+        "key": "PC_A"
     },
     {
         "action": "TURN_LEFT",
@@ -229,7 +229,7 @@
     },
     {
         "action": "TURN_RIGHT",
-        "key": "PC_F"
+        "key": "PC_D"
     },
     {
         "action": "TURN_RIGHT",
@@ -237,7 +237,7 @@
     },
     {
         "action": "HANDBRAKE",
-        "key": "PC_SPACE"
+        "key": "PC_LSHIFT"
     },
     {
         "action": "HANDBRAKE",
@@ -245,7 +245,7 @@
     },
     {
         "action": "SOUND_HORN_SIREN",
-        "key": "PC_H"
+        "key": "PC_X"
     },
     {
         "action": "SOUND_HORN_SIREN",
@@ -253,7 +253,7 @@
     },
     {
         "action": "EXIT_VEHICLE",
-        "key": "PC_G"
+        "key": "PC_E"
     },
     {
         "action": "EXIT_VEHICLE",
@@ -277,7 +277,7 @@
     },
     {
         "action": "HELI_FORWARD",
-        "key": "PC_E"
+        "key": "PC_W"
     },
     {
         "action": "HELI_FORWARD",
@@ -285,7 +285,7 @@
     },
     {
         "action": "HELI_BACKWARD",
-        "key": "PC_D"
+        "key": "PC_S"
     },
     {
         "action": "HELI_BACKWARD",
@@ -309,7 +309,7 @@
     },
     {
         "action": "HELI_ROLL_LEFT",
-        "key": "PC_S"
+        "key": "PC_A"
     },
     {
         "action": "HELI_ROLL_LEFT",
@@ -317,7 +317,7 @@
     },
     {
         "action": "HELI_ROLL_RIGHT",
-        "key": "PC_F"
+        "key": "PC_D"
     },
     {
         "action": "HELI_ROLL_RIGHT",
@@ -325,7 +325,7 @@
     },
     {
         "action": "HELI_INC_ALTITUDE",
-        "key": "PC_V"
+        "key": "PC_LSHIFT"
     },
     {
         "action": "HELI_INC_ALTITUDE",
@@ -333,7 +333,7 @@
     },
     {
         "action": "HELI_DEC_ALTITUDE",
-        "key": "PC_Z"
+        "key": "PC_LCONTROL"
     },
     {
         "action": "HELI_DEC_ALTITUDE",
@@ -341,7 +341,7 @@
     },
     {
         "action": "PLANE_PITCH_UP",
-        "key": "PC_D"
+        "key": "PC_S"
     },
     {
         "action": "PLANE_PITCH_UP",
@@ -349,7 +349,7 @@
     },
     {
         "action": "PLANE_PITCH_DOWN",
-        "key": "PC_E"
+        "key": "PC_W"
     },
     {
         "action": "PLANE_PITCH_DOWN",
@@ -357,7 +357,7 @@
     },
     {
         "action": "PLANE_TURN_LEFT",
-        "key": "PC_R"
+        "key": "PC_Z"
     },
     {
         "action": "PLANE_TURN_LEFT",
@@ -365,7 +365,7 @@
     },
     {
         "action": "PLANE_TURN_RIGHT",
-        "key": "PC_W"
+        "key": "PC_C"
     },
     {
         "action": "PLANE_TURN_RIGHT",
@@ -373,7 +373,7 @@
     },
     {
         "action": "PLANE_ROLL_LEFT",
-        "key": "PC_S"
+        "key": "PC_A"
     },
     {
         "action": "PLANE_ROLL_LEFT",
@@ -381,7 +381,7 @@
     },
     {
         "action": "PLANE_ROLL_RIGHT",
-        "key": "PC_F"
+        "key": "PC_D"
     },
     {
         "action": "PLANE_ROLL_RIGHT",
@@ -389,7 +389,7 @@
     },
     {
         "action": "PLANE_INC_TRUST",
-        "key": "PC_J"
+        "key": "PC_LSHIFT"
     },
     {
         "action": "PLANE_INC_TRUST",
@@ -397,7 +397,7 @@
     },
     {
         "action": "PLANE_DEC_TRUST",
-        "key": "PC_Z"
+        "key": "PC_LCONTROL"
     },
     {
         "action": "PLANE_DEC_TRUST",
@@ -405,7 +405,7 @@
     },
     {
         "action": "BIKE_LEAN_LEFT",
-        "key": "PC_S"
+        "key": "PC_A"
     },
     {
         "action": "BIKE_LEAN_LEFT",
@@ -413,7 +413,7 @@
     },
     {
         "action": "BIKE_LEAN_RIGHT",
-        "key": "PC_F"
+        "key": "PC_D"
     },
     {
         "action": "BIKE_LEAN_RIGHT",
@@ -493,7 +493,7 @@
     },
     {
         "action": "STUNT_JUMP",
-        "key": "PC_X"
+        "key": "PC_SPACE"
     },
     {
         "action": "STUNT_JUMP",
@@ -501,7 +501,7 @@
     },
     {
         "action": "GUI_PDA",
-        "key": "PC_Q"
+        "key": "PC_TAB"
     },
     {
         "action": "GUI_PDA",
@@ -549,7 +549,7 @@
     },
     {
         "action": "USE_VEHICLE_MOD",
-        "key": "PC_Z"
+        "key": "PC_MOUSE3"
     },
     {
         "action": "USE_VEHICLE_MOD",
@@ -580,14 +580,6 @@
         "key": "PC_GAMEPAD_LTRIGGER"
     },
     {
-        "action": "REELED_IN_JUMP_ACTION",
-        "key": "PC_MWHEELDOWN"
-    },
-    {
-        "action": "REELED_IN_RELEASE_ACTION",
-        "key": "PC_X"
-    },
-    {
         "action": "LOOK_AT",
         "key": "PC_R"
     },
@@ -605,7 +597,7 @@
     },
     {
         "action": "WINGSUIT_TAKEOFF",
-        "key": "PC_LCONTROL"
+        "key": "PC_E"
     },
     {
         "action": "WINGSUIT_TAKEOFF",
@@ -613,7 +605,7 @@
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
-        "key": "PC_SPACE"
+        "key": "PC_LCONTROL"
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
@@ -621,7 +613,7 @@
     },
     {
         "action": "WINGSUIT_EVADE",
-        "key": "PC_Z"
+        "key": "PC_LALT"
     },
     {
         "action": "WINGSUIT_EVADE",
@@ -741,7 +733,7 @@
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
-        "key": "PC_N"
+        "key": "PC_Q"
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
@@ -757,7 +749,7 @@
     },
     {
         "action": "DETONATE_EXPLOSIVE",
-        "key": "PC_H"
+        "key": "PC_F"
     },
     {
         "action": "DETONATE_EXPLOSIVE",
@@ -765,7 +757,7 @@
     },
     {
         "action": "OPEN_WINGSUIT",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "OPEN_WINGSUIT",
@@ -773,7 +765,7 @@
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
-        "key": "PC_MOUSE2"
+        "key": "PC_F"
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
@@ -781,7 +773,7 @@
     },
     {
         "action": "OPEN_PARACHUTE",
-        "key": "PC_A"
+        "key": "PC_SPACE"
     },
     {
         "action": "OPEN_PARACHUTE",
@@ -797,7 +789,7 @@
     },
     {
         "action": "FIRE_GRAPPLE",
-        "key": "PC_V"
+        "key": "PC_MOUSE2"
     },
     {
         "action": "FIRE_GRAPPLE",
@@ -805,7 +797,7 @@
     },
     {
         "action": "PUSH_GRAPPLE",
-        "key": "PC_B"
+        "key": "PC_C"
     },
     {
         "action": "PUSH_GRAPPLE",
@@ -813,7 +805,7 @@
     },
     {
         "action": "VEHICLE_RELEASE_GRAPPLE",
-        "key": "PC_Y"
+        "key": "PC_V"
     },
     {
         "action": "VEHICLE_RELEASE_GRAPPLE",
@@ -821,7 +813,7 @@
     },
     {
         "action": "PRECISION_AIM",
-        "key": "PC_MOUSE2"
+        "key": "PC_MOUSE3"
     },
     {
         "action": "PRECISION_AIM",
@@ -845,7 +837,7 @@
     },
     {
         "action": "SELECT_EXPLOSIVES",
-        "key": "PC_Y"
+        "key": "PC_MOUSE5"
     },
     {
         "action": "SELECT_EXPLOSIVES",
@@ -853,7 +845,7 @@
     },
     {
         "action": "RETRACT_GRAPPLE",
-        "key": "PC_Z"
+        "key": "PC_LSHIFT"
     },
     {
         "action": "RETRACT_GRAPPLE",
@@ -861,7 +853,7 @@
     },
     {
         "action": "RELEASE_GRAPPLE",
-        "key": "PC_X"
+        "key": "PC_V"
     },
     {
         "action": "RELEASE_GRAPPLE",
@@ -921,7 +913,7 @@
     },
     {
         "action": "SELECT_DUEL_WIELD",
-        "key": "PC_4"
+        "key": "PC_1"
     },
     {
         "action": "SELECT_DUEL_WIELD",
@@ -937,7 +929,7 @@
     },
     {
         "action": "SELECT_TWO_HANDED_SPECIAL",
-        "key": "PC_1"
+        "key": "PC_3"
     },
     {
         "action": "SELECT_TWO_HANDED_SPECIAL",
@@ -973,7 +965,7 @@
     },
     {
         "action": "CANCEL",
-        "key": "PC_R"
+        "key": "PC_LCONTROL"
     },
     {
         "action": "CANCEL",
