@@ -1,10 +1,10 @@
+#app-misc/oscar::local
 #dev-libs/spdlog::thegreatmcpain
 #gui-wm/gamescope::local
 #media-libs/libmysofa::stefantalpalaru
 app-emulation/proton-ge-custom-bin::kzd
 app-emulation/proton-ge-custom-meta::kzd
 app-emulation/wine-ge-custom-bin::kzd
-app-misc/oscar::local
 app-misc/task-spooler::amano-kenji
 dev-libs/libchdr::local
 dev-libs/openvr::kzd
