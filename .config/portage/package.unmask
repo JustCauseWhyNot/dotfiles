@@ -1,7 +1,9 @@
+net-im/vesktop::kzd
 #app-misc/oscar::local
 #dev-libs/spdlog::thegreatmcpain
 #gui-wm/gamescope::local
 #media-libs/libmysofa::stefantalpalaru
+#media-video/gpu-screen-recorder::local
 app-emulation/proton-ge-custom-bin::kzd
 app-emulation/proton-ge-custom-meta::kzd
 app-emulation/wine-ge-custom-bin::kzd
@@ -34,6 +36,7 @@ dev-qt/qtwebchannel
 dev-qt/qtwebengine
 dev-qt/qtwebsockets
 dev-util/reshade-shaders::thegreatmcpain
+games-action/supertuxkart::local
 games-emulation/pcsx2::local
 games-util/mangohud::guru
 games-util/vkbasalt::thegreatmcpain
@@ -43,8 +46,8 @@ media-fonts/nerd-fonts::gentoo-zh
 media-libs/gst-plugins-base::kzd
 media-libs/gstreamer::kzd
 media-libs/libmysofa::local
-media-video/gpu-screen-recorder::local
 sys-apps/evhz::ROKO__
+sys-apps/evhz::local
 sys-boot/uefi-mkconfig::local
 sys-process/btop::nest
 www-client/motrix::fyn-overlay
