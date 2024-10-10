@@ -2092,7 +2092,7 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.4
-  mouseSens:r=0.2419047619048
+  mouseSens:r=0.2000000000000
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
   gunnerViewZoomSens:r=0

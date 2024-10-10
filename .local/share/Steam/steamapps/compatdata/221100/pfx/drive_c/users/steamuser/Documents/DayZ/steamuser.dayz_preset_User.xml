@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <preset>
     <input name="UAMoveForward">
-        <btn name="kW" />
+        <btn name="kE" />
         <btn name="x1LeftThumbUp" />
     </input>
     <input name="UAMoveBack">
-        <btn name="kS" />
+        <btn name="kD" />
         <btn name="x1LeftThumbDown" />
     </input>
     <input name="UAMoveLeft">
-        <btn name="kA" />
+        <btn name="kS" />
         <btn name="x1LeftThumbLeft" />
     </input>
     <input name="UAMoveRight">
-        <btn name="kD" />
+        <btn name="kF" />
         <btn name="x1LeftThumbRight" />
     </input>
     <input name="UATurbo">
-        <btn name="kLShift" />
+        <btn name="kLBracket" />
     </input>
     <input name="UAWalkRunTemp">
         <btn name="kLControl" />
     </input>
-    <input name="UAWalkRunToggle">
-        <btn name="kLControl">
-            <event name="doubleclick" />
-        </btn>
-    </input>
+    <input name="UAWalkRunToggle" />
     <input name="UAToggleTurbo">
         <btn name="x1ThumbLeft" />
     </input>
@@ -43,10 +39,8 @@
         <btn name="x1LeftThumbRight" />
     </input>
     <input name="UAGetOver">
-        <btn name="kSpace" />
-        <btn name="x1A">
-            <event name="clickorhold" />
-        </btn>
+        <btn name="x1A" />
+        <btn name="mWheelDown" />
     </input>
     <input name="UAGetOverControllerHelper">
         <btn name="x1A">
@@ -54,14 +48,13 @@
         </btn>
     </input>
     <input name="UAStance">
-        <btn name="kC" />
         <btn name="x1B" />
     </input>
     <input name="UALeanLeft">
-        <btn name="kQ" />
+        <btn name="kR" />
     </input>
     <input name="UALeanRight">
-        <btn name="kE" />
+        <btn name="kW" />
     </input>
     <input name="UALeanLeftGamepad">
         <btn name="x1ShoulderLeft" />
@@ -103,25 +96,17 @@
         <btn name="irPitchDown" />
     </input>
     <input name="UAPersonView">
-        <btn name="kV" />
-        <btn name="kNumpadEnter" />
-        <btn name="x1ThumbRight">
-            <event name="click" />
-        </btn>
+        <btn name="x1ThumbRight" />
+        <btn name="kU" />
     </input>
     <input name="UALookAround">
-        <btn name="kLMenu" />
-        <btn name="x1ShoulderLeft">
-            <event name="hold" />
-        </btn>
+        <btn name="x1ShoulderLeft" />
     </input>
     <input name="UALookAroundToggle">
-        <btn name="kLMenu">
-            <event name="doubleclick" />
-        </btn>
+        <btn name="kSpace" />
     </input>
     <input name="UAZoomIn">
-        <btn name="mBMiddle" />
+        <btn name="kLShift" />
     </input>
     <input name="UAZoomInToggle">
         <btn name="x1ShoulderLeft">
@@ -129,33 +114,23 @@
         </btn>
     </input>
     <input name="UAToggleNVG">
-        <btn name="kL">
-            <event name="hold" />
-        </btn>
+        <btn name="kN" />
     </input>
     <input name="UAToggleHeadlight">
-        <btn name="kL" />
         <btn name="x1Y" />
+        <btn name="kN" />
     </input>
     <input name="UAADSToggle">
-        <btn name="kLShift">
-            <event name="click" />
-        </btn>
-        <btn name="x1ThumbRight">
-            <event name="click" />
-        </btn>
+        <btn name="x1ThumbRight" />
+        <btn name="kLShift" />
     </input>
     <input name="UAZoomInOptics">
-        <btn name="mWheelUp" />
-        <btn name="x1PadRight">
-            <event name="click" />
-        </btn>
+        <btn name="x1PadRight" />
+        <btn name="mB5" />
     </input>
     <input name="UAZoomOutOptics">
-        <btn name="mWheelDown" />
-        <btn name="x1PadRight">
-            <event name="hold" />
-        </btn>
+        <btn name="x1PadRight" />
+        <btn name="mB4" />
     </input>
     <input name="UAZoomInOpticsControllerHelper">
         <btn name="x1PadRight">
@@ -168,24 +143,16 @@
         </btn>
     </input>
     <input name="UAThrowitem">
-        <btn name="kG">
-            <event name="click" />
-        </btn>
-        <btn name="x1X">
-            <event name="doubleclick" />
-        </btn>
+        <btn name="x1X" />
+        <btn name="kH" />
     </input>
     <input name="UADropitem">
-        <btn name="kG">
-            <event name="hold" />
-        </btn>
-        <btn name="x1X">
-            <event name="hold" />
-        </btn>
+        <btn name="x1X" />
+        <btn name="kH" />
     </input>
     <input name="UAGear">
-        <btn name="kTab" />
         <btn name="x1View" />
+        <btn name="kQ" />
     </input>
     <input name="UAFire">
         <btn name="mBLeft" />
@@ -198,32 +165,28 @@
         <btn name="kLShift" />
     </input>
     <input name="UAWeaponMeleeAttack">
-        <btn name="kF" />
         <btn name="x1X" />
+        <btn name="kV" />
     </input>
     <input name="UAHoldBreath">
-        <btn name="kLControl" />
         <btn name="x1ThumbLeft" />
+        <btn name="kLControl" />
     </input>
     <input name="UADefaultAction">
         <btn name="mBLeft" />
         <btn name="x1TriggerRight" />
     </input>
     <input name="UAAction">
-        <btn name="kF" />
         <btn name="x1X" />
+        <btn name="kG" />
     </input>
     <input name="UAPrevAction">
-        <btn name="mWheelUp" />
-        <btn name="x1PadDown">
-            <event name="click" />
-        </btn>
+        <btn name="x1PadDown" />
+        <btn name="mB4" />
     </input>
     <input name="UANextAction">
-        <btn name="mWheelDown" />
-        <btn name="x1PadUp">
-            <event name="click" />
-        </btn>
+        <btn name="x1PadUp" />
+        <btn name="mB5" />
     </input>
     <input name="UATempRaiseWeapon">
         <btn name="mBRight" />
@@ -232,27 +195,25 @@
         <btn name="x1TriggerLeft" />
     </input>
     <input name="UAReloadMagazine">
-        <btn name="kR" />
         <btn name="x1Y" />
+        <btn name="kT" />
     </input>
     <input name="UAZeroingUp">
-        <btn name="kEquals" />
-        <btn name="kPrior" />
         <btn name="x1PadUp" />
+        <btn name="kRight" />
     </input>
     <input name="UAZeroingDown">
-        <btn name="kMinus" />
-        <btn name="kNext" />
         <btn name="x1PadDown" />
+        <btn name="kLeft" />
     </input>
     <input name="UAToggleWeapons">
-        <btn name="kX" />
         <btn name="x1A">
             <btn name="x1TriggerLeft" />
         </btn>
+        <btn name="kY" />
     </input>
     <input name="UAUIQuickbarToggle">
-        <btn name="kGrave" />
+        <btn name="kF5" />
     </input>
     <input name="UAItem0">
         <btn name="k1" />
@@ -285,23 +246,15 @@
         <btn name="k0" />
     </input>
     <input name="UAChat">
-        <btn name="kReturn" />
+        <btn name="kF1" />
     </input>
     <input name="UAVoiceOverNet">
-        <btn name="kCapital">
-            <event name="hold" />
-        </btn>
-        <btn name="x1PadLeft">
-            <event name="hold" />
-        </btn>
+        <btn name="x1PadLeft" />
+        <btn name="kB" />
     </input>
     <input name="UAVoiceOverNetToggle">
-        <btn name="kCapital">
-            <event name="doubleclick" />
-        </btn>
-        <btn name="x1PadLeft">
-            <event name="doubleclick" />
-        </btn>
+        <btn name="x1PadLeft" />
+        <btn name="kB" />
     </input>
     <input name="UAVoiceLevel">
         <btn name="kUp" />
@@ -310,16 +263,16 @@
         </btn>
     </input>
     <input name="UAVoiceDistanceUp">
-        <btn name="kUp" />
         <btn name="x1ShoulderRight">
             <btn name="x1PadLeft" />
         </btn>
+        <btn name="kF3" />
     </input>
     <input name="UAVoiceDistanceDown">
-        <btn name="kDown" />
         <btn name="x1ShoulderLeft">
             <btn name="x1PadLeft" />
         </btn>
+        <btn name="kF2" />
     </input>
     <input name="UAVoiceModifierHelper">
         <btn name="x1PadLeft" />
@@ -357,35 +310,17 @@
     <input name="UAGestureSlot11">
         <btn name="kF11" />
     </input>
-    <input name="EmoteGreeting">
-        <btn name="kF1" />
-    </input>
-    <input name="EmoteSOS">
-        <btn name="kF2" />
-    </input>
-    <input name="EmoteHeart">
-        <btn name="kF3" />
-    </input>
-    <input name="EmoteTaunt">
-        <btn name="kF4" />
-    </input>
+    <input name="EmoteGreeting" />
+    <input name="EmoteSOS" />
+    <input name="EmoteHeart" />
+    <input name="EmoteTaunt" />
     <input name="EmoteLyingDown" />
-    <input name="EmoteTauntKiss">
-        <btn name="kF6" />
-    </input>
-    <input name="EmotePoint">
-        <btn name="kF7" />
-    </input>
-    <input name="EmoteTauntElbow">
-        <btn name="kF8" />
-    </input>
-    <input name="EmoteThumb">
-        <btn name="kF9" />
-    </input>
+    <input name="EmoteTauntKiss" />
+    <input name="EmotePoint" />
+    <input name="EmoteTauntElbow" />
+    <input name="EmoteThumb" />
     <input name="EmoteThumbDown" />
-    <input name="EmoteThroat">
-        <btn name="kF10" />
-    </input>
+    <input name="EmoteThroat" />
     <input name="EmoteDance" />
     <input name="EmoteSalute" />
     <input name="EmoteTimeout" />
@@ -401,9 +336,7 @@
     <input name="EmoteMove" />
     <input name="EmoteGetDown" />
     <input name="EmoteCome" />
-    <input name="EmoteSurrender">
-        <btn name="kF5" />
-    </input>
+    <input name="EmoteSurrender" />
     <input name="EmoteCampfireSit" />
     <input name="EmoteSitA" />
     <input name="EmoteSitB" />
@@ -419,28 +352,28 @@
     </input>
     <input name="EmoteVomit" />
     <input name="UACarLeft">
-        <btn name="kA" />
+        <btn name="kS" />
         <btn name="x1LeftThumbLeft" />
     </input>
     <input name="UACarRight">
-        <btn name="kD" />
+        <btn name="kF" />
         <btn name="x1LeftThumbRight" />
     </input>
     <input name="UACarForward">
-        <btn name="kW" />
+        <btn name="kE" />
         <btn name="x1TriggerRight" />
     </input>
     <input name="UACarBack">
-        <btn name="kS" />
+        <btn name="kD" />
         <btn name="x1TriggerLeft" />
     </input>
     <input name="UACarShiftGearUp">
-        <btn name="kE" />
         <btn name="x1B" />
+        <btn name="kR" />
     </input>
     <input name="UACarShiftGearDown">
-        <btn name="kQ" />
         <btn name="x1A" />
+        <btn name="kW" />
     </input>
     <input name="UAVehicleTurbo">
         <btn name="kLShift" />
@@ -451,8 +384,8 @@
         <btn name="x1TriggerRight" />
     </input>
     <input name="UACarHorn">
-        <btn name="kH" />
         <btn name="x1ThumbLeft" />
+        <btn name="kG" />
     </input>
     <input name="UACarHandbrake">
         <btn name="kSpace" />
@@ -527,8 +460,8 @@
         <btn name="x1RightThumbVertical" />
     </input>
     <input name="UAUIGesturesOpen">
-        <btn name="kPeriod" />
         <btn name="x1PadRight" />
+        <btn name="kLMenu" />
     </input>
     <input name="UAUIQuickbarRadialOpen">
         <btn name="kComma" />
@@ -894,12 +827,119 @@
         <btn name="mWheelDown" />
         <btn name="kApostrophe" />
     </input>
+    <input name="UAStand">
+        <btn name="kX" />
+    </input>
+    <input name="UACrouch">
+        <btn name="kC" />
+    </input>
+    <input name="UAProne">
+        <btn name="kZ" />
+    </input>
+    <input name="UAOpenVPPMap" />
+    <input name="UAToggleVPPMap3DMarkers">
+        <btn name="kK" />
+    </input>
+    <input name="UAHealTargets">
+        <btn name="kLShift">
+            <btn name="kG" />
+        </btn>
+    </input>
+    <input name="UAToggleFreeCam" />
+    <input name="UACopyPositionClipboard" />
+    <input name="UARepairVehicleAtCrosshairs" />
+    <input name="UAFocusOnGame" />
+    <input name="UACollapseESPDropDwn" />
+    <input name="UATogglePlayerDetailEsp" />
+    <input name="UAExitSpectate" />
+    <input name="UASelectObject">
+        <btn name="mBLeft" />
+    </input>
+    <input name="UARotateInc">
+        <btn name="mBLeft" />
+    </input>
+    <input name="UARotateDec">
+        <btn name="mBRight" />
+    </input>
+    <input name="UAExecuteCommand">
+        <btn name="kReturn" />
+        <btn name="kNumpadEnter" />
+    </input>
+    <input name="UAUPCommand">
+        <btn name="kUp" />
+    </input>
+    <input name="UADOWNCommand">
+        <btn name="kDown" />
+    </input>
+    <input name="UAToggleAdminTools" />
+    <input name="UAToggleMeshEsp" />
+    <input name="UAOpenAdminTools" />
+    <input name="UATeleportToCrosshair" />
+    <input name="UADeleteObjCrosshair" />
+    <input name="UAToggleGodMode" />
+    <input name="UACamForward">
+        <btn name="kE" />
+    </input>
+    <input name="UACamBackward">
+        <btn name="kD" />
+    </input>
+    <input name="UACamRight">
+        <btn name="kF" />
+    </input>
+    <input name="UACamLeft">
+        <btn name="kS" />
+    </input>
+    <input name="UACamUp">
+        <btn name="kR" />
+    </input>
+    <input name="UACamDown">
+        <btn name="kW" />
+    </input>
+    <input name="UACamTurbo">
+        <btn name="kLBracket" />
+    </input>
+    <input name="UACamFOV" />
+    <input name="UACamShiftLeft" />
+    <input name="UACamShiftRight" />
+    <input name="UACamShiftUp" />
+    <input name="UACamShiftDown" />
+    <input name="UACamSpeedAdd" />
+    <input name="UACamSpeedDeduct" />
+    <input name="UACamRelease">
+        <btn name="kLControl" />
+    </input>
+    <input name="UAToggleESP" />
+    <input name="UAUIInspectItem">
+        <btn name="kZ" />
+    </input>
+    <input name="UAToggleReportPlayer">
+        <btn name="kLControl">
+            <btn name="kLShift" />
+            <btn name="kA" />
+        </btn>
+    </input>
+    <input name="UAToggleScoreboard">
+        <btn name="kTab" />
+    </input>
+    <input name="UACustomQuickReload">
+        <btn name="kLShift">
+            <btn name="kT" />
+        </btn>
+    </input>
+    <input name="UAUIScopesRadialOpen">
+        <btn name="kLShift">
+            <btn name="kA" />
+        </btn>
+    </input>
+    <input name="UADebugCachePos" />
+    <input name="UASwapDebugObj" />
+    <input name="UADebugObjMode" />
     <controller name="PCKeyboard">
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
         <limit name="deadzone" value="0.000000" />
-        <sensitivity name="vert" value="1.000000" />
-        <sensitivity name="horz" value="1.000000" />
+        <sensitivity name="vert" value="0.017780" />
+        <sensitivity name="horz" value="0.017780" />
         <sensitivity name="curv" value="1.000000" />
         <sensitivity name="lvert" value="1.000000" />
         <sensitivity name="lhorz" value="1.000000" />
@@ -912,8 +952,8 @@
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
         <limit name="deadzone" value="0.000000" />
-        <sensitivity name="vert" value="0.016940" />
-        <sensitivity name="horz" value="0.016940" />
+        <sensitivity name="vert" value="0.100000" />
+        <sensitivity name="horz" value="0.100000" />
         <sensitivity name="curv" value="1.000000" />
         <sensitivity name="lvert" value="1.000000" />
         <sensitivity name="lhorz" value="1.000000" />
@@ -965,8 +1005,8 @@
         <sensitivity name="rcurv" value="1.000000" />
     </controller>
     <modificator name="aiming">
-        <sensitivity name="vert" value="1.000000" />
-        <sensitivity name="horz" value="1.000000" />
+        <sensitivity name="vert" value="0.017780" />
+        <sensitivity name="horz" value="0.017780" />
         <sensitivity name="rvert" value="1.250000" />
         <sensitivity name="rhorz" value="1.250000" />
         <sensitivity name="rcurv" value="0.500000" />
