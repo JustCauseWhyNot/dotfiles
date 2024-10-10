@@ -938,8 +938,8 @@
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
         <limit name="deadzone" value="0.000000" />
-        <sensitivity name="vert" value="0.017780" />
-        <sensitivity name="horz" value="0.017780" />
+        <sensitivity name="vert" value="1.000000" />
+        <sensitivity name="horz" value="1.000000" />
         <sensitivity name="curv" value="1.000000" />
         <sensitivity name="lvert" value="1.000000" />
         <sensitivity name="lhorz" value="1.000000" />
@@ -952,8 +952,8 @@
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
         <limit name="deadzone" value="0.000000" />
-        <sensitivity name="vert" value="0.100000" />
-        <sensitivity name="horz" value="0.100000" />
+        <sensitivity name="vert" value="0.017780" />
+        <sensitivity name="horz" value="0.017780" />
         <sensitivity name="curv" value="1.000000" />
         <sensitivity name="lvert" value="1.000000" />
         <sensitivity name="lhorz" value="1.000000" />
