@@ -836,104 +836,9 @@
     <input name="UAProne">
         <btn name="kZ" />
     </input>
-    <input name="UAOpenVPPMap" />
-    <input name="UAToggleVPPMap3DMarkers">
-        <btn name="kK" />
-    </input>
-    <input name="UAHealTargets">
-        <btn name="kLShift">
-            <btn name="kG" />
-        </btn>
-    </input>
-    <input name="UAToggleFreeCam" />
-    <input name="UACopyPositionClipboard" />
-    <input name="UARepairVehicleAtCrosshairs" />
-    <input name="UAFocusOnGame" />
-    <input name="UACollapseESPDropDwn" />
-    <input name="UATogglePlayerDetailEsp" />
-    <input name="UAExitSpectate" />
-    <input name="UASelectObject">
-        <btn name="mBLeft" />
-    </input>
-    <input name="UARotateInc">
-        <btn name="mBLeft" />
-    </input>
-    <input name="UARotateDec">
-        <btn name="mBRight" />
-    </input>
-    <input name="UAExecuteCommand">
-        <btn name="kReturn" />
-        <btn name="kNumpadEnter" />
-    </input>
-    <input name="UAUPCommand">
-        <btn name="kUp" />
-    </input>
-    <input name="UADOWNCommand">
-        <btn name="kDown" />
-    </input>
-    <input name="UAToggleAdminTools" />
-    <input name="UAToggleMeshEsp" />
-    <input name="UAOpenAdminTools" />
-    <input name="UATeleportToCrosshair" />
-    <input name="UADeleteObjCrosshair" />
-    <input name="UAToggleGodMode" />
-    <input name="UACamForward">
-        <btn name="kE" />
-    </input>
-    <input name="UACamBackward">
-        <btn name="kD" />
-    </input>
-    <input name="UACamRight">
-        <btn name="kF" />
-    </input>
-    <input name="UACamLeft">
-        <btn name="kS" />
-    </input>
-    <input name="UACamUp">
-        <btn name="kR" />
-    </input>
-    <input name="UACamDown">
-        <btn name="kW" />
-    </input>
-    <input name="UACamTurbo">
-        <btn name="kLBracket" />
-    </input>
-    <input name="UACamFOV" />
-    <input name="UACamShiftLeft" />
-    <input name="UACamShiftRight" />
-    <input name="UACamShiftUp" />
-    <input name="UACamShiftDown" />
-    <input name="UACamSpeedAdd" />
-    <input name="UACamSpeedDeduct" />
-    <input name="UACamRelease">
-        <btn name="kLControl" />
-    </input>
-    <input name="UAToggleESP" />
     <input name="UAUIInspectItem">
         <btn name="kZ" />
     </input>
-    <input name="UAToggleReportPlayer">
-        <btn name="kLControl">
-            <btn name="kLShift" />
-            <btn name="kA" />
-        </btn>
-    </input>
-    <input name="UAToggleScoreboard">
-        <btn name="kTab" />
-    </input>
-    <input name="UACustomQuickReload">
-        <btn name="kLShift">
-            <btn name="kT" />
-        </btn>
-    </input>
-    <input name="UAUIScopesRadialOpen">
-        <btn name="kLShift">
-            <btn name="kA" />
-        </btn>
-    </input>
-    <input name="UADebugCachePos" />
-    <input name="UASwapDebugObj" />
-    <input name="UADebugObjMode" />
     <controller name="PCKeyboard">
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
@@ -952,8 +857,8 @@
         <limit name="doubleclick" value="0.500000" />
         <limit name="hold" value="0.330000" />
         <limit name="deadzone" value="0.000000" />
-        <sensitivity name="vert" value="0.017780" />
-        <sensitivity name="horz" value="0.017780" />
+        <sensitivity name="vert" value="0.015804" />
+        <sensitivity name="horz" value="0.015804" />
         <sensitivity name="curv" value="1.000000" />
         <sensitivity name="lvert" value="1.000000" />
         <sensitivity name="lhorz" value="1.000000" />
@@ -1005,8 +910,8 @@
         <sensitivity name="rcurv" value="1.000000" />
     </controller>
     <modificator name="aiming">
-        <sensitivity name="vert" value="0.017780" />
-        <sensitivity name="horz" value="0.017780" />
+        <sensitivity name="vert" value="0.015804" />
+        <sensitivity name="horz" value="0.015804" />
         <sensitivity name="rvert" value="1.250000" />
         <sensitivity name="rhorz" value="1.250000" />
         <sensitivity name="rcurv" value="0.500000" />

@@ -1,7 +1,7 @@
 net-im/vesktop::kzd
 #app-misc/oscar::local
 #dev-libs/spdlog::thegreatmcpain
-#gui-wm/gamescope::local
+gui-wm/gamescope::local
 #media-libs/libmysofa::stefantalpalaru
 #media-video/gpu-screen-recorder::local
 app-emulation/proton-ge-custom-bin::kzd
