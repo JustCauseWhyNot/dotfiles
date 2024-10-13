@@ -204,7 +204,7 @@
     </input>
     <input name="UAZeroingDown">
         <btn name="x1PadDown" />
-        <btn name="kLeft" />
+        <btn name="kDown" />
     </input>
     <input name="UAToggleWeapons">
         <btn name="x1A">

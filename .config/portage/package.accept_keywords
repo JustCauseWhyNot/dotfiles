@@ -4,12 +4,13 @@
 # required by media-libs/phonon-vlc-0.11.3-r1::gentoo
 # required by plasma-browser-integration (argument)
 #games-util/mangohud **
+#gui-wm/gamescope **
 */*::steam-overlay
 app-misc/openrgb **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **
-gui-wm/gamescope **
 media-video/gpu-screen-recorder **
 media-video/gpu-screen-recorder-gtk **
+net-im/vesktop **
 sys-apps/edid-decode **
 sys-process/htop **
