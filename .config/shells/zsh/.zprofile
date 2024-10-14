@@ -19,15 +19,19 @@ export -U PATH path FPATH fpath MANPATH manpath
 export -UT INFOPATH infopath
 export Civ5="/home/justcausewhynot/Games/umu/Civ5/drive_c/Games/Civ5/"
 export EDITOR=nvim
-export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
-export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances"
-export notes="/home/justcausewhynot/Documents/Notes"
-export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/share/dwm/statusbar-scripts"
+export FNV="/home/justcausewhynot/Games/umu/Fallout/drive_c/Games/FNV"
+export FNVModding="/home/justcausewhynot/Games/umu/Fallout/drive_c/Modding/"
+export FO3="/home/justcausewhynot/Games/umu/Fallout/drive_c/Games/FNV"
 export Hoi4="/home/justcausewhynot/.local/share/Steam/steamapps/common/Hearts of Iron IV/"
 export Hoi4launcher="/home/justcausewhynot/.local/share/Paradox Interactive/Hearts of Iron IV/"
 export Hoi4workshop="/home/justcausewhynot/.local/share/Steam/steamapps/workshop/content/394360/"
+export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
+export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances"
+export Mo2="/home/justcausewhynot/Games/umu/Fallout/drive_c/Modding/MO2/"
+export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/share/dwm/statusbar-scripts"
 export RoM="/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/ReadyOrNot/Content/Paks/"
 export RoN="/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/"
 export TERMINAL=st
 export VISUAL=nvim
 export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
+export notes="/home/justcausewhynot/Documents/Notes"
