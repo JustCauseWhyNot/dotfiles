@@ -46,5 +46,4 @@ set ww=b,s,<,>,[,]
 nnoremap S :%s//g<Left><Left>
 
 " Lua
-lua require('plugins')
-lua require('init')
+lua require("config.lazy")

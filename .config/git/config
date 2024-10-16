@@ -37,21 +37,24 @@
         name = JustCauseWhyNot
         email = JustCauseWhyNot@tuta.io
 [alias]
-        co = checkout
+        ap = apply
         br = branch
         ci = commit
+        co = checkout
+	lg = lg1
+	lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
+	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
         st = status
-        ap = apply
         sw = switch
 [merge]
         conflictstyle = diff3
-        tool = nvimMerge
+        tool = nvimdiff
 [mergetool]
         prompt = false
         keepBackup = false
-        hideResolved = true
-[mergetool "nvimMerge"]
-        cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J' -c ':nnoremap q :qa<CR>' < /dev/tty
+	#hideResolved = true
+[mergetool "nvimdiff"]
+	layout = "LOCAL,BASE,REMOTE / MERGED"
 [safe]
         directory = *
 [credential "https://github.com"]
