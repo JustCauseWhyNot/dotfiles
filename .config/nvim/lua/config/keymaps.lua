@@ -1,5 +1,17 @@
 local map = vim.keymap.set
 
+-- url open
+vim.keymap.set("n", "gx", "<esc>:URLOpenUnderCursor<cr>")
+
+-- Navigation
+map('n', ']c', function()
+	if vim.wo.diff then
+		vim.cmd.normal({']c', bang = true})
+	else
+		gitsigns.nav_hunk('next')
+	end
+end)
+
 -- Actions
 map('n', '<leader>hs', gitsigns.stage_hunk)
 map('n', '<leader>hr', gitsigns.reset_hunk)
