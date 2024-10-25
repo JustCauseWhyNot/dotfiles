@@ -28,7 +28,7 @@ set ru
 set rnu
 set rtp+=/usr/share/vim/vimfiles
 set scl=yes
-set scs
+set noscs
 let &sbr = '+++ '
 set si
 set siso=20

@@ -6,7 +6,7 @@
 #games-util/mangohud **
 #gui-wm/gamescope **
 */*::steam-overlay
-#app-emulation/winetricks **
+app-emulation/winetricks **
 app-misc/openrgb **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **

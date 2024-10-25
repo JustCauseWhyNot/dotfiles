@@ -3,6 +3,7 @@
 #gui-wm/gamescope::local
 #media-libs/libmysofa::stefantalpalaru
 #media-video/gpu-screen-recorder::local
+#net-im/vesktop::local
 app-emulation/proton-ge-custom-bin::kzd
 app-emulation/proton-ge-custom-meta::kzd
 app-emulation/wine-ge-custom-bin::kzd
@@ -30,6 +31,7 @@ dev-qt/qtserialport
 dev-qt/qtshadertools
 dev-qt/qtsvg:6
 dev-qt/qttools
+dev-qt/qttranslations
 dev-qt/qtwayland
 dev-qt/qtwebchannel
 dev-qt/qtwebengine
@@ -46,7 +48,6 @@ media-libs/gst-plugins-base::kzd
 media-libs/gstreamer::kzd
 media-libs/libmysofa::local
 net-im/vesktop::kzd
-#net-im/vesktop::local
 sys-apps/evhz::ROKO__
 sys-apps/evhz::local
 sys-boot/uefi-mkconfig::local
