@@ -1,0 +1,7 @@
+<!-- Take All (Vanilla A, remapped to R to prevent accidental Take All by double-pressing Accept at the Quantity menu) -->
+<_PCButton_T> CM_TakeAllButton </_PCButton_T>
+<_CM_TakeAllButton> T) </_CM_TakeAllButton>
+
+<!-- Exit (Vanilla E)-->
+<_PCButton_A> CM_ExitButton </_PCButton_A>
+<_CM_ExitButton> A) </_CM_ExitButton>

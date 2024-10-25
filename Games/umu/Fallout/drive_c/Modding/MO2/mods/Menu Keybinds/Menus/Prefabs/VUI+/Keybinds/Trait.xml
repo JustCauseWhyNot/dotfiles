@@ -1,0 +1,7 @@
+<!-- Reset (Vanilla R) -->
+<_PCButton_T> LUM_ResetButton </_PCButton_T>
+<_LUM_ResetButton> T) </_LUM_ResetButton>
+
+<!-- Done (Vanilla A, VUI+WASD E)-->
+<_PCButton_G> LUM_ContinueButton </_PCButton_G>
+<_LUM_ContinueButton> G) </_LUM_ContinueButton>

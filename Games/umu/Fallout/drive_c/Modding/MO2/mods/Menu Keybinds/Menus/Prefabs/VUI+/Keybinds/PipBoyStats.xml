@@ -1,0 +1,19 @@
+<!-- Stimpack (Vanilla S, VUI+WASD Q)-->
+<_PCButton_A> stats_stimpak_button </_PCButton_A>
+<_stats_stimpak_button> A) </_stats_stimpak_button>
+
+<!-- RadAway (Vanilla A, VUI+WASD R)-->
+<_PCButton_T> stats_radaway_button </_PCButton_T>
+<_stats_radaway_button> T) </_stats_radaway_button>
+
+<!-- RadX (Vanilla X)-->
+<_PCButton_X> stats_radx_button </_PCButton_X>
+<_stats_radx_button> X) </_stats_radx_button>
+
+<!-- NV General/Reputation (Vanilla R, VUI+WASD G)-->
+<_PCButton_V> stats_genrep_button </_PCButton_V>
+<_stats_genrep_button> V) </_stats_genrep_button>
+
+<!-- NV Doctor's Bag (Vanilla E)-->
+<_PCButton_Z> stats_drbag_button </_PCButton_Z>
+<_stats_drbag_button> Z) </_stats_drbag_button>

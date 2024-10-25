@@ -1,0 +1,11 @@
+<!-- Repair (Vanilla R)-->
+<_PCButton_T> IM_RepairButton </_PCButton_T>
+<_IM_RepairButton> T) </_IM_RepairButton>
+
+<!-- Keyring close (Vanilla E, VUI+WASD X)-->
+<_PCButton_A> IM_CancelButton </_PCButton_A>
+<_IM_CancelButton> A) </_IM_CancelButton>
+
+<!-- NV Weapon Mod (Vanilla X, VUI+WASD E) -->
+<_PCButton_G> IM_ModButton </_PCButton_G>
+<_IM_ModButton> G) </_IM_ModButton>

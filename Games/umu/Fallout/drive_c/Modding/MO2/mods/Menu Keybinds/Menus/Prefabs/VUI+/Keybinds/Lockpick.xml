@@ -1,0 +1,7 @@
+<!-- Force Lock (Vanilla F) -->
+<_PCButton_G> LPM_ForceLockButton </_PCButton_G>
+<_LPM_ForceLockButton> G) </_LPM_ForceLockButton>
+
+<!-- Exit (Vanilla E) -->
+<_PCButton_A> LPM_ExitButton </_PCButton_A>
+<_LPM_ExitButton> A) </_LPM_ExitButton>

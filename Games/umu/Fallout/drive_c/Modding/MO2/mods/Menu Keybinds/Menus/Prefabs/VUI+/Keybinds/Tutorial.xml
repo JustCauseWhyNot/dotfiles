@@ -1,0 +1,11 @@
+<!-- Next (Vanilla A, remapped to D for easier navigation) -->
+<_PCButton_F> TM_next_button </_PCButton_F>
+<_TM_next_button> F) </_TM_next_button>
+
+<!-- Previous (Vanilla S, remapped to A for easier navigation) -->
+<_PCButton_S> TM_prev_button </_PCButton_S>
+<_TM_prev_button> S) </_TM_prev_button>
+
+<!-- Close (Vanilla E) -->
+<_PCButton_A> TM_close_button </_PCButton_A>
+<_TM_close_button> A) </_TM_close_button>
