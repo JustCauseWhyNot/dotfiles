@@ -2,7 +2,7 @@
 # /home/justcausewhynot/.config/nvidia/settings
 #
 # Configuration file for nvidia-settings - the NVIDIA Settings utility
-# Generated on Fri Oct 25 13:30:30 2024
+# Generated on Mon Oct 28 03:27:36 2024
 #
 
 # ConfigProperties:
@@ -12,9 +12,9 @@ DisplayStatusBar = Yes
 SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 UpdateRulesOnProfileNameChange = Yes
-Timer = Memory_Used_(GPU_0),Yes,3000
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 
@@ -23,7 +23,7 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 0/FSAA=0
 0/TextureClamping=1
 0/FXAA=0
-0/AllowFlipping=1
+0/AllowFlipping=0
 0/FSAAAppControlled=1
 0/LogAnisoAppControlled=1
 0/OpenGLImageSettings=3
@@ -45,7 +45,7 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 [DPY:DP-0]/RedGamma=1.000000
 [DPY:DP-0]/GreenGamma=1.000000
 [DPY:DP-0]/BlueGamma=1.000000
-[DPY:DP-0]/Dithering=1
+[DPY:DP-0]/Dithering=2
 [DPY:DP-0]/DitheringMode=1
 [DPY:DP-0]/DitheringDepth=2
 [DPY:DP-0]/DigitalVibrance=0

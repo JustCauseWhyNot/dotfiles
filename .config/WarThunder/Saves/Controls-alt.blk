@@ -70,7 +70,7 @@ controls{
 
     ID_AGM{}
     ID_AGM_LOCK{
-      mouseButton:i=1
+      keyboardKey:i=30
     }
 
     ID_AGM_LOCK_HELICOPTER{
@@ -156,12 +156,12 @@ controls{
 
     ID_CAMERA_OPTICS{
       keyboardKey:i=29
-      keyboardKey:i=30
+      mouseButton:i=3
     }
 
     ID_CAMERA_SEEKER{
       keyboardKey:i=56
-      keyboardKey:i=30
+      mouseButton:i=3
     }
 
     ID_CAMERA_TPS{
@@ -224,7 +224,7 @@ controls{
     }
 
     ID_COMPLEX_ENGINE{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=20
     }
 
@@ -385,7 +385,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{
-      mouseButton:i=3
+      mouseButton:i=1
     }
 
     ID_FIRE_SECONDARY_HELICOPTER{
@@ -500,7 +500,7 @@ controls{
 
     ID_LOCK_TARGET{
       keyboardKey:i=29
-      mouseButton:i=2
+      mouseButton:i=4
     }
 
     ID_LOCK_TARGETING{
@@ -534,13 +534,13 @@ controls{
     }
 
     ID_PROP_PITCH_AUTO{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=44
     }
 
     ID_PTT{}
     ID_RADIATOR_AUTO{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=30
     }
 
@@ -647,8 +647,8 @@ controls{
     }
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES{
-      keyboardKey:i=56
-      mouseButton:i=3
+      keyboardKey:i=29
+      mouseButton:i=1
     }
 
     ID_RESIZE_SECONDARY_WEAPON_SERIES_HELICOPTER{
@@ -986,7 +986,7 @@ controls{
     }
 
     ID_SUPERCHARGER{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=34
     }
 
@@ -1240,7 +1240,7 @@ controls{
     }
 
     ID_TOGGLE_PROP_FEATHERING{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=47
     }
 
@@ -1362,7 +1362,7 @@ controls{
     }
 
     ID_WEAPON_LOCK{
-      mouseButton:i=1
+      keyboardKey:i=30
     }
 
     ID_WEAPON_LOCK_HELICOPTER{}
@@ -1546,52 +1546,52 @@ controls{
     }
 
     mixture_rangeMax{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=3
     }
 
     mixture_rangeMin{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=2
     }
 
     oil_radiator_rangeMax{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=19
     }
 
     oil_radiator_rangeMax{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=33
     }
 
     oil_radiator_rangeMin{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=17
     }
 
     oil_radiator_rangeMin{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=31
     }
 
     prop_pitch_rangeMax{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=46
     }
 
     prop_pitch_rangeMin{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=45
     }
 
     radiator_rangeMax{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=33
     }
 
     radiator_rangeMin{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=31
     }
 
@@ -1753,14 +1753,8 @@ controls{
       keyboardKey:i=5
     }
 
-    throttle_rangeMax{
-      keyboardKey:i=20
-    }
-
-    throttle_rangeMin{
-      keyboardKey:i=30
-    }
-
+    throttle_rangeMax{}
+    throttle_rangeMin{}
     trim_elevator_rangeMax{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -1997,7 +1991,7 @@ controls{
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=no
     USEROPT_MOUSE_AIM_SENSE:i=5
-    USEROPT_MOUSE_SENSE:i=11
+    USEROPT_MOUSE_SENSE:i=10
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
@@ -2092,7 +2086,7 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.4
-  mouseSens:r=0.2000000000000
+  mouseSens:r=0.2
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
   gunnerViewZoomSens:r=0
@@ -2127,7 +2121,7 @@ settings{
   aimAccelerationDelayWalker:r=0
   aimAccelerationDelayShip:r=0
   aimAccelerationDelaySubmarine:r=0
-  mouseZMultAir:r=0.36
+  mouseZMultAir:r=1
   mouseZMultHelicopter:r=0
   mouseZMultTank:r=0.36
   mouseZMultShip:r=0.35
