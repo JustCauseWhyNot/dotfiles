@@ -10,8 +10,10 @@ app-emulation/winetricks **
 app-misc/openrgb **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **
+media-plugins/qt-jpegxl-image-plugin::guru **
 media-video/gpu-screen-recorder **
 media-video/gpu-screen-recorder-gtk **
 net-im/vesktop **
 sys-apps/edid-decode **
+sys-apps/tuxclocker::local **
 sys-process/htop **

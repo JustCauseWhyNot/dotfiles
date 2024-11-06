@@ -50,6 +50,7 @@ media-libs/libmysofa::local
 net-im/vesktop::kzd
 sys-apps/evhz::ROKO__
 sys-apps/evhz::local
+sys-apps/tuxclocker::local
 sys-boot/uefi-mkconfig::local
 sys-process/btop::nest
 www-client/motrix::fyn-overlay
