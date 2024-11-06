@@ -2085,8 +2085,8 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.4
-  mouseSens:r=0.2
+  zoomSens:r=.7
+  mouseSens:r=0.218
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
   gunnerViewZoomSens:r=0
