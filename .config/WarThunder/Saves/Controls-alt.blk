@@ -2,7 +2,7 @@ controls{
   version:i=5
 
   basePresetPaths{
-    default:t="wt/config/hotkeys/hotkey.keyboard_ver1.blk"
+    default:t="config/hotkeys/hotkey.keyboard_ver1.blk"
   }
 
   hotkeys{
@@ -156,12 +156,12 @@ controls{
 
     ID_CAMERA_OPTICS{
       keyboardKey:i=29
-      mouseButton:i=3
+      keyboardKey:i=30
     }
 
     ID_CAMERA_SEEKER{
       keyboardKey:i=56
-      mouseButton:i=3
+      keyboardKey:i=30
     }
 
     ID_CAMERA_TPS{
@@ -253,10 +253,7 @@ controls{
       keyboardKey:i=44
     }
 
-    ID_DESIGNATE_TARGET{
-      keyboardKey:i=20
-    }
-
+    ID_DESIGNATE_TARGET{}
     ID_EMERGENCY_SURFACING{
       keyboardKey:i=21
     }
@@ -508,6 +505,7 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_LOCK_TARGETING_AT_POINT{}
     ID_LOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -667,7 +665,10 @@ controls{
       keyboardKey:i=21
     }
 
-    ID_SCREENSHOT{}
+    ID_SCREENSHOT{
+      keyboardKey:i=64
+    }
+
     ID_SCREENSHOT_WO_HUD{}
     ID_SELECT_GM_GUN_MACHINEGUN{
       keyboardKey:i=56
@@ -755,13 +756,12 @@ controls{
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=219
-      keyboardKey:i=30
+      keyboardKey:i=29
+      mouseButton:i=0
     }
 
     ID_SENSOR_TARGET_LOCK{
-      keyboardKey:i=29
-      mouseButton:i=0
+      keyboardKey:i=20
     }
 
     ID_SENSOR_TARGET_LOCK_SHIP{}
@@ -1316,6 +1316,7 @@ controls{
       keyboardKey:i=47
     }
 
+    ID_UNLOCK_TARGETING_AT_POINT{}
     ID_UNLOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=56
       keyboardKey:i=44
@@ -1998,7 +1999,7 @@ controls{
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=60
+    USEROPT_ZOOM_SENSE:i=30
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
   }
@@ -2085,8 +2086,8 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=.7
-  mouseSens:r=0.218
+  zoomSens:r=0.7
+  mouseSens:r=0.2
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
   gunnerViewZoomSens:r=0
@@ -2129,7 +2130,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.5
-  cameraMouseSpeed:r=1.2
+  cameraMouseSpeed:r=1.025
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no

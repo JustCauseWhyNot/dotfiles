@@ -54,6 +54,7 @@ playerctld daemon &
 numlockx on &
 xbanish -i modifier -s &
 xrdb -load ~/.config/X11/xresources &
+openrgb -p disabled.orp &
 gentoo-pipewire-launcher &
 nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings -l &
 doas nvidia-settings -a "GPUFanControlState=1" -a "GPUTargetFanSpeed=100" &
