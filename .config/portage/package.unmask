@@ -1,9 +1,5 @@
 #app-misc/oscar::local
 #dev-libs/spdlog::thegreatmcpain
-#gui-wm/gamescope::local
-#media-libs/libmysofa::stefantalpalaru
-#media-video/gpu-screen-recorder::local
-#net-im/vesktop::local
 app-emulation/proton-ge-custom-bin::kzd
 app-emulation/proton-ge-custom-meta::kzd
 app-emulation/wine-ge-custom-bin::kzd
@@ -42,6 +38,7 @@ games-emulation/pcsx2::local
 games-util/mangohud::guru
 games-util/vkbasalt::thegreatmcpain
 games-util/xone::src_prepare-overlay
+#gui-wm/gamescope::local
 media-fonts/material-design-icons::robertgzr
 media-fonts/nerd-fonts::gentoo-zh
 media-libs/gst-plugins-base::kzd

@@ -1,8 +1,3 @@
-# required by kde-plasma/plasma-browser-integration-5.27.11::gentoo
-# required by kde-plasma/plasma-workspace-5.27.11::gentoo
-# required by media-libs/phonon-4.11.1-r2::gentoo[vlc]
-# required by media-libs/phonon-vlc-0.11.3-r1::gentoo
-# required by plasma-browser-integration (argument)
 #games-util/mangohud **
 #gui-wm/gamescope **
 */*::steam-overlay
@@ -10,6 +5,7 @@ app-emulation/winetricks **
 app-misc/openrgb **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **
+games-util/gamemode **
 media-plugins/qt-jpegxl-image-plugin::guru **
 media-video/gpu-screen-recorder **
 media-video/gpu-screen-recorder-gtk **

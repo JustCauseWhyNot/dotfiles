@@ -56,7 +56,7 @@ xbanish -i modifier -s &
 xrdb -load ~/.config/X11/xresources &
 openrgb -p disabled.orp &
 gentoo-pipewire-launcher &
-nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings -l &
+doas nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings -l &
 doas nvidia-settings -a "GPUFanControlState=1" -a "GPUTargetFanSpeed=100" &
 doas nvidia-smi -pl 253 &
 exec dbus-launch --exit-with-session /usr/local/bin/dwm
