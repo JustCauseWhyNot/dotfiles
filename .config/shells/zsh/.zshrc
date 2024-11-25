@@ -65,8 +65,8 @@ setopt SHARE_HISTORY
 
 # Aliases.
 # ========
-alias ffmpeg='ffmpeg -hide_banner'
-alias ffprobe='ffprobe -hide_banner'
+#alias eix='eix -Rc'
+#alias nvidia-settings="nvidia-settings --config='$XDG_CONFIG_HOME'/nvidia/settings"
 alias %= \$=
 alias colorscheme='for x in 0 1 4 5 7 8; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo "";'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -74,14 +74,14 @@ alias df='df -h' du='du -h'
 alias diff='diff --color=yes'
 alias dir='dir --color=yes'
 alias doase='sudoedit'
-#alias eix='eix -Rc'
 alias ff4dinit='source ~/.local/share/ffmpeg4discord/env/bin/activate'
+alias ffmpeg='ffmpeg -hide_banner'
+alias ffprobe='ffprobe -hide_banner'
 alias grep='grep --color==yes'
 alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
-#alias nvidia-settings="nvidia-settings --config='$XDG_CONFIG_HOME'/nvidia/settings"
-alias rm='rm -rdI'
 alias py='python'
+alias rm='rm -rdI'
 alias startx='startx "$XINITRC" -- "$XSERVERRC" vt1'
 alias su='su -l'
 alias vdir='vdir --color=yes'
