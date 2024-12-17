@@ -1,0 +1,37 @@
+context.modules = [
+{ name = libpipewire-module-filter-chain
+	args = {
+		node.description = "Normalized"
+		node.name 	 = "Normalized"
+		filter.graph = {
+			nodes = [
+				#{ type = builtin name = EQL label = convolver config = { filename = "/home/justcausewhynot/.config/pipewire/pipewire.conf.d/560.wav" channel = 1 resample_quality = 5 } }
+				#{ type = builtin name = EQR label = convolver config = { filename = "/home/justcausewhynot/.config/pipewire/pipewire.conf.d/560.wav" channel = 2 resample_quality = 5 } }
+
+				#{ type = builtin label = mixer name = mixL }
+				#{ type = builtin label = mixer name = mixR }
+
+				{ type = ladspa name = compressor plugin = /usr/lib64/ladspa/sc4_1882.so label = sc4 control = { "RMS/peak" = 0 "Attack time (ms)" = 60 "Release time (ms)" = 600 "Threshold level (dB)" = -12 "Ratio (1:n)" = 12 "Knee radius (dB)" = 2 "Makeup gain (dB)" = 12 } }
+				{ type = ladspa name = limiter plugin = /usr/lib64/ladspa/fast_lookahead_limiter_1913.so label = fastLookaheadLimiter control { "Input gain (dB)" = 6 "Limit (dB)" = -6 "Release time (s)" = 0.8 } }
+
+			]
+			links = [
+				{ output = "compressor:Left output" input="limiter:Input 1"}
+				{ output = "compressor:Right output" input="limiter:Input 2"}
+			]
+			inputs = [ "compressor:Left input" "compressor:Right input" ]
+			outputs = [ "limiter:Output 1" "limiter:Output 2" ]
+		}
+		capture.props = {
+			audio.channels = 2
+			audio.position = [ FL FR ]
+			media.class = Audio/Sink
+		}
+		playback.props = {
+			audio.channels = 2
+			audio.position = [ FL FR ]
+			target.object = "alsa_output.usb-MOTU_M2_M2MT15C48F-00.HiFi__hw_M2__sink"
+		}
+	}
+}
+]

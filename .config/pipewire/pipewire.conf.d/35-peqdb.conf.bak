@@ -1,0 +1,55 @@
+context.modules = [
+{ name = libpipewire-module-filter-chain
+	args = {
+		node.description = "peqdb"
+		node.name 	 = "peqdb"
+		filter.graph = {
+			nodes = [
+				{ type = builtin name = eq_preamp label = bq_highshelf control = { "Freq" = 0 "Gain" = -13.0 "Q" = 1.0 } }
+				{ type = builtin name = eq_band_1 label = bq_peaking control = { "Freq" = 61 "Gain" = -4.9 "Q" = 0.71 } }
+				{ type = builtin name = eq_band_2 label = bq_lowshelf control = { "Freq" = 105 "Gain" = 2.5 "Q" = 0.71 } }
+				{ type = builtin name = eq_band_3 label = bq_peaking control = { "Freq" = 208 "Gain" = 0.8 "Q" = 4.73 } }
+				{ type = builtin name = eq_band_4 label = bq_lowshelf control = { "Freq" = 216 "Gain" = 11.6 "Q" = 0.64 } }
+				{ type = builtin name = eq_band_5 label = bq_peaking control = { "Freq" = 707 "Gain" = 0.6 "Q" = 6.00 } }
+				{ type = builtin name = eq_band_6 label = bq_peaking control = { "Freq" = 1307 "Gain" = -3.8 "Q" = 1.64 } }
+				{ type = builtin name = eq_band_7 label = bq_peaking control = { "Freq" = 2052 "Gain" = -5.6 "Q" = 1.28 } }
+				{ type = builtin name = eq_band_8 label = bq_highshelf control = { "Freq" = 3178 "Gain" = -2.1 "Q" = 0.31 } }
+				{ type = builtin name = eq_band_9 label = bq_peaking control = { "Freq" = 3768 "Gain" =  -0.1 "Q" = 6.00 } }
+				{ type = builtin name = eq_band_10 label = bq_peaking control = { "Freq" = 4461 "Gain" = -5.7 "Q" = 4.46 } }
+				{ type = builtin name = eq_band_11 label = bq_peaking control = { "Freq" = 5575 "Gain" = -9.5 "Q" = 2.39 } }
+				{ type = builtin name = eq_band_12 label = bq_peaking control = { "Freq" = 6180 "Gain" = 7.3 "Q" = 0.22 } }
+				{ type = builtin name = eq_band_13 label = bq_highshelf control = { "Freq" = 10000 "Gain" = 0.7 "Q" = 0.71 } }
+
+			]
+			links = [
+				{ output = "eq_preamp:Out" input = "eq_band_1:In" } 
+				{ output = "eq_band_1:Out" input = "eq_band_2:In" } 
+				{ output = "eq_band_2:Out" input = "eq_band_3:In" } 
+				{ output = "eq_band_3:Out" input = "eq_band_4:In" } 
+				{ output = "eq_band_4:Out" input = "eq_band_5:In" } 
+				{ output = "eq_band_5:Out" input = "eq_band_6:In" } 
+				{ output = "eq_band_6:Out" input = "eq_band_7:In" } 
+				{ output = "eq_band_7:Out" input = "eq_band_8:In" } 
+				{ output = "eq_band_8:Out" input = "eq_band_9:In" } 
+				{ output = "eq_band_9:Out" input = "eq_band_10:In" } 
+				{ output = "eq_band_10:Out" input = "eq_band_11:In" } 
+				{ output = "eq_band_11:Out" input = "eq_band_12:In" } 
+				{ output = "eq_band_12:Out" input = "eq_band_13:In" } 
+			]
+			#inputs = [ "EQL:In" "EQR:In" ]
+			#outputs = [ "EQL:Out" "EQR:Out" ]
+		}
+		capture.props = {
+			audio.channels = 2
+			audio.position = [ FL FR ]
+			media.class = Audio/Sink
+		}
+		playback.props = {
+			audio.channels = 2
+			audio.position = [ FL FR ]
+			target.object = "alsa_output.usb-MOTU_M2_M2MT15C48F-00.HiFi__hw_M2__sink"
+		}
+	}
+}
+]
+
