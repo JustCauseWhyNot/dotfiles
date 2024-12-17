@@ -52,7 +52,7 @@ fi
 # ===============
 playerctld daemon &
 numlockx on &
-xbanish -i modifier -s &
+#xbanish -i modifier -s &
 xrdb -load ~/.config/X11/xresources &
 openrgb -p disabled.orp &
 gentoo-pipewire-launcher &

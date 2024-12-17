@@ -21,3 +21,5 @@
 *.color13:      #d2a8ff
 *.color14:      #56d4dd
 *.color15:      #ffffff
+
+Xcurses.theme: BreezeX-Black
