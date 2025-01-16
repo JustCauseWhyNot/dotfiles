@@ -1,4 +1,12 @@
---downloader aria2c # downloader
---downloader-args '-c -j 5 -x 16 -s 32 -k 8M' # download args
--f - # interactive selection prompt
--o ~/Videos/yt-dlp/%(title)s.%(ext)s # save dir
+# downloader
+--downloader aria2c
+#--downloader "dash,m3u8:native"
+
+# download args
+--downloader-args 'aria2c:-c -j 5 -x 16 -s 32 -k 8M'
+
+# interactive selection prompt
+-f -
+
+# save dir
+-o ~/Videos/yt-dlp/%(title)s.%(ext)s
