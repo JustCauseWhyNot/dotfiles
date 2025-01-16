@@ -1,0 +1,4 @@
+--downloader aria2c # downloader
+--downloader-args '-c -j 5 -x 16 -s 32 -k 8M' # download args
+-f - # interactive selection prompt
+-o ~/Videos/yt-dlp/%(title)s.%(ext)s # save dir

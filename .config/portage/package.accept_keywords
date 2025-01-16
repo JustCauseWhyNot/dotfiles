@@ -14,6 +14,5 @@ media-video/gpu-screen-recorder-gtk **
 media-video/pipewire **
 media-video/wireplumber **
 net-im/vesktop **
-sys-apps/edid-decode **
 sys-apps/tuxclocker::local **
 sys-process/htop **

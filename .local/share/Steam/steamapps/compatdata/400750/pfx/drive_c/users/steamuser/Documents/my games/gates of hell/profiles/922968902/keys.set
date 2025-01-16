@@ -246,7 +246,7 @@
 		{value KEY_W}
 	}
 	{"interface/toggle_map"
-		{value KEY_M}
+		{value "ALT + KEY_M"}
 	}
 	{"interface/toggle_map_control"
 		{value "CTRL + KEY_M"}
