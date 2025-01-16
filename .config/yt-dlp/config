@@ -12,3 +12,6 @@
 # save dir
 -o ~/Videos/yt-dlp/%(title)s.%(ext)s
 --restrict-filenames
+
+# no clutter
+--no-part
