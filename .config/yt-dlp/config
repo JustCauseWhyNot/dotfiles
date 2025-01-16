@@ -1,9 +1,10 @@
 # downloader
 --downloader aria2c
-#--downloader "dash,m3u8:native"
+--downloader "dash,m3u8:native"
 
 # download args
 --downloader-args 'aria2c:-c -j 5 -x 16 -s 32 -k 8M'
+-N 4
 
 # interactive selection prompt
 -f -
