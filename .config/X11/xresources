@@ -1,25 +1,29 @@
-! (Github Dark Colorblind) Colors for Xresources
+!! Modus Themes for Xresources
+!! Auto generated with https://github.com/miikanissi/modus-themes.nvim/blob/master/lua/modus-themes/extras/xresources.lua
 
-*.foreground:   #c9d1d9
-*.background:   #0d1117
-*.cursorColor:  #c9d1d9
+*background: #000000
+*foreground: #ffffff
+*accent_light: #82b0ec
+*accent: #79a8ff
+*accent_darker: #2fafff
+*accent_dark: #338fff
 
-*.color0:       #484f58
-*.color1:       #ec8e2c
-*.color2:       #58a6ff
-*.color3:       #d29922
-*.color4:       #58a6ff
-*.color5:       #bc8cff
-*.color6:       #39c5cf
-*.color7:       #b1bac4
+*color0: #000000
+*color1: #ff5f59
+*color2: #44bc44
+*color3: #d0bc00
+*color4: #2fafff
+*color5: #feacd0
+*color6: #00d3d0
+*color7: #ffffff
 
-*.color8:       #6e7681
-*.color9:       #fdac54
-*.color10:      #79c0ff
-*.color11:      #e3b341
-*.color12:      #79c0ff
-*.color13:      #d2a8ff
-*.color14:      #56d4dd
-*.color15:      #ffffff
+*color8: #1e1e1e
+*color9: #ff5f5f
+*color10: #44df44
+*color11: #efef00
+*color12: #338fff
+*color13: #ff66ff
+*color14: #00eff0
+*color15: #989898
 
 Xcurses.theme: BreezeX-Black
