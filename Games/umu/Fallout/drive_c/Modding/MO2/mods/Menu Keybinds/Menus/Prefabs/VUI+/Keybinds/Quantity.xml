@@ -1,7 +1,0 @@
-<!-- OK (Vanilla A, VUI+WASD E) -->
-<_PCButton_G> QM_OKButton </_PCButton_G>
-<_QM_OKButton> G) </_QM_OKButton>
-
-<!-- Cancel (Vanilla X)-->
-<_PCButton_A> QM_CancelButton </_PCButton_A>
-<_QM_CancelButton> A) </_QM_CancelButton>

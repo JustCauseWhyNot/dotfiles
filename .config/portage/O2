@@ -1,1 +1,1 @@
-COMMON_FLAGS="${COMMON_FLAGS} -O2"
+COMMON_FLAGS="-O2 -flto=thin -fno-plt -fno-semantic-interposition -frecord-gcc-switches -march=native -pipe -fplugin=LLVMPolly.so -mllvm=-polly -mllvm=-polly-vectorizer=stripmine -mllvm=-polly-omp-backend=LLVM -mllvm=-polly-parallel -mllvm=-polly-num-threads=9 -mllvm=-polly-scheduling=dynamic"

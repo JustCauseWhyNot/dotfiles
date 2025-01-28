@@ -1,7 +1,0 @@
-<!-- Show Location, Set location at the map, Note and Challenge filters (no shortcut in vanilla, mapped to Q)-->
-<_PCButton_T> MM_ButtonX </_PCButton_T>
-<_MM_ButtonX> T) </_MM_ButtonX>
-
-<!-- NV Switch between Challenges and Notes (Vanilla R)-->
-<_PCButton_G> MM_ButtonY </_PCButton_G>
-<_MM_ButtonY> G) </_MM_ButtonY>

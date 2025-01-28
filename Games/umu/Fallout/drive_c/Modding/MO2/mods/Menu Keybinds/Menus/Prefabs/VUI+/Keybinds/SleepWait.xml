@@ -1,7 +1,0 @@
-<!-- Sleep/Wait (Vanilla W, VUI+WASD E) -->
-<_PCButton_G> SWM_WaitButton </_PCButton_G>
-<_SWM_WaitButton> G) </_SWM_WaitButton>
-
-<!-- Cancel (Vanilla X)-->
-<_PCButton_A> SWM_CancelButton </_PCButton_A>
-<_SWM_CancelButton> A) </_SWM_CancelButton>

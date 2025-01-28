@@ -62,6 +62,7 @@ HISTSIZE=$(( 1.2 * SAVEHIST ))
 setopt HIST_FCNTL_LOCK
 setopt HIST_IGNORE_ALL_DUPS
 setopt SHARE_HISTORY
+setopt EXTENDED_HISTORY
 
 # Aliases.
 # ========
@@ -77,7 +78,6 @@ alias doase='sudoedit'
 alias ff4dinit='source ~/.local/share/ffmpeg4discord/env/bin/activate'
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffprobe='ffprobe -hide_banner'
-alias grep='grep --color==yes'
 alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
 alias py='python'
