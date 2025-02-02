@@ -36,6 +36,7 @@ dev-qt/qtwebsockets
 dev-util/reshade-shaders::thegreatmcpain
 games-action/supertuxkart::local
 games-emulation/pcsx2::local
+games-util/goverlay::parona-overlay
 games-util/mangohud::guru
 games-util/steamtinkerlaunch::local
 games-util/vkbasalt::thegreatmcpain
