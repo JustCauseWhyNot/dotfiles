@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export MANGOHUD_CONFIG=read_cfg,fps_limit=240 WINEPREFIX=/home/justcausewhynot/Games/umu/stalker GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-20-rtsp15"
+exec mangohud umu-run ~/Games/stalker/anomaly/bin/AnomalyDX11AVX.exe "$@"

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export __GL_MaxFramesAllowed=1 ENABLE_VKBASALT=1 MANGOHUD_CONFIG=read_cfg,fps_limit=240,position=top-right,offset_x=-400,offset_y=50
+exec mangohud gamemoderun /home/justcausewhynot/nvme2/Games/WarThunder/launcher "$@"

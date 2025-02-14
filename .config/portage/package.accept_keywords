@@ -1,3 +1,4 @@
+#games-util/mangohud **
 #gui-wm/gamescope **
 */*::steam-overlay
 app-emulation/winetricks **
@@ -5,7 +6,7 @@ app-misc/openrgb **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **
 games-util/gamemode **
-#games-util/mangohud **
+games-util/opentrack **
 games-util/steamtinkerlaunch **
 media-plugins/qt-jpegxl-image-plugin::guru **
 media-sound/pamix **

@@ -1,0 +1,14 @@
+BUILD TIMESTAMP:   Sep 25 2024 23:05:19
+
+  0.00 [D]  Creating thread "Watchdog thread"...
+  0.00 [D]  Executable version 1.0.3.16
+  0.00 [D]  File /home/justcausewhynot/.local/bin/launcherr.dat doesn't exist
+  0.00 [D]  Created yuplay2 session for  / 0 / 
+---$01 (null) ---
+  0.00 [D]  $01 Thread "Watchdog thread" started
+  0.00 [D]  .yup DB folder /home/justcausewhynot/.config/Gaijin/downloads
+  0.00 [D]  CA file ca-bundle.crt doesn't exist
+  0.00 [D]  settings.blk not found
+  0.00 [D]  Couldn't init Launcher
+  0.00 [D]  Exit with code 1
+  0.10 [D]  $01 Thread "Watchdog thread" done

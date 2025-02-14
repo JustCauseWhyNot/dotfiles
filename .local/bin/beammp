@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export __GL_MaxFramesAllowed=1 MANGOHUD_CONFIG=read_cfg,fps_limit=240 ENABLE_VKBASALT=1
+exec mangohud /home/justcausewhynot/.local/share/BeamMP-Launcher/bin/BeamMP-Launcher "$@"

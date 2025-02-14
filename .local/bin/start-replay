@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pidof -q gpu-screen-recorder && exit 0
+video_path="$HOME/Videos/Replay/"
+mkdir -p "$video_path"
+notify-send -t 1500 -u normal -- "GPU Screen Recorder" "Replay started" && gpu-screen-recorder -w screen -f 60 -c mkv -a "effect_input.ebur128_normalize.monitor|alsa_input.usb-MOTU_M2_M2MT15C48F-00.HiFi__Mic3__source|app-inverse:LibreWolf" -r 60 -restart-replay-on-save yes -k av1_10bit -ac opus -fm cfr -bm cbr -q 40000 -cr full -o "$video_path" -df yes -sc "$XDG_CONFIG_HOME/gpu-screen-recorder/replay-application-name.sh"

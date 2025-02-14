@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec python /home/justcausewhynot/.local/share/SensMatch/sensmatch.py "$@"

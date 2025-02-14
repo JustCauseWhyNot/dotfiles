@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec mangohud --dlsym gamemoderun unciv-bin "$@"
