@@ -57,6 +57,7 @@ xrdb -load ~/.config/X11/xresources &
 openrgb -p disabled.orp &
 gentoo-pipewire-launcher &
 kdeconnect-sms &
+librewolf &
 start-replay &
 doas nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings -l &
 doas nvidia-settings -a "GPUFanControlState=1" -a "GPUTargetFanSpeed=100" &
