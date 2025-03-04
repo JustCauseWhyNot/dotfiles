@@ -8,6 +8,7 @@ games-emulation/rpcs3 **
 games-util/gamemode **
 games-util/opentrack **
 games-util/steamtinkerlaunch **
+media-libs/monado::guru **
 media-plugins/qt-jpegxl-image-plugin::guru **
 media-sound/pamix **
 media-video/gpu-screen-recorder **
