@@ -3,5 +3,6 @@
 pidof -q gpu-screen-recorder && exit 0
 window=$(xdotool getactivewindow)
 window_name=$(xdotool getwindowname "$window" || xdotool getwindowclassname "$window" || echo "Game")
-window_name="$(echo "$window_name" | tr '/\\' '_')"
-notify-send -t 1500 -u normal -- "GPU Screen Recorder" "Replay started" && gpu-screen-recorder -w screen -f 60 -c mkv -a "app-inverse:LibreWolf|app-inverse:effect_output.ebur128_normalize|app-inverse:output.eq|app-inverse:mpv" -r 60 -restart-replay-on-save yes -k av1_10bit -ac opus -fm cfr -bm cbr -q 40000 -cr full -df yes -o "$HOME/Videos/Replay/$window_name" -keyint 1.0
+window_name="$(echo "$window_name" | tr '/\\' '_')" # Replace `/` and `\` with `_`
+window_name="$(echo "$window_name" | awk '{for(i=1; i<=NF; i++) { if ($i ~ /[\(\)-]/) break; printf "%s", $i } print ""}')" # Extract words until a special character appears
+notify-send -t 1500 -u normal -- "GPU Screen Recorder" "Replay started" && gpu-screen-recorder -w screen -f 60 -c mkv -a "app-inverse:LibreWolf|app-inverse:effect_output.ebur128_normalize|app-inverse:output.eq|app-inverse:mpv" -r 120 -restart-replay-on-save yes -k av1 -tune quality -ac opus -fm cfr -bm cbr -q 25000 -cr full -df yes -o "$HOME/Videos/Replay/$window_name" -keyint 1.0

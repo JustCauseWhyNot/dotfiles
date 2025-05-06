@@ -512,6 +512,12 @@ controls{
       keyboardKey:i=44
     }
 
+    ID_MANEUVERABILITY_MODE{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=19
+    }
+
     ID_MPSTATSCREEN{
       keyboardKey:i=15
     }
@@ -1176,6 +1182,12 @@ controls{
       keyboardKey:i=15
     }
 
+    ID_TOGGLE_CONSTRUCTION_MODE{
+      keyboardKey:i=29
+      keyboardKey:i=56
+      keyboardKey:i=34
+    }
+
     ID_TOGGLE_CONTOURS{
       keyboardKey:i=29
       keyboardKey:i=18
@@ -1405,6 +1417,8 @@ controls{
       keyboardKey:i=17
     }
 
+    buoyancy_rangeMax{}
+    buoyancy_rangeMin{}
     cam_fwd_rangeMax{
       keyboardKey:i=18
     }
@@ -1980,6 +1994,7 @@ controls{
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=200
     USEROPT_GUNNER_VIEW_SENSE:i=0
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=0
+    USEROPT_HOLD_BUTTON_FOR_TACTICAL_MAP:b=yes
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=no
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
@@ -2011,36 +2026,16 @@ controls{
       axesOffset:i=0
       name:t="Wooting 60HE (AVR)"
       buttonsOffset:i=0
-      buttonsCount:i=29
+      buttonsCount:i=28
       axesCount:i=9
-    }
-
-    joystick{
-      connected:b=yes
-      devId:t="31E3:1300"
-      axesOffset:i=9
-      name:t="Wooting 60HE (AVR)"
-      buttonsOffset:i=29
-      buttonsCount:i=11
-      axesCount:i=8
-    }
-
-    joystick{
-      connected:b=yes
-      devId:t="31E3:1300"
-      axesOffset:i=17
-      name:t="Wooting Wooting60HE Consumer Control"
-      buttonsOffset:i=40
-      buttonsCount:i=73
-      axesCount:i=1
     }
 
     joystick{
       connected:b=no
       devId:t="045E:0B12"
-      axesOffset:i=18
+      axesOffset:i=9
       name:t="Microsoft Xbox Series S|X Controller"
-      buttonsOffset:i=113
+      buttonsOffset:i=28
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2048,9 +2043,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="31E3:1301"
-      axesOffset:i=27
+      axesOffset:i=18
       name:t="Wooting Wooting60HE"
-      buttonsOffset:i=142
+      buttonsOffset:i=57
       buttonsCount:i=12
       axesCount:i=11
     }
@@ -2058,9 +2053,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="045E:0288E"
-      axesOffset:i=38
+      axesOffset:i=29
       name:t="Microsoft X-Box 360 pad"
-      buttonsOffset:i=154
+      buttonsOffset:i=69
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2068,9 +2063,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="1532:008A"
-      axesOffset:i=47
+      axesOffset:i=38
       name:t="Razer Razer Viper Mini"
-      buttonsOffset:i=183
+      buttonsOffset:i=98
       buttonsCount:i=0
       axesCount:i=1
     }

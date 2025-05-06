@@ -205,6 +205,69 @@
 	{"actions/smoke_decoy"
 		{value "SHIFT + KEY_H"}
 	}
+	{"actions/toggle_auto_medic"
+		{value "SHIFT + KEY_W"}
+	}
+	{"actions/auto_medic_place_flag"
+		{value "SHIFT + KEY_E"}
+	}
+	{"actions/suppression_fire"
+		{value "SHIFT + KEY_S"}
+	}
+	{"actions/mine_ap"
+		{value ""}
+	}
+	{"actions/mine_at"
+		{value ""}
+	}
+	{"actions/mine_detection"
+		{value "SHIFT + KEY_D"}
+	}
+	{"actions/put_dynamite"
+		{value ""}
+	}
+	{"actions/sandbag_vehicle"
+		{value ""}
+	}
+	{"actions/engine_toggle"
+		{value "SHIFT + KEY_Q"}
+	}
+	{"actions/foxhole"
+		{value ""}
+	}
+	{"actions/foxhole_big"
+		{value ""}
+	}
+	{"actions/mortar_pit"
+		{value ""}
+	}
+	{"actions/tank_cover"
+		{value ""}
+	}
+	{"actions/fin_bunker"
+		{value ""}
+	}
+	{"actions/fin_coastal_gun"
+		{value ""}
+	}
+	{"actions/medic_rally"
+		{value ""}
+	}
+	{"actions/barricade_sq"
+		{value ""}
+	}
+	{"actions/barricade"
+		{value ""}
+	}
+	{"actions/hedgehog"
+		{value ""}
+	}
+	{"actions/barbwire"
+		{value ""}
+	}
+	{"actions/collect"
+		{value ""}
+	}
 	{"control_camera/center_active"
 		{value "DOUBLE + KEY_Q"}
 	}
