@@ -34,6 +34,7 @@ fi
 
 # Start programs.
 # ===============
+udiskie &
 playerctld daemon &
 numlockx on &
 xbanish -i modifier -s &

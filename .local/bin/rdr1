@@ -1,4 +1,4 @@
 #!/bin/sh
 
-export PROTON_LOG=1 WINEDLLOVERRIDES="dxgi=n,b" WINEPREFIX=/home/justcausewhynot/Games/umu/rdr GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-23"
+export PROTON_LOG=1 WINEDLLOVERRIDES="dxgi=n,b" WINEPREFIX=/home/justcausewhynot/Games/umu/rdr GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-27"
 exec gamemoderun mangohud umu-run ~/Games/rdr/1/PlayRDR.exe "$@"

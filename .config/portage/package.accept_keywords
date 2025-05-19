@@ -1,16 +1,18 @@
 #games-util/mangohud **
+#games-util/xone::local **
+#games-util/xpad-noone::local **
 #gui-wm/gamescope **
+#media-sound/qpwgraph **
 */*::steam-overlay
 app-emulation/winetricks **
 app-misc/openrgb **
+app-misc/oscar::local **
 games-action/prismlauncher **
 games-action/supertuxkart::local **
 games-emulation/rpcs3 **
 games-util/gamemode **
 games-util/opentrack **
 games-util/steamtinkerlaunch **
-games-util/xone::local **
-games-util/xpad-noone::local **
 media-libs/monado::guru **
 media-plugins/qt-jpegxl-image-plugin::guru **
 media-sound/pamix **

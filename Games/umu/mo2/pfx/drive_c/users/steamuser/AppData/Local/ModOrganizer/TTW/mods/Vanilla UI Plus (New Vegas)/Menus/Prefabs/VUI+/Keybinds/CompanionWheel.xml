@@ -1,0 +1,35 @@
+<!-- Step Back (VUI+ B)-->
+<_PCButton_B> CWM_Button_Back_Up </_PCButton_B>
+<_CWM_Button_Back_Up> B) </_CWM_Button_Back_Up>
+
+<!-- Near/Far (VUI+ D)-->
+<_PCButton_D> CWM_Button_Near_Far </_PCButton_D>
+<_CWM_Button_Near_Far> D) </_CWM_Button_Near_Far>
+
+<!-- Inventory (VUI+ I)-->
+<_PCButton_I> CWM_Button_Open_Inventory </_PCButton_I>
+<_CWM_Button_Open_Inventory> I) </_CWM_Button_Open_Inventory>
+
+<!--VUI+ Ranged/Melee (VUI+ M) -->
+<_PCButton_M> CWM_Button_Ranged_Melee </_PCButton_M>
+<_CWM_Button_Ranged_Melee> M) </_CWM_Button_Ranged_Melee>
+
+<!--VUI+ Aggressive/Passive (VUI+ A) -->
+<_PCButton_A> CWM_Button_Aggressive_Passive </_PCButton_A>
+<_CWM_Button_Aggressive_Passive> A) </_CWM_Button_Aggressive_Passive>
+
+<!--VUI+ Use Stim (VUI+ S) -->
+<_PCButton_S> CWM_Button_Use_Stim </_PCButton_S>
+<_CWM_Button_Use_Stim> S) </_CWM_Button_Use_Stim>
+
+<!--VUI+ Wait/Follow (VUI+ W) -->
+<_PCButton_W> CWM_Button_Stay_Follow </_PCButton_W>
+<_CWM_Button_Stay_Follow> W) </_CWM_Button_Stay_Follow>
+
+<!--VUI+ Talk (VUI+ T) -->
+<_PCButton_T> CWM_Button_Talk_To </_PCButton_T>
+<_CWM_Button_Talk_To> T) </_CWM_Button_Talk_To>
+
+<!--VUI+ Exit (VUI+ X) -->
+<_PCButton_X> CWM_Button_Exit </_PCButton_X>
+<_CWM_Button_Exit> X) </_CWM_Button_Exit>

@@ -1,11 +1,11 @@
 SiiNunit
 {
-input_config : _nameless.71d6.58a0 {
+input_config : _nameless.443e.74d0 {
  version: 29
  config_lines: 577
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
- config_lines[2]: "device joy `xinput.xinput_gamepad_1`"
+ config_lines[2]: "device joy `xinput.xinput_gamepad_2`"
  config_lines[3]: "device phys_mouse ``"
  config_lines[4]: "device joy2 ``"
  config_lines[5]: "device joy3 ``"
@@ -23,7 +23,7 @@ input_config : _nameless.71d6.58a0 {
  config_lines[17]: "constant c_ud_dz 0.000000"
  config_lines[18]: "constant c_stm_simple 1.000000"
  config_lines[19]: "constant c_steer_func 0.000000"
- config_lines[20]: "constant c_steer_dz 0.160000"
+ config_lines[20]: "constant c_steer_dz 0.000000"
  config_lines[21]: "constant c_throt_dz 0.000000"
  config_lines[22]: "constant c_brake_dz 0.000000"
  config_lines[23]: "constant c_clutch_dz 0.100000"
