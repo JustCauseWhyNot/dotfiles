@@ -1,7 +1,0 @@
-<!-- Accept (Vanilla A, VUI+WASD E) -->
-<_PCButton_E> RM_ButtonX </_PCButton_E>
-<_RM_ButtonX> E) </_RM_ButtonX>
-
-<!-- Exit (Vanilla X)-->
-<_PCButton_X> RM_ButtonB </_PCButton_X>
-<_RM_ButtonB> X) </_RM_ButtonB>

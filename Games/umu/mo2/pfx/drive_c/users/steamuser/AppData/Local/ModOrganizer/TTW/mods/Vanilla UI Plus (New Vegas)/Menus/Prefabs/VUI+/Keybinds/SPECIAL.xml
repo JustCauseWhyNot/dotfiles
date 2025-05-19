@@ -1,7 +1,0 @@
-<!-- Reset (Vanilla R) -->
-<_PCButton_R> CGM_ResetButton </_PCButton_R>
-<_CGM_ResetButton> R) </_CGM_ResetButton>
-
-<!-- Done (Vanilla A, VUI+WASD E)-->
-<_PCButton_E> CGM_DoneButton </_PCButton_E>
-<_CGM_DoneButton> E) </_CGM_DoneButton>
