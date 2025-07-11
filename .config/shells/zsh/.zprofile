@@ -41,4 +41,5 @@ export sgprefix="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata"
 export stk2engine="/home/justcausewhynot/Games/umu/stalker/drive_c/users/steamuser/AppData/Local/Stalker2/Saved/Config/Windows/Engine.ini"
 export stk2mods="/home/justcausewhynot/Games/stalker/2/Stalker2/Content/Paks"
 export stk2modstg="/home/justcausewhynot/Games/stalker/2/mods"
+export XCURSOR_THEME=BreezeX-Black
 #export QT_STYLE_OVERRIDE=kvantum-dark
