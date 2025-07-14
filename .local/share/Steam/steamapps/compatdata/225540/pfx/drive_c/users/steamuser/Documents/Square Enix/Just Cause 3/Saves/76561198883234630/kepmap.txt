@@ -97,7 +97,7 @@
     },
     {
         "action": "THROW_GRENADE",
-        "key": "PC_F"
+        "key": "PC_MOUSE4"
     },
     {
         "action": "THROW_GRENADE",
@@ -105,7 +105,7 @@
     },
     {
         "action": "RELOAD",
-        "key": "PC_R"
+        "key": "PC_T"
     },
     {
         "action": "RELOAD",
@@ -113,11 +113,11 @@
     },
     {
         "action": "NEXT_WEAPON",
-        "key": "PC_MWHEELUP"
+        "key": "PC_LBRACKET"
     },
     {
         "action": "PREV_WEAPON",
-        "key": "PC_MWHEELDOWN"
+        "key": "PC_LBRACKET"
     },
     {
         "action": "FREEFLY_SPEED_UP",
@@ -137,7 +137,7 @@
     },
     {
         "action": "MOVE_FORWARD",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "MOVE_FORWARD",
@@ -145,7 +145,7 @@
     },
     {
         "action": "MOVE_BACKWARD",
-        "key": "PC_S"
+        "key": "PC_D"
     },
     {
         "action": "MOVE_BACKWARD",
@@ -153,7 +153,7 @@
     },
     {
         "action": "MOVE_LEFT",
-        "key": "PC_A"
+        "key": "PC_S"
     },
     {
         "action": "MOVE_LEFT",
@@ -161,7 +161,7 @@
     },
     {
         "action": "MOVE_RIGHT",
-        "key": "PC_D"
+        "key": "PC_F"
     },
     {
         "action": "MOVE_RIGHT",
@@ -189,7 +189,7 @@
     },
     {
         "action": "ENTER_VEHICLE",
-        "key": "PC_E"
+        "key": "PC_G"
     },
     {
         "action": "ENTER_VEHICLE",
@@ -197,7 +197,7 @@
     },
     {
         "action": "USE_ITEM",
-        "key": "PC_E"
+        "key": "PC_G"
     },
     {
         "action": "USE_ITEM",
@@ -205,7 +205,7 @@
     },
     {
         "action": "ACCELERATE",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "ACCELERATE",
@@ -213,7 +213,7 @@
     },
     {
         "action": "REVERSE",
-        "key": "PC_S"
+        "key": "PC_D"
     },
     {
         "action": "REVERSE",
@@ -221,7 +221,7 @@
     },
     {
         "action": "TURN_LEFT",
-        "key": "PC_A"
+        "key": "PC_S"
     },
     {
         "action": "TURN_LEFT",
@@ -229,7 +229,7 @@
     },
     {
         "action": "TURN_RIGHT",
-        "key": "PC_D"
+        "key": "PC_F"
     },
     {
         "action": "TURN_RIGHT",
@@ -237,7 +237,7 @@
     },
     {
         "action": "HANDBRAKE",
-        "key": "PC_LSHIFT"
+        "key": "PC_SPACE"
     },
     {
         "action": "HANDBRAKE",
@@ -253,7 +253,7 @@
     },
     {
         "action": "EXIT_VEHICLE",
-        "key": "PC_E"
+        "key": "PC_G"
     },
     {
         "action": "EXIT_VEHICLE",
@@ -261,7 +261,7 @@
     },
     {
         "action": "BIKE_TILT_FORWARD",
-        "key": "PC_LALT"
+        "key": "PC_R"
     },
     {
         "action": "BIKE_TILT_FORWARD",
@@ -269,7 +269,7 @@
     },
     {
         "action": "BIKE_TILT_BACKWARD",
-        "key": "PC_LCONTROL"
+        "key": "PC_W"
     },
     {
         "action": "BIKE_TILT_BACKWARD",
@@ -277,7 +277,7 @@
     },
     {
         "action": "HELI_FORWARD",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "HELI_FORWARD",
@@ -285,7 +285,7 @@
     },
     {
         "action": "HELI_BACKWARD",
-        "key": "PC_S"
+        "key": "PC_D"
     },
     {
         "action": "HELI_BACKWARD",
@@ -309,7 +309,7 @@
     },
     {
         "action": "HELI_ROLL_LEFT",
-        "key": "PC_A"
+        "key": "PC_S"
     },
     {
         "action": "HELI_ROLL_LEFT",
@@ -317,7 +317,7 @@
     },
     {
         "action": "HELI_ROLL_RIGHT",
-        "key": "PC_D"
+        "key": "PC_F"
     },
     {
         "action": "HELI_ROLL_RIGHT",
@@ -325,7 +325,7 @@
     },
     {
         "action": "HELI_INC_ALTITUDE",
-        "key": "PC_LSHIFT"
+        "key": "PC_SPACE"
     },
     {
         "action": "HELI_INC_ALTITUDE",
@@ -341,7 +341,7 @@
     },
     {
         "action": "PLANE_PITCH_UP",
-        "key": "PC_S"
+        "key": "PC_D"
     },
     {
         "action": "PLANE_PITCH_UP",
@@ -349,7 +349,7 @@
     },
     {
         "action": "PLANE_PITCH_DOWN",
-        "key": "PC_W"
+        "key": "PC_E"
     },
     {
         "action": "PLANE_PITCH_DOWN",
@@ -357,7 +357,7 @@
     },
     {
         "action": "PLANE_TURN_LEFT",
-        "key": "PC_Z"
+        "key": "PC_R"
     },
     {
         "action": "PLANE_TURN_LEFT",
@@ -365,7 +365,7 @@
     },
     {
         "action": "PLANE_TURN_RIGHT",
-        "key": "PC_C"
+        "key": "PC_W"
     },
     {
         "action": "PLANE_TURN_RIGHT",
@@ -373,7 +373,7 @@
     },
     {
         "action": "PLANE_ROLL_LEFT",
-        "key": "PC_A"
+        "key": "PC_S"
     },
     {
         "action": "PLANE_ROLL_LEFT",
@@ -381,7 +381,7 @@
     },
     {
         "action": "PLANE_ROLL_RIGHT",
-        "key": "PC_D"
+        "key": "PC_F"
     },
     {
         "action": "PLANE_ROLL_RIGHT",
@@ -493,7 +493,7 @@
     },
     {
         "action": "STUNT_JUMP",
-        "key": "PC_SPACE"
+        "key": "PC_B"
     },
     {
         "action": "STUNT_JUMP",
@@ -549,7 +549,7 @@
     },
     {
         "action": "USE_VEHICLE_MOD",
-        "key": "PC_MOUSE3"
+        "key": "PC_N"
     },
     {
         "action": "USE_VEHICLE_MOD",
@@ -580,6 +580,14 @@
         "key": "PC_GAMEPAD_LTRIGGER"
     },
     {
+        "action": "REELED_IN_JUMP_ACTION",
+        "key": "PC_SPACE"
+    },
+    {
+        "action": "REELED_IN_RELEASE_ACTION",
+        "key": "PC_B"
+    },
+    {
         "action": "LOOK_AT",
         "key": "PC_R"
     },
@@ -597,7 +605,7 @@
     },
     {
         "action": "WINGSUIT_TAKEOFF",
-        "key": "PC_E"
+        "key": "PC_R"
     },
     {
         "action": "WINGSUIT_TAKEOFF",
@@ -605,7 +613,7 @@
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
-        "key": "PC_LCONTROL"
+        "key": "PC_SPACE"
     },
     {
         "action": "WINGSUIT_AIRBRAKE",
@@ -613,7 +621,7 @@
     },
     {
         "action": "WINGSUIT_EVADE",
-        "key": "PC_LALT"
+        "key": "PC_Z"
     },
     {
         "action": "WINGSUIT_EVADE",
@@ -733,11 +741,11 @@
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
-        "key": "PC_Q"
+        "key": "PC_Y"
     },
     {
         "action": "DETONATE_EXPLOSIVE_TAP",
-        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+        "key": "PC_Y"
     },
     {
         "action": "PLANT_EXPLOSIVE",
@@ -749,7 +757,7 @@
     },
     {
         "action": "DETONATE_EXPLOSIVE",
-        "key": "PC_F"
+        "key": "PC_Y"
     },
     {
         "action": "DETONATE_EXPLOSIVE",
@@ -757,7 +765,7 @@
     },
     {
         "action": "OPEN_WINGSUIT",
-        "key": "PC_E"
+        "key": "PC_R"
     },
     {
         "action": "OPEN_WINGSUIT",
@@ -765,7 +773,7 @@
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
-        "key": "PC_F"
+        "key": "PC_MOUSE2"
     },
     {
         "action": "FIRE_WINGSUIT_WEAPON_MAIN",
@@ -773,7 +781,7 @@
     },
     {
         "action": "OPEN_PARACHUTE",
-        "key": "PC_SPACE"
+        "key": "PC_A"
     },
     {
         "action": "OPEN_PARACHUTE",
@@ -789,7 +797,7 @@
     },
     {
         "action": "FIRE_GRAPPLE",
-        "key": "PC_MOUSE2"
+        "key": "PC_V"
     },
     {
         "action": "FIRE_GRAPPLE",
@@ -797,7 +805,7 @@
     },
     {
         "action": "PUSH_GRAPPLE",
-        "key": "PC_C"
+        "key": "PC_X"
     },
     {
         "action": "PUSH_GRAPPLE",
@@ -813,7 +821,7 @@
     },
     {
         "action": "PRECISION_AIM",
-        "key": "PC_MOUSE3"
+        "key": "PC_MOUSE2"
     },
     {
         "action": "PRECISION_AIM",
@@ -837,7 +845,7 @@
     },
     {
         "action": "SELECT_EXPLOSIVES",
-        "key": "PC_MOUSE5"
+        "key": "PC_5"
     },
     {
         "action": "SELECT_EXPLOSIVES",
@@ -853,7 +861,7 @@
     },
     {
         "action": "RELEASE_GRAPPLE",
-        "key": "PC_V"
+        "key": "PC_C"
     },
     {
         "action": "RELEASE_GRAPPLE",
@@ -913,7 +921,7 @@
     },
     {
         "action": "SELECT_DUEL_WIELD",
-        "key": "PC_1"
+        "key": "PC_3"
     },
     {
         "action": "SELECT_DUEL_WIELD",
@@ -929,7 +937,7 @@
     },
     {
         "action": "SELECT_TWO_HANDED_SPECIAL",
-        "key": "PC_3"
+        "key": "PC_4"
     },
     {
         "action": "SELECT_TWO_HANDED_SPECIAL",
