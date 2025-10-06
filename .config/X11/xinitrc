@@ -34,8 +34,9 @@ fi
 
 # Start programs.
 # ===============
+dunst &
 udiskie &
-playerctld daemon &
+#playerctld daemon &
 numlockx on &
 xbanish -i modifier -s &
 xrdb -load ~/.config/X11/xresources &
@@ -43,6 +44,7 @@ openrgb -p disabled.orp &
 #gentoo-pipewire-launcher &
 kdeconnect-sms &
 obs &
+#steam &
 #librewolf &
 #start-replay &
 doas nvidia-settings --config="$XDG_CONFIG_HOME"/nvidia/settings -l &

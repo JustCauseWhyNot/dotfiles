@@ -14,7 +14,6 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 
 # Environment variables.
 # ======================
-#export QT_QPA_PLATFORMTHEME=qt5ct
 export -U PATH path FPATH fpath MANPATH manpath
 export -UT INFOPATH infopath
 export Civ5="/home/justcausewhynot/Games/umu/Civ5/drive_c/Games/Civ5/"
@@ -27,19 +26,20 @@ export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
 export LIBVA_DRIVER_NAME=nvidia
 export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances"
 export MOZ_DISABLE_RDD_SANDBOX=1
-export mo2="/home/justcausewhynot/Games/fallout/modding/MO2/"
-export mo2instances="/home/justcausewhynot/Games/umu/mo2/pfx/drive_c/users/steamuser/AppData/Local/ModOrganizer/"
+export NVD_BACKEND=direct
 export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/share/dwm/statusbar-scripts"
+export QT_QPA_PLATFORMTHEME=qt5ct
 export RoM="/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/ReadyOrNot/Content/Paks/"
 export RoN="/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/"
 export TERMINAL=st
 export VISUAL=nvim
+export XCURSOR_THEME=BreezeX-Black
 export __EGL_VENDOR_LIBRARY_FILENAMES="/usr/share/glvnd/egl_vendor.d/10_nvidia.json"
+export mo2="/home/justcausewhynot/Games/fallout/modding/MO2/"
+export mo2instances="/home/justcausewhynot/Games/umu/mo2/pfx/drive_c/users/steamuser/AppData/Local/ModOrganizer/"
 export notes="/home/justcausewhynot/Documents/Notes"
 export sg="/home/justcausewhynot/.local/share/Steam/steamapps/common"
 export sgprefix="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata"
 export stk2engine="/home/justcausewhynot/Games/umu/stalker/drive_c/users/steamuser/AppData/Local/Stalker2/Saved/Config/Windows/Engine.ini"
 export stk2mods="/home/justcausewhynot/Games/stalker/2/Stalker2/Content/Paks"
 export stk2modstg="/home/justcausewhynot/Games/stalker/2/mods"
-export XCURSOR_THEME=BreezeX-Black
-#export QT_STYLE_OVERRIDE=kvantum-dark

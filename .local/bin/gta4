@@ -1,5 +1,5 @@
 #!/bin/sh
 
-#export MANGOHUD_CONFIG=read_cfg,fps_limit=120 WINEPREFIX=/home/justcausewhynot/Games/umu/stalker GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-20-rtsp15"
-export WINEPREFIX=/home/justcausewhynot/Games/umu/stalker GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-22"
-exec mangohud gamemoderun umu-run ~/Games/gta4/GTAIV.exe "$@"
+export PROTON_LOG=1 WINEPREFIX=~/Games/umu/gta4 WINEDLLOVERRIDES="dinput8=n,b" GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton10-16" OBS_VKCAPTURE=1 __GL_MaxFramesAllowed=1 VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_32:VK_LAYER_MANGOHUD_overlay_x86" MANGOHUD=0
+#export PROTON_LOG=1 WINEPREFIX=~/Games/umu/gta4 WINEDLLOVERRIDES="dinput8=n,b" GAMEID=0 OBS_VKCAPTURE=1 __GL_MaxFramesAllowed=1 VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_32:VK_LAYER_MANGOHUD_overlay_x86" MANGOHUD=0
+exec obs-gamecapture umu-run ~/Games/GTA/4/GTAIV.exe "$@"
