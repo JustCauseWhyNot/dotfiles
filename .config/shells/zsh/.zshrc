@@ -91,6 +91,7 @@ alias su='su -l'
 alias vdir='vdir --color=yes'
 alias vpndown='doas wg-quick down protonvpn'
 alias vpnup='doas wg-quick up protonvpn'
+alias zram='zramctl --output-all'
 
 # Misc?
 MANPAGER="sh -c \"col -b | nvim -c 'set ft=man ts=8 nomod nolist nonu' -c 'nnoremap i <nop>' -\""

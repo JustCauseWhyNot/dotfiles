@@ -43,7 +43,7 @@ xrdb -load ~/.config/X11/xresources &
 openrgb -p disabled.orp &
 #gentoo-pipewire-launcher &
 kdeconnect-sms &
-obs &
+#obs &
 #steam &
 #librewolf &
 #start-replay &
