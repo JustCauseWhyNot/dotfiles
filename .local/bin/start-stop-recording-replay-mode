@@ -1,0 +1,11 @@
+#!/bin/sh
+
+pkill -SIGRTMIN -f gpu-screen-recorder
+#video="$HOME/Videos/$(date +"Video_%Y-%m-%d_%H-%M-%S.mkv")"
+#window=$(xdotool getactivewindow)
+#window_name=$(xdotool getwindowname "$window" || xdotool getwindowclassname "$window" || echo "Game")
+#window_name="$(echo "$window_name" | tr '/\\' '_')" # Replace `/` and `\` with `_`
+#window_name="$(echo "$window_name" | awk '{for(i=1; i<=NF; i++) { if ($i ~ /[\(\)-]/) break; printf "%s", $i } print ""}')" # Extract words until a special character appears
+video="$HOME/Videos/Recording/$(date +"Video_%Y-%m-%d_%H-%M-%S.mkv")"
+dunstify "GPU Screen Recorder" "Recording Replay Mode Started" && gpu-screen-recorder -w screen -c mkv -a 'device:default_input|app-inverse:alsa_playback.librewolf|app-inverse:FireFox|app-inverse:effect_output.ebur128_normalize|app-inverse:output.eq|app-inverse:mpv' -a "app-inverse:alsa_playback.librewolf|app-inverse:FireFox|app-inverse:effect_output.ebur128_normalize|app-inverse:output.eq|app-inverse:mpv|app-inverse:Chromium" -a 'device:default_input' -a 'app:Chromium' -k av1_10bit -tune quality -ac opus -fm content -f 120 -q ultra -cr full -ro $video -keyint 1.0
+dunstify "GPU Screen Recorder" "Video Saved to $video"
