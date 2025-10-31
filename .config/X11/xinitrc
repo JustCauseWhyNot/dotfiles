@@ -34,7 +34,6 @@ fi
 
 # Start programs.
 # ===============
-dunst &
 udiskie &
 #playerctld daemon &
 numlockx on &

@@ -35,7 +35,7 @@ export TERMINAL=st
 export VISUAL=nvim
 export XCURSOR_THEME=BreezeX-Black
 export __EGL_VENDOR_LIBRARY_FILENAMES="/usr/share/glvnd/egl_vendor.d/10_nvidia.json"
-export MANGOHUD_CONFIG='preset=0'
+#export MANGOHUD_CONFIG='preset=1,2'
 export mo2="/home/justcausewhynot/Games/fallout/modding/MO2/"
 export mo2instances="/home/justcausewhynot/Games/umu/mo2/pfx/drive_c/users/steamuser/AppData/Local/ModOrganizer/"
 export notes="/home/justcausewhynot/Documents/Notes"
