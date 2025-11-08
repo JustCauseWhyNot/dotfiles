@@ -1,3 +1,0 @@
-#!/bin/sh -e
-
-pkill -SIGRTMIN+3 -f gpu-screen-recorder && sleep 0.5 && dunstify -u low "GPU Screen Recorder" "1m Replay Saved"
