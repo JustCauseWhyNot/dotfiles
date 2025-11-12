@@ -1,5 +1,5 @@
 #!/bin/sh
 
 #export ENABLE_VKBASALT=1 MANGOHUD_CONFIG=read_cfg,fps_limit=240,position=top-right,offset_x=-400,offset_y=50 OBS_VKCAPTURE=1 __GL_MaxFramesAllowed=1 VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_64:VK_LAYER_MANGOHUD_overlay_x86_64:VK_LAYER_VKBASALT_post_processing" MANGOHUD=0 ENABLE_VKBASALT=0
-export MANGOHUD_CONFIG=read_cfg,fps_limit=240,position=top-right,offset_x=-400,offset_y=50 OBS_VKCAPTURE=1 __GL_MaxFramesAllowed=1 VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_64:VK_LAYER_MANGOHUD_overlay_x86_64" MANGOHUD=0
-exec /home/justcausewhynot/Games/WarThunder/launcher "$@"
+export ENABLE_VKBASALT=1
+exec mangohud /home/justcausewhynot/Games/WarThunder/launcher "$@"
