@@ -1,0 +1,242 @@
+#!/bin/dash
+
+# Parse arguments - collect all first
+show_individual="no"
+sort_order="longest"
+depth_option="shallow"
+path_sort="yes"
+dirs=""
+
+# First pass: identify all flags and directories
+for arg in "$@"; do
+  case "$arg" in
+    shortest|longest|shallow|deep|list|pathsort|nopathsort)
+      # This is a flag, process it
+      case "$arg" in
+        shortest|longest)
+          sort_order="$arg"
+          ;;
+        shallow|deep)
+          depth_option="$arg"
+          ;;
+        list)
+          show_individual="yes"
+          ;;
+        pathsort)
+          path_sort="yes"
+          ;;
+        nopathsort)
+          path_sort="no"
+          ;;
+      esac
+      ;;
+    *)
+      # This is a directory
+      if [ -z "$dirs" ]; then
+        dirs="$arg"
+      else
+        dirs="$dirs $arg"
+      fi
+      ;;
+  esac
+done
+
+# Default to current directory if no dirs specified
+if [ -z "$dirs" ]; then
+  dirs="."
+fi
+
+tmpfile=$(mktemp)
+
+# Set maxdepth based on option
+if [ "$depth_option" = "deep" ]; then
+  maxdepth_flag=""
+else
+  maxdepth_flag="-maxdepth 3"
+fi
+
+# Process each directory
+for dir in $dirs; do
+  find "$dir" $maxdepth_flag -type f \( -name "*.mp4" -o -name "*.mkv" -o -name "*.webm" \) -print0 2>/dev/null | \
+    xargs -0 -P $(nproc) -I {} sh -c '
+      duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "{}" 2>/dev/null)
+      if [ -n "$duration" ] && [ "$duration" != "N/A" ]; then
+        echo "{}|$duration"
+      fi
+    ' >> "$tmpfile"
+done
+
+# Check if tmpfile is empty
+if [ ! -s "$tmpfile" ]; then
+  echo "No video files found."
+  rm "$tmpfile"
+  exit 0
+fi
+
+# Display individual files if requested
+if [ "$show_individual" = "yes" ]; then
+  # Sort based on options
+  if [ "$path_sort" = "yes" ]; then
+    # Sort by path first, then by duration (reversed for longest at bottom)
+    if [ "$sort_order" = "shortest" ]; then
+      sort -t'|' -k1,1r -k2,2g "$tmpfile" > "${tmpfile}.sorted"  # reverse path, ascending duration
+    else
+      sort -t'|' -k1,1r -k2,2gr "$tmpfile" > "${tmpfile}.sorted"  # reverse path, descending duration
+    fi
+  else
+    # Sort by duration only
+    if [ "$sort_order" = "shortest" ]; then
+      sort -t'|' -k2,2gr "$tmpfile" > "${tmpfile}.sorted"
+    else
+      sort -t'|' -k2,2g "$tmpfile" > "${tmpfile}.sorted"
+    fi
+  fi
+  
+  awk -F'|' '{
+    duration = $2
+    h = int(duration/3600)
+    m = int((duration%3600)/60)
+    s = duration%60
+    printf "%s: %d:%02d:%09.6f\n", $1, h, m, s
+  }' "${tmpfile}.sorted"
+  echo ""
+  
+  # Clean up sorted file
+  rm "${tmpfile}.sorted"
+fi
+
+echo "=== Directory Totals ==="
+
+# Process each base directory separately to maintain proper grouping
+dir_totals_file=$(mktemp)
+parent_totals_file=$(mktemp)
+
+for base_dir in $dirs; do
+  base_dir=$(echo "$base_dir" | sed 's:/*$::')
+  
+  awk -F'|' -v base="$base_dir" '{
+    file = $1
+    duration = $2
+    
+    # Only process files under this base directory
+    if (index(file, base "/") == 1 || file == base) {
+      # Remove base directory from path
+      sub("^" base "/", "", file)
+      
+      # Get first directory component
+      n = split(file, parts, "/")
+      if (n > 1) {
+        # First subdirectory under base
+        first_dir = parts[1]
+        dir_totals[base "/" first_dir] += duration
+      } else {
+        # File directly in base directory
+        dir_totals[base] += duration
+      }
+    }
+  }
+  END {
+    for (d in dir_totals) {
+      print dir_totals[d] "|" d
+    }
+  }' "$tmpfile" >> "$dir_totals_file"
+done
+
+# Sort directory totals based on pathsort option
+if [ "$path_sort" = "yes" ]; then
+  # Sort by path (k2) reversed first, then by duration (k1)
+  if [ "$sort_order" = "shortest" ]; then
+    sort -t'|' -k2,2r -k1,1g "$dir_totals_file" | awk -F'|' '{
+      duration = $1
+      dir = $2
+      h = int(duration/3600)
+      m = int((duration%3600)/60)
+      s = duration%60
+      printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+    }'
+  else
+    sort -t'|' -k2,2r -k1,1gr "$dir_totals_file" | awk -F'|' '{
+      duration = $1
+      dir = $2
+      h = int(duration/3600)
+      m = int((duration%3600)/60)
+      s = duration%60
+      printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+    }'
+  fi
+else
+  # Sort by duration only
+  if [ "$sort_order" = "shortest" ]; then
+    sort -t'|' -k1,1gr "$dir_totals_file" | awk -F'|' '{
+      duration = $1
+      dir = $2
+      h = int(duration/3600)
+      m = int((duration%3600)/60)
+      s = duration%60
+      printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+    }'
+  else
+    sort -t'|' -k1,1g "$dir_totals_file" | awk -F'|' '{
+      duration = $1
+      dir = $2
+      h = int(duration/3600)
+      m = int((duration%3600)/60)
+      s = duration%60
+      printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+    }'
+  fi
+fi
+
+rm "$dir_totals_file"
+
+# Calculate parent directory totals
+echo ""
+echo "=== Parent Directory Totals ==="
+
+for base_dir in $dirs; do
+  base_dir=$(echo "$base_dir" | sed 's:/*$::')
+  
+  parent_total=$(awk -F'|' -v base="$base_dir" '{
+    file = $1
+    duration = $2
+    
+    if (index(file, base "/") == 1 || file == base) {
+      sum += duration
+    }
+  }
+  END {
+    print sum
+  }' "$tmpfile")
+  
+  echo "$parent_total|$base_dir" >> "$parent_totals_file"
+done
+
+# Sort and display parent totals
+if [ "$sort_order" = "shortest" ]; then
+  sort -t'|' -k1,1gr "$parent_totals_file" | awk -F'|' '{
+    duration = $1
+    dir = $2
+    h = int(duration/3600)
+    m = int((duration%3600)/60)
+    s = duration%60
+    printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+  }'
+else
+  sort -t'|' -k1,1g "$parent_totals_file" | awk -F'|' '{
+    duration = $1
+    dir = $2
+    h = int(duration/3600)
+    m = int((duration%3600)/60)
+    s = duration%60
+    printf "%s/ %d:%02d:%09.6f\n", dir, h, m, s
+  }'
+fi
+
+rm "$parent_totals_file"
+
+echo ""
+echo "=== Grand Total ==="
+total=$(awk -F'|' '{sum += $2} END {print sum}' "$tmpfile")
+echo "$total" | awk '{h=int($1/3600); m=int(($1%3600)/60); s=$1%60; printf "Total: %d:%02d:%09.6f\n", h, m, s}'
+
+rm "$tmpfile"

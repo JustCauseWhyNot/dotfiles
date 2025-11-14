@@ -1,0 +1,101 @@
+#!/bin/dash
+
+input_base="${1:-$HOME/Videos/Recording}"
+output_base="${2:-$HOME/Videos/Archive}"
+
+# Expand tilde for dash
+case "$input_base" in
+  "~"*) input_base="$HOME${input_base#\~}" ;;
+esac
+case "$output_base" in
+  "~"*) output_base="$HOME${output_base#\~}" ;;
+esac
+
+# Remove trailing slashes
+input_base="${input_base%/}"
+output_base="${output_base%/}"
+
+# Check if input directory exists
+if [ ! -d "$input_base" ]; then
+  echo "Error: Input directory does not exist: $input_base"
+  exit 1
+fi
+
+# Get the base directory name for direct files
+input_dirname=$(basename "$input_base")
+
+# Create a temporary file to store the list
+temp_file=$(mktemp)
+
+# Find all common video file extensions
+find "$input_base" -type f \( \
+  -iname "*.mkv" -o \
+  -iname "*.mp4" -o \
+  -iname "*.avi" -o \
+  -iname "*.mov" -o \
+  -iname "*.wmv" -o \
+  -iname "*.flv" -o \
+  -iname "*.webm" -o \
+  -iname "*.m4v" -o \
+  -iname "*.mpg" -o \
+  -iname "*.mpeg" -o \
+  -iname "*.3gp" -o \
+  -iname "*.ts" -o \
+  -iname "*.m2ts" -o \
+  -iname "*.vob" \
+\) > "$temp_file"
+
+# Count total files
+total=$(wc -l < "$temp_file")
+
+if [ "$total" -eq 0 ]; then
+  echo "No video files found in $input_base"
+  rm "$temp_file"
+  exit 0
+fi
+
+echo "Found $total video file(s) in $input_base"
+echo "Output directory: $output_base"
+echo ""
+
+current=0
+
+while IFS= read -r file; do
+  current=$((current + 1))
+  rel_path="${file#$input_base/}"
+  
+  # Check if file is directly in the input directory (no subdirectory)
+  case "$rel_path" in
+    */*)
+      # File is in a subdirectory, use normal path
+      output_file="$output_base/${rel_path%.*}.mkv"
+      ;;
+    *)
+      # File is directly in input directory, add directory name as subdirectory
+      output_file="$output_base/$input_dirname/${rel_path%.*}.mkv"
+      ;;
+  esac
+
+  # Skip if already exists
+  if [ -f "$output_file" ]; then
+    echo "[$current/$total] Skipping (already exists): $rel_path"
+    continue
+  fi
+
+  mkdir -p "$(dirname "$output_file")"
+  echo "[$current/$total] Processing: $rel_path"
+
+  chrt -i 0 ffmpeg -nostdin -i "$file" -c:v libsvtav1 -crf 55 -g 300 -pix_fmt yuv420p10le -svtav1-params preset=4:psy-rd=4:qm-min=8:noise-adaptive-filtering=1:noise-norm-strength=3:qp-scale-compress-strength=2:complex-hvs=1:hbd-mds=1:enable-dlf=2:spy-rd=1 -map 0 -c:a copy -loglevel error -stats "$output_file" < /dev/null
+
+  if [ $? -eq 0 ]; then
+    echo "✓ Completed: $rel_path"
+  else
+    echo "✗ Failed: $rel_path"
+  fi
+done < "$temp_file"
+
+# Clean up
+rm "$temp_file"
+
+echo ""
+echo "Batch processing complete!"
