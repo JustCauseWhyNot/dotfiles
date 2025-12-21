@@ -1,0 +1,115 @@
+hangarBlk:t="Refined_B/Refined_B_Hangar.blk"
+language:t="English"
+use_eac:b=no
+use_release_candidate:b=yes
+releaseChannel:t="ReleaseCandidate"
+forcedLauncher:i=0
+rdseed:i=31227273
+graphicsQuality:t="custom"
+
+launcher{
+  startup_with_windows:b=yes
+  bg_tray:b=yes
+  hide_to_tray_option:b=yes
+  bg_update:b=yes
+}
+
+download{
+  seeding_on:b=yes
+  peer_exchange:b=yes
+  dnl_limit:b=no
+  DHT:b=yes
+  upl_limit:b=no
+  upl_speed_rate:i=5000
+  dnl_speed_rate:i=5000
+  UTP2:b=no
+}
+
+sound{
+  speakerMode:t="auto"
+  fmod_sound_enable:b=yes
+}
+
+video{
+  vsync:b=no
+  windowed:b=no
+  mode:t="fullscreen"
+  resolution:t="5120 x 2880"
+  driver:t="auto"
+  compatibilityMode:b=yes
+  antialiasing_mode:t="off"
+  antialiasing_upscaling:t="native"
+  fonts:t="compact"
+  vreye:t="left"
+  antialiasing_fgc:i=0
+  enableHdr:b=no
+  vrStreamerMode:b=no
+  latency:i=0
+  antialiasing_sharpening:i=0
+  perfMetrics:i=1
+}
+
+yunetwork{
+  curCircuit:t="production"
+}
+
+gameplay{
+  enableVR:b=no
+}
+
+debug{
+  testLocalization:b=yes
+  enableNvHighlights:t="auto"
+  netLogerr:b=yes
+  screenshotHiRes:b=no
+  screenshotAsJpeg:b=no
+}
+
+graphics{
+  rendinstDistMul:r=0.5
+  shadowQuality:t="ultralow"
+  RTRWaterRes:t="half"
+  skyQuality:i=2
+  physicsQuality:i=0
+  landquality:i=0
+  RTAOQuality:t="off"
+  ssaa:r=1
+  riGpuObjects:b=yes
+  displacementQuality:i=4
+  RTSMQuality:t="low"
+  fxQuality:t="low"
+  giQuality:t="low"
+  backgroundScale:r=1
+  bvhRiGenRange:i=3000
+  cloudsQuality:i=2
+  enableBVH:b=no
+  bvhMode:t="off"
+  anisotropy:i=16
+  RTRRes:t="half"
+  waterQuality:t="low"
+  PTGIQuality:t="off"
+  advancedShore:b=no
+  mirrorQuality:i=0
+  tireTracksQuality:i=3
+  bloomQuality:i=0
+  panoramaResolution:i=1024
+  motionBlurStrength:i=0
+  lenseFlares:b=no
+  lastClipSize:i=4096
+  waterEffectsQuality:t="low"
+  texquality:t="high"
+  RTRTranslucent:t="off"
+  enableRTSM:t="off"
+  RTRQuality:t="off"
+  grassRadiusMul:r=0.1
+  RTRWater:b=no
+  contactShadowsQuality:i=0
+  motionBlurCancelCamera:b=yes
+}
+
+render{
+  selfReflection:b=yes
+  shadows:b=yes
+  ssaoQuality:i=0
+  ssrQuality:i=0
+}

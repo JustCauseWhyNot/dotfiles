@@ -85,7 +85,7 @@ while IFS= read -r file; do
   mkdir -p "$(dirname "$output_file")"
   echo "[$current/$total] Processing: $rel_path"
 
-  chrt -i 0 ffmpeg -nostdin -i "$file" -c:v libsvtav1 -crf 55 -g 300 -pix_fmt yuv420p10le -svtav1-params preset=4:psy-rd=4:qm-min=8:noise-adaptive-filtering=1:noise-norm-strength=3:qp-scale-compress-strength=2:complex-hvs=1:hbd-mds=1:enable-dlf=2:spy-rd=1 -map 0 -c:a copy -loglevel error -stats "$output_file" < /dev/null
+  chrt -i 0 ffmpeg -nostdin -i "$file" -c:v libsvtav1 -crf 50 -g 300 -pix_fmt yuv420p10le -svtav1-params preset=4:psy-rd=4:qm-min=8:noise-adaptive-filtering=1:noise-norm-strength=3:qp-scale-compress-strength=2:complex-hvs=1:hbd-mds=1:enable-dlf=2:spy-rd=1 -map 0 -c:a copy -loglevel error -stats "$output_file" < /dev/null
 
   if [ $? -eq 0 ]; then
     echo "✓ Completed: $rel_path"

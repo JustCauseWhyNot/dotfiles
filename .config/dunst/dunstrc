@@ -1,5 +1,5 @@
 [global]
-monitor = 1
+monitor = DP-3
 frame_width = 1
 frame_color = "#b4befe"
 separator_color= frame

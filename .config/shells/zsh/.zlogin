@@ -1,1 +1,2 @@
-#dash -c "~/.local/bin/librewolf-sync.sh jtqmzaoi.default-release > /dev/null &"
+#!/bin/dash
+#dbus-run-session startplasma-wayland

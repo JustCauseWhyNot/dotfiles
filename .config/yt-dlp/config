@@ -7,7 +7,7 @@
 -N 4
 
 # interactive selection prompt
--f -
+#-f -
 
 # save dir
 -o ~/Videos/yt-dlp/%(title)s.%(ext)s

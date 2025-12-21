@@ -710,8 +710,14 @@ controls{
       keyboardKey:i=33
     }
 
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      keyboardKey:i=219
+      keyboardKey:i=56
+      keyboardKey:i=45
+    }
+
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=29
+      keyboardKey:i=219
       keyboardKey:i=45
     }
 
@@ -722,6 +728,7 @@ controls{
 
     ID_SENSOR_RANGE_SWITCH{
       keyboardKey:i=219
+      keyboardKey:i=56
       keyboardKey:i=46
     }
 
@@ -737,6 +744,12 @@ controls{
 
     ID_SENSOR_SCAN_PATTERN_SWITCH{
       keyboardKey:i=46
+    }
+
+    ID_SENSOR_STABILIZATION_SWITCH{
+      keyboardKey:i=219
+      keyboardKey:i=56
+      keyboardKey:i=44
     }
 
     ID_SENSOR_SWITCH{
@@ -805,7 +818,8 @@ controls{
 
     ID_SENSOR_TYPE_SWITCH{
       keyboardKey:i=219
-      keyboardKey:i=45
+      keyboardKey:i=56
+      keyboardKey:i=30
     }
 
     ID_SENSOR_TYPE_SWITCH_TANK{
@@ -1624,7 +1638,7 @@ controls{
     }
 
     sensor_cue_x_rangeMax{
-      keyboardKey:i=219
+      keyboardKey:i=56
       keyboardKey:i=33
     }
 
@@ -1634,7 +1648,7 @@ controls{
     }
 
     sensor_cue_x_rangeMin{
-      keyboardKey:i=219
+      keyboardKey:i=56
       keyboardKey:i=31
     }
 
@@ -1643,12 +1657,12 @@ controls{
     }
 
     sensor_cue_y_rangeMax{
-      keyboardKey:i=219
+      keyboardKey:i=56
       keyboardKey:i=18
     }
 
     sensor_cue_y_rangeMin{
-      keyboardKey:i=219
+      keyboardKey:i=56
       keyboardKey:i=32
     }
 
@@ -2022,6 +2036,16 @@ controls{
   deviceMapping{
     joystick{
       connected:b=yes
+      devId:t="3537:1065"
+      axesOffset:i=0
+      name:t="Microsoft Xbox Controller"
+      buttonsOffset:i=0
+      buttonsCount:i=28
+      axesCount:i=9
+    }
+
+    joystick{
+      connected:b=no
       devId:t="31E3:1300"
       axesOffset:i=0
       name:t="Wooting 60HE (AVR)"
