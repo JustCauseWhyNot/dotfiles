@@ -1,13 +1,13 @@
 SiiNunit
 {
-input_config : _nameless.1.32c4.ab70 {
+input_config : _nameless.419b.8fa0 {
  version: 29
  config_lines: 582
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
  config_lines[2]: "device joy `xinput.xinput_gamepad_1`"
  config_lines[3]: "device phys_mouse ``"
- config_lines[4]: "device joy2 `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
+ config_lines[4]: "device joy2 `di8.'{9E573ECD-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
  config_lines[5]: "device joy3 ``"
  config_lines[6]: "device joy4 ``"
  config_lines[7]: "device joy5 ``"
@@ -403,7 +403,7 @@ input_config : _nameless.1.32c4.ab70 {
  config_lines[397]: "mix lightoff `semantical.lightoff?0`"
  config_lines[398]: "mix lightpark `semantical.lightpark?0`"
  config_lines[399]: "mix lighton `semantical.lighton?0`"
- config_lines[400]: "mix hblight `keyboard.k?0 || modifier(cstm_mod_1?0 & (! cstm_mod_2?0) & (! cstm_mod_3?0) & (! cstm_mod_4?0) & (! cstm_mod_5?0) & (! cstm_mod_6?0), long_press(joy.b3?0)) | semantical.hblight?0`"
+ config_lines[400]: "mix hblight `keyboard.k?0 || modifier(cstm_mod_1?0 & (! cstm_mod_2?0) & (! cstm_mod_3?0) & (! cstm_mod_4?0) & (! cstm_mod_5?0) & (! cstm_mod_6?0), joy.b3?0) | semantical.hblight?0`"
  config_lines[401]: "mix lblinker `keyboard.lbracket?0 || modifier(no_cstm_mod?0, joy.b5?0) | semantical.lblinker?0`"
  config_lines[402]: "mix lblinkerh `semantical.lblinkerh?0`"
  config_lines[403]: "mix rblinker `keyboard.rbracket?0 || modifier(no_cstm_mod?0, joy.b6?0) | semantical.rblinker?0`"

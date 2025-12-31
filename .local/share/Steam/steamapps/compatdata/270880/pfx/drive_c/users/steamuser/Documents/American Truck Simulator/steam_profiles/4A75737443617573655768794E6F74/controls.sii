@@ -1,13 +1,13 @@
 SiiNunit
 {
-input_config : _nameless.4012.1250 {
+input_config : _nameless.afa7.9040 {
  version: 29
  config_lines: 582
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
  config_lines[2]: "device joy `xinput.xinput_gamepad_1`"
  config_lines[3]: "device phys_mouse ``"
- config_lines[4]: "device joy2 `di8.'{9E573EFB-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
+ config_lines[4]: "device joy2 `di8.'{9E573ED6-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
  config_lines[5]: "device joy3 ``"
  config_lines[6]: "device joy4 ``"
  config_lines[7]: "device joy5 ``"
