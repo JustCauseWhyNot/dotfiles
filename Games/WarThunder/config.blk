@@ -37,7 +37,7 @@ video{
   resolution:t="5120 x 2880"
   driver:t="auto"
   compatibilityMode:b=yes
-  antialiasing_mode:t="off"
+  antialiasing_mode:t="dlss"
   antialiasing_upscaling:t="native"
   fonts:t="compact"
   vreye:t="left"
