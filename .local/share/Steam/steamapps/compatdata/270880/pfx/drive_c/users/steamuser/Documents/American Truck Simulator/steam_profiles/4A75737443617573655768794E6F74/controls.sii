@@ -1,16 +1,16 @@
 SiiNunit
 {
-input_config : _nameless.39fe.1190 {
+input_config : _nameless.9e95.d550 {
  version: 29
  config_lines: 582
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
- config_lines[2]: "device joy `di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
+ config_lines[2]: "device joy `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
  config_lines[3]: "device phys_mouse ``"
- config_lines[4]: "device joy2 `di8.'{9E573ED6-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
+ config_lines[4]: "device joy2 `di8.'{9E573EC0-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
  config_lines[5]: "device joy3 `di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{00010001-0000-0000-0000-504944564944}'`"
  config_lines[6]: "device joy4 `di8.'{9E573ED2-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`"
- config_lines[7]: "device joy5 `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
+ config_lines[7]: "device joy5 `di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
  config_lines[8]: "device joy6 ``"
  config_lines[9]: "device eye_track ``"
  config_lines[10]: "input j_steer `joy.x`"
@@ -49,11 +49,11 @@ input_config : _nameless.39fe.1190 {
  config_lines[43]: "constant c_ff_hi_spd 1.000000"
  config_lines[44]: "constant c_ff_lo_spd 0.500000"
  config_lines[45]: "constant c_ff_fricton 0.500000"
- config_lines[46]: "constant c_ff_engine 0.000000"
- config_lines[47]: "constant c_ff_surface 0.200000"
+ config_lines[46]: "constant c_ff_engine 0.300000"
+ config_lines[47]: "constant c_ff_surface 0.750000"
  config_lines[48]: "constant c_ff_bumps 1.000000"
  config_lines[49]: "constant c_ff_collis 1.000000"
- config_lines[50]: "constant c_ff_gearbox 0.320000"
+ config_lines[50]: "constant c_ff_gearbox 0.500000"
  config_lines[51]: "constant c_ff_undrstr 0.500000"
  config_lines[52]: "constant c_ff_assist 0.500000"
  config_lines[53]: "constant c_vff_surfac 1.000000"
@@ -345,7 +345,7 @@ input_config : _nameless.39fe.1190 {
  config_lines[339]: "mix ignitionoff `joy3.b11?0 | semantical.ignitionoff?0`"
  config_lines[340]: "mix ignitionon `joy3.b12?0 | semantical.ignitionon?0`"
  config_lines[341]: "mix ignitionstrt `joy3.b13?0 | semantical.ignitionstrt?0`"
- config_lines[342]: "mix attach `keyboard.t?0 | semantical.attach?0`"
+ config_lines[342]: "mix attach `keyboard.t?0 || short_press(joy.b8?0) | semantical.attach?0`"
  config_lines[343]: "mix frontsuspup `unbound?0 | joy.b46?0 | semantical.frontsuspup?0`"
  config_lines[344]: "mix frontsuspdwn `unbound?0 | joy.b45?0 | semantical.frontsuspdwn?0`"
  config_lines[345]: "mix rearsuspup `unbound?0 | joy.b48?0 | semantical.rearsuspup?0`"
