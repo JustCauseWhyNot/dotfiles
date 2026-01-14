@@ -1,16 +1,16 @@
 SiiNunit
 {
-input_config : _nameless.9e95.d550 {
+input_config : _nameless.3ca4.ddf0 {
  version: 29
  config_lines: 582
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
- config_lines[2]: "device joy `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
+ config_lines[2]: "device joy `di8.'{9E573ED3-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
  config_lines[3]: "device phys_mouse ``"
- config_lines[4]: "device joy2 `di8.'{9E573EC0-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
- config_lines[5]: "device joy3 `di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{00010001-0000-0000-0000-504944564944}'`"
- config_lines[6]: "device joy4 `di8.'{9E573ED2-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`"
- config_lines[7]: "device joy5 `di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
+ config_lines[4]: "device joy2 `di8.'{9E573ED6-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
+ config_lines[5]: "device joy3 `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{00010001-0000-0000-0000-504944564944}'`"
+ config_lines[6]: "device joy4 `di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`"
+ config_lines[7]: "device joy5 `di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
  config_lines[8]: "device joy6 ``"
  config_lines[9]: "device eye_track ``"
  config_lines[10]: "input j_steer `joy.x`"

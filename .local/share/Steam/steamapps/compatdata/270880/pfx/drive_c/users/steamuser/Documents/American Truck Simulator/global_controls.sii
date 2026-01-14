@@ -1,6 +1,6 @@
 SiiNunit
 {
-global_input_config : _nameless.39e3.0030 {
+global_input_config : _nameless.3568.e400 {
  version: 1
  ui_whitelisted: 2
  ui_whitelisted[0]: "di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'"
@@ -20,7 +20,7 @@ global_input_config : _nameless.39e3.0030 {
  ui_blacklisted[11]: "di8.'{9E573ECE-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'"
  ui_blacklisted[12]: "xinput.xinput_gamepad_2"
  ui_blacklisted[13]: "di8.'{9E573ECC-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'"
- display_names: 101
+ display_names: 102
  display_names[0]: "`sys.keyboard`|@@keyboard@@"
  display_names[1]: "`sys.mouse`|@@i_mouse@@"
  display_names[2]: "`di8.keyboard`|@@keyboard@@"
@@ -122,6 +122,7 @@ global_input_config : _nameless.39e3.0030 {
  display_names[98]: "`di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'`|Microsoft Xbox Controller"
  display_names[99]: "`di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`|SIMAGIC DS-8X Shifter"
  display_names[100]: "`di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{0024346E-0000-0000-0000-504944564944}'`|Gudsen MOZA Multi-function Stalk"
+ display_names[101]: "`di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{05300483-0000-0000-0000-504944564944}'`|SIMAGIC Handbrake_TB1"
 }
 
 }
