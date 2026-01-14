@@ -1,0 +1,21 @@
+SiiNunit
+{
+accessory_addon_tank_data : azcstm3.kenworth.w900.tank
+{
+	name: "AZCustom Dechromed v2 840@@gal@@"
+	price: 13250
+	unlock: 0
+	icon: "truck/kenworth_w900/accessory/tank/azcstm3"
+
+	exterior_model: "/vehicle/azcstm/kw.w900/azcstmtank3.pmd"
+	coll: "/vehicle/azcstm/kw.w900/azcstmtank3.pmc"
+	part_type: aftermarket
+
+	fuel_tank_size: 3180
+
+	suitable_for[]: "6x4l.kenworth.w900.chassis"
+	suitable_for[]: "6x4l_100y.kenworth.w900.chassis"
+		
+	conflict_with[]: "*.kenworth.w900.doorstep"
+}
+}

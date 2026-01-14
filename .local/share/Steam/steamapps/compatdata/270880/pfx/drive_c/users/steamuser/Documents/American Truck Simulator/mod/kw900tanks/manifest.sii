@@ -1,0 +1,18 @@
+SiiNunit
+{
+	mod_package : .package_name
+	{
+		package_version:	"1.0"
+		display_name:		"Big Tanks for Kenworth W900"
+		author:			"JustCauseWhyNot + Jake Azaz'el (AZCustoms)"
+		mp_mod_optional:	true
+
+		icon: "mod_icon.jpg"
+		description_file: "mod_description.txt"
+		
+		category[]: "tuning_parts"
+
+		dlc_dependencies[]: "dlc_kenworth_w900"
+
+	}
+}

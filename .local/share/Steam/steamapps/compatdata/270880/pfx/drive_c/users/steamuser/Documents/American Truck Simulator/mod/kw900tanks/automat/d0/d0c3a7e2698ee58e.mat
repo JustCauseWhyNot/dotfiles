@@ -1,0 +1,24 @@
+effect : "eut2.dif.spec.weight.add.env.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 0.170645 , 0.170645 , 0.170645 }
+	env_factor : { 1.000000 , 1.000000 , 1.000000 }
+	fresnel : { 1.000000 , 1.000000 }
+	reflection : 0.000000
+	shininess : 70.000000
+	specular : { 0.522522 , 0.522522 , 0.522522 }
+	texture : "texture_base" {
+		source : "/vehicle/azcstm/azchrome1.tobj"
+		min_filter : linear
+		mag_filter : linear
+		mip_filter : linear
+	}
+	texture : "texture_reflection" {
+		source : "/material/environment/vehicle_reflection.tobj"
+		min_filter : linear
+		mag_filter : linear
+		mip_filter : linear
+		u_address : clamp
+		v_address : clamp
+		w_address : clamp
+	}
+}

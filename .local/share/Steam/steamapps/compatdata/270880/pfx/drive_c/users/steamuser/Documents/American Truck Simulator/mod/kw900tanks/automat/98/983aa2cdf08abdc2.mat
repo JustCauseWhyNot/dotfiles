@@ -1,0 +1,13 @@
+effect : "eut2.dif.spec.weight.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 0.050876 , 0.050876 , 0.050876 }
+	reflection : 0.000000
+	shininess : 50.000000
+	specular : { 1.000000 , 1.000000 , 1.000000 }
+	texture : "texture_base" {
+		source : "/vehicle/azcstm/azmetal1.tobj"
+		min_filter : linear
+		mag_filter : linear
+		mip_filter : linear
+	}
+}
