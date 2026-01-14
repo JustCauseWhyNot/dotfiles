@@ -1,0 +1,43 @@
+SiiNunit
+{
+accessory_engine_data : e670cfk.kenworth.w900.engine
+{
+	name: "500kW EV Motor (test)"
+	price: 10500
+	unlock: 1
+	info[]: "670 @@hp@@ (500@@kw@@)"
+	info[]: "3@@dg@@800 @@nm@@"
+	info[]: "0-1@@dg@@500 @@rpm@@"
+	icon: "e_motor"
+
+	type: electric
+	part_type: factory
+
+	torque_curve[]: (0, 1.00)
+	torque_curve[]: (1500, 1.00)
+	torque_curve[]: (1700, 0.87)
+	torque_curve[]: (1900, 0.76)
+	torque_curve[]: (2100, 0.67)
+	torque_curve[]: (2300, 0.60)
+	torque_curve[]: (2800, 0.48)
+	torque_curve[]: (3300, 0.40)
+	torque_curve[]: (3800, 0.34)
+	
+	torque: 3800
+
+	rpm_idle: 0
+	rpm_limit: 2500
+	rpm_range_low_gear: (700, 1500)
+	rpm_range_high_gear: (700, 1500)
+	rpm_range_power: (1000, 2000)
+
+	rpm_range_engine_brake: (800, 1800)
+	engine_brake: 2.0
+	engine_brake_downshift: false
+	engine_brake_positions: 1
+
+	auxiliary_brakes[]: (0.50, 0, 0)
+
+@include "sound_e.sui"
+}
+}

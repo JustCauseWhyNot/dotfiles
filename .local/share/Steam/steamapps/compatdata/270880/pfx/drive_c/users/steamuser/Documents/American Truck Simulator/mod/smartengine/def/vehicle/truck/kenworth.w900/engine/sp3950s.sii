@@ -1,0 +1,42 @@
+SiiNunit
+{
+accessory_engine_data : sp3950s.kenworth.w900.engine
+{
+	name: "Smart-Power 3950s"
+	price: 100000
+	unlock: 15
+	info[]: "3950 @@hp@@ (2946@@kw@@)"
+	info[]: "18@@dg@@700 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@850 @@rpm@@"
+	icon: "custom_engine"
+
+	part_type: factory
+
+	torque_curve[]: (200, 0.3)
+	torque_curve[]: (400, 0.7)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1600, 1)
+	torque_curve[]: (1800, 1)
+	torque_curve[]: (2000, 0.9)
+	torque_curve[]: (2500, 0.4)
+	
+	torque: 18700
+	rpm_idle: 500
+	rpm_limit: 2500
+	volume: 19.2
+	no_adblue_power_limit: 0.5
+
+	rpm_range_engine_brake: (1000, 1500)
+	engine_brake: 2.0
+	engine_brake_downshift: false
+	engine_brake_positions: 4
+
+	auxiliary_brakes[]: (0.25, 0, 0)
+	auxiliary_brakes[]: (0.50, 0, 0)
+	auxiliary_brakes[]: (0.75, 0, 0)
+	auxiliary_brakes[]: (1.00, 0, 0)
+
+@include "sound.sui"
+}
+}
+

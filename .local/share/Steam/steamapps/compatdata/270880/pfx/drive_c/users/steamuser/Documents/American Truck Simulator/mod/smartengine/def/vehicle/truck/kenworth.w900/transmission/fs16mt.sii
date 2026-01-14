@@ -1,0 +1,42 @@
+SiiNunit
+{
+accessory_transmission_data : fs16mt.kenworth.w900.transmission
+{
+	name: "Fast-Shift 16AMT (SP-3950s or Over)"
+	price: 4500
+	unlock: 0
+	icon: "custom_transmission"
+	part_type: factory
+	
+	shift_time: 0.7
+	differential_ratio: 3
+
+	ratios_reverse[0]: -11.10
+	ratios_reverse[1]: -5.000
+
+	ratios_forward[0]: 38.00
+	ratios_forward[1]: 24.70
+	ratios_forward[2]: 16.40
+	ratios_forward[3]: 11.10
+	ratios_forward[4]: 7.400
+	ratios_forward[5]: 5.000
+	ratios_forward[6]: 3.400
+	ratios_forward[7]: 2.250
+	ratios_forward[8]: 1.500
+	ratios_forward[9]: 1.000
+	ratios_forward[10]: 0.667
+	ratios_forward[11]: 0.485
+	ratios_forward[12]: 0.385
+	ratios_forward[13]: 0.307
+	ratios_forward[14]: 0.246
+	ratios_forward[15]: 0.197
+
+	retarder: 4
+
+	auxiliary_brakes[]: (0.25, 0, 0)
+	auxiliary_brakes[]: (0.50, 0, 0)
+	auxiliary_brakes[]: (0.75, 0, 0)
+	auxiliary_brakes[]: (1.00, 0, 0)
+@include "sound.sui"
+}
+}

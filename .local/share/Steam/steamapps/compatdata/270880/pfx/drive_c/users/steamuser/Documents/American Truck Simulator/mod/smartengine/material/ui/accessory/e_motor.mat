@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "e_motor.tobj"
+	texture_name : "texture"
+}

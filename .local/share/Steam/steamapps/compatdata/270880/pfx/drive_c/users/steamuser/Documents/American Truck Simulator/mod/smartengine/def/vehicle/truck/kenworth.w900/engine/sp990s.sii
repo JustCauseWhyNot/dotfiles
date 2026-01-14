@@ -1,0 +1,42 @@
+SiiNunit
+{
+accessory_engine_data : sp990s.kenworth.w900.engine
+{
+	name: "Smart-Power 990s"
+	price: 30000
+	unlock: 0
+	info[]: "990 @@hp@@ (745@@kw@@)"
+	info[]: "4@@dg@@700 @@nm@@"
+	info[]: "1@@dg@@000-1@@dg@@600 @@rpm@@"
+	icon: "custom_engine"
+
+	part_type: factory
+
+	torque_curve[]: (200, 0)
+	torque_curve[]: (400, 0.5)
+	torque_curve[]: (1000, 1)
+	torque_curve[]: (1600, 1)
+	torque_curve[]: (1800, 0.9)
+	torque_curve[]: (2000, 0.5)
+	torque_curve[]: (2500, 0.2)
+	
+	torque: 4700
+	rpm_idle: 500
+	rpm_limit: 2500
+	volume: 16.4
+	no_adblue_power_limit: 0.5
+
+	rpm_range_engine_brake: (1000, 1500)
+	engine_brake: 2.0
+	engine_brake_downshift: false
+	engine_brake_positions: 4
+
+	auxiliary_brakes[]: (0.25, 0, 0)
+	auxiliary_brakes[]: (0.50, 0, 0)
+	auxiliary_brakes[]: (0.75, 0, 0)
+	auxiliary_brakes[]: (1.00, 0, 0)
+
+@include "sound.sui"
+}
+}
+

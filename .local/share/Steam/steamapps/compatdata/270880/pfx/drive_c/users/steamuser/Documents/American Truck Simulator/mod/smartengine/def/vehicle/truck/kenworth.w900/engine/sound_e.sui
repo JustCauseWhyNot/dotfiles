@@ -1,0 +1,4 @@
+# Configuration of the engine sounds for the specific truck.
+	sounds:2
+	sounds[]: "engine|/def/vehicle/truck/volvo.fh_2024/engine/sound_e_engine.soundref"
+	sounds[]: "remote|/def/vehicle/truck/volvo.fh_2024/engine/sound_e_engine_rm.soundref"

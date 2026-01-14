@@ -1,0 +1,138 @@
+Smart-Powerエンジンは、卓越した機動性とパワーであらゆるニーズに対して柔軟に応えます。
+専用設計されたSmart-Shiftトランスミッションを搭載すれば、驚くほどスムーズで最高の走行体験が得られます。
+
+Smart-Shiftシリーズは、加速と燃費のバランスを極限まで追求したトランスミッションです。
+積載重量に応じて適切に構成することで、最高のパフォーマンスを実現します。
+世界標準燃費機構(GSFEM)に基づいて、低回転高トルクを維持するように設計されています。(Smart-Shift 6AMTは除く)
+
+Fast-Shiftシリーズは、高出力エンジン向けに設計・最適化された高速走行用トランスミッションです。
+ピークトルクを引き延ばし1,000-1,800rpmでの鋭い加速を実現します。(SP-9995sは最大2,000rpm)
+Ver1.2c アップデートでギア比が調整され、牽引時であってもSSシリーズと遜色ない加速性能を実現します。
+1～10速は標準構成で10速目がトップギア、11～16速がODで最大600km/hまでサポートします。
+
+
+って書くとなんかそれっぽいよね！w
+実際何も考えてないけどね！www
+という訳で、オリジナルエンジン・トランスミッション作ってみた！！
+
+【カスタムポイント】
+- エンジン
+- トランスミッション
+
+【対応車種】
+- DAF NGD
+- DAF XD
+- DAF XF
+- DAF XF105
+- Iveco Stralis
+- Iveco Stralis Hi-Way
+- Iveco S-way
+- MAN TGX
+- MAN TGX Euro 5
+- MAN TGX Euro 6
+- Mercedes-Benz New Actrons
+- Renault Magnum
+- Renault Premium
+- Renault T
+- Scania R
+- Scania S
+- Volvo FH4
+- Volvo FH5
+- Volvo FH6
+[blue]
+-- Engine Specs --[normal]
+【Smart-Power 990s】
+- Power ：990HP (745kW)
+- Torque：4,700Nm / 1,000-1,500rpm
+- ESV　 ：16,400cc
+- EB    ：4ｰsteps
+
+【Smart-Power 1800s】
+- Power ：1,800HP (1,342kW)
+- Torque：8,545Nm / 1,000-1,500rpm
+- ESV　 ：16,400cc
+- EB    ：4ｰsteps
+
+【Smart-Power 3950s】
+- Power ：3,950HP (2,946kW)
+- Torque：18,700Nm / 1,000-1,800rpm
+- ESV　 ：19,200cc
+- EB    ：4ｰsteps
+
+【Smart-Power 5900s】
+- Power ：5,900HP (4,400kW)
+- Torque：29,500Nm / 1,000-1,800rpm
+- ESV　 ：19,200cc
+- EB    ：4ｰsteps
+
+【Smart-Power 7900s】
+- Power ：7,900HP (5,891kW)
+- Torque：39,900Nm / 1,000-1,800rpm
+- ESV　 ：21,800cc
+- EB    ：4ｰsteps
+
+【Smart-Power 9700s】
+- Power ：9,700HP (7,233kW)
+- Torque：49,500Nm / 1,000-1,800rpm
+- ESV　 ：21,800cc
+- EB    ：4ｰsteps
+
+【Smart-Power 9995Xs】
+- Power ：9,995HP (7453kW)
+- Torque：55,700Nm / 1,000-2,000rpm
+- ESV　 ：27,900cc
+- EB    ：4ｰsteps
+[blue]
+-- Transmission Specs --[normal]
+【Smart-Shift 6AMT】
+- F Range ：6-speed
+- R Range ：1-speed
+- Gear　  ：5.00-0.70
+- Final   ：4.00
+- Retarder：4ｰsteps
+
+【Smart-Shift 7AMT】
+- F Range ：7-speed
+- R Range ：1-speed
+- Gear　  ：6.50-0.67
+- Final   ：3.47
+- Retarder：4ｰsteps
+
+【Smart-Shift 12AMT】
+- F Range ：12-speed
+- R Range ：2-speed
+- Gear　  ：10.00-0.725
+- Final   ：3.23
+- Retarder：4ｰsteps
+
+【Smart-Shift 16AMT】
+- F Range ：16-speed
+- R Range ：2-speed
+- Gear　  ：45.00-0.80
+- Final   ：2.48
+- Retarder：4ｰsteps
+
+【Fast-Shift 16AMT】10速+OD(6速)
+- F Range ：16-speed
+- R Range ：2-speed
+- Gear　  ：38.00-0.197
+- Final   ：3.00
+- Retarder：4ｰsteps
+
+【change log】
+1.2f：DAFのエンジン音がEVになるバグを修正
+1.2e：EVモーターを追加 (一部車両のみ)
+1.2d：FS-16AMTのギア比を再調整
+1.2c：FS-16AMTのギア比を調整
+1.2b：ギア比再調整
+1.2a：ギア比調整、EB・リターダー動作修正
+1.1c：Iveco S-wayに対応
+1.1b：軽微な修正
+1.1a：エンジンを6種追加・トランスミッション1種追加
+1.0e：ペイントジョブボーナスを削除
+1.0d：夫の小遣い追加
+1.0c：夏のボーナス追加
+1.0b：補助ブレーキの動作修正
+1.0a：オリジナルエンジン・トランスミッションを追加
+
+ろくにデバッグしてないので不具合あったら教えてね
