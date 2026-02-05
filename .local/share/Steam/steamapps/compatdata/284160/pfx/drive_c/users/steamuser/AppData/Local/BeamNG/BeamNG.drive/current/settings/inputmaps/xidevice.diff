@@ -1,0 +1,19 @@
+{
+  "devicetype":"xinput",
+  "displayNames":[
+    "Xbox 360 compatible controller",
+    "Xbox One compatible controller"
+  ],
+  "ffbSupported":"<div class='bng-hw vibration'></div>",
+  "guid":"xinput0",
+  "imagePack":"xbox",
+  "name":"XBox Controller 1",
+  "removed":[
+    {
+      "action":"activateStarterMotor",
+      "control":"modifier1 dpov"
+    }
+  ],
+  "version":1,
+  "vidpid":"XIDevice"
+}

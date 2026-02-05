@@ -1,0 +1,40 @@
+{
+  "dynamicDecalsTool":{
+    "camera":{
+      "presets":{
+        "type":"table",
+        "value":"{\"top\":[90,-90,0],\"right\":[90,0,0],\"left\":[-90,0,0],\"front\":[180,0,0],\"default\":[145,-5,0],\"back\":[0,0,0]}",
+        "version":0
+      }
+    },
+    "colorPresets":{
+      "presets":{
+        "type":"table",
+        "value":"[{\"name\":\"iconic oraNGe\",\"value\":[1,0.4,0,1]},{\"name\":\"Aquamarine\",\"value\":[0.05,0.5,0.7,1]},{\"name\":\"Army Green\",\"value\":[0.275,0.302,0.25,1]},{\"name\":\"Autumn Yellow\",\"value\":[0.521,0.396,0.189,1]},{\"name\":\"Bermuda Blue\",\"value\":[0.08,0.2,0.24,1]},{\"name\":\"Brilliant Blue\",\"value\":[0.07,0.37,0.72,1]},{\"name\":\"Burgundy\",\"value\":[0.5,0,0,1]},{\"name\":\"Butterscotch\",\"value\":[0.81,0.638,0.476,1]},{\"name\":\"Carbon Gray\",\"value\":[0.33,0.33,0.33,1]},{\"name\":\"Champagne\",\"value\":[0.663,0.594,0.533,1]},{\"name\":\"Charcoal\",\"value\":[0.3,0.3,0.3,1]},{\"name\":\"Chestnut\",\"value\":[0.3,0.2,0.12,1]},{\"name\":\"Chocolate Brown\",\"value\":[0.488,0.316,0.192,1]},{\"name\":\"Clay Red\",\"value\":[0.45,0.28,0.233,1]},{\"name\":\"Cream\",\"value\":[0.79,0.75,0.69,1]},{\"name\":\"Deep Plum\",\"value\":[0.31,0,0.03,1]},{\"name\":\"Dusted Mica\",\"value\":[0.5,0.42,0.39,1]},{\"name\":\"Fall Gold\",\"value\":[0.58,0.43,0.1,1]},{\"name\":\"Fire Red\",\"value\":[0.8,0.1,0.1,1]},{\"name\":\"Flame Orange\",\"value\":[0.9,0.4,0,1]},{\"name\":\"Forest Green\",\"value\":[0.08,0.18,0.105,1]},{\"name\":\"Gray\",\"value\":[0.5,0.5,0.5,1]},{\"name\":\"Jet Black\",\"value\":[0,0,0,1]},{\"name\":\"Light Brown\",\"value\":[0.525,0.41,0.3,1]},{\"name\":\"Limoncello\",\"value\":[0.87,0.8,0.6,1]},{\"name\":\"Navy Blue\",\"value\":[0,0.07,0.23,1]},{\"name\":\"Olive Green\",\"value\":[0.27,0.35,0.23,1]},{\"name\":\"Opal Green\",\"value\":[0.22,0.37,0.33,1]},{\"name\":\"Pearl White\",\"value\":[0.83,0.83,0.83,1]},{\"name\":\"Pleasant Blue\",\"value\":[0.35,0.5,0.65,1]},{\"name\":\"Quicksilver\",\"value\":[0.52,0.485,0.46,1]},{\"name\":\"Royal Blue\",\"value\":[0,0.1,0.42,1]},{\"name\":\"Scarlet Red\",\"value\":[0.58,0.12,0.12,1]},{\"name\":\"Sea Blue\",\"value\":[0.09,0.21,0.47,1]},{\"name\":\"Seafoam Green\",\"value\":[0.24,0.48,0.48,1]},{\"name\":\"Silver\",\"value\":[0.65,0.65,0.65,1]},{\"name\":\"Solar Yellow\",\"value\":[0.82,0.62,0.1,1]},{\"name\":\"Sunset Purple\",\"value\":[0.24,0.25,0.75,1]},{\"name\":\"Verdant Green\",\"value\":[0.18,0.36,0.09,1]},{\"name\":\"Vibrant Red\",\"value\":[0.72,0.13,0.13,1]},{\"name\":\"Toxic Green\",\"value\":[0,0.73,0.23,1]},{\"name\":\"Furious Orange\",\"value\":[0.936,0.416,0,1]}]",
+        "version":0
+      }
+    },
+    "layerStack":{
+      "layerTypeIconColor":{
+        "type":"table",
+        "value":"{\"group\":[1,1,0,1],\"path\":[1,0,1,1],\"decal\":[1,0,0,1],\"textureFill\":[0,0,1,1],\"brushStroke\":[0,1,1,1],\"linkedSet\":[1,0.5,0,1],\"fill\":[0,1,0,1]}",
+        "version":0
+      }
+    }
+  },
+  "terrainEditor":{
+    "general":{
+      "brush":{
+        "type":"string",
+        "value":"brushAdjustHeight",
+        "version":0
+      },
+      "brushType":{
+        "type":"string",
+        "value":"ellipse",
+        "version":0
+      }
+    }
+  },
+  "version":2
+}

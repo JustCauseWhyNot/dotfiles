@@ -1,0 +1,100 @@
+{
+  "fonts": {
+    "cairo_bold": {
+      "fileName": "Cairo-Bold.ttf",
+      "glyphRanges": [
+        "arabic"
+      ],
+      "sizeScale": 1.3
+    },
+    "cairo_regular": {
+      "fileName": "Cairo-Regular.ttf",
+      "glyphRanges": [
+        "arabic"
+      ],
+      "sizeScale": 1.3
+    },
+    "cairo_regular_medium": {
+      "fileName": "Cairo-Regular.ttf",
+      "glyphRanges": [
+        "arabic"
+      ],
+      "sizeScale": 1.8
+    },
+    "cairo_semibold_large": {
+      "fileName": "Cairo-SemiBold.ttf",
+      "glyphRanges": [
+        "arabic"
+      ],
+      "sizeScale": 2
+    },
+    "consola_regular": {
+      "fileName": "consola.ttf",
+      "glyphRanges": [
+        "default"
+      ],
+      "isWindowsFont": true,
+      "sizeScale": 1
+    },
+    "icons": {
+      "fileName": "fa-solid-900.ttf",
+      "glyphRanges": [
+        "F000",
+        "F010"
+      ],
+      "sizeScale": 3
+    },
+    "notosans_jp_regular": {
+      "fileName": "NotoSansJP-Regular.otf",
+      "glyphRanges": [
+        "japanese"
+      ],
+      "sizeScale": 1
+    },
+    "notosans_kr_regular": {
+      "fileName": "NotoSansKR-Regular.otf",
+      "glyphRanges": [
+        "korean"
+      ],
+      "sizeScale": 1
+    },
+    "notosans_sc_regular": {
+      "fileName": "NotoSansSC-Regular.otf",
+      "glyphRanges": [
+        "chineseSimplifiedCommon"
+      ],
+      "sizeScale": 1
+    },
+    "notosans_tc_regular": {
+      "fileName": "NotoSansTC-Regular.otf",
+      "glyphRanges": [
+        "chineseFull"
+      ],
+      "sizeScale": 1
+    },
+    "prompt_regular": {
+      "fileName": "Prompt-Regular.ttf",
+      "glyphRanges": [
+        "thai"
+      ],
+      "sizeScale": 1
+    },
+    "robotomono_regular": {
+      "fileName": "RobotoMono-Regular.ttf",
+      "glyphRanges": [
+        "default"
+      ],
+      "sizeScale": 1
+    },
+    "segoeui_regular": {
+      "fileName": "segoeui.ttf",
+      "glyphRanges": [
+        "default"
+      ],
+      "isWindowsFont": true,
+      "sizeScale": 1
+    }
+  },
+  "fontsVersion": 1,
+  "iniVersion": 3
+}

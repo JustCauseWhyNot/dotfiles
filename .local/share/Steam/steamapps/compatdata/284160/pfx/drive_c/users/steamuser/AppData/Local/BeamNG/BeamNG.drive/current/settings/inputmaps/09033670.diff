@@ -1,0 +1,24 @@
+{
+  "bindings":[
+    {
+      "action":"brake",
+      "control":"yaxis",
+      "deadzoneResting":0.01
+    },
+    {
+      "action":"clutch",
+      "control":"xaxis",
+      "deadzoneResting":0.01
+    },
+    {
+      "action":"accelerate",
+      "control":"zaxis",
+      "deadzoneResting":0.01
+    }
+  ],
+  "devicetype":"joystick",
+  "guid":"{09033670-0000-0000-0000-504944564944}",
+  "name":"SIMAGIC Alpha Pedal Neo",
+  "version":1,
+  "vidpid":"09033670"
+}

@@ -1,0 +1,36 @@
+{
+  "all":[
+    {
+      "_sortIdx":1,
+      "icon":"restart",
+      "level":"/root/sandbox/mission/",
+      "timestamp":33913331,
+      "title":"Restart Mission",
+      "uniqueID":"recovery_restartMission_{\n  type = \"none\"\n}"
+    },
+    {
+      "_sortIdx":2,
+      "icon":"carToWheels",
+      "level":"/root/sandbox/mission/",
+      "timestamp":31331840,
+      "title":"Flip Upright",
+      "uniqueID":"recovery_flipMission_{\n  type = \"vehicle\",\n  vehId = 60576\n}"
+    },
+    {
+      "_sortIdx":3,
+      "icon":"wrench",
+      "level":"/root/sandbox/repair/",
+      "timestamp":344396609,
+      "title":"ui.radialmenu2.repairVehicle",
+      "uniqueID":"repairVehicle"
+    },
+    {
+      "_sortIdx":4,
+      "icon":"road",
+      "level":"/root/sandbox/repair/",
+      "timestamp":344333514,
+      "title":"ui.radialmenu2.recoverToLastRoad",
+      "uniqueID":"recoverToLastRoad"
+    }
+  ]
+}

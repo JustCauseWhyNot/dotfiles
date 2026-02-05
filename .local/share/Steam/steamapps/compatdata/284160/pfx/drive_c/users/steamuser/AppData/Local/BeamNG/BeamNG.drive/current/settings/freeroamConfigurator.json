@@ -1,0 +1,719 @@
+{
+  "levelName":"automation_test_track",
+  "options":{
+    "environment_timeOfDay":"default",
+    "environment_timePlay":"disabled",
+    "traffic_trafficMode":"police"
+  },
+  "spawnPointName":"spawns_startingline",
+  "spawnPointTile":{
+    "buttonInfo":{},
+    "description":"Automation Test Track",
+    "headerTitle":"Starting Line (Automation Test Track)",
+    "levelTitle":"Automation Test Track",
+    "preview":"/levels/automation_test_track/automation_test_track_preview1.jpg",
+    "specifications":[
+      [
+        {
+          "icon":"scale",
+          "label":"Size",
+          "value":"2.05km x 2.05km (4.19km²)"
+        },
+        {
+          "icon":"terrain",
+          "label":"Biome",
+          "value":"Temperate, Tussock Grassland"
+        },
+        {
+          "icon":"roadStack",
+          "label":"Roads",
+          "value":"80% asphalt, 20% dirt road"
+        },
+        {
+          "icon":"flag",
+          "label":"Suitable for",
+          "value":"Prototype testing, Vehicle testing, Rally driving, Race track, Hillclimb"
+        },
+        {
+          "icon":"info",
+          "label":"Features",
+          "value":"Test track, hillclimb, rally stage, handling circuit"
+        },
+        {
+          "icon":"flag",
+          "label":"Country",
+          "value":"New Zealand"
+        }
+      ]
+    ],
+    "tags":[
+      {
+        "icon":"beamNG",
+        "label":"BeamNG - Official"
+      },
+      {
+        "label":"Camshaft Software",
+        "svg":"/ui/assets/Original/camshaft_automation_logo.svg"
+      }
+    ],
+    "validationFiles":[
+      "/levels/automation_test_track/automation_test_track_preview1.jpg",
+      "/levels/automation_test_track/automation_test_track_preview2.jpg",
+      "/levels/automation_test_track/automation_test_track_preview3.jpg",
+      "/levels/automation_test_track/main/"
+    ]
+  },
+  "vehicle":{
+    "additionalData":{
+      "paint":"Palladium Gray",
+      "paint2":"Palladium Gray",
+      "paint3":"Palladium Gray"
+    },
+    "config":"jcwn_charger",
+    "model":"bastion"
+  },
+  "vehicleTile":{
+    "additionalData":{
+      "paint":"Palladium Gray",
+      "paint2":"Palladium Gray",
+      "paint3":"Palladium Gray"
+    },
+    "brand":"Bruckell",
+    "buttonInfo":[
+      {
+        "buttonId":46,
+        "canClearFilters":true,
+        "icon":"carPlus",
+        "label":"Spawn New"
+      },
+      {
+        "buttonId":47,
+        "canClearFilters":true,
+        "icon":"carsChange",
+        "isDoubleClickAction":true,
+        "label":"Replace Current",
+        "primary":true
+      }
+    ],
+    "configDetails":{
+      "Configuration":"jcwn_charger",
+      "Name":"Bastion jcwn_charger",
+      "Source":"Custom",
+      "aggregates":{
+        "Body Style":{
+          "Sedan":true
+        },
+        "Brand":{
+          "Bruckell":true
+        },
+        "Country":{
+          "United States":true
+        },
+        "Derby Class":{
+          "Full-Size Car":true
+        },
+        "InsuranceClass":{
+          "dailyDriver":true
+        },
+        "Region":{
+          "northAmerica":true
+        },
+        "Source":{
+          "BeamNG - Official":true,
+          "Custom":true
+        },
+        "Type":{
+          "Car":true
+        },
+        "Years":{
+          "max":2022,
+          "min":2016
+        }
+      },
+      "defaultPaint":{
+        "baseColor":[
+          0.623,
+          0.623,
+          0.623,
+          1.2
+        ],
+        "class":"factory",
+        "clearcoat":1,
+        "clearcoatRoughness":0.05,
+        "id":"palladium_gray",
+        "metallic":0.8,
+        "name":"Palladium Gray",
+        "roughness":0.65
+      },
+      "defaultPaintName1":"Palladium Gray",
+      "defaultPaintName2":"Palladium Gray",
+      "defaultPaintName3":"Palladium Gray",
+      "is_default_config":false,
+      "key":"jcwn_charger",
+      "model_key":"bastion",
+      "paints":{},
+      "pcFilename":"/vehicles/bastion/jcwn_charger.pc",
+      "preview":"/vehicles/bastion/jcwn_charger.jpg"
+    },
+    "configKey":"jcwn_charger",
+    "generalSpecs":[
+      {
+        "isFromConfig":false,
+        "key":"Years",
+        "value":"2016 - 2022"
+      },
+      {
+        "isFromConfig":false,
+        "key":"Country",
+        "value":"United States"
+      }
+    ],
+    "headerTitle":"Bruckell Bastion jcwn_charger",
+    "iconTags":{},
+    "isStandalonePC":true,
+    "modelKey":"bastion",
+    "paints":{
+      "factoryPaints":[
+        {
+          "baseColor":[
+            0.203,
+            0.476,
+            0.681,
+            2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"aqua_steel",
+          "metallic":0.8,
+          "name":"Aqua Steel",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.275,
+            0.302,
+            0.25,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"army_green",
+          "metallic":0,
+          "name":"Army Green",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.01,
+            0.01,
+            0.03,
+            2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Black Metal",
+          "roughness":0.55
+        },
+        {
+          "baseColor":[
+            0.5,
+            0.42,
+            0.39,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"canyon_sand",
+          "metallic":0.8,
+          "name":"Canyon Sand",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.306,
+            0.034,
+            0.114,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.06,
+          "id":"deep_merlot",
+          "metallic":1,
+          "name":"Deep Merlot",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.255,
+            0.091,
+            0.198,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Extra Purple",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.036,
+            0.137,
+            0.229,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Fortuna Blue",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.282,
+            0.334,
+            0.198,
+            2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Goblin Green",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.568,
+            0.489,
+            0.108,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Harvest Gold",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.725,
+            0.063,
+            0.13,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"inferno_red",
+          "metallic":0.8,
+          "name":"Inferno Red",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.01,
+            0.01,
+            0.01,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"matte_black",
+          "metallic":0,
+          "name":"Matte Black",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.33,
+            0.33,
+            0.33,
+            2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Obsidian Gray",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.108,
+            0.238,
+            0.531,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Ocean Blue",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.623,
+            0.623,
+            0.623,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"palladium_gray",
+          "metallic":0.8,
+          "name":"Palladium Gray",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.08,
+            0.18,
+            0.105,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"pine_shadow",
+          "metallic":0.8,
+          "name":"Pine Shadow",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.425,
+            0.091,
+            0.142,
+            2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Ruby Red",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.07,
+            0.07,
+            0.07,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":0.7,
+          "clearcoatRoughness":0.3,
+          "id":"satin_black",
+          "metallic":0.6,
+          "name":"Satin Black",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.423,
+            0.423,
+            0.423,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.25,
+          "metallic":0.6,
+          "name":"Satin Gray",
+          "roughness":0.55
+        },
+        {
+          "baseColor":[
+            0.816,
+            0.107,
+            0.107,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.25,
+          "metallic":0.6,
+          "name":"Satin Red",
+          "roughness":0.55
+        },
+        {
+          "baseColor":[
+            0.83,
+            0.83,
+            0.83,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"silica_white",
+          "metallic":0.8,
+          "name":"Silica White",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.82,
+            0.62,
+            0.1,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"sunny_flare",
+          "metallic":0,
+          "name":"Sunny Flare",
+          "roughness":0.9
+        },
+        {
+          "baseColor":[
+            0.078,
+            0.068,
+            0.519,
+            2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Super Blue",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.8,
+            0.42,
+            0.1,
+            1
+          ],
+          "class":"factory",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "id":"tangerine_rush",
+          "metallic":0.8,
+          "name":"Tangerine Rush",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.85,
+            0.68,
+            0.1,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"taxi_yellow",
+          "metallic":0,
+          "name":"Taxi Yellow",
+          "roughness":0.06
+        },
+        {
+          "baseColor":[
+            0.025,
+            0.05,
+            0.14,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":1,
+          "clearcoatRoughness":0.05,
+          "metallic":0.8,
+          "name":"Velvet Night",
+          "roughness":0.65
+        }
+      ],
+      "multiPaintSetups":[
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Purple",
+          "isDefaultForConfigByKey":{
+            "battlehawk_A":true
+          },
+          "name":"Battlehawk Purple",
+          "paintName1":"Extra Purple",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{
+            "battlehawk_A":true
+          }
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Green",
+          "isDefaultForConfigByKey":{
+            "battlehawk_M":true
+          },
+          "name":"Battlehawk Green",
+          "paintName1":"Goblin Green",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{
+            "battlehawk_M":true
+          }
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Black",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk Black",
+          "paintName1":"Black Metal",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Red",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk Red",
+          "paintName1":"Inferno Red",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk White",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk White",
+          "paintName1":"Silica White",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Yellow",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk Yellow",
+          "paintName1":"Sunny Flare",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Tangerine",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk Tangerine",
+          "paintName1":"Tangerine Rush",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Battlehawk Blue",
+          "isDefaultForConfigByKey":{},
+          "name":"Battlehawk Blue",
+          "paintName1":"Super Blue",
+          "paintName2":"Satin Black",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Redtail Black",
+          "isDefaultForConfigByKey":{
+            "redtail_A":true
+          },
+          "name":"Redtail Black",
+          "paintName1":"Black Metal",
+          "paintName2":"Satin Red",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{
+            "redtail_A":true
+          }
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Redtail White",
+          "isDefaultForConfigByKey":{},
+          "name":"Redtail White",
+          "paintName1":"Silica White",
+          "paintName2":"Satin Red",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Redtail Yellow",
+          "isDefaultForConfigByKey":{},
+          "name":"Redtail Yellow",
+          "paintName1":"Sunny Flare",
+          "paintName2":"Satin Red",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "forAllConfigs":true,
+          "id":"Redtail Blue",
+          "isDefaultForConfigByKey":{},
+          "name":"Redtail Blue",
+          "paintName1":"Super Blue",
+          "paintName2":"Satin Red",
+          "paintName3":"Satin Gray",
+          "usedByConfigByKey":{}
+        },
+        {
+          "isDefault":true,
+          "isDefaultForConfigByKey":{
+            "jcwn_charger":true
+          },
+          "name":"Bastion jcwn_charger default paints",
+          "paintName1":"Palladium Gray",
+          "paintName2":"Palladium Gray",
+          "paintName3":"Palladium Gray",
+          "usedByConfigByKey":{
+            "jcwn_charger":true
+          }
+        }
+      ]
+    },
+    "preview":"/vehicles/bastion/jcwn_charger.jpg",
+    "specificationsList":[
+      {
+        "label":"Other",
+        "specifications":[
+          {
+            "isFromConfig":false,
+            "key":"Type",
+            "value":"Car"
+          },
+          {
+            "isFromConfig":false,
+            "key":"Derby Class",
+            "value":"Full-Size Car"
+          }
+        ]
+      }
+    ],
+    "tags":[
+      {
+        "icon":"wrench",
+        "label":"Custom"
+      }
+    ],
+    "validationFiles":[
+      "/vehicles/bastion/jcwn_charger.pc",
+      "/vehicles/bastion/jcwn_charger.jpg"
+    ]
+  },
+  "version":1
+}

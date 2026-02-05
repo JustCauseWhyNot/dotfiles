@@ -1,0 +1,14 @@
+{
+  "bindings":[
+    {
+      "action":"parkingbrake",
+      "control":"zaxis",
+      "deadzoneResting":0.01
+    }
+  ],
+  "devicetype":"joystick",
+  "guid":"{05300483-0000-0000-0000-504944564944}",
+  "name":"SIMAGIC Handbrake_TB1",
+  "version":1,
+  "vidpid":"05300483"
+}

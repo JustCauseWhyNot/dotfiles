@@ -1,0 +1,38 @@
+{
+  "displayData":{
+    "clusterMode":"automatic",
+    "defaultFreeroamAction":"configureFreeroam",
+    "displaySize":"large",
+    "groupMode":"system",
+    "showAuxContent":false,
+    "showFavouritesMode":"reducedClusters",
+    "showRecentMode":"unclustered",
+    "sorting":"automatic"
+  },
+  "favourites":{},
+  "recentItems":[
+    "spawnPoint_automation_test_track_spawns_startingline",
+    "Freeroam_Freeroam_Automation Test Track",
+    "spawnPoint_east_coast_usa_spawns_farmhouse",
+    "Freeroam_Freeroam_Utah, USA",
+    "spawnPoint_gridmap_v2_spawn_suspension",
+    "spawnPoint_gridmap_v2_spawn_middle",
+    "Freeroam_Freeroam_Gridmap v2",
+    "spawnPoint_gridmap_v2_spawn_rivers",
+    "Freeroam_Freeroam_East Coast, USA",
+    "spawnPoint_small_island_spawn_north",
+    "spawnPoint_Utah_spawn_west_highway",
+    "Freeroam_Freeroam_Small Island, USA",
+    "spawnPoint_Utah_spawn_auto_repair_zone",
+    "spawnPoint_west_coast_usa_spawns_industrial",
+    "Freeroam_Freeroam_West Coast, USA",
+    "spawnPoint_derby_spawn_default",
+    "Freeroam_Freeroam_ETK Driver Experience Center",
+    "spawnPoint_smallgrid_nil",
+    "Freeroam_Freeroam_Grid, Small, Pure",
+    "Freeroam_Freeroam_Derby Arenas",
+    "spawnPoint_gridmap_v2_spawn_collisions",
+    "spawnPoint_gridmap_v2_spawn_halfpipes"
+  ],
+  "version":12
+}
