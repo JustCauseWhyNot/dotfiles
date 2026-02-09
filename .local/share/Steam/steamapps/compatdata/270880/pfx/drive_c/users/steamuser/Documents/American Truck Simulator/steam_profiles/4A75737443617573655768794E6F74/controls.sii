@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.8210.71e0 {
+input_config : _nameless.f26b.4a40 {
  version: 32
  config_lines: 587
  config_lines[0]: "device keyboard `sys.keyboard`"
@@ -47,13 +47,13 @@ input_config : _nameless.8210.71e0 {
  config_lines[41]: "constant c_ff_enabled 1.000000"
  config_lines[42]: "constant c_ff_gain 5.000000"
  config_lines[43]: "constant c_ff_hi_spd 1.000000"
- config_lines[44]: "constant c_ff_lo_spd 1.000000"
+ config_lines[44]: "constant c_ff_lo_spd 0.500000"
  config_lines[45]: "constant c_ff_fricton 0.500000"
  config_lines[46]: "constant c_ff_engine 0.250000"
- config_lines[47]: "constant c_ff_surface 0.750000"
+ config_lines[47]: "constant c_ff_surface 0.200000"
  config_lines[48]: "constant c_ff_bumps 1.000000"
  config_lines[49]: "constant c_ff_collis 1.000000"
- config_lines[50]: "constant c_ff_gearbox 1.000000"
+ config_lines[50]: "constant c_ff_gearbox 0.320000"
  config_lines[51]: "constant c_ff_undrstr 0.500000"
  config_lines[52]: "constant c_ff_assist 0.500000"
  config_lines[53]: "constant c_vff_surfac 1.000000"
