@@ -1,24 +1,36 @@
 {
   "bindings":[
     {
+      "action":"highbeam",
+      "control":"button5"
+    },
+    {
+      "action":"setIgnitionLevel3",
+      "control":"button11"
+    },
+    {
+      "action":"toggle_underglow",
+      "control":"button21"
+    },
+    {
       "action":"bb_set_headlights_on",
-      "control":"button2"
+      "control":"button1"
+    },
+    {
+      "action":"bb_cancel_btn",
+      "control":"button27"
+    },
+    {
+      "action":"setIgnitionLevel0",
+      "control":"button10"
     },
     {
       "action":"toggle_hazard_signal",
       "control":"button16"
     },
     {
-      "action":"bb_stop_turn_signal",
-      "control":"button8"
-    },
-    {
-      "action":"toggle_foglights",
-      "control":"button1"
-    },
-    {
-      "action":"toggle_underglow",
-      "control":"button21"
+      "action":"toggle_left_signal",
+      "control":"button9"
     },
     {
       "action":"bb_set_headlights_off",
@@ -29,40 +41,28 @@
       "control":"button7"
     },
     {
-      "action":"toggle_lightbar_signal",
-      "control":"button22"
+      "action":"toggle_foglights",
+      "control":"button2"
+    },
+    {
+      "action":"bb_stop_turn_signal",
+      "control":"button8"
     },
     {
       "action":"bb_toggle_enable_btn",
       "control":"button24"
     },
     {
-      "action":"setIgnitionLevel3",
-      "control":"button11"
-    },
-    {
-      "action":"bb_cancel_btn",
-      "control":"button27"
-    },
-    {
       "action":"bb_toggle_headlights_high",
       "control":"button3"
-    },
-    {
-      "action":"bb_set_headlights_high",
-      "control":"button5"
-    },
-    {
-      "action":"toggle_left_signal",
-      "control":"button9"
     },
     {
       "action":"bb_resume_btn",
       "control":"button26"
     },
     {
-      "action":"setIgnitionLevel0",
-      "control":"button10"
+      "action":"toggle_lightbar_signal",
+      "control":"button22"
     },
     {
       "action":"bb_set_btn",

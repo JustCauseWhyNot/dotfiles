@@ -131,6 +131,30 @@
         "top":"",
         "width":"255px"
       }
+    },
+    {
+      "appName":"wheelsDebug",
+      "placement":{
+        "bottom":"260px",
+        "height":"200px",
+        "left":"",
+        "position":"absolute",
+        "right":"540px",
+        "top":"",
+        "width":"250px"
+      }
+    },
+    {
+      "appName":"simplePerfTimers",
+      "placement":{
+        "bottom":"",
+        "height":"100px",
+        "left":"",
+        "position":"absolute",
+        "right":"30px",
+        "top":"345px",
+        "width":"420px"
+      }
     }
   ],
   "removedApps":{},

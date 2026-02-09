@@ -1,6 +1,6 @@
 SiiNunit
 {
-global_input_config : _nameless.7012.f820 {
+global_input_config : _nameless.7479.2ca0 {
  version: 1
  ui_whitelisted: 0
  ui_blacklisted: 5
@@ -9,7 +9,7 @@ global_input_config : _nameless.7012.f820 {
  ui_blacklisted[2]: "di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'"
  ui_blacklisted[3]: "di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{000E3514-0000-0000-0000-504944564944}'"
  ui_blacklisted[4]: "di8.'{9E573ED4-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'"
- display_names: 47
+ display_names: 49
  display_names[0]: "`sys.keyboard`|@@keyboard@@"
  display_names[1]: "`sys.mouse`|@@i_mouse@@"
  display_names[2]: "`di8.keyboard`|@@keyboard@@"
@@ -57,6 +57,8 @@ global_input_config : _nameless.7012.f820 {
  display_names[44]: "`di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{0024346E-0000-0000-0000-504944564944}'`|Gudsen MOZA Multi-function Stalk"
  display_names[45]: "`di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{000E3514-0000-0000-0000-504944564944}'`|CONSPIT 300GT"
  display_names[46]: "`di8.'{9E573ED4-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`|SIMAGIC Alpha Pedal Neo"
+ display_names[47]: "`di8.'{9E573ECA-7734-11D2-8D4A-23903FB6BDF7}|{000E3514-0000-0000-0000-504944564944}'`|CONSPIT 300GT"
+ display_names[48]: "`di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{000E3514-0000-0000-0000-504944564944}'`|CONSPIT 300GT"
 }
 
 }

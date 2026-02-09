@@ -1,18 +1,21 @@
 {
   "bindings":[
     {
-      "action":"brake",
-      "control":"yaxis",
+      "action":"accelerate",
+      "control":"zaxis",
+      "deadzoneEnd":0.01,
       "deadzoneResting":0.01
     },
     {
       "action":"clutch",
       "control":"xaxis",
-      "deadzoneResting":0.01
+      "deadzoneEnd":0.25,
+      "deadzoneResting":0.25,
+      "linearity":0.5
     },
     {
-      "action":"accelerate",
-      "control":"zaxis",
+      "action":"brake",
+      "control":"yaxis",
       "deadzoneResting":0.01
     }
   ],

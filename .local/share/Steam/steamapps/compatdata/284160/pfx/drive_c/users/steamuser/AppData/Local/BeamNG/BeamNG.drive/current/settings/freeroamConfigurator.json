@@ -1,17 +1,17 @@
 {
-  "levelName":"automation_test_track",
+  "levelName":"Utah",
   "options":{
-    "environment_timeOfDay":"default",
+    "environment_timeOfDay":"noon",
     "environment_timePlay":"disabled",
-    "traffic_trafficMode":"police"
+    "traffic_trafficMode":"enabled"
   },
-  "spawnPointName":"spawns_startingline",
+  "spawnPointName":"spawn_airfield",
   "spawnPointTile":{
     "buttonInfo":{},
-    "description":"Automation Test Track",
-    "headerTitle":"Starting Line (Automation Test Track)",
-    "levelTitle":"Automation Test Track",
-    "preview":"/levels/automation_test_track/automation_test_track_preview1.jpg",
+    "description":"The canyons of Utah make for a vehicular paradise. Race on the well maintained asphalt roads, get dusty rallying off-road, or try to climb the canyon rocks.",
+    "headerTitle":"Airfield (Utah, USA)",
+    "levelTitle":"Utah, USA",
+    "preview":"/levels/Utah/utah_preview4.jpg",
     "specifications":[
       [
         {
@@ -22,27 +22,27 @@
         {
           "icon":"terrain",
           "label":"Biome",
-          "value":"Temperate, Tussock Grassland"
+          "value":"Desert, Canyon, Mesa"
         },
         {
           "icon":"roadStack",
           "label":"Roads",
-          "value":"80% asphalt, 20% dirt road"
+          "value":"55% Asphalt, 45% Dirt"
         },
         {
           "icon":"flag",
           "label":"Suitable for",
-          "value":"Prototype testing, Vehicle testing, Rally driving, Race track, Hillclimb"
+          "value":"Rock Crawling, Exploration, Cruising, Delivery"
         },
         {
           "icon":"info",
           "label":"Features",
-          "value":"Test track, hillclimb, rally stage, handling circuit"
+          "value":"Canyons, Cliffs, Highway, Large tunnel, Abandoned industrial, Broken bridge"
         },
         {
           "icon":"flag",
           "label":"Country",
-          "value":"New Zealand"
+          "value":"United States"
         }
       ]
     ],
@@ -50,44 +50,34 @@
       {
         "icon":"beamNG",
         "label":"BeamNG - Official"
-      },
-      {
-        "label":"Camshaft Software",
-        "svg":"/ui/assets/Original/camshaft_automation_logo.svg"
       }
     ],
     "validationFiles":[
-      "/levels/automation_test_track/automation_test_track_preview1.jpg",
-      "/levels/automation_test_track/automation_test_track_preview2.jpg",
-      "/levels/automation_test_track/automation_test_track_preview3.jpg",
-      "/levels/automation_test_track/main/"
+      "/levels/Utah/spawn_auto_repair_zone_preview.jpg",
+      "/levels/Utah/utah_preview4.jpg",
+      "/levels/Utah/utah_preview3.jpg",
+      "/levels/Utah/utah_preview2.jpg",
+      "/levels/Utah/utah_preview1.jpg",
+      "/levels/Utah/main/"
     ]
   },
   "vehicle":{
-    "additionalData":{
-      "paint":"Palladium Gray",
-      "paint2":"Palladium Gray",
-      "paint3":"Palladium Gray"
-    },
-    "config":"jcwn_charger",
+    "additionalData":{},
+    "config":"DragRacer",
     "model":"bastion"
   },
   "vehicleTile":{
-    "additionalData":{
-      "paint":"Palladium Gray",
-      "paint2":"Palladium Gray",
-      "paint3":"Palladium Gray"
-    },
+    "additionalData":{},
     "brand":"Bruckell",
     "buttonInfo":[
       {
-        "buttonId":46,
+        "buttonId":52,
         "canClearFilters":true,
         "icon":"carPlus",
         "label":"Spawn New"
       },
       {
-        "buttonId":47,
+        "buttonId":53,
         "canClearFilters":true,
         "icon":"carsChange",
         "isDoubleClickAction":true,
@@ -96,8 +86,8 @@
       }
     ],
     "configDetails":{
-      "Configuration":"jcwn_charger",
-      "Name":"Bastion jcwn_charger",
+      "Configuration":"DragRacer",
+      "Name":"Bastion DragRacer",
       "Source":"Custom",
       "aggregates":{
         "Body Style":{
@@ -149,13 +139,13 @@
       "defaultPaintName2":"Palladium Gray",
       "defaultPaintName3":"Palladium Gray",
       "is_default_config":false,
-      "key":"jcwn_charger",
+      "key":"DragRacer",
       "model_key":"bastion",
       "paints":{},
-      "pcFilename":"/vehicles/bastion/jcwn_charger.pc",
-      "preview":"/vehicles/bastion/jcwn_charger.jpg"
+      "pcFilename":"/vehicles/bastion/DragRacer.pc",
+      "preview":"/vehicles/bastion/DragRacer.jpg"
     },
-    "configKey":"jcwn_charger",
+    "configKey":"DragRacer",
     "generalSpecs":[
       {
         "isFromConfig":false,
@@ -168,8 +158,9 @@
         "value":"United States"
       }
     ],
-    "headerTitle":"Bruckell Bastion jcwn_charger",
+    "headerTitle":"Bruckell Bastion DragRacer",
     "iconTags":{},
+    "isFavourite":1770599502,
     "isStandalonePC":true,
     "modelKey":"bastion",
     "paints":{
@@ -235,6 +226,21 @@
         },
         {
           "baseColor":[
+            0.23,
+            0.23,
+            0.23,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"charcoal",
+          "metallic":0,
+          "name":"Charcoal",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
             0.306,
             0.034,
             0.114,
@@ -261,6 +267,21 @@
           "metallic":0.8,
           "name":"Extra Purple",
           "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.08,
+            0.18,
+            0.105,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"forest_green",
+          "metallic":0,
+          "name":"Forest Green",
+          "roughness":0.07
         },
         {
           "baseColor":[
@@ -379,6 +400,21 @@
         },
         {
           "baseColor":[
+            0.83,
+            0.83,
+            0.83,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"pearl_white",
+          "metallic":0.4,
+          "name":"Pearl White",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
             0.08,
             0.18,
             0.105,
@@ -463,6 +499,21 @@
           "metallic":0.8,
           "name":"Silica White",
           "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.81,
+            0.6,
+            0.1,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"solar_yellow",
+          "metallic":0.1,
+          "name":"Solar Yellow",
+          "roughness":0.07
         },
         {
           "baseColor":[
@@ -674,19 +725,19 @@
         {
           "isDefault":true,
           "isDefaultForConfigByKey":{
-            "jcwn_charger":true
+            "DragRacer":true
           },
-          "name":"Bastion jcwn_charger default paints",
+          "name":"Bastion DragRacer default paints",
           "paintName1":"Palladium Gray",
           "paintName2":"Palladium Gray",
           "paintName3":"Palladium Gray",
           "usedByConfigByKey":{
-            "jcwn_charger":true
+            "DragRacer":true
           }
         }
       ]
     },
-    "preview":"/vehicles/bastion/jcwn_charger.jpg",
+    "preview":"/vehicles/bastion/DragRacer.jpg",
     "specificationsList":[
       {
         "label":"Other",
@@ -711,8 +762,8 @@
       }
     ],
     "validationFiles":[
-      "/vehicles/bastion/jcwn_charger.pc",
-      "/vehicles/bastion/jcwn_charger.jpg"
+      "/vehicles/bastion/DragRacer.pc",
+      "/vehicles/bastion/DragRacer.jpg"
     ]
   },
   "version":1

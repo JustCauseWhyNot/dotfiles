@@ -48,7 +48,31 @@
   "disableModsAfterUpdate":false,
   "edcSettings":{
     "chosenPreset":"Default",
-    "presets":{}
+    "presets":{
+      "Intense Default":{
+        "driftShakeAmp":5,
+        "driftShakeDetail":3,
+        "driftShakeFreq":1.8,
+        "fovAddDegrees":15,
+        "fovMaxSpeed":87,
+        "fovMinSpeed":45,
+        "fovSmoothRate":90,
+        "gForceAccel":1.5,
+        "gForceDecel":1.5,
+        "gForceYThreshold":0,
+        "gForceZ":1.75,
+        "gForceZThreshold":0,
+        "lockPitchToHorizon":0,
+        "lockRollToHorizon":0,
+        "pitchSmoothing":0.75,
+        "rollSmoothing":0.75,
+        "speedShakeAmp":6.3,
+        "speedShakeDetail":3,
+        "speedShakeFreq":0.4,
+        "speedShakeMaxSpeed":60.79733922233,
+        "speedShakeMinSpeed":15.199334805583
+      }
+    }
   },
   "enableBlobs":true,
   "enableNewChatMenu":false,

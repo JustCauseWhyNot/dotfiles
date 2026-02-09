@@ -57,12 +57,20 @@ setopt NUMERIC_GLOB_SORT
 # ========
 HISTFILE=${XDG_DATA_HOME:=~/.local/share}/zsh/history
 [[ -d $HISTFILE:h ]] || mkdir -p $HISTFILE:h
-SAVEHIST=$(( 100 * 1000 ))
+SAVEHIST=$(( 10 * 1000 * 1000))
 HISTSIZE=$(( 1.2 * SAVEHIST ))
 setopt HIST_FCNTL_LOCK
 setopt HIST_IGNORE_ALL_DUPS
 setopt SHARE_HISTORY
 setopt EXTENDED_HISTORY
+setopt HIST_IGNORE_SPACE
+setopt HIST_REDUCE_BLANKS
+
+if [[ -f $HISTFILE ]]; then
+	backup_file="${HISTFILE}.backup.$(date +%Y%m%d)"
+	[[ ! -f $backup_file ]] && cp -a $HISTFILE $backup_file
+	find ${HISTFILE:h} -name "history.backup.*" -mtime +30 -delete 2>/dev/null
+fi
 
 # Aliases.
 # ========
@@ -215,3 +223,7 @@ source $ZDOTDIR/.p10k.zsh
 # fzf
 # ===
 source /usr/share/fzf/key-bindings.zsh
+
+# atuin
+# =====
+eval "$(atuin init zsh)"

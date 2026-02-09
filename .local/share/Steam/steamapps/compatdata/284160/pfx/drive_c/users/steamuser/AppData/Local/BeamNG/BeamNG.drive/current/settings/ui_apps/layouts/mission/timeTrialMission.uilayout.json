@@ -44,10 +44,10 @@
       "placement":{
         "bottom":"",
         "height":"250px",
-        "left":"0px",
+        "left":"25px",
         "position":"absolute",
         "right":"",
-        "top":"50px",
+        "top":"25px",
         "width":"430px"
       }
     },
@@ -69,39 +69,39 @@
     {
       "appName":"gforcesDebug",
       "placement":{
-        "bottom":"190px",
-        "height":"130px",
+        "bottom":"185px",
+        "height":"200px",
         "left":"",
         "position":"absolute",
-        "right":"310px",
+        "right":"315px",
         "top":"",
-        "width":"130px"
+        "width":"200px"
       }
     },
     {
       "appName":"simplePedals",
       "appVersion":2,
       "placement":{
-        "bottom":"10px",
-        "height":"110px",
-        "left":"305px",
+        "bottom":"15px",
+        "height":"165px",
+        "left":"310px",
         "position":"absolute",
         "right":"",
         "top":"",
-        "width":"160px"
+        "width":"240px"
       }
     },
     {
       "appName":"simpleSteering",
       "appVersion":2,
       "placement":{
-        "bottom":"120px",
-        "height":"100px",
-        "left":"305px",
+        "bottom":"190px",
+        "height":"143.75px",
+        "left":"315px",
         "position":"absolute",
         "right":"",
         "top":"",
-        "width":"160px"
+        "width":"230px"
       }
     },
     {
@@ -110,7 +110,7 @@
       "placement":{
         "bottom":"",
         "height":"80px",
-        "left":"495px",
+        "left":"510px",
         "position":"absolute",
         "right":"",
         "top":"45px",
@@ -141,52 +141,84 @@
       }
     },
     {
-      "appName":"inputHints",
-      "appVersion":8,
-      "placement":{
-        "bottom":"",
-        "height":"600px",
-        "left":"",
-        "position":"absolute",
-        "right":"0px",
-        "top":"0px",
-        "width":"450px"
-      }
-    },
-    {
       "appName":"messagesTasksApps",
       "appVersion":2,
       "placement":{
         "bottom":0,
-        "height":"600px",
-        "left":"390px",
+        "height":"290px",
+        "left":"",
         "margin":"auto",
         "position":"absolute",
-        "right":"",
+        "right":"0px",
         "top":0,
-        "width":"380px"
-      },
-      "settings":{
-        "noCockpit":true
+        "width":"260px"
       }
     },
     {
       "appName":"improvedVehicleDamageApp",
       "placement":{
-        "bottom":0,
+        "bottom":"",
         "height":"660px",
-        "left":"25px",
-        "margin":"auto",
+        "left":"5px",
         "position":"absolute",
         "right":"",
-        "top":0,
+        "top":"300px",
         "width":"371.375px"
+      }
+    },
+    {
+      "appName":"powertrainApp",
+      "placement":{
+        "bottom":"",
+        "height":"420px",
+        "left":"",
+        "position":"absolute",
+        "right":"5px",
+        "top":"0px",
+        "width":"420px"
+      }
+    },
+    {
+      "appName":"advancedWheelsDebug",
+      "placement":{
+        "bottom":"0px",
+        "height":"170px",
+        "left":"",
+        "position":"absolute",
+        "right":"500px",
+        "top":"",
+        "width":"400px"
+      }
+    },
+    {
+      "appName":"simpleEngineDebug",
+      "placement":{
+        "bottom":"",
+        "height":"268px",
+        "left":"",
+        "position":"absolute",
+        "right":"420px",
+        "top":"0px",
+        "width":"270px"
+      }
+    },
+    {
+      "appName":"forceFeedback",
+      "placement":{
+        "bottom":"25px",
+        "height":"50px",
+        "left":"575px",
+        "position":"absolute",
+        "right":"",
+        "top":"",
+        "width":"270px"
       }
     }
   ],
   "description":"Layout used for Time Trial Missions",
   "removedApps":{
-    "damageApp":3
+    "damageApp":3,
+    "inputHints":8
   },
   "title":"Time Trial Mission",
   "type":"timeTrialMission",

@@ -6,7 +6,7 @@
           "fieldNameFilter":null,
           "locked":false,
           "previousSelectedIds":[
-            7836
+            36940
           ]
         }
       ],
@@ -16,10 +16,10 @@
       "instances":[
         {
           "focused":false,
-          "lastSelectedIndex":16,
-          "listIndex":159,
+          "lastSelectedIndex":15,
+          "listIndex":16,
           "locked":true,
-          "rootNodeSizeCache":158,
+          "rootNodeSizeCache":15,
           "scrollToSelection":false,
           "windowName":"scenetree1"
         }
@@ -37,7 +37,9 @@
         "y":600
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "AI Path/Plan Tests":{
       "backupVisible":false,
@@ -48,7 +50,9 @@
       },
       "isVisible":false,
       "title":"AI Path/Plan Tests",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "AIEditor":{
       "backupVisible":false,
@@ -58,7 +62,9 @@
         "y":200
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Advanced##window":{
       "backupVisible":false,
@@ -69,7 +75,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Advanced##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Barriers Selector":{
       "backupVisible":false,
@@ -80,7 +88,9 @@
       },
       "isVisible":false,
       "title":"Barriers Selector",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Beam visualization modes":{
       "backupVisible":false,
@@ -90,7 +100,9 @@
         "y":200
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Brush Stroke Properties##window":{
       "backupVisible":false,
@@ -101,7 +113,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Brush Stroke Properties##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Camera##window":{
       "backupVisible":false,
@@ -112,7 +126,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Camera##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "CameraProfiler":{
       "backupVisible":false,
@@ -128,7 +144,9 @@
       },
       "isVisible":false,
       "title":"CameraProfiler",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Color History##window":{
       "backupVisible":false,
@@ -139,7 +157,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Color History##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Color Presets##window":{
       "backupVisible":false,
@@ -150,7 +170,22 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Color Presets##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "Crawl Data Editor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":1800,
+        "y":900
+      },
+      "isVisible":false,
+      "title":"Crawl Data Editor",
+      "visible":{
+        "0":false
+      }
     },
     "Data Inspector":{
       "backupVisible":false,
@@ -165,7 +200,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Debug Textures##window":{
       "backupVisible":false,
@@ -176,7 +213,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Debug Textures##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Debug##window":{
       "backupVisible":false,
@@ -187,7 +226,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Debug##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Decal Properties##window":{
       "backupVisible":false,
@@ -198,7 +239,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Decal Properties##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Drag Data Editor":{
       "backupVisible":false,
@@ -209,7 +252,22 @@
       },
       "isVisible":false,
       "title":"Drag Data Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "Drag Race Editor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":1800,
+        "y":900
+      },
+      "isVisible":false,
+      "title":"Drag Race Editor",
+      "visible":{
+        "0":false
+      }
     },
     "Drift editors":{
       "backupVisible":false,
@@ -220,7 +278,9 @@
       },
       "isVisible":false,
       "title":"Drift editors",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Dynamic Decals - SDF Introduction":{
       "backupVisible":false,
@@ -230,7 +290,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Dynamic Decals Tool - Add Fill Layer Window":{
       "backupVisible":false,
@@ -241,7 +303,9 @@
         "y":140
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Dynamic Decals Tool - Add Texture Fill Layer Window":{
       "backupVisible":false,
@@ -252,7 +316,9 @@
         "y":310
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Dynamic Decals Tool - Notifications":{
       "backupVisible":false,
@@ -263,7 +329,9 @@
         "y":650
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Engine Audio Debug":{
       "backupVisible":false,
@@ -274,7 +342,9 @@
       },
       "isVisible":false,
       "title":"Engine Audio Debug",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Environmental":{
       "backupVisible":false,
@@ -284,7 +354,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Export##window":{
       "backupVisible":false,
@@ -295,7 +367,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Export##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Fonts##window":{
       "backupVisible":false,
@@ -306,7 +380,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Fonts##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Forest Editor - Paralax Mapping TextureSet Editor":{
       "backupVisible":true,
@@ -316,7 +392,9 @@
         "y":480
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "ForestEditor":{
       "backupVisible":false,
@@ -326,7 +404,9 @@
         "y":320
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "General Data":{
       "backupVisible":false,
@@ -336,7 +416,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "GroupsListWindow":{
       "backupVisible":false,
@@ -346,7 +428,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "History##window":{
       "backupVisible":false,
@@ -357,7 +441,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - History##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "ImportOptionsWindow":{
       "backupVisible":false,
@@ -367,7 +453,9 @@
         "y":200
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Jbeam Inspector":{
       "backupVisible":false,
@@ -383,7 +471,9 @@
       },
       "focused":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Load/Save##window":{
       "backupVisible":false,
@@ -394,7 +484,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Load/Save##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Mission Playbook":{
       "backupVisible":false,
@@ -405,13 +497,17 @@
       },
       "isVisible":false,
       "title":"Mission Playbook",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "NoForestObjDialog":{
       "backupVisible":false,
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Node visualization modes":{
       "backupVisible":false,
@@ -421,7 +517,9 @@
         "y":200
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "NodeEditWindow":{
       "backupVisible":false,
@@ -431,7 +529,9 @@
         "y":310
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Path Properties##window":{
       "backupVisible":false,
@@ -442,7 +542,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Path Properties##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Playbook Attribute Viewer":{
       "backupVisible":false,
@@ -452,7 +554,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Playbook Mission Tree Viewer":{
       "backupVisible":false,
@@ -462,7 +566,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Playbook Unlocked Missions Viewer":{
       "backupVisible":false,
@@ -472,7 +578,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "ProfileEditWindow":{
       "backupVisible":false,
@@ -482,7 +590,9 @@
         "y":490
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "ProfilesListWindow":{
       "backupVisible":false,
@@ -492,7 +602,9 @@
         "y":370
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Render test":{
       "backupVisible":false,
@@ -503,7 +615,9 @@
       },
       "isVisible":false,
       "title":"Render test",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Settings##window":{
       "backupVisible":false,
@@ -514,7 +628,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Settings##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Signals Test":{
       "backupVisible":false,
@@ -524,7 +640,21 @@
         "y":460
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "Slot Traffic Editor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "Suspension Audio Debug":{
       "backupVisible":false,
@@ -535,7 +665,9 @@
       },
       "isVisible":false,
       "title":"Suspension Audio Debug",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "TCS Debug":{
       "backupVisible":false,
@@ -545,7 +677,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Traffic Debug":{
       "backupVisible":false,
@@ -556,7 +690,22 @@
       },
       "isVisible":false,
       "title":"Traffic Debug",
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "Vehicle AI Path/Plan Debug":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":520,
+        "y":420
+      },
+      "isVisible":false,
+      "title":"Vehicle AI Path/Plan Debug",
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Bridge Test":{
       "backupVisible":false,
@@ -567,7 +716,9 @@
       },
       "isVisible":false,
       "title":"Vehicle Bridge Test",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Color Palette##window":{
       "backupVisible":false,
@@ -578,7 +729,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool - Vehicle Color Palette##window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Inspector":{
       "backupVisible":false,
@@ -594,7 +747,9 @@
       },
       "focused":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Livery Creator - News":{
       "backupVisible":false,
@@ -604,7 +759,9 @@
         "y":640
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Livery Editor - Documentation":{
       "backupVisible":false,
@@ -614,7 +771,9 @@
         "y":640
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "Vehicle Manager":{
       "backupVisible":false,
@@ -625,12 +784,16 @@
       },
       "isVisible":false,
       "title":"Vehicle Manager",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "ab_imageInspector":{
       "backupVisible":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "aboutDlg":{
       "backupVisible":false,
@@ -638,7 +801,9 @@
       "isVisible":false,
       "modal":true,
       "title":"About Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "activityManager":{
       "backupVisible":false,
@@ -648,7 +813,9 @@
         "y":700
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "activity_manager":{
       "backupVisible":false,
@@ -658,7 +825,21 @@
         "y":700
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "assemblySpline":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":300,
+        "y":700
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "assetBrowser":{
       "backupVisible":false,
@@ -669,12 +850,224 @@
       },
       "isVisible":false,
       "title":"Asset Browser",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "assetBrowserImageInspector":{
       "backupVisible":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "assetDeduplicator":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":500,
+        "y":300
+      },
+      "isVisible":false,
+      "title":"Asset Deduplicator",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagementTool":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":1200,
+        "y":900
+      },
+      "isVisible":false,
+      "title":"Asset Management Tool",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_checkForInvalidFilenamesDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Check for invalid filenames",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_checkForInvalidLinksDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Check for invalid links",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_clearDuplicateListDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Clear Duplicates List",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_deleteInvalidLinksDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Delete Invalid Link Files",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_delinkerDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Delink Level Link Files",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_migrationDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Migration",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_migrationNewPathNotSetMsgDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Migration",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_migrationSavedListDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Saved List",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_migrationSearchAllDuplicatesDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Find All Global Duplicates",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_migrationSearchDuplicatesDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Find Duplicates",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_relinkerDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Relink Level Link Files",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_removeSelectedDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":400,
+        "y":100
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Remove Selected",
+      "visible":{
+        "0":false
+      }
+    },
+    "assetManagement_tryFixingInvalidLinksDlg":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":200
+      },
+      "isVisible":false,
+      "modal":true,
+      "title":"Asset Management - Try fixing invalid links",
+      "visible":{
+        "0":false
+      }
     },
     "assetMigrationDeleteSelection":{
       "backupVisible":false,
@@ -686,7 +1079,9 @@
       "isVisible":false,
       "modal":true,
       "title":"Delete Selection",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "assetMigrationNewPathNotSetMsgDlg":{
       "backupVisible":false,
@@ -698,7 +1093,9 @@
       "isVisible":false,
       "modal":true,
       "title":"New Path Not Set",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "assetMigrationTool":{
       "backupVisible":false,
@@ -709,7 +1106,9 @@
       },
       "isVisible":false,
       "title":"Asset Migration Tool",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "assetNamingScannerTool":{
       "backupVisible":false,
@@ -720,7 +1119,9 @@
       },
       "isVisible":false,
       "title":"Asset Naming Scanner",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "asset_browser":{
       "backupVisible":false,
@@ -730,7 +1131,21 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "audioRibbonEditor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":500,
+        "y":500
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "autoPaintModal":{
       "backupVisible":false,
@@ -741,7 +1156,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "biomeTool":{
       "backupVisible":false,
@@ -751,7 +1168,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "bulkChangeTexturesModal":{
       "backupVisible":false,
@@ -762,7 +1181,22 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "bulkRename":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":600,
+        "y":600
+      },
+      "isVisible":false,
+      "title":"Bulk Rename",
+      "visible":{
+        "0":false
+      }
     },
     "cameraBookmarks":{
       "backupVisible":false,
@@ -773,7 +1207,9 @@
       },
       "isVisible":false,
       "title":"Camera Bookmarks",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "cameraPathPreviewWindow":{
       "backupVisible":false,
@@ -783,7 +1219,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "cameraTransform":{
       "backupVisible":false,
@@ -794,7 +1232,9 @@
       },
       "isVisible":false,
       "title":"Camera Transform",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "camera_bookmarks":{
       "backupVisible":false,
@@ -804,7 +1244,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "createDataBlock":{
       "backupVisible":false,
@@ -814,7 +1256,9 @@
         "y":200
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "customPaint":{
       "backupVisible":false,
@@ -826,7 +1270,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "dataBlockEditor":{
       "backupVisible":false,
@@ -836,7 +1282,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "datablock_editor":{
       "backupVisible":false,
@@ -846,7 +1294,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "decalEditor":{
       "backupVisible":false,
@@ -856,7 +1306,21 @@
         "y":600
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "decalSpline":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":300,
+        "y":700
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "deleteLayoutWindow":{
       "backupVisible":false,
@@ -867,7 +1331,34 @@
       },
       "isVisible":false,
       "title":"Delete Layout",
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "driftDataEditor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":1500,
+        "y":700
+      },
+      "isVisible":false,
+      "title":"driftDataEditor",
+      "visible":{
+        "0":false
+      }
+    },
+    "drivePathEditor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":300,
+        "y":700
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "dynamicDecalTool_DynDecalBrowserWindow":{
       "backupVisible":false,
@@ -877,7 +1368,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "dynamicDecalsTool_MainWindow":{
       "backupVisible":false,
@@ -888,7 +1381,9 @@
       },
       "isVisible":false,
       "title":"Dynamic Decals Tool",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "dynamicDecalsTool_OpenMainWindowPopup":{
       "backupVisible":false,
@@ -901,7 +1396,9 @@
       "isVisible":false,
       "modal":false,
       "title":"Open now?",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_dynamicDecals_fonts_fontPreviewWindow":{
       "backupVisible":false,
@@ -911,7 +1408,9 @@
         "y":550
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_dynamicDecals_layerTypes_decal_fontCharacterSelectionWindow":{
       "backupVisible":false,
@@ -921,7 +1420,9 @@
         "y":550
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_material_editor":{
       "backupVisible":false,
@@ -931,7 +1432,9 @@
         "y":580
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_material_editor_create_cubemap_win":{
       "backupVisible":false,
@@ -941,7 +1444,9 @@
         "y":380
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_material_editor_create_material_win":{
       "backupVisible":false,
@@ -951,7 +1456,9 @@
         "y":150
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "editor_material_editor_material_preview":{
       "backupVisible":false,
@@ -961,7 +1468,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "environmental":{
       "backupVisible":false,
@@ -971,13 +1480,17 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "extensionsDebug":{
       "backupVisible":false,
       "isVisible":false,
       "title":"Extensions Debug Window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "extensionsEditor":{
       "backupVisible":false,
@@ -988,7 +1501,9 @@
       },
       "isVisible":false,
       "title":"Extensions Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_curve":{
       "backupVisible":false,
@@ -998,7 +1513,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_events":{
       "backupVisible":true,
@@ -1008,7 +1525,9 @@
         "y":300
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_examples":{
       "backupVisible":true,
@@ -1018,7 +1537,9 @@
         "y":300
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_execution":{
       "backupVisible":true,
@@ -1029,7 +1550,9 @@
       },
       "focused":false,
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_garbage":{
       "backupVisible":false,
@@ -1039,7 +1562,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_history":{
       "backupVisible":false,
@@ -1049,7 +1574,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_main":{
       "backupVisible":false,
@@ -1060,7 +1587,9 @@
       },
       "focused":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_nodelib":{
       "backupVisible":false,
@@ -1071,7 +1600,9 @@
       },
       "focused":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_properties":{
       "backupVisible":true,
@@ -1081,7 +1612,9 @@
         "y":300
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_references":{
       "backupVisible":false,
@@ -1091,7 +1624,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_search":{
       "backupVisible":true,
@@ -1101,7 +1636,9 @@
         "y":300
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_stateView":{
       "backupVisible":false,
@@ -1111,7 +1648,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_timeline":{
       "backupVisible":false,
@@ -1121,7 +1660,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_tool":{
       "backupVisible":false,
@@ -1131,7 +1672,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_treeview":{
       "backupVisible":true,
@@ -1141,7 +1684,9 @@
         "y":300
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "fg_variables":{
       "backupVisible":false,
@@ -1151,7 +1696,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fg_welcome":{
       "backupVisible":false,
@@ -1162,7 +1709,9 @@
       },
       "focused":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "fileDialog":{
       "backupVisible":false,
@@ -1172,7 +1721,9 @@
         "y":430
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "forestEditor":{
       "backupVisible":false,
@@ -1182,7 +1733,9 @@
         "y":320
       },
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "forestEditorView":{
       "backupVisible":false,
@@ -1193,7 +1746,9 @@
       },
       "isVisible":false,
       "title":"Forest View",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "generatorTester":{
       "backupVisible":false,
@@ -1205,7 +1760,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "iconOverview":{
       "backupVisible":false,
@@ -1216,7 +1773,9 @@
       },
       "isVisible":false,
       "title":"Icons",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "inspector1":{
       "backupVisible":true,
@@ -1228,7 +1787,9 @@
       "focused":false,
       "isVisible":true,
       "title":"Inspector##1",
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "levelLogTool":{
       "backupVisible":false,
@@ -1238,7 +1799,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "levelValidator":{
       "backupVisible":false,
@@ -1249,14 +1812,30 @@
       },
       "isVisible":false,
       "title":"Level Validator",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "mainToolbar":{
       "backupVisible":true,
       "focused":false,
       "isVisible":true,
       "title":"Main Toolbar",
-      "visible":null
+      "visible":{
+        "0":true
+      }
+    },
+    "masterSpline":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":200,
+        "y":400
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "materialEditor":{
       "backupVisible":false,
@@ -1267,7 +1846,9 @@
       },
       "isVisible":false,
       "title":"Material Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "materialEditorCreateCubemap":{
       "backupVisible":false,
@@ -1277,7 +1858,9 @@
         "y":380
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "materialEditorCreateMaterial":{
       "backupVisible":false,
@@ -1287,7 +1870,9 @@
         "y":150
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "materialEditorMaterialPreview":{
       "backupVisible":false,
@@ -1298,7 +1883,22 @@
       },
       "isVisible":false,
       "title":"Material Preview##Window",
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "materialEditorMaterialUsage":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":420,
+        "y":340
+      },
+      "isVisible":false,
+      "title":"Material Usage",
+      "visible":{
+        "0":false
+      }
     },
     "materialEditorMaterialsByTag":{
       "backupVisible":false,
@@ -1308,7 +1908,9 @@
         "y":320
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "materialIcons":{
       "backupVisible":false,
@@ -1318,7 +1920,9 @@
         "y":600
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "materialSelect":{
       "backupVisible":false,
@@ -1328,7 +1932,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "meshSelect":{
       "backupVisible":false,
@@ -1338,7 +1944,21 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "meshSpline":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":300,
+        "y":700
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "migrationDlg":{
       "backupVisible":false,
@@ -1350,7 +1970,9 @@
       "isVisible":false,
       "modal":true,
       "title":"Asset Migration",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "mission_editor":{
       "backupVisible":false,
@@ -1361,7 +1983,9 @@
       },
       "isVisible":false,
       "title":"Mission Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "mission_issues":{
       "backupVisible":false,
@@ -1371,7 +1995,9 @@
         "y":700
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "multiVehicleSpawner":{
       "backupVisible":false,
@@ -1381,7 +2007,9 @@
         "y":520
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "multi_vehicle_spawner":{
       "backupVisible":false,
@@ -1391,7 +2019,9 @@
         "y":520
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "navMeshEditor":{
       "backupVisible":false,
@@ -1402,26 +2032,34 @@
       },
       "isVisible":false,
       "title":"Navigation Meshes",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "newsModalDlg":{
       "backupVisible":false,
       "centered":true,
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "noForestBrushGroupMsgDlg":{
       "backupVisible":false,
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "noForestMsgDlg":{
       "backupVisible":false,
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "objectToSplineEditor":{
       "backupVisible":false,
@@ -1432,7 +2070,9 @@
       },
       "isVisible":false,
       "title":"Object To Spline Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "overwriteGroup":{
       "backupVisible":false,
@@ -1444,7 +2084,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "pathCameraTool":{
       "backupVisible":false,
@@ -1454,7 +2096,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "path_camera_tool":{
       "backupVisible":false,
@@ -1464,7 +2108,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "physicsReloader":{
       "backupVisible":false,
@@ -1475,7 +2121,9 @@
       },
       "isVisible":false,
       "title":"Physics Reloader",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "poiEditor":{
       "backupVisible":false,
@@ -1485,7 +2133,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "preferences":{
       "backupVisible":false,
@@ -1496,7 +2146,9 @@
       },
       "isVisible":false,
       "title":"Preferences",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "projectSettings":{
       "backupVisible":true,
@@ -1507,7 +2159,9 @@
       },
       "focused":false,
       "isVisible":true,
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "raceEditorTool":{
       "backupVisible":false,
@@ -1518,7 +2172,9 @@
       },
       "isVisible":false,
       "title":"Race Tool",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "race_editor_tool":{
       "backupVisible":false,
@@ -1528,7 +2184,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "rallyEditor":{
       "backupVisible":false,
@@ -1539,7 +2197,9 @@
       },
       "isVisible":false,
       "title":"Rally Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "raycastTest":{
       "backupVisible":false,
@@ -1550,12 +2210,16 @@
       },
       "isVisible":false,
       "title":"Raycast Test",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "recentDirsWindow":{
       "backupVisible":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "rendererComponents":{
       "backupVisible":false,
@@ -1566,7 +2230,9 @@
       },
       "isVisible":false,
       "title":"Renderer Components",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "resetLayoutsWindow":{
       "backupVisible":false,
@@ -1577,7 +2243,9 @@
       },
       "isVisible":false,
       "title":"Reset Layouts",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "resourceChecker":{
       "backupVisible":false,
@@ -1588,7 +2256,9 @@
       },
       "isVisible":false,
       "title":"Resources Checker",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "resourceChecker_duplicatePrev":{
       "backupVisible":false,
@@ -1599,7 +2269,9 @@
       },
       "isVisible":false,
       "title":"Duplicate data",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "resourceChecker_imagePrev":{
       "backupVisible":false,
@@ -1610,7 +2282,9 @@
       },
       "isVisible":false,
       "title":"Image Preview",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "revertLevelWindow":{
       "backupVisible":false,
@@ -1621,7 +2295,9 @@
       },
       "isVisible":false,
       "title":"Revert Level to Original",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "roadArchitect":{
       "backupVisible":false,
@@ -1631,7 +2307,9 @@
         "y":300
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "roadNotSelectableErrorWindowName":{
       "backupVisible":false,
@@ -1642,7 +2320,21 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
+    },
+    "roadSplineEditor":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":200,
+        "y":400
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "roadTemplateEditor":{
       "backupVisible":false,
@@ -1652,7 +2344,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "roadTemplate_editor":{
       "backupVisible":false,
@@ -1662,7 +2356,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "safeModeDlg":{
       "backupVisible":false,
@@ -1670,7 +2366,9 @@
       "isVisible":false,
       "modal":true,
       "title":"Safe Mode",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "saveDirtyTools":{
       "backupVisible":false,
@@ -1683,7 +2381,9 @@
       "isVisible":false,
       "modal":true,
       "title":"Save Tool Windows Data",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "saveLayoutWindow":{
       "backupVisible":false,
@@ -1694,7 +2394,9 @@
       },
       "isVisible":false,
       "title":"Save Layout",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scenetree1":{
       "backupVisible":true,
@@ -1705,7 +2407,9 @@
       },
       "isVisible":true,
       "title":"SceneTree##1",
-      "visible":null
+      "visible":{
+        "0":true
+      }
     },
     "scriptAIEditor":{
       "backupVisible":false,
@@ -1715,7 +2419,9 @@
         "y":65
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_CamWin":{
       "backupVisible":false,
@@ -1725,7 +2431,9 @@
         "y":182
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_DrawWin":{
       "backupVisible":false,
@@ -1735,7 +2443,9 @@
         "y":365
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_TrajListWin":{
       "backupVisible":false,
@@ -1745,7 +2455,9 @@
         "y":288
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_TrajWin1":{
       "backupVisible":false,
@@ -1755,7 +2467,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_TrajWin2":{
       "backupVisible":false,
@@ -1765,7 +2479,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_TrajWin3":{
       "backupVisible":false,
@@ -1775,7 +2491,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIEditor_VehWin":{
       "backupVisible":false,
@@ -1785,7 +2503,9 @@
         "y":250
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "scriptAIManager":{
       "backupVisible":false,
@@ -1796,7 +2516,9 @@
       },
       "isVisible":false,
       "title":"Script AI Manager",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "sfxPreviewer":{
       "backupVisible":false,
@@ -1807,7 +2529,9 @@
       },
       "isVisible":false,
       "title":"SFX Previewer",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "shapeEditor":{
       "backupVisible":false,
@@ -1818,7 +2542,9 @@
       },
       "isVisible":false,
       "title":"Shape Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "shape_editor":{
       "backupVisible":false,
@@ -1828,14 +2554,30 @@
         "y":600
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "shortcutLegend":{
       "backupVisible":true,
       "focused":false,
       "isVisible":true,
       "title":"Shortcut Legend",
-      "visible":null
+      "visible":{
+        "0":true
+      }
+    },
+    "sidewalkSpline":{
+      "backupVisible":false,
+      "defaultSize":null,
+      "defaultWindowSize":{
+        "x":300,
+        "y":700
+      },
+      "isVisible":false,
+      "visible":{
+        "0":false
+      }
     },
     "signalsEditMode":{
       "backupVisible":false,
@@ -1846,7 +2588,9 @@
       },
       "isVisible":false,
       "title":"Traffic Signals Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "sitesEditorTool":{
       "backupVisible":false,
@@ -1857,7 +2601,9 @@
       },
       "isVisible":false,
       "title":"Sites: Locations and Zones Editor",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "sites_editor_tool":{
       "backupVisible":false,
@@ -1867,12 +2613,16 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "smartSearchItems":{
       "backupVisible":false,
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "speakerMode":{
       "backupVisible":false,
@@ -1882,7 +2632,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "te_brushSoftnessCurveDialog":{
       "backupVisible":false,
@@ -1892,7 +2644,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "te_exportTerrainDialog":{
       "backupVisible":false,
@@ -1902,7 +2656,9 @@
         "y":270
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "te_importTerrainDialog":{
       "backupVisible":false,
@@ -1912,7 +2668,9 @@
         "y":480
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "te_materialEditor":{
       "backupVisible":false,
@@ -1922,7 +2680,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "te_terrainPainter":{
       "backupVisible":false,
@@ -1932,7 +2692,9 @@
         "y":550
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "terrainBrushSoftnessCurveDialog":{
       "backupVisible":false,
@@ -1942,7 +2704,9 @@
         "y":400
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "terrainExportDialog":{
       "backupVisible":false,
@@ -1953,7 +2717,9 @@
       },
       "isVisible":false,
       "title":"Export Terrain##Dialog",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "terrainImportDialog":{
       "backupVisible":false,
@@ -1963,7 +2729,9 @@
         "y":480
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "terrainMaterialEditor":{
       "backupVisible":false,
@@ -1974,7 +2742,9 @@
       },
       "isVisible":false,
       "title":"Terrain Material Library",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "terrainPainter":{
       "backupVisible":false,
@@ -1984,7 +2754,9 @@
         "y":550
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "trafficEditMode":{
       "backupVisible":false,
@@ -1994,7 +2766,9 @@
         "y":80
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "trafficManager_lights":{
       "backupVisible":false,
@@ -2009,7 +2783,9 @@
         "y":560
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "trafficManager_options":{
       "backupVisible":false,
@@ -2024,7 +2800,9 @@
         "y":240
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "trafficManager_signs":{
       "backupVisible":false,
@@ -2039,7 +2817,9 @@
         "y":560
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "trafficManager_vehicles":{
       "backupVisible":false,
@@ -2054,7 +2834,9 @@
         "y":560
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "undoHistory":{
       "backupVisible":false,
@@ -2065,7 +2847,9 @@
       },
       "isVisible":false,
       "title":"Undo History",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "undo_history":{
       "backupVisible":false,
@@ -2075,7 +2859,9 @@
         "y":500
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "upgradeTerrainMaterialsFileFormatModal":{
       "backupVisible":false,
@@ -2086,7 +2872,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "upgradeTerrainMaterialsModal":{
       "backupVisible":false,
@@ -2097,7 +2885,9 @@
       },
       "isVisible":false,
       "modal":true,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "vehicleEditor":{
       "backupVisible":false,
@@ -2107,7 +2897,9 @@
         "y":600
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "vehicleGroupManager":{
       "backupVisible":false,
@@ -2118,7 +2910,9 @@
       },
       "isVisible":false,
       "title":"Vehicle Groups Manager",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "vehiclePopulationTest":{
       "backupVisible":false,
@@ -2133,7 +2927,9 @@
         "y":660
       },
       "isVisible":false,
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "visualization":{
       "backupVisible":false,
@@ -2144,7 +2940,9 @@
       },
       "isVisible":false,
       "title":"Visualization",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     },
     "windows":{
       "backupVisible":false,
@@ -2155,7 +2953,9 @@
       },
       "isVisible":false,
       "title":"Windows",
-      "visible":null
+      "visible":{
+        "0":false
+      }
     }
   }
 }

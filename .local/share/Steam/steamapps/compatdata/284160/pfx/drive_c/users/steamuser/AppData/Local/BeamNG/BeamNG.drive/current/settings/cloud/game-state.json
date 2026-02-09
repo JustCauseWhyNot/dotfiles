@@ -1,11 +1,14 @@
 {
-  "lastLevelName":"automation_test_track",
+  "lastLevelName":"utah",
   "levels":{
     "automation_test_track":{
       "defaultSpawnPointName":"spawns_startingline"
     },
     "derby":{
       "defaultSpawnPointName":"spawn_default"
+    },
+    "driver_training":{
+      "defaultSpawnPointName":"spawn_west"
     },
     "east_coast_usa":{
       "defaultSpawnPointName":"spawns_farmhouse"
@@ -25,12 +28,13 @@
     "johnson_valley":{
       "defaultSpawnPointName":"spawn_remote_pits"
     },
+    "ks_nord":{},
     "small_island":{
       "defaultSpawnPointName":"spawn_north"
     },
     "smallgrid":{},
     "utah":{
-      "defaultSpawnPointName":"spawn_west_highway"
+      "defaultSpawnPointName":"spawn_airfield"
     },
     "west_coast_usa":{
       "defaultSpawnPointName":"spawns_industrial"

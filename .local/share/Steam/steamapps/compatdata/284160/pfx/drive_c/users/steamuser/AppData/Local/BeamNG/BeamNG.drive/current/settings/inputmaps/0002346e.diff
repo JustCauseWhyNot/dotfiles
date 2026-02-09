@@ -1,6 +1,10 @@
 {
   "bindings":[
     {
+      "action":"moveforward",
+      "control":"button11"
+    },
+    {
       "action":"movedown",
       "control":"button10"
     },
@@ -11,10 +15,6 @@
     {
       "action":"recover_vehicle",
       "control":"button23"
-    },
-    {
-      "action":"moveforward",
-      "control":"button11"
     },
     {
       "action":"movebackward",
@@ -39,7 +39,7 @@
       "ffb":{
         "enableBrakeForceFeedback":true,
         "enableThrottleForceFeedback":true,
-        "forceCoef":200,
+        "forceCoef":100,
         "frequency":0,
         "gforceCoef":0,
         "isVibrationEnabled":false,
@@ -255,7 +255,7 @@
         "smoothing2":0,
         "smoothing2automatic":true,
         "smoothing2autostr":460,
-        "softlockForce":0,
+        "softlockForce":0.4,
         "updateType":0
       },
       "isForceEnabled":true,

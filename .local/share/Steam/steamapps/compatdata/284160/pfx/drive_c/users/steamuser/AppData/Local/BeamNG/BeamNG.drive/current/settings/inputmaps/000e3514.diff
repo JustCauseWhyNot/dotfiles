@@ -1,8 +1,8 @@
 {
   "bindings":[
     {
-      "action":"moveforward",
-      "control":"lpov"
+      "action":"overrideNitrousOxide",
+      "control":"button8"
     },
     {
       "action":"movedown",
@@ -13,78 +13,20 @@
       "control":"button4"
     },
     {
-      "action":"shiftDown",
-      "control":"button9"
-    },
-    {
       "action":"moveup",
       "control":"upov"
     },
     {
-      "action":"ffbForceCoefDec",
-      "control":"button15"
+      "action":"moveleft",
+      "control":"button28"
     },
     {
-      "action":"toggleNitrousOxide",
-      "control":"button2"
-    },
-    {
-      "action":"toggleMenues",
-      "control":"button23"
-    },
-    {
-      "action":"ffbForceCoefInc",
-      "control":"button16"
-    },
-    {
-      "action":"previousESCMode",
-      "control":"button63"
-    },
-    {
-      "action":"switch_camera_next",
-      "control":"button25"
-    },
-    {
-      "action":"clutch",
-      "control":"xaxis",
-      "deadzoneResting":0.01
-    },
-    {
-      "action":"shiftUp",
-      "control":"button10"
-    },
-    {
-      "action":"nextESCMode",
-      "control":"button14"
-    },
-    {
-      "action":"menu_item_left",
-      "control":"button21"
-    },
-    {
-      "action":"menu_item_up",
-      "control":"button19"
+      "action":"bigMapMoveRight",
+      "control":"button22"
     },
     {
       "action":"menu_item_right",
       "control":"button22"
-    },
-    {
-      "action":"ffbSmoothingDec",
-      "control":"button17"
-    },
-    {
-      "action":"clutch",
-      "control":"yaxis",
-      "deadzoneResting":0.01
-    },
-    {
-      "action":"menu_item_back",
-      "control":"button1"
-    },
-    {
-      "action":"movebackward",
-      "control":"rpov"
     },
     {
       "action":"menu_tab_left",
@@ -95,32 +37,106 @@
       "control":"button1"
     },
     {
-      "action":"toggleRadialMenuMulti",
-      "control":"button26"
+      "action":"toggleESCMode",
+      "control":"button5"
+    },
+    {
+      "action":"moveforward",
+      "control":"lpov"
+    },
+    {
+      "action":"switch_camera_prev",
+      "control":"button12"
+    },
+    {
+      "action":"shiftDown",
+      "control":"button9"
+    },
+    {
+      "action":"clutch",
+      "control":"yaxis",
+      "deadzoneResting":0.01
+    },
+    {
+      "action":"clutch",
+      "control":"xaxis",
+      "deadzoneResting":0.01
+    },
+    {
+      "action":"toggleNitrousOxide",
+      "control":"button2"
     },
     {
       "action":"previousESCMode",
       "control":"button13"
     },
     {
-      "action":"ffbSmoothingInc",
-      "control":"button18"
+      "action":"shiftUp",
+      "control":"button10"
+    },
+    {
+      "action":"menu_item_left",
+      "control":"button21"
+    },
+    {
+      "action":"bigMapMoveForward",
+      "control":"button20"
+    },
+    {
+      "action":"moveright",
+      "control":"button27"
+    },
+    {
+      "action":"toggleMenues",
+      "control":"button23"
+    },
+    {
+      "action":"reset_physics",
+      "control":"button1"
+    },
+    {
+      "action":"menu_item_back",
+      "control":"button1"
+    },
+    {
+      "action":"nextESCMode",
+      "control":"button14"
+    },
+    {
+      "action":"movebackward",
+      "control":"rpov"
+    },
+    {
+      "action":"bigMapMoveForward",
+      "control":"button19"
+    },
+    {
+      "action":"toggleRadialMenuMulti",
+      "control":"button26"
+    },
+    {
+      "action":"menu_item_up",
+      "control":"button19"
+    },
+    {
+      "action":"bigMapMoveLeft",
+      "control":"button21"
     },
     {
       "action":"pause",
       "control":"button6"
     },
     {
-      "action":"toggleESCMode",
-      "control":"button5"
+      "action":"switch_camera_next",
+      "control":"button11"
     },
     {
       "action":"menu_item_down",
       "control":"button20"
     },
     {
-      "action":"switch_camera_prev",
-      "control":"button24"
+      "action":"previousESCMode",
+      "control":"button63"
     },
     {
       "action":"menu_item_select",
