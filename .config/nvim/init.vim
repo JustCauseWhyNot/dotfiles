@@ -4,9 +4,10 @@ set et
 set sw=8
 set ts=8
 
-filetype on
 filetype indent on
+filetype on
 filetype plugin off
+let &sbr = '+++ '
 set bg=dark
 set bri
 set ch=3
@@ -15,29 +16,29 @@ set cot=menuone,noselect
 set ic
 set is
 set lbr
-set list
 set lcs=tab:>-,trail:-,precedes:<,extends:>
+set list
 set noeb
+set noet
 set nohls
 set nois
+set noscs
 set noswf
-set wrap
-set noet
 set number
-set ru
 set rnu
 set rtp+=/usr/share/vim/vimfiles
+set ru
 set scl=yes
-set noscs
-let &sbr = '+++ '
 set si
 set siso=20
 set so=4
 set spell
 set ss=5
 set sta
+set termguicolors
 set tgc
 set tw=0
+set wrap
 set wrap
 set ww=b,s,<,>,[,]
 

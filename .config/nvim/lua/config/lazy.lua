@@ -33,4 +33,14 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+vim.api.nvim_create_autocmd('ColorScheme', {
+  pattern = '*',
+  callback = function()
+    vim.api.nvim_set_hl(0, 'DiffAdd',    { bg = '#007F00' })
+    vim.api.nvim_set_hl(0, 'DiffDelete', { bg = '#FF0000' })
+    vim.api.nvim_set_hl(0, 'DiffChange', { bg = '#FF00FF' })
+    vim.api.nvim_set_hl(0, 'DiffText',   { bg = '#888888' })
+  end,
+})
 vim.cmd([[colorscheme modus]])

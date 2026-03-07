@@ -1,10 +1,6 @@
 {
   "bindings":[
     {
-      "action":"moveforward",
-      "control":"button11"
-    },
-    {
       "action":"movedown",
       "control":"button10"
     },
@@ -13,8 +9,8 @@
       "control":"button34"
     },
     {
-      "action":"recover_vehicle",
-      "control":"button23"
+      "action":"clutch",
+      "control":"button14"
     },
     {
       "action":"movebackward",
@@ -34,7 +30,7 @@
     },
     {
       "action":"steering",
-      "angle":200,
+      "angle":2520,
       "control":"xaxis",
       "ffb":{
         "enableBrakeForceFeedback":true,
@@ -259,19 +255,23 @@
         "updateType":0
       },
       "isForceEnabled":true,
-      "lockType":0
+      "lockType":1
     },
     {
       "action":"clutch",
       "control":"button15"
     },
     {
+      "action":"moveforward",
+      "control":"button11"
+    },
+    {
       "action":"moveup",
       "control":"button8"
     },
     {
-      "action":"clutch",
-      "control":"button14"
+      "action":"recover_vehicle",
+      "control":"button23"
     }
   ],
   "devicetype":"wheel",

@@ -30,11 +30,11 @@
     "whiteCutoff":"0"
   },
   "LightRays":{
-    "Enable":"0",
+    "Enable":"1",
     "brightScalar":"0.75"
   },
   "SSAO":{
-    "Enable":"0",
+    "Enable":"1",
     "blurDepthTol":"0.3",
     "blurNormalTol":"0",
     "lDepthMax":"5",

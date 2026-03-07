@@ -23,7 +23,6 @@ export Civ5="/home/justcausewhynot/Games/umu/Civ5/drive_c/Games/Civ5/"
 export EDITOR=nvim
 export ets="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2"
 export etsmods="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2/mod"
-export GTK_THEME=Materia-compact:dark
 export Hoi4="/home/justcausewhynot/.local/share/Steam/steamapps/common/Hearts of Iron IV/"
 export Hoi4launcher="/home/justcausewhynot/.local/share/Paradox Interactive/Hearts of Iron IV/"
 export Hoi4workshop="/home/justcausewhynot/.local/share/Steam/steamapps/workshop/content/394360/"

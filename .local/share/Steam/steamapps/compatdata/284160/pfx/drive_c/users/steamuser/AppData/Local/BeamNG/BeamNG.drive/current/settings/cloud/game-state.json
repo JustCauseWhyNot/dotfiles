@@ -1,5 +1,5 @@
 {
-  "lastLevelName":"utah",
+  "lastLevelName":"ks_nord",
   "levels":{
     "automation_test_track":{
       "defaultSpawnPointName":"spawns_startingline"
@@ -11,7 +11,7 @@
       "defaultSpawnPointName":"spawn_west"
     },
     "east_coast_usa":{
-      "defaultSpawnPointName":"spawns_farmhouse"
+      "defaultSpawnPointName":"spawns_townindustrial"
     },
     "gridmap_v2":{
       "defaultSpawnPointName":"spawn_suspension"

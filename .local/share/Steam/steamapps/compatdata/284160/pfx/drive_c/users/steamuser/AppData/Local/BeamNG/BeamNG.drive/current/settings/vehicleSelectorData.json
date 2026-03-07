@@ -1,7 +1,7 @@
 {
   "displayData":{
     "clusterMode":"model",
-    "displaySize":"medium",
+    "displaySize":"huge",
     "expandGroups":0,
     "filterResetOnSpawn":false,
     "groupMode":"Type",
@@ -18,12 +18,16 @@
     "bastion/jcwn_charger":1770595009
   },
   "recentItems":[
+    "bx/200bx_type_l_M",
+    "bx/200bx_type_l_A",
     "bastion/DragRacer",
+    "bolide/320S_(.200)",
+    "covet/DXi_M",
+    "pessima/LX_M",
     "bastion/sport_M",
     "us_semi/t83_stretch",
     "us_semi/t83_sleeper",
     "bastion/ebastion_tri",
-    "bolide/320S_(.200)",
     "bastion/drag",
     "bastion/jcwn_charger",
     "legran/jcwn",
@@ -100,7 +104,6 @@
     "van/h15_vanster",
     "barstow/drift",
     "pessima/drift",
-    "pessima/LX_M",
     "rockbouncer/rock_racer"
   ],
   "version":10

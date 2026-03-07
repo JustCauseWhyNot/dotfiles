@@ -50,16 +50,23 @@ controls{
 
     ID_ACTION_BAR_ITEM_7{
       keyboardKey:i=29
-      mouseButton:i=4
+      keyboardKey:i=42
+      keyboardKey:i=56
+      keyboardKey:i=2
     }
 
     ID_ACTION_BAR_ITEM_8{
+      keyboardKey:i=29
+      keyboardKey:i=42
       keyboardKey:i=56
-      mouseButton:i=4
+      keyboardKey:i=3
     }
 
     ID_ACTION_BAR_ITEM_9{
-      mouseButton:i=4
+      keyboardKey:i=29
+      keyboardKey:i=42
+      keyboardKey:i=56
+      keyboardKey:i=4
     }
 
     ID_AEROBATICS_SMOKE{
@@ -1014,43 +1021,39 @@ controls{
       keyboardKey:i=34
     }
 
-    ID_SUPPORT_PLANE_ORBITING_HUMAN{
-      keyboardKey:i=35
-    }
-
     ID_SUPPORT_PLANE_ORBITING_SHIP{}
     ID_SUSPENSION_CLEARANCE_DOWN{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=19
     }
 
     ID_SUSPENSION_CLEARANCE_UP{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=17
     }
 
     ID_SUSPENSION_PITCH_DOWN{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=18
     }
 
     ID_SUSPENSION_PITCH_UP{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=32
     }
 
     ID_SUSPENSION_RESET{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=2
     }
 
     ID_SUSPENSION_ROLL_DOWN{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=31
     }
 
     ID_SUSPENSION_ROLL_UP{
-      mouseButton:i=2
+      mouseButton:i=4
       keyboardKey:i=33
     }
 
@@ -2036,16 +2039,6 @@ controls{
   deviceMapping{
     joystick{
       connected:b=yes
-      devId:t="3537:1065"
-      axesOffset:i=0
-      name:t="Microsoft Xbox Controller"
-      buttonsOffset:i=0
-      buttonsCount:i=28
-      axesCount:i=9
-    }
-
-    joystick{
-      connected:b=no
       devId:t="31E3:1300"
       axesOffset:i=0
       name:t="Wooting 60HE (AVR)"
@@ -2055,11 +2048,81 @@ controls{
     }
 
     joystick{
+      connected:b=yes
+      devId:t="0483:0531"
+      axesOffset:i=9
+      name:t="SIMAGIC DS-8X Shifter"
+      buttonsOffset:i=28
+      buttonsCount:i=12
+      axesCount:i=0
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="346E:0002"
+      axesOffset:i=9
+      name:t="Gudsen MOZA R9 Base"
+      buttonsOffset:i=40
+      buttonsCount:i=128
+      axesCount:i=10
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="3670:0903"
+      axesOffset:i=19
+      name:t="SIMAGIC Alpha Pedal Neo"
+      buttonsOffset:i=168
+      buttonsCount:i=0
+      axesCount:i=3
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="346E:0024"
+      axesOffset:i=22
+      name:t="Gudsen MOZA Multi-function Stalk"
+      buttonsOffset:i=168
+      buttonsCount:i=32
+      axesCount:i=0
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="3434:0800"
+      axesOffset:i=22
+      name:t="Keychron Keychron Q0 Max System Control"
+      buttonsOffset:i=200
+      buttonsCount:i=6
+      axesCount:i=3
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="0001:0001"
+      axesOffset:i=25
+      name:t="Boxflat Multifunction Stalks"
+      buttonsOffset:i=206
+      buttonsCount:i=32
+      axesCount:i=1
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="3537:1065"
+      axesOffset:i=26
+      name:t="Microsoft Xbox Controller"
+      buttonsOffset:i=238
+      buttonsCount:i=28
+      axesCount:i=9
+    }
+
+    joystick{
       connected:b=no
       devId:t="045E:0B12"
-      axesOffset:i=9
+      axesOffset:i=35
       name:t="Microsoft Xbox Series S|X Controller"
-      buttonsOffset:i=28
+      buttonsOffset:i=266
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2067,9 +2130,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="31E3:1301"
-      axesOffset:i=18
+      axesOffset:i=44
       name:t="Wooting Wooting60HE"
-      buttonsOffset:i=57
+      buttonsOffset:i=295
       buttonsCount:i=12
       axesCount:i=11
     }
@@ -2077,9 +2140,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="045E:0288E"
-      axesOffset:i=29
+      axesOffset:i=55
       name:t="Microsoft X-Box 360 pad"
-      buttonsOffset:i=69
+      buttonsOffset:i=307
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2087,9 +2150,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="1532:008A"
-      axesOffset:i=38
+      axesOffset:i=64
       name:t="Razer Razer Viper Mini"
-      buttonsOffset:i=98
+      buttonsOffset:i=336
       buttonsCount:i=0
       axesCount:i=1
     }
@@ -2135,12 +2198,14 @@ settings{
   aimTimeNonlinearityWalker:r=0
   aimTimeNonlinearityShip:r=0
   aimTimeNonlinearitySubmarine:r=0
+  aimTimeNonlinearityHuman:r=0
   aimAccelerationDelayAir:r=0
   aimAccelerationDelayHelicopter:r=0
   aimAccelerationDelayTank:r=0
   aimAccelerationDelayWalker:r=0
   aimAccelerationDelayShip:r=0
   aimAccelerationDelaySubmarine:r=0
+  aimAccelerationDelayHuman:r=0.5
   mouseZMultAir:r=1
   mouseZMultHelicopter:r=0
   mouseZMultTank:r=0.36
@@ -2149,7 +2214,7 @@ settings{
   gamepadMinVibration:r=0
   cameraSmooth:r=0
   cameraSpeed:r=0.5
-  cameraMouseSpeed:r=1.025
+  cameraMouseSpeed:r=0.95
   cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
@@ -2171,4 +2236,5 @@ settings{
   forceGain:r=1
   cameraShakeMultiplier:r=0
   vrCameraShakeMultiplier:r=1
+  holdBtnToGrabHotas:b=no
 }

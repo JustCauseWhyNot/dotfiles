@@ -85,18 +85,6 @@
       }
     },
     {
-      "appName":"detailedDamageApp",
-      "placement":{
-        "bottom":"0px",
-        "height":"640px",
-        "left":"370px",
-        "position":"absolute",
-        "right":"",
-        "top":"",
-        "width":"365.28125px"
-      }
-    },
-    {
       "appName":"gforcesDebug",
       "placement":{
         "bottom":"",
@@ -123,37 +111,37 @@
     {
       "appName":"engineDamageApp",
       "placement":{
-        "bottom":"0px",
-        "height":"255px",
-        "left":"",
+        "bottom":"315px",
+        "height":"320px",
+        "left":"375px",
         "position":"absolute",
-        "right":"535px",
+        "right":"",
         "top":"",
-        "width":"255px"
+        "width":"320px"
       }
     },
     {
       "appName":"wheelsDebug",
       "placement":{
-        "bottom":"260px",
+        "bottom":"0px",
         "height":"200px",
-        "left":"",
+        "left":"775px",
         "position":"absolute",
-        "right":"540px",
+        "right":"",
         "top":"",
         "width":"250px"
       }
     },
     {
-      "appName":"simplePerfTimers",
+      "appName":"advancedWheelsDebug",
       "placement":{
-        "bottom":"",
-        "height":"100px",
-        "left":"",
+        "bottom":"0px",
+        "height":"170px",
+        "left":"365px",
         "position":"absolute",
-        "right":"30px",
-        "top":"345px",
-        "width":"420px"
+        "right":"",
+        "top":"",
+        "width":"400px"
       }
     }
   ],

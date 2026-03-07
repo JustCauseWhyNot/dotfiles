@@ -1,16 +1,16 @@
 SiiNunit
 {
-input_config : _nameless.f26b.4a40 {
+input_config : _nameless.1b9c.cca0 {
  version: 32
  config_lines: 587
  config_lines[0]: "device keyboard `sys.keyboard`"
  config_lines[1]: "device mouse `fusion.mouse`"
- config_lines[2]: "device joy `di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
+ config_lines[2]: "device joy `di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`"
  config_lines[3]: "device phys_mouse ``"
- config_lines[4]: "device joy2 `di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
- config_lines[5]: "device joy3 `di8.'{9E573ED6-7734-11D2-8D4A-23903FB6BDF7}|{00010001-0000-0000-0000-504944564944}'`"
- config_lines[6]: "device joy4 `di8.'{9E573ED2-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`"
- config_lines[7]: "device joy5 `di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
+ config_lines[4]: "device joy2 `di8.'{9E573ECA-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`"
+ config_lines[5]: "device joy3 `di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{00010001-0000-0000-0000-504944564944}'`"
+ config_lines[6]: "device joy4 `di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{05310483-0000-0000-0000-504944564944}'`"
+ config_lines[7]: "device joy5 `di8.'{9E573ED4-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`"
  config_lines[8]: "device joy6 ``"
  config_lines[9]: "device eye_track ``"
  config_lines[10]: "input j_steer `joy.x`"
@@ -226,7 +226,7 @@ input_config : _nameless.f26b.4a40 {
  config_lines[220]: "mix j_clutch_c `1`"
  config_lines[221]: "mix sndedittool `keyboard.lshift?0 & keyboard.rshift?0`"
  config_lines[222]: "mix sndeditdata `keyboard.lalt?0 & keyboard.d?0`"
- config_lines[223]: "mix cam1 `keyboard.key1?0 | joy.b4?0 | semantical.cam1?0`"
+ config_lines[223]: "mix cam1 `keyboard.key1?0 | keyboard.x8e?0 | semantical.cam1?0`"
  config_lines[224]: "mix cam2 `keyboard.key2?0 | semantical.cam2?0`"
  config_lines[225]: "mix cam3 `keyboard.key3?0 | semantical.cam3?0`"
  config_lines[226]: "mix cam4 `keyboard.key4?0 | semantical.cam4?0`"
@@ -234,7 +234,7 @@ input_config : _nameless.f26b.4a40 {
  config_lines[228]: "mix cam6 `keyboard.key6?0 | semantical.cam6?0`"
  config_lines[229]: "mix cam7 `keyboard.key7?0 | semantical.cam7?0`"
  config_lines[230]: "mix cam8 `keyboard.key8?0 | semantical.cam8?0`"
- config_lines[231]: "mix camcycle `keyboard.key9?0 | joy.pov1_up?0 | semantical.camcycle?0`"
+ config_lines[231]: "mix camcycle `keyboard.key9?0 | keyboard.x8f?0 | semantical.camcycle?0`"
  config_lines[232]: "mix camdbg `keyboard.key0?0`"
  config_lines[233]: "mix camwnd `keyboard.minus?0`"
  config_lines[234]: "mix camreset `semantical.camreset?0`"

@@ -1,83 +1,81 @@
 {
-  "levelName":"Utah",
+  "levelName":"ks_nord",
   "options":{
     "environment_timeOfDay":"noon",
     "environment_timePlay":"disabled",
     "traffic_trafficMode":"enabled"
   },
-  "spawnPointName":"spawn_airfield",
   "spawnPointTile":{
     "buttonInfo":{},
-    "description":"The canyons of Utah make for a vehicular paradise. Race on the well maintained asphalt roads, get dusty rallying off-road, or try to climb the canyon rocks.",
-    "headerTitle":"Airfield (Utah, USA)",
-    "levelTitle":"Utah, USA",
-    "preview":"/levels/Utah/utah_preview4.jpg",
+    "description":"Challenging historic racing circuit and public toll road located in Germany, famously dubbed 'The Green Hell' for its sheer length and difficulty. Version 2023.11.24.",
+    "headerTitle":"Default (Nürburgring)",
+    "levelTitle":"Nürburgring",
+    "preview":"/levels/ks_nord/preview.jpg",
     "specifications":[
       [
         {
           "icon":"scale",
           "label":"Size",
-          "value":"2.05km x 2.05km (4.19km²)"
+          "value":"8.10km x 8.10km (65.55km²)"
         },
         {
           "icon":"terrain",
           "label":"Biome",
-          "value":"Desert, Canyon, Mesa"
+          "value":"Temperate Forest"
         },
         {
           "icon":"roadStack",
           "label":"Roads",
-          "value":"55% Asphalt, 45% Dirt"
+          "value":""
         },
         {
           "icon":"flag",
           "label":"Suitable for",
-          "value":"Rock Crawling, Exploration, Cruising, Delivery"
+          "value":"Racing, Time Trials, Cruising"
         },
         {
           "icon":"info",
           "label":"Features",
-          "value":"Canyons, Cliffs, Highway, Large tunnel, Abandoned industrial, Broken bridge"
+          "value":"20.8 km (12.9 mi) Nordschleife Circuit, 5.1 km (3.2 mi) Grand Prix Circuit"
         },
         {
           "icon":"flag",
           "label":"Country",
-          "value":"United States"
+          "value":"Germany"
         }
       ]
     ],
-    "tags":[
-      {
-        "icon":"beamNG",
-        "label":"BeamNG - Official"
-      }
-    ],
+    "tags":{},
     "validationFiles":[
-      "/levels/Utah/spawn_auto_repair_zone_preview.jpg",
-      "/levels/Utah/utah_preview4.jpg",
-      "/levels/Utah/utah_preview3.jpg",
-      "/levels/Utah/utah_preview2.jpg",
-      "/levels/Utah/utah_preview1.jpg",
-      "/levels/Utah/main/"
+      "/levels/ks_nord/preview.jpg",
+      "/levels/ks_nord/main/"
     ]
   },
   "vehicle":{
-    "additionalData":{},
-    "config":"DragRacer",
-    "model":"bastion"
+    "additionalData":{
+      "paint":"Scarlet Red",
+      "paint2":"Scarlet Red",
+      "paint3":"Scarlet Red"
+    },
+    "config":"200bx_type_l_M",
+    "model":"bx"
   },
   "vehicleTile":{
-    "additionalData":{},
-    "brand":"Bruckell",
+    "additionalData":{
+      "paint":"Scarlet Red",
+      "paint2":"Scarlet Red",
+      "paint3":"Scarlet Red"
+    },
+    "brand":"Ibishu",
     "buttonInfo":[
       {
-        "buttonId":52,
+        "buttonId":48,
         "canClearFilters":true,
         "icon":"carPlus",
         "label":"Spawn New"
       },
       {
-        "buttonId":53,
+        "buttonId":49,
         "canClearFilters":true,
         "icon":"carsChange",
         "isDoubleClickAction":true,
@@ -86,143 +84,295 @@
       }
     ],
     "configDetails":{
-      "Configuration":"DragRacer",
-      "Name":"Bastion DragRacer",
-      "Source":"Custom",
+      "0-100 km/h":8.9,
+      "0-100 mph":22.8,
+      "0-200 km/h":53,
+      "0-60 mph":8.4,
+      "100-0 km/h":48.2,
+      "100-200 km/h":44.1,
+      "60-0 mph":144.9,
+      "60-100 mph":14.3,
+      "Body Style":"Liftback",
+      "BoundingBox":[
+        [
+          -0.6993,
+          -2.047,
+          -0.1897
+        ],
+        [
+          1.1993,
+          2.3499,
+          1.0798
+        ]
+      ],
+      "Braking G":0.816,
+      "Config Type":"Factory",
+      "Configuration":"200BX Type-L (M)",
+      "Description":"Liftback JDM model with alloy wheels and ABS",
+      "Drag Times":{
+        "brakingG":0.848438489,
+        "time_0_60":7.539000486,
+        "time_1000":13.10850087,
+        "time_1_4":15.70650105,
+        "time_1_8":10.03400066,
+        "time_330":6.456500414,
+        "time_60":2.188000145,
+        "velAt_1_4":38.82537585,
+        "velAt_1_8":31.22843083
+      },
+      "Drivetrain":"RWD",
+      "Fuel Type":"Gasoline",
+      "Induction Type":"NA",
+      "Name":"BX-Series 200BX Type-L (M)",
+      "Off-Road Score":33,
+      "Population":7000,
+      "Power":145,
+      "PowerPeakRPM":"5950 - 6600",
+      "Propulsion":"ICE",
+      "Source":"BeamNG - Official",
+      "Top Speed":57.22775218,
+      "Torque":190,
+      "TorquePeakRPM":"3900 - 5000",
+      "Transmission":"Manual",
+      "Value":32000,
+      "Weight":1260,
+      "Weight/Power":8.689655172,
       "aggregates":{
+        "0-100 km/h":{
+          "max":8.9,
+          "min":8.9
+        },
+        "0-60 mph":{
+          "max":8.4,
+          "min":8.4
+        },
         "Body Style":{
-          "Sedan":true
+          "Coupe":true,
+          "Liftback":true
         },
         "Brand":{
-          "Bruckell":true
+          "Ibishu":true
+        },
+        "Config Type":{
+          "Factory":true
         },
         "Country":{
-          "United States":true
+          "Japan":true
         },
         "Derby Class":{
-          "Full-Size Car":true
+          "Compact Car":true
+        },
+        "Drivetrain":{
+          "RWD":true
+        },
+        "Fuel Type":{
+          "Gasoline":true
+        },
+        "Induction Type":{
+          "NA":true
         },
         "InsuranceClass":{
           "dailyDriver":true
         },
+        "Off-Road Score":{
+          "max":33,
+          "min":33
+        },
+        "Propulsion":{
+          "ICE":true
+        },
         "Region":{
-          "northAmerica":true
+          "asiaPacific":true
         },
         "Source":{
-          "BeamNG - Official":true,
-          "Custom":true
+          "BeamNG - Official":true
+        },
+        "Top Speed":{
+          "max":57.22775218,
+          "min":57.22775218
+        },
+        "Transmission":{
+          "Manual":true
         },
         "Type":{
           "Car":true
         },
+        "Value":{
+          "max":32000,
+          "min":32000
+        },
+        "Weight":{
+          "max":1260,
+          "min":1260
+        },
+        "Weight/Power":{
+          "max":8.689655172,
+          "min":8.689655172
+        },
         "Years":{
-          "max":2022,
-          "min":2016
+          "max":1994,
+          "min":1990
         }
       },
       "defaultPaint":{
         "baseColor":[
-          0.623,
-          0.623,
-          0.623,
+          0.58,
+          0.12,
+          0.12,
           1.2
         ],
         "class":"factory",
-        "clearcoat":1,
-        "clearcoatRoughness":0.05,
-        "id":"palladium_gray",
+        "clearcoat":0.8,
+        "clearcoatRoughness":0.07,
+        "id":"scarlet_red",
         "metallic":0.8,
-        "name":"Palladium Gray",
+        "name":"Scarlet Red",
         "roughness":0.65
       },
-      "defaultPaintName1":"Palladium Gray",
-      "defaultPaintName2":"Palladium Gray",
-      "defaultPaintName3":"Palladium Gray",
-      "is_default_config":false,
-      "key":"DragRacer",
-      "model_key":"bastion",
+      "defaultPaintName1":"Scarlet Red",
+      "defaultPaintName2":"Scarlet Red",
+      "defaultPaintName3":"Scarlet Red",
+      "infoFilename":"/vehicles/bx/info_200bx_type_l_M.json",
+      "is_default_config":true,
+      "key":"200bx_type_l_M",
+      "model_key":"bx",
       "paints":{},
-      "pcFilename":"/vehicles/bastion/DragRacer.pc",
-      "preview":"/vehicles/bastion/DragRacer.jpg"
+      "pcFilename":"/vehicles/bx/200bx_type_l_M.pc",
+      "preview":"/vehicles/bx/200bx_type_l_M.jpg"
     },
-    "configKey":"DragRacer",
+    "configKey":"200bx_type_l_M",
     "generalSpecs":[
       {
         "isFromConfig":false,
         "key":"Years",
-        "value":"2016 - 2022"
+        "value":"1990 - 1994"
       },
       {
         "isFromConfig":false,
         "key":"Country",
-        "value":"United States"
+        "value":"Japan"
+      },
+      {
+        "isFromConfig":true,
+        "key":"Power",
+        "value":[
+          {
+            "text":"143 hp"
+          },
+          {
+            "italic":true,
+            "text":"@ 5950 - 6600 rpm"
+          }
+        ]
+      },
+      {
+        "isFromConfig":true,
+        "key":"Weight",
+        "value":"1260 kg"
+      },
+      {
+        "isFromConfig":true,
+        "key":"Value",
+        "value":"$32,000.00"
       }
     ],
-    "headerTitle":"Bruckell Bastion DragRacer",
-    "iconTags":{},
-    "isFavourite":1770599502,
-    "isStandalonePC":true,
-    "modelKey":"bastion",
+    "headerTitle":"Ibishu BX-Series 200BX Type-L (M)",
+    "iconTags":[
+      {
+        "icon":"RWD",
+        "label":"Drivetrain: Rear Wheel Drive"
+      },
+      {
+        "icon":"transmissionM",
+        "label":"Manual Transmission"
+      },
+      {
+        "icon":"intakeTrumpets",
+        "label":"Naturally Aspirated"
+      },
+      {
+        "icon":"fuelPump",
+        "label":"Energy Source: Gasoline"
+      }
+    ],
+    "isStandalonePC":false,
+    "modelKey":"bx",
     "paints":{
       "factoryPaints":[
         {
           "baseColor":[
-            0.203,
-            0.476,
-            0.681,
-            2
+            0.521,
+            0.396,
+            0.189,
+            1.2
           ],
           "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"aqua_steel",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"autumn_yellow",
+          "metallic":0,
+          "name":"Autumn Yellow",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.08,
+            0.2,
+            0.28,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"bermuda_blue",
           "metallic":0.8,
-          "name":"Aqua Steel",
+          "name":"Bermuda Blue",
           "roughness":0.65
         },
         {
           "baseColor":[
-            0.275,
-            0.302,
-            0.25,
-            2
+            0.02,
+            0.02,
+            0.02,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"black",
+          "metallic":0,
+          "name":"Black",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.07,
+            0.37,
+            0.72,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"brilliant_blue",
+          "metallic":0,
+          "name":"Brilliant Blue",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.28,
+            0.08,
+            0.08,
+            1.1
           ],
           "class":"custom",
           "clearcoat":0,
           "clearcoatRoughness":0,
-          "id":"army_green",
+          "id":"burgundy",
           "metallic":0,
-          "name":"Army Green",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.01,
-            0.01,
-            0.03,
-            2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Black Metal",
-          "roughness":0.55
-        },
-        {
-          "baseColor":[
-            0.5,
-            0.42,
-            0.39,
-            1.2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"canyon_sand",
-          "metallic":0.8,
-          "name":"Canyon Sand",
-          "roughness":0.65
+          "name":"Burgundy",
+          "roughness":0.07
         },
         {
           "baseColor":[
@@ -231,7 +381,7 @@
             0.23,
             1.2
           ],
-          "class":"custom",
+          "class":"factory",
           "clearcoat":0,
           "clearcoatRoughness":0,
           "id":"charcoal",
@@ -241,263 +391,227 @@
         },
         {
           "baseColor":[
-            0.306,
-            0.034,
-            0.114,
-            1.2
+            0.79,
+            0.75,
+            0.69,
+            1
           ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.06,
-          "id":"deep_merlot",
-          "metallic":1,
-          "name":"Deep Merlot",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.255,
-            0.091,
-            0.198,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Extra Purple",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.08,
-            0.18,
-            0.105,
-            1.2
-          ],
-          "class":"custom",
+          "class":"factory",
           "clearcoat":0,
           "clearcoatRoughness":0,
-          "id":"forest_green",
-          "metallic":0,
-          "name":"Forest Green",
+          "id":"cream",
+          "metallic":0.1,
+          "name":"Cream",
           "roughness":0.07
         },
         {
           "baseColor":[
-            0.036,
-            0.137,
-            0.229,
-            1.2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Fortuna Blue",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.282,
-            0.334,
-            0.198,
-            2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Goblin Green",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.568,
-            0.489,
-            0.108,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Harvest Gold",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.725,
-            0.063,
-            0.13,
-            1.2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"inferno_red",
-          "metallic":0.8,
-          "name":"Inferno Red",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
             0.01,
             0.01,
             0.01,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":0,
-          "clearcoatRoughness":0,
-          "id":"matte_black",
-          "metallic":0,
-          "name":"Matte Black",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.33,
-            0.33,
-            0.33,
-            2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Obsidian Gray",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.108,
-            0.238,
-            0.531,
-            1.2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Ocean Blue",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.623,
-            0.623,
-            0.623,
-            1.2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"palladium_gray",
-          "metallic":0.8,
-          "name":"Palladium Gray",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.83,
-            0.83,
-            0.83,
             1.2
           ],
           "class":"custom",
           "clearcoat":0.8,
           "clearcoatRoughness":0.07,
-          "id":"pearl_white",
-          "metallic":0.4,
-          "name":"Pearl White",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
-            0.08,
-            0.18,
-            0.105,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"pine_shadow",
+          "id":"jet_black",
           "metallic":0.8,
-          "name":"Pine Shadow",
+          "name":"Jet Black",
           "roughness":0.65
         },
         {
           "baseColor":[
-            0.425,
-            0.091,
-            0.142,
-            2
+            0.34,
+            0.11,
+            0.1,
+            1.4
           ],
           "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"maroon_metal",
           "metallic":0.8,
-          "name":"Ruby Red",
+          "name":"Maroon Metal",
           "roughness":0.65
         },
         {
           "baseColor":[
-            0.07,
-            0.07,
-            0.07,
-            2
+            0.025,
+            0.05,
+            0.14,
+            1.2
           ],
           "class":"custom",
-          "clearcoat":0.7,
-          "clearcoatRoughness":0.3,
-          "id":"satin_black",
-          "metallic":0.6,
-          "name":"Satin Black",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"midnight_pearl",
+          "metallic":0.8,
+          "name":"Midnight Pearl",
           "roughness":0.65
         },
         {
           "baseColor":[
-            0.423,
-            0.423,
-            0.423,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.25,
-          "metallic":0.6,
-          "name":"Satin Gray",
-          "roughness":0.55
-        },
-        {
-          "baseColor":[
-            0.816,
-            0.107,
-            0.107,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.25,
-          "metallic":0.6,
-          "name":"Satin Red",
-          "roughness":0.55
-        },
-        {
-          "baseColor":[
-            0.83,
-            0.83,
-            0.83,
+            0.025,
+            0.065,
+            0.2,
             1.2
           ],
           "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"silica_white",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"navy_blue",
+          "metallic":0,
+          "name":"Navy Blue",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.22,
+            0.37,
+            0.33,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"opal_green",
+          "metallic":0,
+          "name":"Opal Green",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.8,
+            0.42,
+            0.1,
+            1
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"orange",
+          "metallic":0,
+          "name":"Orange",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.35,
+            0.5,
+            0.65,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"pleasant_blue",
+          "metallic":0,
+          "name":"Pleasant Blue",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.52,
+            0.485,
+            0.46,
+            1.3
+          ],
+          "class":"factory",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"quicksilver",
           "metallic":0.8,
-          "name":"Silica White",
+          "name":"Quicksilver",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.05,
+            0.15,
+            0.08,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"royal_green",
+          "metallic":0.8,
+          "name":"Royal Green",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.58,
+            0.12,
+            0.12,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"scarlet_red",
+          "metallic":0.8,
+          "name":"Scarlet Red",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.16,
+            0.28,
+            0.56,
+            1
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"sea_blue",
+          "metallic":0,
+          "name":"Sea Blue",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.24,
+            0.48,
+            0.48,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"seafoam_green",
+          "metallic":0.8,
+          "name":"Seafoam Green",
+          "roughness":0.65
+        },
+        {
+          "baseColor":[
+            0.22,
+            0.27,
+            0.23,
+            1.2
+          ],
+          "class":"custom",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"shale_green",
+          "metallic":0.1,
+          "name":"Shale Green",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.623,
+            0.623,
+            0.623,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0.8,
+          "clearcoatRoughness":0.07,
+          "id":"silver",
+          "metallic":0.8,
+          "name":"Silver",
           "roughness":0.65
         },
         {
@@ -517,41 +631,12 @@
         },
         {
           "baseColor":[
-            0.82,
-            0.62,
-            0.1,
-            1.2
-          ],
-          "class":"factory",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "id":"sunny_flare",
-          "metallic":0,
-          "name":"Sunny Flare",
-          "roughness":0.9
-        },
-        {
-          "baseColor":[
-            0.078,
-            0.068,
-            0.519,
-            2
-          ],
-          "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Super Blue",
-          "roughness":0.65
-        },
-        {
-          "baseColor":[
             0.8,
             0.42,
             0.1,
             1
           ],
-          "class":"factory",
+          "class":"custom",
           "clearcoat":1,
           "clearcoatRoughness":0.05,
           "id":"tangerine_rush",
@@ -561,184 +646,144 @@
         },
         {
           "baseColor":[
-            0.85,
-            0.68,
-            0.1,
+            0.18,
+            0.36,
+            0.09,
             1.2
           ],
           "class":"custom",
           "clearcoat":0,
           "clearcoatRoughness":0,
-          "id":"taxi_yellow",
+          "id":"verdant_green",
           "metallic":0,
-          "name":"Taxi Yellow",
-          "roughness":0.06
+          "name":"Verdant Green",
+          "roughness":0.07
         },
         {
           "baseColor":[
-            0.025,
-            0.05,
-            0.14,
+            0.72,
+            0.13,
+            0.13,
             1.2
           ],
           "class":"custom",
-          "clearcoat":1,
-          "clearcoatRoughness":0.05,
-          "metallic":0.8,
-          "name":"Velvet Night",
-          "roughness":0.65
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"vibrant_red",
+          "metallic":0,
+          "name":"Vibrant Red",
+          "roughness":0.07
+        },
+        {
+          "baseColor":[
+            0.83,
+            0.83,
+            0.83,
+            1.2
+          ],
+          "class":"factory",
+          "clearcoat":0,
+          "clearcoatRoughness":0,
+          "id":"white",
+          "metallic":0,
+          "name":"White",
+          "roughness":0.07
         }
       ],
       "multiPaintSetups":[
         {
-          "forAllConfigs":true,
-          "id":"Battlehawk Purple",
-          "isDefaultForConfigByKey":{
-            "battlehawk_A":true
-          },
-          "name":"Battlehawk Purple",
-          "paintName1":"Extra Purple",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{
-            "battlehawk_A":true
-          }
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Green",
-          "isDefaultForConfigByKey":{
-            "battlehawk_M":true
-          },
-          "name":"Battlehawk Green",
-          "paintName1":"Goblin Green",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{
-            "battlehawk_M":true
-          }
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Black",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk Black",
-          "paintName1":"Black Metal",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Red",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk Red",
-          "paintName1":"Inferno Red",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk White",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk White",
-          "paintName1":"Silica White",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Yellow",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk Yellow",
-          "paintName1":"Sunny Flare",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Tangerine",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk Tangerine",
-          "paintName1":"Tangerine Rush",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Battlehawk Blue",
-          "isDefaultForConfigByKey":{},
-          "name":"Battlehawk Blue",
-          "paintName1":"Super Blue",
-          "paintName2":"Satin Black",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Redtail Black",
-          "isDefaultForConfigByKey":{
-            "redtail_A":true
-          },
-          "name":"Redtail Black",
-          "paintName1":"Black Metal",
-          "paintName2":"Satin Red",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{
-            "redtail_A":true
-          }
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Redtail White",
-          "isDefaultForConfigByKey":{},
-          "name":"Redtail White",
-          "paintName1":"Silica White",
-          "paintName2":"Satin Red",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Redtail Yellow",
-          "isDefaultForConfigByKey":{},
-          "name":"Redtail Yellow",
-          "paintName1":"Sunny Flare",
-          "paintName2":"Satin Red",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
-          "forAllConfigs":true,
-          "id":"Redtail Blue",
-          "isDefaultForConfigByKey":{},
-          "name":"Redtail Blue",
-          "paintName1":"Super Blue",
-          "paintName2":"Satin Red",
-          "paintName3":"Satin Gray",
-          "usedByConfigByKey":{}
-        },
-        {
           "isDefault":true,
           "isDefaultForConfigByKey":{
-            "DragRacer":true
+            "200bx_type_l_M":true
           },
-          "name":"Bastion DragRacer default paints",
-          "paintName1":"Palladium Gray",
-          "paintName2":"Palladium Gray",
-          "paintName3":"Palladium Gray",
+          "name":"BX-Series 200BX Type-L (M) default paints",
+          "paintName1":"Scarlet Red",
+          "paintName2":"Scarlet Red",
+          "paintName3":"Scarlet Red",
           "usedByConfigByKey":{
-            "DragRacer":true
+            "200bx_type_l_M":true
           }
         }
       ]
     },
-    "preview":"/vehicles/bastion/DragRacer.jpg",
+    "preview":"/vehicles/bx/200bx_type_l_M.jpg",
     "specificationsList":[
+      {
+        "label":"Performance",
+        "specifications":[
+          {
+            "isFromConfig":true,
+            "key":"Power",
+            "value":[
+              {
+                "text":"143 hp"
+              },
+              {
+                "italic":true,
+                "text":"@ 5950 - 6600 rpm"
+              }
+            ]
+          },
+          {
+            "isFromConfig":true,
+            "key":"Torque",
+            "value":[
+              {
+                "text":"190 Nm"
+              },
+              {
+                "italic":true,
+                "text":"@ 3900 - 5000 rpm"
+              }
+            ]
+          },
+          {
+            "isFromConfig":true,
+            "key":"Weight",
+            "value":"1260 kg"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Top Speed",
+            "value":"206.02 km/h"
+          },
+          {
+            "isFromConfig":true,
+            "key":"0-100 km/h",
+            "value":"8.90 s"
+          },
+          {
+            "isFromConfig":true,
+            "key":"0-200 km/h",
+            "value":"53.00 s"
+          },
+          {
+            "isFromConfig":true,
+            "key":"100-200 km/h",
+            "value":"44.10 s"
+          },
+          {
+            "isFromConfig":true,
+            "key":"100-0 km/h",
+            "value":"48.20 m"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Braking G",
+            "value":"0.816"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Weight/Power",
+            "value":"8.81 kg/hp"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Off-Road Score",
+            "value":"33"
+          }
+        ]
+      },
       {
         "label":"Other",
         "specifications":[
@@ -748,22 +793,53 @@
             "value":"Car"
           },
           {
+            "isFromConfig":true,
+            "key":"Config Type",
+            "value":"Factory"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Transmission",
+            "value":"Manual"
+          },
+          {
             "isFromConfig":false,
             "key":"Derby Class",
-            "value":"Full-Size Car"
+            "value":"Compact Car"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Drivetrain",
+            "value":"RWD"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Propulsion",
+            "value":"ICE"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Fuel Type",
+            "value":"Gasoline"
+          },
+          {
+            "isFromConfig":true,
+            "key":"Induction Type",
+            "value":"NA"
           }
         ]
       }
     ],
     "tags":[
       {
-        "icon":"wrench",
-        "label":"Custom"
+        "icon":"beamNG",
+        "label":"BeamNG - Official"
       }
     ],
     "validationFiles":[
-      "/vehicles/bastion/DragRacer.pc",
-      "/vehicles/bastion/DragRacer.jpg"
+      "/vehicles/bx/info_200bx_type_l_M.json",
+      "/vehicles/bx/200bx_type_l_M.pc",
+      "/vehicles/bx/200bx_type_l_M.jpg"
     ]
   },
   "version":1

@@ -5,16 +5,12 @@
       "control":"button8"
     },
     {
-      "action":"movedown",
+      "action":"rotate_camera_down",
       "control":"dpov"
     },
     {
       "action":"menu_tab_right",
       "control":"button4"
-    },
-    {
-      "action":"moveup",
-      "control":"upov"
     },
     {
       "action":"moveleft",
@@ -29,6 +25,10 @@
       "control":"button22"
     },
     {
+      "action":"moveup",
+      "control":"modifier1 upov"
+    },
+    {
       "action":"menu_tab_left",
       "control":"button3"
     },
@@ -37,12 +37,24 @@
       "control":"button1"
     },
     {
+      "action":"moveforward",
+      "control":"modifier1 lpov"
+    },
+    {
       "action":"toggleESCMode",
       "control":"button5"
     },
     {
-      "action":"moveforward",
-      "control":"lpov"
+      "action":"rotate_camera_up",
+      "control":"upov"
+    },
+    {
+      "action":"movebackward",
+      "control":"modifier1 rpov"
+    },
+    {
+      "action":"moveright",
+      "control":"button27"
     },
     {
       "action":"switch_camera_prev",
@@ -58,9 +70,8 @@
       "deadzoneResting":0.01
     },
     {
-      "action":"clutch",
-      "control":"xaxis",
-      "deadzoneResting":0.01
+      "action":"toggleMenues",
+      "control":"button23"
     },
     {
       "action":"toggleNitrousOxide",
@@ -71,8 +82,17 @@
       "control":"button13"
     },
     {
+      "action":"movedown",
+      "control":"modifier1 dpov"
+    },
+    {
       "action":"shiftUp",
       "control":"button10"
+    },
+    {
+      "action":"clutch",
+      "control":"xaxis",
+      "deadzoneResting":0.01
     },
     {
       "action":"menu_item_left",
@@ -83,60 +103,60 @@
       "control":"button20"
     },
     {
-      "action":"moveright",
-      "control":"button27"
+      "action":"bigMapMoveLeft",
+      "control":"button21"
     },
     {
-      "action":"toggleMenues",
-      "control":"button23"
-    },
-    {
-      "action":"reset_physics",
-      "control":"button1"
-    },
-    {
-      "action":"menu_item_back",
-      "control":"button1"
+      "action":"rotate_camera_right",
+      "control":"rpov"
     },
     {
       "action":"nextESCMode",
       "control":"button14"
     },
     {
-      "action":"movebackward",
-      "control":"rpov"
+      "action":"menu_item_back",
+      "control":"button1"
+    },
+    {
+      "action":"customModifier1",
+      "control":"button7"
     },
     {
       "action":"bigMapMoveForward",
       "control":"button19"
     },
     {
+      "action":"switch_camera_next",
+      "control":"button11"
+    },
+    {
       "action":"toggleRadialMenuMulti",
       "control":"button26"
     },
     {
-      "action":"menu_item_up",
-      "control":"button19"
+      "action":"reset_physics",
+      "control":"button1"
     },
     {
-      "action":"bigMapMoveLeft",
-      "control":"button21"
+      "action":"rotate_camera_left",
+      "control":"lpov"
     },
     {
       "action":"pause",
       "control":"button6"
     },
     {
-      "action":"switch_camera_next",
-      "control":"button11"
+      "action":"previousESCMode",
+      "control":"button63"
     },
     {
       "action":"menu_item_down",
       "control":"button20"
     },
     {
-      "action":"previousESCMode",
-      "control":"button63"
+      "action":"menu_item_up",
+      "control":"button19"
     },
     {
       "action":"menu_item_select",
