@@ -33,7 +33,8 @@ context.modules = [
 		playback.props = {
 			node.name = "effect_output.ebur128_normalize"
 			audio.position = [ FL FR ]
-			target.object = "alsa_output.usb-MOTU_M2_M2MT15C48F-00.HiFi__hw_M2__sink"
+			#target.object = "alsa_output.usb-MOTU_M2_M2MT15C48F-00.HiFi__hw_M2__sink"
+			target.object = "alsa_output.usb-MOTU_M2_M2MT15C48F-00.pro-output-0"
 			node.passive = true
 		}
 	}
