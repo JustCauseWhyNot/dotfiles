@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>49C377E04B5700F9FFA092A43BD62C3B</ExecutionGuid>
+<CrashGUID>UECC-Windows-1F18F4074F4C9818BF582380550492B7_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000010</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<AttendedStatus>Attended</AttendedStatus>
+<ProcessId>380</ProcessId>
+<SecondsSinceStart>21</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>true</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-ReadyOrNot</GameName>
+<ExecutableName>ReadyOrNotSteam-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.3.2-0+Unknown</EngineVersion>
+<EngineCompatibleVersion>5.3.2-0+Unknown</EngineCompatibleVersion>
+<CommandLine> -dx12</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>Unknown-CL-0</BuildVersion>
+<Symbols>Unknown-CL-0-Win64-Shipping</Symbols>
+<IsUERelease>true</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>Z:/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/ReadyOrNot/Binaries/Win64/</BaseDir>
+<RootDir>Z:/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/</RootDir>
+<MachineId>EFF37CFF4909EE14E4D5BF928B0C242F</MachineId>
+<LoginId>eff37cff4909ee14e4d5bf928b0c242f</LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 7 9800X3D 8-Core Processor           </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 5070 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.5796]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>49552179200</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>74327932928</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>47</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+dxgi                            0x00006ffff1c60000 + 777ba           
+d3d12core                       0x00006fffed8a0000 + 35b658          
+d3d12core                       0x00006fffed8a0000 + 36083b          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 2279970         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 22798a1         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 227d8e4         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 22d3346         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 23d7648         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 23dc0da         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 23d7aff         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b2d0cb          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b1c4ce          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 244b3eb         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + caf147          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + cac7a1          
+kernel32                        0x00006fffffe80000 + 10d59           
+</PCallStack>
+<PCallStackHash>414BBA235F93D4E21F551D5E33C45712D1550B2A</PCallStackHash>
+<Threads><Thread><CallStack></CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>384</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + e544            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1016</ThreadID>
+<ThreadName>TAsync 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>488</ThreadID>
+<ThreadName>FChunkCacheWorker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>492</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>496</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>500</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>504</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>508</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>512</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>516</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>520</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 1d87a01         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 1d846c3         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 1d86995         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 1d92c86         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 1f5d02f         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + 20098ca         
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + bd0ad5          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + ba8edf          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b105ae          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b05223          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b23856          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b0b880          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b888e4          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + caf147          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + cac7a1          
+kernel32                        0x00006fffffe80000 + 10d59           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>524</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>528</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b23994          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b0b880          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b888e4          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + caf147          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + cac7a1          
+kernel32                        0x00006fffffe80000 + 10d59           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>532</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>536</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>540</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b223c0          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b239e6          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b0b880          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + b888e4          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + caf147          
+ReadyOrNotSteam-Win64-Shipping  0x00006ffff3480000 + cac7a1          
+kernel32                        0x00006fffffe80000 + 10d59           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>544</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>548</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>552</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>556</ThreadID>
+<ThreadName>Reserve Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>560</ThreadID>
+<ThreadName>Reserve Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>564</ThreadID>
+<ThreadName>Reserve Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>568</ThreadID>
+<ThreadName>Reserve Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>572</ThreadID>
+<ThreadName>Reserve Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>576</ThreadID>
+<ThreadName>Reserve Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>580</ThreadID>
+<ThreadName>Reserve Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>584</ThreadID>
+<ThreadName>Reserve Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>588</ThreadID>
+<ThreadName>Reserve Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>592</ThreadID>
+<ThreadName>Reserve Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>596</ThreadID>
+<ThreadName>Reserve Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>600</ThreadID>
+<ThreadName>Reserve Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>604</ThreadID>
+<ThreadName>Reserve Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>608</ThreadID>
+<ThreadName>Reserve Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>620</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + e544            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>624</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>628</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + fda4            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>664</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>668</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>672</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>676</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>680</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>724</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>728</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>732</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>736</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + e544            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>740</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>820</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>828</ThreadID>
+<ThreadName>FMOD File Access Coordinator</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>860</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + e544            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>904</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>912</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>924</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00006fffffef0000 + df44            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>932</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>false</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>false</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 5070 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>999.99</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>35.0.99.9999</RHI.InternalDriverVersion>
+<RHI.DriverDate>3-24-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2C05</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+<__sentry>{
+	&quot;environment&quot;: &quot;Release&quot;,
+	&quot;contexts&quot;:
+	{
+		&quot;Unreal Engine&quot;:
+		{
+			&quot;Engine version&quot;: &quot;5.3.2-0&quot;,
+			&quot;Plugin version&quot;: &quot;1.0.0-beta.8&quot;,
+			&quot;Is Marketplace version&quot;: &quot;false&quot;,
+			&quot;Configuration&quot;: &quot;Shipping&quot;,
+			&quot;Target Type&quot;: &quot;Game&quot;,
+			&quot;Engine mode&quot;: &quot;Game&quot;,
+			&quot;Is game&quot;: &quot;true&quot;,
+			&quot;Is standalone&quot;: &quot;true&quot;,
+			&quot;Is unattended&quot;: &quot;false&quot;,
+			&quot;Game name&quot;: &quot;ReadyOrNotSteam&quot;
+		},
+		&quot;gpu&quot;:
+		{
+			&quot;name&quot;: &quot;NVIDIA GeForce RTX 5070 Ti&quot;,
+			&quot;vendor_name&quot;: &quot;NVIDIA&quot;,
+			&quot;driver_version&quot;: &quot;999.99&quot;
+		},
+		&quot;device&quot;:
+		{
+			&quot;cpu_description&quot;: &quot;AMD Ryzen 7 9800X3D 8-Core Processor           &quot;,
+			&quot;number_of_cores&quot;: &quot;8&quot;,
+			&quot;number_of_cores_including_hyperthreads&quot;: &quot;16&quot;,
+			&quot;physical_memory_size_gb&quot;: &quot;47&quot;
+		}
+	},
+	&quot;tags&quot;:
+	{
+		&quot;Configuration&quot;: &quot;Shipping&quot;,
+		&quot;Target Type&quot;: &quot;Game&quot;,
+		&quot;Engine Mode&quot;: &quot;Game&quot;,
+		&quot;Is game&quot;: &quot;true&quot;,
+		&quot;Is standalone&quot;: &quot;true&quot;,
+		&quot;Is unattended&quot;: &quot;false&quot;
+	}
+}</__sentry>
+</GameData>
+</FGenericCrashContext>

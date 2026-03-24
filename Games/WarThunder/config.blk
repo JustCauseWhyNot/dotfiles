@@ -1,3 +1,4 @@
+hangarBlk:t=""
 language:t="English"
 use_eac:b=no
 use_release_candidate:b=yes
@@ -30,14 +31,15 @@ sound{
 }
 
 video{
-  vsync:b=yes
+  vsync:b=no
   windowed:b=no
   mode:t="fullscreen"
-  resolution:t="5120 x 2880"
+  resolution:t="auto"
   driver:t="auto"
-  compatibilityMode:b=yes
-  antialiasing_mode:t="off"
+  compatibilityMode:b=no
+  antialiasing_mode:t="dlss"
   antialiasing_upscaling:t="native"
+  dlssSharpness:i=1
   fonts:t="compact"
   vreye:t="left"
   antialiasing_fgc:i=0
@@ -60,56 +62,57 @@ debug{
   testLocalization:b=yes
   enableNvHighlights:t="auto"
   netLogerr:b=yes
-  screenshotHiRes:b=no
+  screenshotHiRes:b=yes
   screenshotAsJpeg:b=no
+  enableRawInput:b=yes
 }
 
 graphics{
-  rendinstDistMul:r=0.5
-  shadowQuality:t="ultralow"
+  rendinstDistMul:r=3.5
+  shadowQuality:t="ultrahigh"
   RTRWaterRes:t="half"
-  skyQuality:i=2
-  physicsQuality:i=0
-  landquality:i=0
-  RTAOQuality:t="off"
-  ssaa:r=1.0
-  riGpuObjects:b=no
-  displacementQuality:i=0
-  RTSMQuality:t="low"
-  fxQuality:t="ultralow"
-  giQuality:t="low"
-  backgroundScale:r=1.0
-  bvhRiGenRange:i=3000
+  skyQuality:i=1
+  physicsQuality:i=5
+  landquality:i=4
+  RTAOQuality:t="medium"
+  ssaa:r=1
+  riGpuObjects:b=yes
+  displacementQuality:i=4
+  RTSMQuality:t="medium"
+  fxQuality:t="ultrahigh"
+  giQuality:t="high"
+  backgroundScale:r=1
+  bvhRiGenRange:i=1000
   cloudsQuality:i=0
-  enableBVH:b=no
-  bvhMode:t="off"
+  enableBVH:b=yes
+  bvhMode:t="custom"
   anisotropy:i=16
   RTRRes:t="half"
   waterQuality:t="low"
-  PTGIQuality:t="off"
-  advancedShore:b=no
-  mirrorQuality:i=0
-  tireTracksQuality:i=0
-  bloomQuality:i=0
-  panoramaResolution:i=1024
+  PTGIQuality:t="medium"
+  advancedShore:b=yes
+  mirrorQuality:i=10
+  tireTracksQuality:i=3
+  bloomQuality:i=3
+  panoramaResolution:i=4096
   motionBlurStrength:i=0
-  lenseFlares:b=no
-  lastClipSize:i=4096
-  waterEffectsQuality:t="low"
-  texquality:t="ultralow"
+  lenseFlares:b=yes
+  lastClipSize:i=8192
+  waterEffectsQuality:t="high"
+  texquality:t="high"
   RTRTranslucent:t="off"
-  enableRTSM:t="off"
-  RTRQuality:t="off"
-  grassRadiusMul:r=0.1
+  enableRTSM:t="sun_and_dynamic"
+  RTRQuality:t="medium"
+  grassRadiusMul:r=1.8
   RTRWater:b=no
-  contactShadowsQuality:i=0
+  contactShadowsQuality:i=2
   motionBlurCancelCamera:b=yes
-  fxDistortionStrength:r=0
+  fxDistortionStrength:r=1
 }
 
 render{
-  selfReflection:b=false
-  shadows:b=no
-  ssaoQuality:i=0
-  ssrQuality:i=0
+  selfReflection:b=yes
+  shadows:b=yes
+  ssaoQuality:i=2
+  ssrQuality:i=2
 }
