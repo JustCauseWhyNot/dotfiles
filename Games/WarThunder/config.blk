@@ -34,7 +34,7 @@ video{
   vsync:b=no
   windowed:b=no
   mode:t="fullscreen"
-  resolution:t="auto"
+  resolution:t="2560 x 1440"
   driver:t="auto"
   compatibilityMode:b=no
   antialiasing_mode:t="dlss"
@@ -48,6 +48,10 @@ video{
   latency:i=0
   antialiasing_sharpening:i=0
   perfMetrics:i=1
+  fpsLimit:i=120
+  rayReconstruction:b=yes
+  dlssLegacyMode:t="auto"
+  menuFpsLimit:i=0
 }
 
 yunetwork{
@@ -78,7 +82,7 @@ graphics{
   ssaa:r=1
   riGpuObjects:b=yes
   displacementQuality:i=4
-  RTSMQuality:t="medium"
+  RTSMQuality:t="high"
   fxQuality:t="ultrahigh"
   giQuality:t="high"
   backgroundScale:r=1
@@ -87,7 +91,7 @@ graphics{
   enableBVH:b=yes
   bvhMode:t="custom"
   anisotropy:i=16
-  RTRRes:t="half"
+  RTRRes:t="full"
   waterQuality:t="low"
   PTGIQuality:t="medium"
   advancedShore:b=yes
@@ -102,12 +106,13 @@ graphics{
   texquality:t="high"
   RTRTranslucent:t="off"
   enableRTSM:t="sun_and_dynamic"
-  RTRQuality:t="medium"
+  RTRQuality:t="high"
   grassRadiusMul:r=1.8
   RTRWater:b=no
   contactShadowsQuality:i=2
   motionBlurCancelCamera:b=yes
   fxDistortionStrength:r=1
+  RTDecals:b=no
 }
 
 render{
