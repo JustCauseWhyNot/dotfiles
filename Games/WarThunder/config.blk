@@ -48,7 +48,7 @@ video{
   latency:i=0
   antialiasing_sharpening:i=0
   perfMetrics:i=1
-  fpsLimit:i=120
+  fpsLimit:i=0
   rayReconstruction:b=yes
   dlssLegacyMode:t="auto"
   menuFpsLimit:i=0
@@ -82,7 +82,7 @@ graphics{
   ssaa:r=1
   riGpuObjects:b=yes
   displacementQuality:i=4
-  RTSMQuality:t="high"
+  RTSMQuality:t="medium"
   fxQuality:t="ultrahigh"
   giQuality:t="high"
   backgroundScale:r=1
@@ -91,7 +91,7 @@ graphics{
   enableBVH:b=yes
   bvhMode:t="custom"
   anisotropy:i=16
-  RTRRes:t="full"
+  RTRRes:t="half"
   waterQuality:t="low"
   PTGIQuality:t="medium"
   advancedShore:b=yes
@@ -106,7 +106,7 @@ graphics{
   texquality:t="high"
   RTRTranslucent:t="off"
   enableRTSM:t="sun_and_dynamic"
-  RTRQuality:t="high"
+  RTRQuality:t="medium"
   grassRadiusMul:r=1.8
   RTRWater:b=no
   contactShadowsQuality:i=2
