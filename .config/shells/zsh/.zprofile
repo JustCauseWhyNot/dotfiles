@@ -15,22 +15,20 @@ export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
 # Environment variables.
 # ======================
 #export MANGOHUD_CONFIG='preset=1,2'
+#export NVD_BACKEND=direct
+#export __EGL_VENDOR_LIBRARY_FILENAMES="/usr/share/glvnd/egl_vendor.d/10_nvidia.json"
 export -U PATH path FPATH fpath MANPATH manpath
 export -UT INFOPATH infopath
-export ats="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/270880/pfx/drive_c/users/steamuser/Documents/American Truck Simulator"
-export atsmods="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/270880/pfx/drive_c/users/steamuser/Documents/American Truck Simulator/mod"
 export Civ5="/home/justcausewhynot/Games/umu/Civ5/drive_c/Games/Civ5/"
 export EDITOR=nvim
-export ets="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2"
-export etsmods="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2/mod"
 export Hoi4="/home/justcausewhynot/.local/share/Steam/steamapps/common/Hearts of Iron IV/"
 export Hoi4launcher="/home/justcausewhynot/.local/share/Paradox Interactive/Hearts of Iron IV/"
 export Hoi4workshop="/home/justcausewhynot/.local/share/Steam/steamapps/workshop/content/394360/"
 export LD_LIBRARY_PATH="lib:$LD_LIBRARY_PATH"
 export LIBVA_DRIVER_NAME=nvidia
+#export MANGOHUD=1
 export MINECWAFT="/home/justcausewhynot/.local/share/PrismLauncher/instances"
 export MOZ_DISABLE_RDD_SANDBOX=1
-#export NVD_BACKEND=direct
 export PATH="${PATH}:$HOME/.local/bin:$HOME/.local/share/dwm/statusbar-scripts"
 export QT_QPA_PLATFORMTHEME=qt5ct
 export RoM="/home/justcausewhynot/.local/share/Steam/steamapps/common/Ready Or Not/ReadyOrNot/Content/Paks/"
@@ -39,7 +37,10 @@ export SCRCPY_SERVER_PATH=/usr/share/scrcpy/scrcpy-server
 export TERMINAL=st
 export VISUAL=nvim
 export XCURSOR_THEME=BreezeX-Black
-#export __EGL_VENDOR_LIBRARY_FILENAMES="/usr/share/glvnd/egl_vendor.d/10_nvidia.json"
+export ats="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/270880/pfx/drive_c/users/steamuser/Documents/American Truck Simulator"
+export atsmods="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/270880/pfx/drive_c/users/steamuser/Documents/American Truck Simulator/mod"
+export ets="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2"
+export etsmods="/home/justcausewhynot/.local/share/Steam/steamapps/compatdata/227300/pfx/drive_c/users/steamuser/Documents/Euro Truck Simulator 2/mod"
 export mo2="/home/justcausewhynot/Games/fallout/modding/MO2/"
 export mo2instances="/home/justcausewhynot/Games/umu/mo2/pfx/drive_c/users/steamuser/AppData/Local/ModOrganizer/"
 export notes="/home/justcausewhynot/Documents/Notes"

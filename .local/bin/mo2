@@ -1,5 +1,6 @@
 #!/bin/sh
 
-export WINEDEBUG=-all PROTON_LOG=1 WINEPREFIX=/home/justcausewhynot/Games/umu/mo2 GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton10-2" VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_32:VK_LAYER_MANGOHUD_overlay_x86" DISABLE_MANGOHUD=0 ENABLE_VKBASALT=0 MANGOHUD_CONFIG=read_cfg,fps_limit=120 LD_PRELOAD="/usr/lib/libgamemode.so.0.0.0"
-#export WINEDEBUG=-all PROTON_LOG=1 WINEPREFIX=/home/justcausewhynot/Games/umu/mo2 GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton10-2" VK_INSTANCE_LAYERS="VK_LAYER_OBS_vkcapture_32" MANGOHUD_CONFIG=read_cfg,fps_limit=120 LD_PRELOAD="/usr/lib/libgamemode.so.0.0.0"
-exec gamemoderun mangohud umu-run /home/justcausewhynot/Games/fallout/modding/MO2/ModOrganizer.exe "$@"
+#export PROTON_LOG=1 WINEPREFIX=/home/justcausewhynot/Games/umu/mo2 GAMEID=0 PROTONPATH=""
+export PROTON_LOG=1 WINEPREFIX=/home/justcausewhynot/Games/umu/mo2 GAMEID=0 PROTONPATH="/usr/share/steam/compatibilitytools.d/GE-Proton9-27" DISPLAY=:0 PROTON_ENABLE_WAYLAND=0
+#export PROTON_LOG=1 WINEPREFIX=/home/justcausewhynot/Games/umu/mo2
+exec umu-run /home/justcausewhynot/Games/fallout/modding/MO2/ModOrganizer.exe "$@"
