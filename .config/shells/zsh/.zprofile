@@ -50,3 +50,4 @@ export sgworkshop="/home/justcausewhynot/.local/share/Steam/steamapps/workshop/c
 export stk2engine="/home/justcausewhynot/Games/umu/stalker/drive_c/users/steamuser/AppData/Local/Stalker2/Saved/Config/Windows/Engine.ini"
 export stk2mods="/home/justcausewhynot/Games/stalker/2/Stalker2/Content/Paks"
 export stk2modstg="/home/justcausewhynot/Games/stalker/2/mods"
+export TTW="/home/justcausewhynot/.local/share/fluorine/TTW"

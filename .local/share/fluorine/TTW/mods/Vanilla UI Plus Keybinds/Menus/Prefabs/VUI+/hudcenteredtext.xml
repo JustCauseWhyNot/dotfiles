@@ -1,0 +1,129 @@
+<!-- HUD Centered Text prefab
+Overhauls the code of subtitle and activator strings at the HUD.
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED JULY 2022
+* Expanded the wrapwidth of centered strings to fix disappearing Living Anatomy stats under wrapped names
+* Eliminated the engine's hardcoded vertical layout of the centered Info elements that are based on its internal short wrapwidth; this includes subtitles that were jumping up and down when targeting NPCs with long names
+* Cloned the Activate prompt to an outlined text_box that can be easily distinguished from the activator's name, in addition to the alignment corrections above
+* Eliminated orphan words on subtitles
+* Worked around the engine's wiping inherited systemcolor on read access (fix continues at the text_box prefab). When you try to access an element's color via trait="systemcolor", and the element has no defined systemcolor but would inherit it from an ancestor, the element will LOSE its systemcolor (and in most cases become white). The workaround applies at the HUD only where it's most necessary due to two colors being used at the prompt for friendly/hostile actions.
+* Set the activation prompt on the activator's name position if there's no activator name (such as water bodies or harvestables)
+-->
+
+<rect name="justify_center_text"> <!--VUI+ changed to rect to hide the text; too much hardcoded crap going on here -->
+	<justify> &center; </justify>
+	<font> 0 </font> <!--VUI+ a null font prevents the engine from tumbling the vertical position of the Info rect due to its internal calculation of the activator's name wrapping -->
+	<locus> 1 </locus>
+	<alpha> 255 </alpha> <!--VUI+ necessary for NPC name at the VATS -->
+	<brightness> 255 </brightness> <!--VUI+ necessary for Hotkey wheel -->
+	<systemcolor>
+		<copy src="sibling(justify_center_hotrect)" trait="systemcolor" />
+		<onlyifnot src="parent" trait="systemcolor" />
+		<add src="parent" trait="systemcolor" />
+	</systemcolor>
+	<_VUI+PromptString> <copy src="sibling(justify_center_hotrect)" trait="string" /> </_VUI+PromptString>
+	<_VUI+PromptVisible>
+		<copy src="sibling(justify_center_hotrect)" trait="visible" />
+		<and> <copy src="me" trait="y" /> <lt> 10 </lt> </and> <!--VUI+ it's a prompt -->
+	</_VUI+PromptVisible>
+	<_VUI+xbox_button> <copy src="sibling(justify_center_hotrect)" trait="_xbox_button" /> </_VUI+xbox_button>
+	<_VUI+PCButtonText> <copy src="sibling(justify_center_hotrect)" trait="_PCButtonText" /> </_VUI+PCButtonText>
+
+	<text name="VUI+ActivatorName"> <!--VUI+ we can now safely clone everything we need from the hardcoded parent without messing with the block structure -->
+		<x>
+			<!--VUI+ font X metric alignment fix -->
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontX_" />
+			<sub> 3 </sub>
+		</x>
+		<y>
+			<!--VUI+ font Y metric alignment fix -->
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontY_"/>
+			<!--VUI+ set the activator name right above the separators -->
+			<add> 35 </add>
+			<sub src="me" trait="height" />
+			<onlyif>
+				<copy src="parent" trait="y" /> <lt> 10 </lt> <!--VUI+ don't apply to other activator strings such as [EMPTY], Locked etc -->
+				<and> <copy src="grandparent" trait="childcount" /> <gt> 2 </gt> </and> <!--VUI+ don't apply to subtitle blocks which only have 1 child -->
+			</onlyif>
+		</y>
+		<justify> &center; </justify>
+		<font> 7 </font>
+		<string> <copy src="parent" trait="string" /> </string>
+		<alpha> <copy src="parent" trait="alpha" /> </alpha>
+		<brightness> <copy src="parent" trait="brightness" /> </brightness>
+		<systemcolor>
+			<copy> &hudmain; </copy>
+			<onlyifnot src="parent" trait="systemcolor" />
+			<add src="parent" trait="systemcolor" />
+		</systemcolor>
+		<include src="VUI+\orphancontrol.xml" />
+		<_VUI+MaxWrapwidth>
+			<copy> 100 </copy> <!--VUI+ 800 for subs, 700 for anything else -->
+			<onlyif> <copy src="grandparent" trait="childcount" /> <lte> 2 </lte> </onlyif>
+			<add> 700 </add>
+		</_VUI+MaxWrapwidth>
+		<visible> <copy src="me" trait="width" /> <gt> 15 </gt> </visible>
+	</text>
+
+	<!--VUI+ the standard prompt is hidden at text_box.xml, and replaced by a clone that can be correctly aligned above the activator's name -->
+	<rect name="VUI+PromptClone">
+		<include src="text_box.xml"/>
+		<_xbox_button> <copy src="parent" trait="_VUI+xbox_button" /> </_xbox_button>
+		<_PCButtonText> <copy src="parent" trait="_VUI+PCButtonText" /> </_PCButtonText>
+		<_button_placement> &left; </_button_placement>
+		<_line_alpha>
+			<!--VUI+ enhance the button's contrast when _VUI+HUDPrompt=1 -->
+			<copy src="parent" trait="alpha" />
+			<mul> -0.25 </mul>
+			<onlyif> <copy src="io" trait="_VUI+HUDPrompt" /> <eq> 1 </eq> </onlyif>
+			<add src="parent" trait="alpha" />
+		</_line_alpha>
+		<!--VUI+ remove text_box specific properties because this isn't a clickable button -->
+		<_verbuf> 0 </_verbuf>
+		<!--VUI+ remove text_box y alignment fix because it's already applied on the activator's name -->
+		<_text_y_adjust>
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontY_"/>
+			<mul> -1 </mul>
+		</_text_y_adjust>
+		<_x>
+			<copy src="sibling(VUI+ActivatorName)" trait="x" />
+			<!--VUI+ take into account the font-specific metric alignment of the text_box string -->
+			<sub>
+				<copy src="me" trait="font" />
+				<copy src="globals" trait="_VUI+FontX_"/>
+			</sub>
+		</_x>
+		<y>
+			<copy src="sibling(VUI+ActivatorName)" trait="y" />
+			<sub>
+				<!--VUI+ move the prompt above the name -->
+				<copy src="me" trait="height" />
+				<onlyif>
+					<!--VUI+ unless there's no name and _VUI+HUDPrompt > 0 -->
+					<not src="io" trait="_VUI+HUDPrompt" />
+					<or src="sibling(VUI+ActivatorName)" trait="visible" />
+				</onlyif>
+			</sub>
+		</y>
+		<justify> &center; </justify>
+		<font> <copy src="sibling(VUI+ActivatorName)" trait="font" /> </font>
+		<string> <copy src="parent" trait="_VUI+PromptString" /> </string>
+		<systemcolor> <copy src="sibling(VUI+ActivatorName)" trait="systemcolor" /> </systemcolor>
+		<visible>
+			<copy src="parent" trait="_VUI+PromptVisible" />
+			<and>
+				<!--VUI+ allow the prompt to be hidden if the activator has a name and _VUI+HUDPrompt = 2 -->
+				<copy src="io" trait="_VUI+HUDPrompt" /> <lt> 2 </lt>
+				<or> <not src="sibling(VUI+ActivatorName)" trait="visible" /> </or>
+			</and>
+		</visible>
+		<_VUI+ButtonLabel> <not src="io" trait="_VUI+HUDPrompt" /> </_VUI+ButtonLabel>
+		<_VUI+OutlineIntensity>
+			<!--VUI+ enhance the button's outline when _VUI+HUDPrompt=1 -->
+			<copy> 0.65 </copy>
+			<onlyif> <copy src="io" trait="_VUI+HUDPrompt" /> <eq> 1 </eq> </onlyif>
+		</_VUI+OutlineIntensity>
+	</rect>
+</rect>

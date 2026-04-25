@@ -1,0 +1,80 @@
+<!-- Text Outlining prefab
+Adds an outline effect to the preceding text block; include it right under a </text> closing tag
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2022
+* Creates two additional text blocks behind the preceding text block
+* One block is used for outlining, the other for the shadow effect
+* _VUI+OutlineIntensity is reduced by the _VUI+FontGlow property of the original font (naturally outlined fonts should receive less outlining)
+
+Unlike standard prefabs, this one requires its traits to be set on the PRECEDING text block instead of a parent, which is why it's preferrable to use outline_rect instead
+
+_VUI+OutlineIntensity is the strength of the black outline around the characters; try values between 0.7 and 2.5
+_VUI+ShadowOffset is the distance of the shadow from the original text; a positive value sets the shadow to the bottom-right whereas negative values set it to the top-left
+You can try these defaults:
+<_VUI+OutlineIntensity> 1.5 </_VUI+OutlineIntensity>
+<_VUI+ShadowOffset> 1.5 </_VUI+ShadowOffset>
+-->
+
+<text name="VUI+Shadow">
+	<alpha>
+		<copy src="sibling" trait="_VUI+OutlineIntensity" />
+		<!-- reduce by the inherent outline of the font bitmap -->
+		<div>
+			<copy src="me" trait="font" />
+			<copy src="globals" trait="_VUI+FontGlow_" />
+			<add> 1 </add>
+		</div>
+		<mul src="sibling" trait="alpha" />
+	</alpha>
+	<zoom>
+		<copy> 100 </copy>
+		<onlyifnot src="sibling" trait="zoom" />
+		<add src="sibling" trait="zoom" />
+	</zoom>
+	<_VUI+ShadowOffset>
+		<copy src="me" trait="zoom" /> <!-- zoom counts for the 1/4 of the shadow offset -->
+		<div> 100 </div>
+		<add> 3 </add>
+		<mul src="sibling" trait="_VUI+ShadowOffset" />
+		<div> 4 </div>
+	</_VUI+ShadowOffset>
+	<_x> <copy src="sibling" trait="x" /> </_x>
+	<_y> <copy src="sibling" trait="y" /> </_y>
+	<x> <copy src="sibling" trait="x" /> <add src="me" trait="_VUI+ShadowOffset" /> </x>
+	<y> <copy src="sibling" trait="y" /> <add src="me" trait="_VUI+ShadowOffset" /> </y>
+	<brightness> <copy src="sibling" trait="brightness" /> <div> 10 </div> </brightness>
+	<red> <copy src="sibling" trait="red"/> <div> 10 </div> </red>
+	<green> <copy src="sibling" trait="green"/> <div> 10 </div> </green>
+	<blue> <copy src="sibling" trait="blue"/> <div> 10 </div> </blue>
+	<depth> <copy src="sibling" trait="depth" /> <sub> 0.4 </sub> </depth>
+	<visible>
+		<copy src="sibling" trait="visible" />
+		<and src="sibling" trait="_VUI+OutlineIntensity" />
+	</visible>
+	<font> <copy src="sibling" trait="font" /> </font>
+	<string> <copy src="sibling" trait="string" /> </string>
+	<justify> <copy src="sibling" trait="justify" /> </justify>
+	<wrapwidth> <copy src="sibling" trait="wrapwidth" /> </wrapwidth>
+	<clips> <copy src="sibling" trait="clips" /> </clips>
+</text>
+
+<!-- the outline is composed after the shadow to allow consequtive "sibling" references to get the correct x/y traits (to avoid staircases of siblings) -->
+<text name="VUI+Outline">
+	<alpha> <copy src="sibling" trait="alpha" /> </alpha>
+	<zoom> <copy src="sibling" trait="zoom" /> </zoom>
+	<x> <copy src="sibling" trait="_x" /> </x>
+	<y> <copy src="sibling" trait="_y" /> </y>
+	<brightness> <copy src="sibling" trait="brightness" /> <mul> 2 </mul> </brightness>
+	<red> <copy src="sibling" trait="red"/> <mul> 2 </mul> </red>
+	<green> <copy src="sibling" trait="green"/> <mul> 2 </mul> </green>
+	<blue> <copy src="sibling" trait="blue"/> <mul> 2 </mul> </blue>
+	<depth> <copy src="sibling" trait="depth" /> <add> 0.2 </add> </depth> <!-- between the shadow and the original -->
+	<visible>
+		<copy src="sibling" trait="visible" />
+		<and src="sibling" trait="_VUI+ShadowOffset" />
+	</visible>
+	<font> <copy src="sibling" trait="font" /> </font>
+	<string> <copy src="sibling" trait="string" /> </string>
+	<justify> <copy src="sibling" trait="justify" /> </justify>
+	<wrapwidth> <copy src="sibling" trait="wrapwidth" /> </wrapwidth>
+	<clips> <copy src="sibling" trait="clips" /> </clips>
+</text>

@@ -1,0 +1,78 @@
+<!-- Square prefab
+Inserts a square that can be easily included into list item templates
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2022
+* Includes a filled or hollow square whose dimensions match the parent
+* Takes into account the metrics of the filled & hollow square textures on the interface atlas
+
+To use, change the parent square image to a rect and include this prefab on top like any other standard prefab.
+-->
+
+<!-- optional overrides (defaults assume standard VUI+ list item template parent) -->
+<_hollow> 0 </_hollow> <!-- 0 = filled square, 1 = hollow square -->
+<_x> 0 </_x>
+<_y> 0 </_y>
+<_item_min_height> <copy src="grandparent" trait="_item_min_height" /> </_item_min_height> <!-- grandparent = list_box -->
+<x>
+	<copy src="me" trait="y" />
+	<min> 14 </min>
+	<add src="me" trait="_x" />
+</x>
+<y>
+	<copy src="me" trait="_item_min_height" />
+	<sub src="me" trait="height" />
+	<div> 2 </div>
+	<add src="me" trait="_y" />
+</y>
+<height>
+	<copy src="me" trait="_item_min_height" />
+	<div> 3.5 </div>
+</height>
+<alpha> 255 </alpha>
+<brightness>
+	<copy src="parent" trait="brightness" /> <!--VUI+ target highlighting -->
+	<max>
+		<copy> 255 </copy>
+		<onlyif>
+			<copy src="parent" trait="brightness" />
+			<lt> 0 </lt>
+		</onlyif>
+	</max>
+</brightness>
+
+<!-- don't override -->
+<locus> 1 </locus>
+<width> <copy src="me" trait="height" /> </width>
+<_SquarePadding> <!-- add to list items to align the text next to the square -->
+	<copy src="me" trait="x" />
+	<mul> 2 </mul>
+	<add src="me" trait="width" />
+	<sub src="globals" trait="_line_thickness"/>
+</_SquarePadding>
+
+<image name="square">
+	<_filename_0> square_filled.dds </_filename_0>
+	<_filename_1> square.dds </_filename_1>
+	<filename>
+		<copy src="parent" trait="_hollow" />
+		<copy src="me" trait="_filename_" />
+	</filename>
+	<texatlas> Interface\InterfaceShared.tai </texatlas>
+	<clips> 1 </clips>
+	<width>
+		<copy> 0.008 </copy>
+		<onlyif src="parent" trait="_hollow" />
+		<add> 1.71 </add>
+		<mul src="parent" trait="width" />
+	</width>
+	<height> <copy src="me" trait="width" /> </height>
+	<x>
+		<copy src="parent" trait="width" />
+		<mul> -0.15 </mul>
+		<onlyifnot src="parent" trait="_hollow" />
+	</x>
+	<alpha> <copy src="parent" trait="alpha" /> </alpha>
+	<brightness> <copy src="parent" trait="brightness" /> </brightness>
+	<red> <copy src="parent" trait="red" /> </red>
+	<green> <copy src="parent" trait="green" /> </green>
+	<blue> <copy src="parent" trait="blue" /> </blue>
+</image>

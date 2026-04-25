@@ -1,0 +1,74 @@
+<!-- Background image prefab
+Include it on an <image> block and set the required tags; for example see the Message menu
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2020
+* Applies the improved version of the dark background to the menu; it will stretch beyond the menu's dimensions to compensate for its fuzzy borders
+* The new background adheres to the HUD color setting
+* The MenuHeader tag should be used for menus that require a slightly greater top border for heading purposes
+-->
+
+<!-- REQUIRED -->
+<_VUI+MenuX> </_VUI+MenuX> <!--VUI+ use the parent block's x -->
+<_VUI+MenuY> </_VUI+MenuY> <!--VUI+ use the parent block's y -->
+<_VUI+MenuWidth> </_VUI+MenuWidth> <!--VUI+ use the parent block's width -->
+<_VUI+MenuHeight> </_VUI+MenuHeight> <!--VUI+ use the parent block's height -->
+
+<!-- defaults -->
+<_VUI+MenuHeader> 0 </_VUI+MenuHeader> <!--VUI+ set a small value (eg. 5) for menus that use headings such as the barter menu -->
+<filename> Interface\VUI+\solid_black.dds </filename>
+<alpha> <copy src="globals" trait="_background_fill_alpha"/> </alpha>
+<brightness> <copy src="globals" trait="_VUI+DarkBrightness" /> </brightness>
+<depth> 1 </depth>
+
+<!-- calculated -- don't change -->
+<_VUI+BackgroundPadding>
+	<copy src="me" trait="_VUI+MenuWidth" />
+	<mul> 0.01 </mul>
+	<max>
+		<copy src="me" trait="_VUI+MenuHeight" />
+		<mul> 0.015 </mul>
+	</max>
+	<add> 5 </add>
+</_VUI+BackgroundPadding>
+<_VUI+BackgroundHeading>
+	<copy src="me" trait="_VUI+MenuHeader" />
+	<add>
+		<copy src="me" trait="_VUI+MenuHeader" />
+		<mul src="me" trait="_VUI+BackgroundPadding" />
+		<div> 35 </div>
+	</add>
+</_VUI+BackgroundHeading>
+<x>
+	<copy src="me" trait="_VUI+MenuX" />
+	<sub>
+		<copy src="me" trait="_VUI+MenuWidth" />
+		<mul> 0.022 </mul>
+		<add src="me" trait="_VUI+BackgroundPadding" />
+	</sub>
+</x>
+<y>
+	<copy src="me" trait="_VUI+MenuY" />
+	<sub>
+		<copy src="me" trait="_VUI+MenuHeight" />
+		<mul> 0.054 </mul>
+		<add src="me" trait="_VUI+BackgroundPadding" />
+	</sub>
+	<sub src="me" trait="_VUI+BackgroundHeading" />
+	<add> <!-- fixes a minor issue with the default bottom brackets -->
+		<copy src="me" trait="_VUI+MenuHeight" />
+		<mul> 0.003 </mul>
+	</add>
+</y>
+<width>
+	<copy src="me" trait="_VUI+MenuWidth" />
+	<mul> 1.044 </mul>
+	<add src="me" trait="_VUI+BackgroundPadding" />
+	<add src="me" trait="_VUI+BackgroundPadding" />
+</width>
+<height>
+	<copy src="me" trait="_VUI+MenuHeight" />
+	<mul> 1.11 </mul>
+	<add src="me" trait="_VUI+BackgroundPadding" />
+	<add src="me" trait="_VUI+BackgroundPadding" />
+	<add src="me" trait="_VUI+BackgroundHeading" />
+</height>
+<zoom> &scale; </zoom>

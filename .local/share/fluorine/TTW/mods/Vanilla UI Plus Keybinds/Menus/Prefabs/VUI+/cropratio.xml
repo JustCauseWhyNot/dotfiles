@@ -1,0 +1,63 @@
+<!-- Crop with ratio prefab
+Zooms a cropped image to the specified dimensions, retaining its original ratio; include this prefab at the top of an image, fill the required tags and delete any <zoom> <cropx> and <cropy> tags under your <include>
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED MAY 2022
+* Retrieves the width and height of the original image prior to zooming
+* Based on user-specified crop and width values, it automatically crops and scales the image to its intended size without using &scale;
+-->
+
+<!-- REQUIRED -->
+<filename> </filename>
+<!-- the ratio of the left crop (empty border) of the original image divided by its total width -->
+<!-- by default, all other sides use the same value as the left crop ratio -->
+<_LeftCropRatio> </_LeftCropRatio>
+<!-- width of the rendered and automatically cropped image -->
+<!-- you can set height instead of width but its best to only set one of them -->
+<width>
+	<copy src="me" trait="height"/>
+	<mul src="child" trait="filewidth" />
+	<div src="child" trait="fileheight" />
+</width>
+
+<!-- defaults -->
+<_RightCropRatio> <copy src="me" trait="_LeftCropRatio" /> </_RightCropRatio>
+<_TopCropRatio> <copy src="me" trait="_LeftCropRatio" /> </_TopCropRatio>
+<_BottomCropRatio> <copy src="me" trait="_LeftCropRatio" /> </_BottomCropRatio>
+<height>
+	<copy src="me" trait="width"/>
+	<mul src="child" trait="fileheight" />
+	<div src="child" trait="filewidth" />
+	<mul>
+		<copy> 1 </copy>
+		<sub src="me" trait="_BottomCropRatio" />
+	</mul>
+</height>
+
+<!-- calculated -- don't change -->
+<image name="dummy">
+	<filename> <copy src="parent" trait="filename" /> </filename>
+</image>
+
+<zoom>
+	<copy src="me" trait="width" />
+	<div>
+		<copy src="child" trait="filewidth" />
+		<mul>
+			<copy> 1 </copy>
+			<sub src="me" trait="_LeftCropRatio" />
+			<sub src="me" trait="_RightCropRatio" />
+		</mul>
+	</div>
+	<mul> 100 </mul>
+</zoom>
+<cropx>
+	<copy src="me" trait="_LeftCropRatio" />
+	<mul src="child" trait="filewidth" />
+	<mul src="me" trait="zoom" />
+	<div> 100 </div>
+</cropx>
+<cropy>
+	<copy src="me" trait="_TopCropRatio" />
+	<mul src="child" trait="fileheight" />
+	<mul src="me" trait="zoom" />
+	<div> 100 </div>
+</cropy>

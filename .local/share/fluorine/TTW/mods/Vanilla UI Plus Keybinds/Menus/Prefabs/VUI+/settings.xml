@@ -1,0 +1,88 @@
+<!-- Vanilla UI Plus settings file (New Vegas)
+You can modify each setting within <_VUI+...> </_VUI+...> tags.
+You can also modify them by script through SetUIFloat "HUDMainMenu\_VUI+..."
+-->
+
+<!-- The maximum size of the dialog topic list box. Default 230 will
+fit 5 one-line topics with the default font. -->
+<_VUI+DialogMaxHeight> 230 </_VUI+DialogMaxHeight>
+
+<!-- The height of the container, barter and recipe lists. Maximum
+is 560. The default 420 takes into account companion subtitles
+on New Vegas and, more importantly, the fact that it's a game menu,
+not some bean-counting spreadsheet. -->
+<_VUI+ContainerHeight> 420 </_VUI+ContainerHeight>
+
+<!-- To allow easy inspection of CND, RAD and hardcore stats, VUI+
+sets the brightness of their buttons at the Stats menu according to
+their magnitude. If you'd like see their numeric values next to
+those buttons, set it to 2. To revert the buttons to the vanilla
+style, set it to 0. -->
+<_VUI+StatusInfo> 1 </_VUI+StatusInfo>
+
+<!-- By default VUI+ reduces the visual impact of the HUD activation
+prompt by fading its brightness and hiding its button label. This
+enhances the player's focus on the activator name which is a much
+more important element. For an even more minimal prompt you can set
+this to 2 which hides the action prompt for named activators.
+Setting this to 0 will revert the prompt to its vanilla style. -->
+<_VUI+HUDPrompt> 1 </_VUI+HUDPrompt>
+
+<!-- These settings apply to all Pip-Boy menus and define the
+position, the width, and the height of the content. Here are a few
+tested values for alternative Pip-Boy mods:
+         Pip-Boy 2500/2501    Pip-Boy 2500a    Pip-Boy 2000 Mk VI
+X                46                   30               43
+Y                35                   33               43
+Width           860                  890              885
+Height          585                  600              590     -->
+<_VUI+PipX> 30 </_VUI+PipX>
+<_VUI+PipY> 43 </_VUI+PipY>
+<_VUI+PipWidth> 890 </_VUI+PipWidth>
+<_VUI+PipHeight> 560 </_VUI+PipHeight>
+
+<!-- By setting the scrolling slider to the tiny solid.dds
+texture, VUI+ will add separate fading tips to it. This is to
+complement the new slider height calculations which allow
+for really big sliders. It's also necessary for the current
+version of Clean HUD which applies an incorrect size on the
+standard slider texture. To revert to the default slider
+set to Interface\Shared\scrollbar\vert_marker.dds instead. -->
+<_VUI+ScrollingSlider> Interface\Shared\solid.dds </_VUI+ScrollingSlider>
+
+<!-- If you are using mods that remove the world map tint, such as
+Shiloh's Clean Pipboy Screen, set this to 1. You can also increase
+it up to 127, to apply more brightness to the map. -->
+<_VUI+ShilohCleanPip> 0 </_VUI+ShilohCleanPip>
+
+<!-- Display the Value per Weight ratio of the currently selected
+item at the stats cards. Requires the VUI+ Plugin. Enabled by
+default because, thanks to various spatial optimizations, there's
+an empty space available at the stats. -->
+<_VUI+VWratio> 1 </_VUI+VWratio>
+
+<!-- Allow the total width of the condition (CND) bar on the item
+stats in various menus to be dynamically resized, based on the
+durability (max health) of the selected item. Durability has no
+upper limit, thus resizing cannot be proportional. For example,
+installing a weapon mod that doubles the durability of a weapon
+will increase the total width of its CND bar only by a fraction.
+This option requires the VUI+ Plugin. -->
+<_VUI+DynamicCND> 0 </_VUI+DynamicCND>
+
+<!-- Remove the MODS label from item stats. Useful if you are
+using an item sorter mod which already provides such a prefix. -->
+<_VUI+noMODSlabel> 0 </_VUI+noMODSlabel>
+
+<!-- If you're using a mod that enables Big Guns, setting this to 1
+will adjust the padding of the skills to allow all 14 of them to fit
+on a single level-up page. This will be automatically enabled or
+disabled if you are using the VUI+ Plugin. -->
+<_VUI+bEnableBigGunsSkill> 0 </_VUI+bEnableBigGunsSkill>
+
+<!-- If you are using a mod that assigns numeric shortcuts to dialog
+topics, you can set this to 1 to display numbers on their left. -->
+<_VUI+NumberedTopics> 0 </_VUI+NumberedTopics>
+
+<!-- Font-specific settings -->
+<include src="VUI+\fonts.xml" />

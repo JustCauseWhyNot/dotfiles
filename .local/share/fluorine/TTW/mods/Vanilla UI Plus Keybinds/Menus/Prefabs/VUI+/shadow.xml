@@ -1,0 +1,32 @@
+<!-- Image Shadow prefab
+Adds a shadow effect to the parent image block
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2022
+* Creates a cloned image under the parent image; requires <locus> on the parent image
+-->
+
+<_VUI+ShadowOffset> 3 </_VUI+ShadowOffset> <!-- how many points the shadow is placed below and right of the image, 0 disables shadows -->
+
+<locus> 1 </locus>
+<image name="VUI+Shadow">
+	<filename> <copy src="parent" trait="filename" /> </filename>
+	<texatlas> <copy src="parent" trait="texatlas" /> </texatlas>
+	<zoom> <copy src="parent" trait="zoom" /> </zoom>
+	<width> <copy src="parent" trait="width" /> </width>
+	<height> <copy src="parent" trait="height" /> </height>
+	<cropx> <copy src="parent" trait="cropx" /> </cropx>
+	<cropy> <copy src="parent" trait="cropy" /> </cropy>
+	<visible> <copy src="parent" trait="_VUI+ShadowOffset" /> </visible>
+	<alpha>
+		<copy src="parent" trait="alpha" />
+		<div> 1.7 </div>
+		<min> 150 </min>
+	</alpha>
+	<depth> -0.2 </depth>
+	<x> <copy src="parent" trait="_VUI+ShadowOffset" /> </x>
+	<y> <copy src="parent" trait="_VUI+ShadowOffset" /> </y>
+	<brightness> 0 </brightness> <!-- roses are red but shadows are black -->
+	<!-- in case of broken systemcolor inheritance, these will act as overrides -->
+	<red> 0 </red>
+	<green> 0 </green>
+	<blue> 0 </blue>
+</image>

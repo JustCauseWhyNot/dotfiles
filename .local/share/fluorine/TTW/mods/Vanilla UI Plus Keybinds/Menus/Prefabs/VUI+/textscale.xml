@@ -1,0 +1,34 @@
+<!-- Text Scale prefab (Requires UIO)
+Scales the text to a specific maximum width to prevent clipping or wrapping; requires UIO >= 2.30
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED SEPTEMBER 2022
+* Creates an invisible, unwrapped clone of the original parent text
+* Calculates the correct zoom of the parent text so that it fits into the available _MaxWidth
+-->
+
+<!-- if the following doesn't work, set it to the grandparent's width --> 
+<_MaxWidth>
+	<copy src="me" trait="wrapwidth" />
+	<sub> 1 </sub>
+</_MaxWidth>
+
+<_TextScale> 1 </_TextScale> <!-- enable / disable -->
+<_MinZoom> 50 </_MinZoom> <!-- anything below 40 is probably unreadable -->
+<_MaxZoom> 100 </_MaxZoom> <!-- you probably never want to magnify a bitmap font -->
+
+<text name="unzoomed_clone">
+	<string> <copy src="parent" trait="string" /> </string>
+	<font> <copy src="parent" trait="font" /> </font>
+	<visible> 0 </visible>
+</text>
+<zoom>
+	<copy src="me" trait="_MaxWidth" />
+	<div src="child(unzoomed_clone)" trait="width" />
+	<mul> 100 </mul>
+	<min src="me" trait="_MaxZoom" />
+	<max src="me" trait="_MinZoom" />
+	<onlyif src="me" trait="_TextScale" />
+	<add>
+		<copy> 100 </copy>
+		<onlyifnot src="me" trait="_TextScale" />
+	</add>
+</zoom>

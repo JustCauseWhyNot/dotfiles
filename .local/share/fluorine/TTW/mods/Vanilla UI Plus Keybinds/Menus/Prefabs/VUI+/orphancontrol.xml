@@ -1,0 +1,52 @@
+<!-- Orphan Control prefab
+Reduces orphan words; include it inside a text block and substitute <wrapwidth> with <_VUI+MaxWrapwidth>
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED JULY 2022
+* Creates a 1st clone of the parent text with wrapwidth set to _VUI+MaxWrapwidth
+* Creates a 2nd clone of the parent text with wrapwidth the 1st clone's real width minus a large percentage
+* If the 2nd clone doesn't produce extra lines, the final wrapwidth is set to the 1st clone's real width minus a tiny percentage
+-->
+
+<zoom> 100 </zoom> <!-- support UIO's text zoom -->
+<_VUI+MaxWrapwidth>
+	<!-- defaults based on readability standards -->
+	<copy> 500 </copy>
+	<mul>
+		<copy src="me" trait="zoom" />
+		<div> 100 </div>
+	</mul>
+	<add> 300 </add>
+	<min src="screen" trait="width"/>
+</_VUI+MaxWrapwidth>
+
+<wrapwidth>
+	<copy src="child(VUI+LessWidth)" trait="wrapwidth" />
+	<!-- that's 97.2% of the 1st clone's real width which was calculated AFTER wrapping; it will cause an extra wrap of at least 1 word -->
+	<mul> 1.2 </mul>
+	<sub src="me" trait="_VUI+MaxWrapwidth" />
+	<onlyif>
+		<!-- use the max wrapwidth if the 2nd clone would produce extra lines -->
+		<copy src="child(VUI+FullWidth)" trait="height" />
+		<eq src="child(VUI+LessWidth)" trait="height" />
+	</onlyif>
+	<add src="me" trait="_VUI+MaxWrapwidth" />
+</wrapwidth>
+
+<text name="VUI+FullWidth">
+	<string> <copy src="parent" trait="string" /> </string>
+	<font> <copy src="parent" trait="font" /> </font>
+	<zoom> <copy src="parent" trait="zoom" /> </zoom>
+	<visible> 0 </visible>
+	<wrapwidth> <copy src="parent" trait="_VUI+MaxWrapwidth" /> </wrapwidth>
+</text>
+
+<text name="VUI+LessWidth">
+	<string> <copy src="parent" trait="string" /> </string>
+	<font> <copy src="parent" trait="font" /> </font>
+	<zoom> <copy src="parent" trait="zoom" /> </zoom>
+	<visible> 0 </visible>
+	<wrapwidth>
+		<copy src="sibling" trait="width" />
+		<mul> 0.81 </mul>
+		<max> 50 </max> <!-- protects against freezes/CTDs, not sure why -->
+	</wrapwidth>
+</text>

@@ -1,0 +1,40 @@
+<!-- Text Outlining & Shadow prefab
+Adds an outline effect to the parent text block.
+WRITTEN BY AXONIS FOR VANILLA UI PLUS; MODIFIED OCTOBER 2022
+* Clones the original text and includes the outline prefab to compose an outline/shadow
+* Compared to outline.xml this prefab has the advantage of not modifying the original block tree
+* Use this prefab whenever possible: notable exception is list_box_templates
+
+To use, convert the parent text block to a rect and include this prefab on top like any other standard prefab.
+-->
+
+<!-- optional overrides -->
+<_VUI+OutlineIntensity> 1.5 </_VUI+OutlineIntensity> <!-- try values between 0.7 and 2.5 -->
+<_VUI+ShadowOffset> 1.5 </_VUI+ShadowOffset> <!-- offsets the shadow to the bottom right; negative values change the shadows to the top left -->
+<zoom> 100 </zoom>
+<alpha> 255 </alpha>
+<brightness> 255 </brightness>
+
+<!-- don't override -->
+<locus> 1 </locus>
+<height> <copy src="child(original)" trait="height" /> </height>
+<width> <copy src="child(original)" trait="width" /> </width>
+
+<text name="original">
+	<alpha> <copy src="parent" trait="alpha" /> </alpha>
+	<brightness> <copy src="parent" trait="brightness" /> </brightness>
+	<red> <copy src="parent" trait="red"/> </red>
+	<green> <copy src="parent" trait="green"/> </green>
+	<blue> <copy src="parent" trait="blue"/> </blue>
+	<font> <copy src="parent" trait="font" /> </font>
+	<zoom> <copy src="parent" trait="zoom" /> </zoom>
+	<string> <copy src="parent" trait="string" /> </string>
+	<justify> <copy src="parent" trait="justify" /> </justify>
+	<wrapwidth> <copy src="parent" trait="wrapwidth" /> </wrapwidth>
+	<clips> <copy src="parent" trait="clips" /> </clips>
+	<depth> 0.6 </depth> <!-- 0.6 for the original, 0.4 for the outline, 0.2 for the shadow -->
+	<_VUI+OutlineIntensity> <copy src="parent" trait="_VUI+OutlineIntensity" /> </_VUI+OutlineIntensity>
+	<_VUI+ShadowOffset> <copy src="parent" trait="_VUI+ShadowOffset" /> </_VUI+ShadowOffset>
+</text>
+
+<include src="VUI+\outline.xml" /> <!-- set here to inherit from the original sibling -->
