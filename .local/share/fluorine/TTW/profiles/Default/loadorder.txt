@@ -35,6 +35,7 @@ Repeatable Quests Rewards Rebalanced.esm
 BiRepChecks.esm
 Home and Safehouse Tweaks.esm
 JIP Selective-Fire.esm
+Cyberware.esm
 Functional Post Game Ending Lite.esm
 Functional Post Game Ending Lite TTW Patch.esm
 TLD_Travelers.esm
@@ -116,11 +117,12 @@ ATMOS Ambient Overhaul.esp
 Gun and Friends.esm
 PhysicallyBasedTexturing.esp
 TTW Quick Start.esp
-MigSpeedFix.esp
 GasTrapPerformanceFix.esp
+MigSpeedFix.esp
 The Mod Configuration Menu.esp
 Vanilla UI Plus.esp
 TTW Quick NV Train Start.esp
+Item Assistant.esp
 JustAssortedMods.esp
 JBTImproved.esp
 Supplemental Ammo Crafting.esp
@@ -130,6 +132,9 @@ Enhanced Movement.esp
 MigPowerAttack.esp
 SMAC - Simple Melee Attack Cancel and Parry.esp
 Quickthrow.esp
+Cyberware OWB.esp
+Cyberware TTW.esp
+CynerwarePatch.esp
 B42Dropmag.esp
 QuickthrowTweaks.esp
 B42Bash.esp
@@ -157,6 +162,8 @@ DNTTWTPEx+DNWPatch.esp
 DNWeather+GoodiesPatch.esp
 NeutralWeathers_TTW.esp
 WindowsAmbientLightAtNight.esp
+CC - Rain.esp
+CC - 3D Rain.esp
 B42Inspect.esp
 HitMisc.esp
 HitMisc+ExtraGoodiesPatch.esp
@@ -166,6 +173,7 @@ DNWeather+TTWWRPatch.esp
 ATMOS Sound Overhaul - TTW.esp
 ATMOS Ambient Overhaul - AWOP Revision.esp
 ATMOS Ambient Overhaul - DLC.esp
+CCRainPatch.esp
 ATMOS+TTWPatch.esp
 ATMOS+YUPTTWPatch.esp
 ATMOS+PlacementFixesPatch.esp
@@ -183,6 +191,8 @@ ATMOS+DNWPatch.esp
 ATMOS NV - TTW Patch.esp
 AWSOMER.esp
 HitSound.esp
+ExtendedNVRadio.esp
+ExtendedNVRadio+TTWPatch.esp
 TTW Weapon Replacers.esp
 TTWWR+mil-TTWPlacementsPatch.esp
 TTWRP+GoodiesPatch.esp
@@ -192,8 +202,14 @@ SALVO 2 - CORE.esp
 SALVO 2 - PRIME.esp
 SALVO2PRIME+DNW+GoodiesPatch.esp
 SALVO 2 - LOD TTW.esp
-SALVO2LODTTW+ATMOSPatch.esp
+SALVO2LODTTWPatch.esp
 fixycrapttw+GoodiesTTWPatch.esp
 T4-plugin.esp
 Lore Friendly Armor TTW.esp
+LFATTW+TTWPatch.esp
 LFA TTW - T4 + SMIM Patch.esp
+LFATTW-T4&SMINPatch+TTWpatch.esp
+Titans of The New West.esp
+PAVE_NV_TTW.esp
+PAVE_NV.esp
+PowerArmorPatch.esp
