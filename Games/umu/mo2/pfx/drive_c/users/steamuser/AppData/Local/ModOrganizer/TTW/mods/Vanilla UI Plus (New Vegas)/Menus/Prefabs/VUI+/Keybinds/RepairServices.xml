@@ -1,7 +1,0 @@
-<!-- Repair All (Vanilla A, VUI+WASD R) -->
-<_PCButton_R> RSM_RepairAllButton </_PCButton_R>
-<_RSM_RepairAllButton> R) </_RSM_RepairAllButton>
-
-<!-- Done (Vanilla E)-->
-<_PCButton_E> RSM_DoneButton </_PCButton_E>
-<_RSM_DoneButton> E) </_RSM_DoneButton>

@@ -30,6 +30,7 @@ Lucky_38_Penthouse_Optimization.esm
 McCarranConcourse_Less_Trash_opt.esm
 FNVOptimizations+PlacementFixesPatch.esm
 Main And Pause Menus Overhaul.esm
+Real Time Menus - Fixes.esm
 FO3_Optimization.esm
 Repeatable Quests Rewards Rebalanced.esm
 BiRepChecks.esm
@@ -116,10 +117,12 @@ SR+MMPatch.esm
 ATMOS Ambient Overhaul.esp
 Gun and Friends.esm
 PhysicallyBasedTexturing.esp
-TTW Quick Start.esp
+FO4PowerArmor.esm
+PowerArmorMods.esm
 GasTrapPerformanceFix.esp
-MigSpeedFix.esp
 The Mod Configuration Menu.esp
+MigSpeedFix.esp
+TTW Quick Start.esp
 Vanilla UI Plus.esp
 TTW Quick NV Train Start.esp
 Item Assistant.esp
