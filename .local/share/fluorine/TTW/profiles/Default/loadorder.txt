@@ -104,12 +104,14 @@ ZLAR+TTWPatch.esm
 ZLAR+GoodiesPatch.esm
 ZLAR+MILPatch.esm
 AfterglowNeonIllumination.esp
+Securitrons On Alert.esm
 Restored Physics Sounds.esm
 RetoredPhysicsSounds+TTWPatch.esm
 fixy crap ttw.esp
 SSTRemasteredQuarries.esm
 SSTRQ+MSOPatch.esm
 SandyRoads.esp
+SR+YUPTTWPatch.esm
 SSTRQ+GoodiesPatch.esm
 SR+MSOPatch.esm
 SR+POTTPatch.esm
@@ -119,8 +121,8 @@ Gun and Friends.esm
 PhysicallyBasedTexturing.esp
 FO4PowerArmor.esm
 PowerArmorMods.esm
-GasTrapPerformanceFix.esp
 The Mod Configuration Menu.esp
+GasTrapPerformanceFix.esp
 MigSpeedFix.esp
 TTW Quick Start.esp
 Vanilla UI Plus.esp
@@ -167,6 +169,8 @@ NeutralWeathers_TTW.esp
 WindowsAmbientLightAtNight.esp
 CC - Rain.esp
 CC - 3D Rain.esp
+SecuritronArmytoOWB.esp
+SAOWB+Patch.esp
 B42Inspect.esp
 HitMisc.esp
 HitMisc+ExtraGoodiesPatch.esp
@@ -192,7 +196,7 @@ ATMOSPatch.esp
 ATMOST+ATMOSTTWPatch.esp
 ATMOS+DNWPatch.esp
 ATMOS NV - TTW Patch.esp
-AWSOMER.esp
+JSRS.esp
 HitSound.esp
 ExtendedNVRadio.esp
 ExtendedNVRadio+TTWPatch.esp
