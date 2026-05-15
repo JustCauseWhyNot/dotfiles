@@ -225,6 +225,8 @@
 +B42 FireMode - Selective Fire and First Shot Precision - ESPless
 +JIP Selective-Fire
 -Combat_separator
++TTW - Killable Children
++Killable Children (NVSE)
 +Animated Moments - ESPless
 +PipBoy Casino - ESPless
 +Vendor Radio - ESPless
@@ -361,6 +363,7 @@
 +FNV Mod Limit Fix
 +lStewieAl's Engine Optimizations
 +Smooth True Iron Sights Camera
++Misc. Gamesetting Tweaks
 +lStewieAl's Tweaks and Engine Fixes INI
 -lStewieAl's Tweaks and Engine Fixes
 +lStewieAl's Tweaks and Engine Fixes 9.87

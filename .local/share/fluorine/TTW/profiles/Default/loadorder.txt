@@ -134,6 +134,7 @@ Supplemental Ammo Crafting.esp
 Stash Organizer.esp
 TTWTransportalponderEx.esp
 Enhanced Movement.esp
+TTW FO3&NV&DLC Killable Children.esp
 MigPowerAttack.esp
 SMAC - Simple Melee Attack Cancel and Parry.esp
 Quickthrow.esp
