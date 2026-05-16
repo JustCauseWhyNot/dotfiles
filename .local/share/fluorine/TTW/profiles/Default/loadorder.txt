@@ -120,7 +120,6 @@ ATMOS Ambient Overhaul.esp
 Gun and Friends.esm
 PhysicallyBasedTexturing.esp
 FO4PowerArmor.esm
-PowerArmorMods.esm
 The Mod Configuration Menu.esp
 GasTrapPerformanceFix.esp
 MigSpeedFix.esp
