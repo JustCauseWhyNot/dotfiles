@@ -1,3 +1,4 @@
+hangarBlk:t="Refined_B/Refined_B_Hangar.blk"
 language:t="English"
 use_eac:b=no
 use_release_candidate:b=yes
@@ -31,13 +32,14 @@ sound{
 
 video{
   vsync:b=no
-  windowed:b=no
-  mode:t="fullscreen"
-  resolution:t="auto"
+  windowed:b=yes
+  mode:t="windowed"
+  resolution:t="5120 x 2880"
   driver:t="auto"
-  compatibilityMode:b=yes
-  antialiasing_mode:t="off"
+  compatibilityMode:b=no
+  antialiasing_mode:t="dlss"
   antialiasing_upscaling:t="native"
+  dlssSharpness:i=1
   fonts:t="compact"
   vreye:t="left"
   antialiasing_fgc:i=0
@@ -46,6 +48,10 @@ video{
   latency:i=0
   antialiasing_sharpening:i=0
   perfMetrics:i=1
+  fpsLimit:i=120
+  rayReconstruction:b=yes
+  dlssLegacyMode:t="off"
+  menuFpsLimit:i=0
 }
 
 yunetwork{
@@ -60,27 +66,28 @@ debug{
   testLocalization:b=yes
   enableNvHighlights:t="auto"
   netLogerr:b=yes
-  screenshotHiRes:b=no
+  screenshotHiRes:b=yes
   screenshotAsJpeg:b=no
+  enableRawInput:b=yes
 }
 
 graphics{
   rendinstDistMul:r=0.5
-  shadowQuality:t="ultralow"
+  shadowQuality:t="low"
   RTRWaterRes:t="half"
   skyQuality:i=2
   physicsQuality:i=0
   landquality:i=0
   RTAOQuality:t="off"
   ssaa:r=1
-  riGpuObjects:b=no
-  displacementQuality:i=0
+  riGpuObjects:b=yes
+  displacementQuality:i=4
   RTSMQuality:t="low"
-  fxQuality:t="ultralow"
+  fxQuality:t="low"
   giQuality:t="low"
   backgroundScale:r=1
-  bvhRiGenRange:i=3000
-  cloudsQuality:i=0
+  bvhRiGenRange:i=1000
+  cloudsQuality:i=2
   enableBVH:b=no
   bvhMode:t="off"
   anisotropy:i=16
@@ -89,14 +96,14 @@ graphics{
   PTGIQuality:t="off"
   advancedShore:b=no
   mirrorQuality:i=0
-  tireTracksQuality:i=0
+  tireTracksQuality:i=3
   bloomQuality:i=0
   panoramaResolution:i=1024
   motionBlurStrength:i=0
   lenseFlares:b=no
-  lastClipSize:i=4096
+  lastClipSize:i=8192
   waterEffectsQuality:t="low"
-  texquality:t="ultralow"
+  texquality:t="high"
   RTRTranslucent:t="off"
   enableRTSM:t="off"
   RTRQuality:t="off"
@@ -104,12 +111,13 @@ graphics{
   RTRWater:b=no
   contactShadowsQuality:i=0
   motionBlurCancelCamera:b=yes
-  fxDistortionStrength:r=0
+  fxDistortionStrength:r=1
+  RTDecals:b=no
 }
 
 render{
-  selfReflection:b=no
-  shadows:b=no
+  selfReflection:b=yes
+  shadows:b=yes
   ssaoQuality:i=0
   ssrQuality:i=0
 }
