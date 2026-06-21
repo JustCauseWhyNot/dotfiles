@@ -209,6 +209,14 @@ controls{
       mouseButton:i=2
     }
 
+    ID_CHANGE_ARTILLERY_TARGETING_MODE{
+      mouseButton:i=2
+    }
+
+    ID_CHANGE_ARTILLERY_TARGETING_MODE{
+      mouseButton:i=4
+    }
+
     ID_CHANGE_SHOT_FREQ{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -464,8 +472,8 @@ controls{
     }
 
     ID_HUMAN_KILLSTREAK_WHEEL_MENU{
-      joyButton:i=99
-      joyButton:i=100
+      joyButton:i=131
+      joyButton:i=132
     }
 
     ID_HUMAN_NIGHT_VISION{
@@ -518,6 +526,11 @@ controls{
     }
 
     ID_LOCK_TARGETING_AT_POINT{}
+    ID_LOCK_TARGETING_AT_POINT{
+      keyboardKey:i=13
+      keyboardKey:i=44
+    }
+
     ID_LOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=29
       keyboardKey:i=56
@@ -555,6 +568,11 @@ controls{
     }
 
     ID_PTT{}
+    ID_RADAR_NEXT_IFF_FILTER_MODE{
+      keyboardKey:i=13
+      keyboardKey:i=45
+    }
+
     ID_RADIATOR_AUTO{
       mouseButton:i=4
       keyboardKey:i=30
@@ -729,8 +747,8 @@ controls{
     }
 
     ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=219
-      keyboardKey:i=45
+      keyboardKey:i=56
+      keyboardKey:i=16
     }
 
     ID_SENSOR_MODE_SWITCH_TANK{
@@ -739,9 +757,8 @@ controls{
     }
 
     ID_SENSOR_RANGE_SWITCH{
-      keyboardKey:i=219
-      keyboardKey:i=56
-      keyboardKey:i=46
+      keyboardKey:i=29
+      keyboardKey:i=45
     }
 
     ID_SENSOR_RANGE_SWITCH_SHIP{
@@ -771,7 +788,7 @@ controls{
     }
 
     ID_SENSOR_SWITCH_HUMAN{
-      joyButton:i=97
+      joyButton:i=129
     }
 
     ID_SENSOR_SWITCH_SHIP{
@@ -808,7 +825,7 @@ controls{
 
     ID_SENSOR_TARGET_SWITCH{}
     ID_SENSOR_TARGET_SWITCH_HUMAN{
-      joyButton:i=98
+      joyButton:i=130
     }
 
     ID_SENSOR_TARGET_SWITCH_SHIP{
@@ -1098,7 +1115,7 @@ controls{
 
     ID_TARGETING_HOLD_GM{}
     ID_TARGETING_HOLD_HUMAN{
-      joyButton:i=100
+      joyButton:i=132
     }
 
     ID_TARGET_CAMERA{
@@ -1139,6 +1156,16 @@ controls{
     ID_TOGGLE_6_ENGINE_CONTROL{
       keyboardKey:i=56
       keyboardKey:i=7
+    }
+
+    ID_TOGGLE_AIR_RADAR_NCTR_APPLY{
+      keyboardKey:i=13
+      keyboardKey:i=47
+    }
+
+    ID_TOGGLE_AIR_RADAR_NCTR_NAVIGATION{
+      keyboardKey:i=13
+      keyboardKey:i=46
     }
 
     ID_TOGGLE_AUTOTURRET_TARGETS{}
@@ -1352,6 +1379,12 @@ controls{
     }
 
     ID_UNLOCK_TARGETING_AT_POINT{}
+    ID_UNLOCK_TARGETING_AT_POINT{
+      keyboardKey:i=29
+      keyboardKey:i=13
+      keyboardKey:i=44
+    }
+
     ID_UNLOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=56
       keyboardKey:i=44
@@ -1576,11 +1609,11 @@ controls{
     }
 
     human_camx{
-      joyButton:i=96
+      joyButton:i=128
     }
 
     human_camy{
-      joyButton:i=96
+      joyButton:i=128
     }
 
     human_uav_climb_rangeMax{
@@ -1936,23 +1969,23 @@ controls{
     }
 
     human_camx{
-      axisId:i=29
+      axisId:i=44
     }
 
     human_camy{
-      axisId:i=30
+      axisId:i=45
     }
 
     human_mouse_aim_x{
-      axisId:i=29
+      axisId:i=44
     }
 
     human_mouse_aim_y{
-      axisId:i=30
+      axisId:i=45
     }
 
     human_strafe{
-      axisId:i=27
+      axisId:i=42
     }
 
     human_uav_pitch{
@@ -1972,7 +2005,7 @@ controls{
     }
 
     human_walk{
-      axisId:i=28
+      axisId:i=43
     }
 
     mixture{
@@ -2115,32 +2148,22 @@ controls{
 
     joystick{
       connected:b=yes
-      devId:t="346E:0002"
-      axesOffset:i=12
-      name:t="Gudsen MOZA R9 Base"
-      buttonsOffset:i=28
-      buttonsCount:i=128
-      axesCount:i=10
-    }
-
-    joystick{
-      connected:b=yes
       devId:t="346E:0024"
-      axesOffset:i=22
+      axesOffset:i=12
       name:t="Gudsen MOZA Multi-function Stalk"
-      buttonsOffset:i=156
+      buttonsOffset:i=28
       buttonsCount:i=32
       axesCount:i=0
     }
 
     joystick{
       connected:b=yes
-      devId:t="0483:0531"
-      axesOffset:i=22
-      name:t="SIMAGIC DS-8X Shifter"
-      buttonsOffset:i=188
-      buttonsCount:i=12
-      axesCount:i=0
+      devId:t="346E:0002"
+      axesOffset:i=12
+      name:t="Gudsen MOZA R9 Base"
+      buttonsOffset:i=60
+      buttonsCount:i=128
+      axesCount:i=10
     }
 
     joystick{
@@ -2148,37 +2171,57 @@ controls{
       devId:t="3434:0800"
       axesOffset:i=22
       name:t="Keychron Keychron Q0 Max System Control"
-      buttonsOffset:i=200
+      buttonsOffset:i=188
       buttonsCount:i=6
       axesCount:i=3
     }
 
     joystick{
       connected:b=no
-      devId:t="0001:0001"
+      devId:t="3537:1065"
       axesOffset:i=25
-      name:t="Boxflat Multifunction Stalks"
-      buttonsOffset:i=206
-      buttonsCount:i=32
-      axesCount:i=1
-    }
-
-    joystick{
-      connected:b=no
-      devId:t="31E3:1300"
-      axesOffset:i=26
-      name:t="Wooting 60HE (AVR)"
-      buttonsOffset:i=238
+      name:t="Generic X-Box pad"
+      buttonsOffset:i=194
       buttonsCount:i=28
       axesCount:i=9
     }
 
     joystick{
       connected:b=no
-      devId:t="3537:1065"
+      devId:t="0483:0531"
+      axesOffset:i=34
+      name:t="SIMAGIC DS-8X Shifter"
+      buttonsOffset:i=222
+      buttonsCount:i=12
+      axesCount:i=0
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="0001:0001"
+      axesOffset:i=34
+      name:t="Boxflat Multifunction Stalks"
+      buttonsOffset:i=234
+      buttonsCount:i=32
+      axesCount:i=1
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="07AC:2536"
       axesOffset:i=35
-      name:t="Microsoft Xbox Controller"
+      name:t="opentrack headpose"
       buttonsOffset:i=266
+      buttonsCount:i=1
+      axesCount:i=6
+    }
+
+    joystick{
+      connected:b=no
+      devId:t="31E3:1300"
+      axesOffset:i=41
+      name:t="Wooting 60HE (AVR)"
+      buttonsOffset:i=267
       buttonsCount:i=28
       axesCount:i=9
     }
@@ -2186,9 +2229,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="045E:0B12"
-      axesOffset:i=44
+      axesOffset:i=50
       name:t="Microsoft Xbox Series S|X Controller"
-      buttonsOffset:i=294
+      buttonsOffset:i=295
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2196,9 +2239,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="31E3:1301"
-      axesOffset:i=53
+      axesOffset:i=59
       name:t="Wooting Wooting60HE"
-      buttonsOffset:i=323
+      buttonsOffset:i=324
       buttonsCount:i=12
       axesCount:i=11
     }
@@ -2206,9 +2249,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="045E:0288E"
-      axesOffset:i=64
+      axesOffset:i=70
       name:t="Microsoft X-Box 360 pad"
-      buttonsOffset:i=335
+      buttonsOffset:i=336
       buttonsCount:i=29
       axesCount:i=9
     }
@@ -2216,9 +2259,9 @@ controls{
     joystick{
       connected:b=no
       devId:t="1532:008A"
-      axesOffset:i=73
+      axesOffset:i=79
       name:t="Razer Razer Viper Mini"
-      buttonsOffset:i=364
+      buttonsOffset:i=365
       buttonsCount:i=0
       axesCount:i=1
     }
@@ -2273,7 +2316,7 @@ settings{
   aimAccelerationDelayShip:r=0
   aimAccelerationDelaySubmarine:r=0
   aimAccelerationDelayHuman:r=0.5
-  mouseZMultAir:r=1
+  mouseZMultAir:r=0.36
   mouseZMultHelicopter:r=0
   mouseZMultTank:r=0.36
   mouseZMultShip:r=0.35

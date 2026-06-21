@@ -1,16 +1,17 @@
 SiiNunit
 {
-global_input_config : _nameless.3b8c.3400 {
+global_input_config : _nameless.3b8d.1a40 {
  version: 1
  ui_whitelisted: 0
- ui_blacklisted: 6
+ ui_blacklisted: 7
  ui_blacklisted[0]: "di8.'{9E573ED1-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'"
  ui_blacklisted[1]: "di8.'{9E573ED6-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'"
  ui_blacklisted[2]: "di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'"
  ui_blacklisted[3]: "di8.'{9E573ECA-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'"
  ui_blacklisted[4]: "di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{130031E3-0000-0000-0000-504944564944}'"
  ui_blacklisted[5]: "xinput.xinput_gamepad_2"
- display_names: 40
+ ui_blacklisted[6]: "di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{134031E3-0000-0000-0000-504944564944}'"
+ display_names: 42
  display_names[0]: "`sys.keyboard`|@@keyboard@@"
  display_names[1]: "`sys.mouse`|@@i_mouse@@"
  display_names[2]: "`di8.keyboard`|@@keyboard@@"
@@ -32,7 +33,7 @@ global_input_config : _nameless.3b8c.3400 {
  display_names[18]: "`di8.'{9E573ED0-7734-11D2-8D4A-23903FB6BDF7}|{0002346E-0000-0000-0000-504944564944}'`|Gudsen MOZA R9 Base"
  display_names[19]: "`di8.'{9E573ECA-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'`|Microsoft Xbox Controller"
  display_names[20]: "`di8.'{9E573ECB-7734-11D2-8D4A-23903FB6BDF7}|{08003434-0000-0000-0000-504944564944}'`|Keychron Q0 Max System Control"
- display_names[21]: "`di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'`|Microsoft Xbox Controller"
+ display_names[21]: "`di8.'{9E573ED5-7734-11D2-8D4A-23903FB6BDF7}|{10653537-0000-0000-0000-504944564944}'`|Generic X-Box pad"
  display_names[22]: "`di8.'{9E573ED4-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`|SIMAGIC Alpha Pedal Neo"
  display_names[23]: "`di8.'{9E573EC9-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`|opentrack headpose"
  display_names[24]: "`di8.'{9E573EC8-7734-11D2-8D4A-23903FB6BDF7}|{253607AC-0000-0000-0000-504944564944}'`|opentrack headpose"
@@ -51,6 +52,8 @@ global_input_config : _nameless.3b8c.3400 {
  display_names[37]: "`di8.'{9E573EC9-7734-11D2-8D4A-23903FB6BDF7}|{08003434-0000-0000-0000-504944564944}'`|Keychron Q0 Max System Control"
  display_names[38]: "`di8.'{9E573ECA-7734-11D2-8D4A-23903FB6BDF7}|{09033670-0000-0000-0000-504944564944}'`|SIMAGIC Alpha Pedal Neo"
  display_names[39]: "`xinput.xinput_gamepad_2`|@@xinput_gamepad@@ 2"
+ display_names[40]: "`di8.'{9E573ED2-7734-11D2-8D4A-23903FB6BDF7}|{08003434-0000-0000-0000-504944564944}'`|Keychron Q0 Max System Control"
+ display_names[41]: "`di8.'{9E573ED7-7734-11D2-8D4A-23903FB6BDF7}|{134031E3-0000-0000-0000-504944564944}'`|Generic X-Box pad"
 }
 
 }

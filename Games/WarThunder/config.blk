@@ -26,7 +26,7 @@ download{
 }
 
 sound{
-  speakerMode:t="auto"
+  speakerMode:t="stereo"
   fmod_sound_enable:b=yes
 }
 
@@ -49,7 +49,7 @@ video{
   antialiasing_sharpening:i=0
   perfMetrics:i=1
   fpsLimit:i=120
-  rayReconstruction:b=yes
+  rayReconstruction:b=no
   dlssLegacyMode:t="off"
   menuFpsLimit:i=0
 }
@@ -76,7 +76,7 @@ graphics{
   shadowQuality:t="low"
   RTRWaterRes:t="half"
   skyQuality:i=2
-  physicsQuality:i=0
+  physicsQuality:i=5
   landquality:i=0
   RTAOQuality:t="off"
   ssaa:r=1
@@ -86,7 +86,7 @@ graphics{
   fxQuality:t="low"
   giQuality:t="low"
   backgroundScale:r=1
-  bvhRiGenRange:i=1000
+  bvhRiGenRange:i=6000
   cloudsQuality:i=2
   enableBVH:b=no
   bvhMode:t="off"
@@ -101,7 +101,7 @@ graphics{
   panoramaResolution:i=1024
   motionBlurStrength:i=0
   lenseFlares:b=no
-  lastClipSize:i=8192
+  lastClipSize:i=4096
   waterEffectsQuality:t="low"
   texquality:t="high"
   RTRTranslucent:t="off"
