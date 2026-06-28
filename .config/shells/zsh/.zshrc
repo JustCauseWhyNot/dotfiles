@@ -72,8 +72,8 @@ if [[ -f $HISTFILE ]]; then
 	find ${HISTFILE:h} -name "history.backup.*" -mtime +30 -delete 2>/dev/null
 fi
 
-# Aliases.
 # ========
+# Aliases.
 #alias eix='eix -Rc'
 #alias nvidia-settings="nvidia-settings --config='$XDG_CONFIG_HOME'/nvidia/settings"
 alias %= \$=
@@ -87,7 +87,13 @@ alias ff4dinit='source ~/.local/share/ffmpeg4discord/bin/activate'
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffnotify='dunstify -a ffmpeg -u critical 'Video Compressed''
 alias ffprobe='ffprobe -hide_banner'
-alias lf='eza -ab -lhmT -Gg --git --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
+alias gemmaoff='systemctl --user stop gemma412b'
+alias gemmaon='systemctl --user start gemma412b'
+alias gemmastatus='systemctl --user status gemma412b'
+alias gemmaoffuncensored='systemctl --user stop gemma412buncensored'
+alias gemmaonuncensored='systemctl --user start gemma412buncensored'
+alias gemmastatusuncensored='systemctl --user status gemma412buncensored'
+alias lf='eza -ab -lhmT -Gg --group-directories-first -h --icons -L1 --octal-permissions --time-style=long-iso'
 alias ls='ls -la --color=yes --group-directories-first'
 alias portagenotify='dunstify -a portage -u critical 'job done''
 alias py='python'
