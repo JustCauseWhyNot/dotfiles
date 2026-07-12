@@ -472,8 +472,8 @@ controls{
     }
 
     ID_HUMAN_KILLSTREAK_WHEEL_MENU{
-      joyButton:i=131
-      joyButton:i=132
+      joyButton:i=159
+      joyButton:i=160
     }
 
     ID_HUMAN_NIGHT_VISION{
@@ -705,6 +705,14 @@ controls{
       keyboardKey:i=64
     }
 
+    ID_SCREENSHOT{
+      keyboardKey:i=183
+    }
+
+    ID_SCREENSHOT{
+      keyboardKey:i=183
+    }
+
     ID_SCREENSHOT_WO_HUD{}
     ID_SELECT_GM_GUN_MACHINEGUN{
       keyboardKey:i=56
@@ -788,7 +796,7 @@ controls{
     }
 
     ID_SENSOR_SWITCH_HUMAN{
-      joyButton:i=129
+      joyButton:i=157
     }
 
     ID_SENSOR_SWITCH_SHIP{
@@ -825,7 +833,7 @@ controls{
 
     ID_SENSOR_TARGET_SWITCH{}
     ID_SENSOR_TARGET_SWITCH_HUMAN{
-      joyButton:i=130
+      joyButton:i=158
     }
 
     ID_SENSOR_TARGET_SWITCH_SHIP{
@@ -1115,7 +1123,7 @@ controls{
 
     ID_TARGETING_HOLD_GM{}
     ID_TARGETING_HOLD_HUMAN{
-      joyButton:i=132
+      joyButton:i=160
     }
 
     ID_TARGET_CAMERA{
@@ -1609,11 +1617,11 @@ controls{
     }
 
     human_camx{
-      joyButton:i=128
+      joyButton:i=156
     }
 
     human_camy{
-      joyButton:i=128
+      joyButton:i=156
     }
 
     human_uav_climb_rangeMax{
@@ -2113,19 +2121,59 @@ controls{
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=no
     USEROPT_MOUSE_AIM_SENSE:i=5
-    USEROPT_MOUSE_SENSE:i=14
+    USEROPT_MOUSE_SENSE:i=6
     USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=100
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=no
     USEROPT_WHEEL_CONTROL_SHIP:b=no
-    USEROPT_ZOOM_SENSE:i=14
+    USEROPT_ZOOM_SENSE:i=8
     trackIrZoom:b=no
     useMouseForVoiceMessage:b=yes
   }
 
   deviceMapping{
+    joystick{
+      connected:b=yes
+      devId:t="3670:0903"
+      axesOffset:i=18
+      name:t="SIMAGIC Alpha Pedal Neo"
+      buttonsOffset:i=56
+      buttonsCount:i=0
+      axesCount:i=3
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="346E:0024"
+      axesOffset:i=21
+      name:t="Gudsen MOZA Multi-function Stalk"
+      buttonsOffset:i=56
+      buttonsCount:i=32
+      axesCount:i=0
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="346E:0002"
+      axesOffset:i=21
+      name:t="Gudsen MOZA R9 Base"
+      buttonsOffset:i=88
+      buttonsCount:i=128
+      axesCount:i=10
+    }
+
+    joystick{
+      connected:b=yes
+      devId:t="3434:0800"
+      axesOffset:i=31
+      name:t="Keychron Keychron Q0 Max System Control"
+      buttonsOffset:i=216
+      buttonsCount:i=6
+      axesCount:i=3
+    }
+
     joystick{
       connected:b=yes
       devId:t="31E3:1340"
@@ -2138,50 +2186,10 @@ controls{
 
     joystick{
       connected:b=yes
-      devId:t="3670:0903"
-      axesOffset:i=9
-      name:t="SIMAGIC Alpha Pedal Neo"
-      buttonsOffset:i=28
-      buttonsCount:i=0
-      axesCount:i=3
-    }
-
-    joystick{
-      connected:b=yes
-      devId:t="346E:0024"
-      axesOffset:i=12
-      name:t="Gudsen MOZA Multi-function Stalk"
-      buttonsOffset:i=28
-      buttonsCount:i=32
-      axesCount:i=0
-    }
-
-    joystick{
-      connected:b=yes
-      devId:t="346E:0002"
-      axesOffset:i=12
-      name:t="Gudsen MOZA R9 Base"
-      buttonsOffset:i=60
-      buttonsCount:i=128
-      axesCount:i=10
-    }
-
-    joystick{
-      connected:b=yes
-      devId:t="3434:0800"
-      axesOffset:i=22
-      name:t="Keychron Keychron Q0 Max System Control"
-      buttonsOffset:i=188
-      buttonsCount:i=6
-      axesCount:i=3
-    }
-
-    joystick{
-      connected:b=no
       devId:t="3537:1065"
-      axesOffset:i=25
+      axesOffset:i=9
       name:t="Generic X-Box pad"
-      buttonsOffset:i=194
+      buttonsOffset:i=28
       buttonsCount:i=28
       axesCount:i=9
     }
@@ -2277,8 +2285,8 @@ settings{
   helicopterPedalsMultiplier:r=0.43
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
-  zoomSens:r=0.86
-  mouseSens:r=0.28
+  zoomSens:r=0.92
+  mouseSens:r=0.12
   humanMouseSens:r=0.5
   mouseAimSens:r=0.1
   gunnerViewSens:r=0
