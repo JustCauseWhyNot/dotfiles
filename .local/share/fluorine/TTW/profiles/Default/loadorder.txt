@@ -37,6 +37,8 @@ Real Time Menus - Fixes.esm
 BiRepChecks.esm
 Home and Safehouse Tweaks.esm
 H&SHT+Lucky38Patch.esm
+Player Vertibird.esm
+NVMMP.esp
 JIP Selective-Fire.esm
 Cyberware.esm
 TweaksTTW.esm
@@ -91,11 +93,16 @@ SSTRemasteredQuarries.esm
 SandyRoads.esp
 FO4PowerArmor.esm
 PowerArmorMods.esm
-The Mod Configuration Menu.esp
 MigSpeedFix.esp
 Vanilla UI Plus.esp
+The Mod Configuration Menu.esp
 GasTrapPerformanceFix.esp
 Item Assistant.esp
+sawyerbatty.esp
+BLEED.esp
+ROOG.esp
+ROOGPatch.esp
+sawyerbattyROOG.esp
 TTW Quick Start.esp
 TTW Quick NV Train Start.esp
 JustAssortedMods.esp
@@ -103,6 +110,8 @@ JBTImproved.esp
 Supplemental Ammo Crafting.esp
 SAC+TTWPatch.esp
 Stash Organizer.esp
+Player Vertibird TTW Patch.esp
+PlayerVertibirdTTWPatchPatch.esp
 DelayDLCRedux.esp
 DelayDLCReduxPOPP.esp
 DelayDLCReduxPLNote.esp
@@ -114,6 +123,7 @@ TTWTransponderEx+YUPTTWPatch.esp
 Enhanced Movement.esp
 TTW FO3&NV&DLC Killable Children.esp
 TTWKCPatch.esp
+TTWLessMapMarkers.esp
 MigPowerAttack.esp
 Simple Attack Reactions - NV+TTW.esp
 SARTTW+TTWPatch.esp
@@ -140,6 +150,9 @@ HitRPD.esp
 HitCrappyWeapons.esp
 HitExplosives.esp
 HitNukeStick.esp
+HitStoner63.esp
+HitM60.esp
+HitMini14.esp
 HitPatch.esp
 DNWeathers.esp
 DNWeathersPatch.esp
@@ -151,12 +164,14 @@ Desert Natural Sandstorms TTW.esp
 WindowsAmbientLightAtNight.esp
 CC - Rain.esp
 CC - 3D Rain.esp
+CCRainPatch.esp
 SecuritronArmytoOWB.esp
 SecuritronArmytoOWBPatch.esp
 B42Descriptions.esp
 B42Inspect.esp
 Kyu_Ballistics_TTW.esp
 BulletTrails.esp
+DAVE.esp
 ATMOS Ambient Overhaul - AWOP Revision.esp
 ATMOS Ambient Overhaul - DLC.esp
 ATMOS Sound Overhaul - TTW.esp
@@ -166,16 +181,18 @@ ExtendedNVRadio.esp
 ExtendedNVRadio+TTWPatch.esp
 JSRS.esp
 TTW Weapon Replacers.esp
+BleedPatch.esp
+TTW Weapon Replacers - DAVE Patch.esp
 TTWRPPatch.esp
 357Reload.esp
 357Patch.esp
-PaciencaReload.esp
 PSAPatch.esp
 Lore Friendly Armor TTW.esp
+SawyerBattyPatch.esp
 LFA+GoodiesPatch.esp
 SALVO 2 - PRIME.esp
 SALVO 2 - LOD TTW.esp
 Salvo2Patch.esp
+Titans of The New West.esp
 PAVE_NV.esp
 PAVE_NV_TTW.esp
-Titans of The New West.esp

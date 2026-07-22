@@ -104,6 +104,7 @@
 +ATMOS Ambient Sound Overhaul - TTW
 +ATMOS Ambience Overhaul
 -Sounds_separator
++DAVE - Darian's Awesome Visual Effects
 +Bullet Trails
 +Kyu's Ballistics - Fixed
 -Real Reticles - Scope replacer for PSRO
@@ -112,6 +113,7 @@
 +Zan's Scopes - B42 Optics Scope Pack
 +Real Reticles for B42 Optics
 -Gunplay_separator
++Hit - Weighty Deathclaws
 +Enhanced Locomotion
 +Cancel B42 Inspect Animation - ESPless
 +Assorted UI Textures
@@ -129,7 +131,9 @@
 +Securitrons On Alert
 +Hikikomori Modern Night Vision ini
 +Performance Mode
-+Hikikomori NVR - Remake
++NVR Disabled Flashlight
++Hikikomori NVR
+-Hikikomori NVR - Remake
 +Simple Total Fog Remover - NVSE
 -Real Time Reflections - NVSE
 +Mobile Pip-Boy Light - NVSE
@@ -156,6 +160,9 @@
 +Neutral Weathers - DNW for NVR - NV - TTW
 +Desert Natural Weathers - NV - TTW
 -Visual Improvements_separator
++Hit - Mini-14
++Hit - M60
++Hit - Stoner 63 LMG
 +Hit - Nuke on a Stick
 +Hit - Explosives
 +Hit - Crappy Weapons
@@ -215,6 +222,8 @@
 +B42 FireMode - Selective Fire and First Shot Precision - ESPless
 +JIP Selective-Fire
 -Combat_separator
++TTW More Map Markers - Lite
++New Vegas Map Marker Project
 +TTW - Killable Children
 +Killable Children (NVSE)
 +Animated Moments - ESPless
@@ -224,6 +233,7 @@
 +Enhanced Movement
 +NPCs Sprint kNVSE - ESPless
 +TTW Transportalponder Extended
++Misc. Gamesetting Tweaks Presets
 +Better Damage - Superior Multipliers
 +TTW Quick Start Item Remover
 +Wasteland Starting Gear DC
@@ -231,6 +241,7 @@
 +TTW Merchant Supply Expansion
 +Modern Night Vision - ESPless
 +Bottle the Water
++Vertibird Player Home
 +Home and Safehouse Tweaks
 +Item Sorter
 +Stash Organizer
@@ -241,6 +252,9 @@
 +TTW Quick Train To NV Prompt
 +Tale of Two Wastelands Quick Start
 +TTW BiReputationChecks
++ROOG TTW
++BLEED TTW
++SawyerBatty TTW
 -Gameplay_separator
 +Real Time Menus - NVSE
 +Consumables Widget
@@ -269,7 +283,7 @@
 +Consistent Pip-Boy Icons v5 - Weapons
 +Consistent Pip-Boy Icons v5 - Items
 +Consistent Pip-Boy Icons v4
-+Colorful Icons Support
++Colorful Icons Supports
 +Map Marker Icons
 +Weapon Hotkey Icons
 +Pop-Up Message Icons
@@ -292,9 +306,9 @@
 +Modern Minimap - ESPless
 +High Res Local Maps
 +ELMO
-+QUIP - Quick Use Inventory Panel
 +Simple Loadwheels
 +MAPMO - Main and Pause Menus Overhaul
+-QUIP - Quick Use Inventory Panel
 +Vanilla Fonts Revisited
 +Simple Health and AP Bars
 +Clean Vanilla Hud
@@ -311,6 +325,7 @@
 +Performance Of The Titans
 +Improved AI (Navmesh Overhaul Mod)
 -Optimizations_separator
++Slow Motion Physics Fix NVSE
 +Slideshow FOV Fix - ESPLess
 +Gas Trap Performance Fix
 +Vanilla Placement Fixes

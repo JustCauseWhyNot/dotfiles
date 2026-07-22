@@ -35,6 +35,9 @@
 	{"control_manual/toggle_crouch"
 		{value KEY_C}
 	}
+	{"control_manual/vault"
+		{value KEY_Q}
+	}
 	{"control_manual/helicopter_up"
 		{value KEY_J}
 		{single}
@@ -231,6 +234,9 @@
 	}
 	{"actions/engine_toggle"
 		{value "SHIFT + KEY_Q"}
+	}
+	{"actions/vehicle_toggle_reverse"
+		{value "CTRL + KEY_R"}
 	}
 	{"actions/foxhole"
 		{value ""}
